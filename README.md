@@ -1,20 +1,14 @@
-# Paramedic Pocket v0.6
+# Paramedic Pocket v0.6.1 — Deep Learning Edition
 
-Mobile-first offline PWA for paramedic / EMS clinical tools and learning.
+## What changed
+- Learning Hub expanded from short summaries into mini-textbook chapters.
+- 10 knowledge categories: Cardiology/ECG, Airway/Respiratory, PALS, Neonatal, Trauma, Neurology, Shock/Sepsis, Pharmacology, OB-GYN, Toxicology.
+- Detailed sections inside each chapter: physiology/pathophysiology, assessment, management, prehospital focus, red flags, pitfalls, evidence/research update, quiz and sources.
+- Research Watch clearly separated from guideline-standard content.
+- Includes current references such as AHA/AAP 2025, ACS 2025, AIS 2026, SSC 2026, WHO PPH 2025, Brain Trauma Foundation, NEJM airway/whole blood research, LITFL, ER Goldbook and local OneDrive teaching documents.
 
-## v0.6 highlights
-- New **Learning Hub** with 5 categories and 13 synthesized lessons
-- Categories: Cardiology & ECG, Airway & Respiratory, PALS, Neonatal/NRP, Trauma
-- Every lesson includes Key Concepts, Quick Review, Mini Quiz, Sources and Clinical Integration buttons
-- Local progress tracking in browser (`localStorage`)
-- Smart Patient Context expanded to Adult/Pediatric/Neonate + Age/GA + Weight
-- PALS and NEONATE calculators reuse Smart Patient Context
-- Drug Tools moved into Quick Tools; bottom navigation now gives Learning a dedicated tab
-- Learning content synthesizes current primary guidelines, local OneDrive teaching material, LITFL, ER goldbook and other educational sources without copying full source text
-- Existing v0.5 clinical algorithms/calculators remain available
-
-## Safety model
-Learning material is educational synthesis. Clinical care must follow current guidelines, local EMS protocol/medical direction, clinical judgment, and medication/device double-checks.
+## Safety
+Educational/decision-support only. Local EMS protocol, medical direction, device instructions, patient-specific factors and independent medication checks override app summaries. Estimated weights must not be treated as equivalent to measured weight.
 
 ## Deploy
-Static PWA: upload all files/folders to the repository root used by GitHub Pages. No build command required.
+Static PWA. Upload all files/folders to the repository root and commit; GitHub Pages will rebuild automatically.

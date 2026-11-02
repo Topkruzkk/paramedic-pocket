@@ -1,72 +1,195 @@
 {
+  "version": "0.6.1",
+  "reviewed_on": "2026-11-03",
   "categories": [
     {
       "id": "cardiology",
       "icon": "❤️",
       "title": "Cardiology & ECG",
-      "desc": "ECG approach, ACS, brady/tachy",
+      "desc": "ECG, ACS, arrhythmia, arrest, post-ROSC",
       "order": 1
     },
     {
       "id": "airway",
       "icon": "🫁",
       "title": "Airway & Respiratory",
-      "desc": "Assessment, oxygenation, ETT confirmation",
+      "desc": "Airway assessment, BVM, RSI, ventilation, respiratory failure",
       "order": 2
     },
     {
-      "id": "pals",
+      "id": "pediatrics",
       "icon": "👶",
       "title": "PALS",
-      "desc": "Pediatric assessment, arrest, arrhythmia",
+      "desc": "Systematic assessment, arrest, shock, arrhythmia, respiratory failure",
       "order": 3
     },
     {
       "id": "neonatal",
       "icon": "🍼",
       "title": "Neonatal / NRP",
-      "desc": "Initial steps, ventilation, neonatal airway",
+      "desc": "Transition, ventilation, airway, advanced resuscitation",
       "order": 4
     },
     {
       "id": "trauma",
       "icon": "🩸",
       "title": "Trauma",
-      "desc": "XABCDE, shock, head/chest trauma",
+      "desc": "XABCDE, hemorrhage, TBI, chest trauma",
       "order": 5
+    },
+    {
+      "id": "neuro",
+      "icon": "🧠",
+      "title": "Neurology",
+      "desc": "Stroke, seizure, altered mental status",
+      "order": 6
+    },
+    {
+      "id": "shock",
+      "icon": "🫀",
+      "title": "Shock & Sepsis",
+      "desc": "Shock physiology, perfusion, sepsis recognition and resuscitation",
+      "order": 7
+    },
+    {
+      "id": "pharm",
+      "icon": "💉",
+      "title": "Pharmacology",
+      "desc": "Medication safety, dose calculation, high-risk emergency drugs",
+      "order": 8
+    },
+    {
+      "id": "ob",
+      "icon": "🤰",
+      "title": "OB-GYN",
+      "desc": "Delivery emergencies, postpartum hemorrhage, pregnancy arrest",
+      "order": 9
+    },
+    {
+      "id": "tox",
+      "icon": "☠️",
+      "title": "Toxicology",
+      "desc": "Toxidromes, cardiotoxic poisonings, special circumstances",
+      "order": 10
     }
   ],
   "lessons": [
     {
-      "id": "ecg-systematic",
+      "id": "ecg-deep",
       "category": "cardiology",
-      "title": "อ่าน ECG อย่างเป็นระบบ",
-      "minutes": 10,
-      "level": "Core",
-      "summary": "เริ่มจาก clinical context แล้วอ่าน ECG ด้วยลำดับคงที่เพื่อลดการพลาด: rhythm → rate → intervals → P wave → QRS → ST-T → comparison/territory.",
+      "title": "ECG Interpretation: จากไฟฟ้าหัวใจสู่การตัดสินใจ",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "บทเรียนแบบเป็นระบบตั้งแต่ conduction system, ECG paper, rate/rhythm/axis/intervals จนถึง ischemia, conduction disease และการเชื่อม ECG กับ hemodynamics.",
+      "keywords": [
+        "axis",
+        "qtc",
+        "omi",
+        "stemi",
+        "av block",
+        "wide complex"
+      ],
+      "sections": [
+        {
+          "title": "1) Electrical foundation",
+          "paragraphs": [
+            "SA node เป็น pacemaker หลัก กระแสไฟผ่าน atria → AV node → His bundle → bundle branches → Purkinje. ECG เป็นภาพรวมของ depolarization/repolarization บนผิวกาย จึงต้องอ่านร่วมกับ physiology ไม่ใช่ดู pattern แยกจากคนไข้."
+          ],
+          "bullets": [
+            "P wave = atrial depolarization",
+            "PR interval = atrial-to-ventricular conduction time",
+            "QRS = ventricular depolarization",
+            "ST-T = ventricular repolarization"
+          ]
+        },
+        {
+          "title": "2) ECG paper & calibration",
+          "paragraphs": [
+            "มาตรฐานทั่วไป 25 mm/s และ 10 mm/mV. ที่ 25 mm/s: small box 0.04 s, large box 0.20 s. ก่อนตีความทุกครั้งให้ดู calibration, artifact และ lead reversal."
+          ],
+          "bullets": [
+            "Regular rhythm: 300 ÷ จำนวน large boxes ระหว่าง R-R เป็นการประมาณ rate",
+            "Irregular rhythm: นับ QRS ใน 10 s ×6",
+            "QRS ≥120 ms = wide complex"
+          ]
+        },
+        {
+          "title": "3) Systematic reading sequence",
+          "paragraphs": [
+            "ใช้ลำดับเดิมทุกครั้งเพื่อลด omission: Clinical context → Rhythm → Rate → Axis → P wave → PR → QRS width/morphology → QT/QTc → ST-T → comparison with old ECG."
+          ],
+          "bullets": [
+            "Rhythm: regular/irregular, P before every QRS?, QRS after every P?",
+            "Axis: ดู I และ aVF เป็น screening แล้วค่อยละเอียดขึ้นเมื่อจำเป็น",
+            "Intervals: PR 120–200 ms โดยประมาณ, QRS <120 ms ใน conduction ปกติ",
+            "QTc ต้องตีความตาม rate และบริบท เช่น electrolyte/drug effects"
+          ]
+        },
+        {
+          "title": "4) Ischemia / infarction thinking",
+          "paragraphs": [
+            "อย่าเริ่มจากคำว่า STEMI อย่างเดียว ให้ถามว่ามี acute coronary occlusion/ischemia หรือไม่และมี reciprocal change หรือ pattern high-risk หรือไม่."
+          ],
+          "bullets": [
+            "Inferior: II, III, aVF; reciprocal change มักเห็นที่ I/aVL",
+            "Anterior/septal: V1–V4; lateral: I, aVL, V5–V6",
+            "Posterior MI อาจเป็น ST depression V1–V3 + tall R; พิจารณา V7–V9",
+            "Inferior MI ควรคิด RV involvement และพิจารณา V3R/V4R ตามระบบ"
+          ]
+        },
+        {
+          "title": "5) Wide complex & conduction disease",
+          "paragraphs": [
+            "Wide-complex tachycardia ในผู้ใหญ่โดยเฉพาะมี structural heart disease ให้คิด VT ไว้ก่อนจนกว่าจะพิสูจน์ได้. AV block ต้องแยก 1st degree, Mobitz I, Mobitz II และ complete heart block โดยดู P-QRS relationship."
+          ],
+          "bullets": [
+            "Unstable rhythm = treatment priority over perfect rhythm naming",
+            "QRS morphology, AV dissociation, capture/fusion beats ช่วยสนับสนุน VT",
+            "Hyperkalemia, sodium-channel blockade และ pacing สามารถทำให้ QRS กว้างได้"
+          ]
+        },
+        {
+          "title": "6) How to write an ECG impression",
+          "paragraphs": [
+            "รายงานให้สั้นแต่ครบ: rhythm + rate + axis + interval + QRS + ischemic/conduction findings + clinical implication. ตัวอย่าง: 'Sinus rhythm ~60/min, narrow QRS, inferior ST elevation II/III/aVF with reciprocal depression I/aVL; concern for inferior OMI/STEMI, correlate symptoms and obtain right-sided leads.'"
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "ตรวจ calibration/lead quality ก่อนตีความ",
-        "Rhythm: regularity, P-QRS relationship และ origin",
-        "Rate: ใช้วิธีที่เหมาะกับ rhythm regular/irregular",
-        "Intervals: PR, QRS, QT/QTc",
-        "QRS: width, axis, morphology, pathologic Q waves",
-        "ST-T: elevation/depression, reciprocal change, T-wave pattern",
-        "สรุป ECG ต้องเชื่อมกับอาการและ hemodynamics"
+        "อ่านด้วยลำดับคงที่ทุกครั้ง",
+        "ECG เป็น data point ไม่ใช่ diagnosis เดี่ยว ๆ",
+        "Hemodynamic instability มีผลต่อการตัดสินใจมากกว่าความสวยงามของ ECG label",
+        "อย่าพลาด lead reversal/artifact ก่อนประกาศ arrhythmia"
       ],
       "quick_review": [
-        "Inferior territory: II, III, aVF",
-        "Reciprocal change ช่วยเพิ่มความมั่นใจ แต่การไม่มี reciprocal change ไม่ตัด ACS",
-        "Wide-complex tachycardia ในผู้ป่วยไม่คงที่ต้องคิดเรื่อง cardioversion/VT pathway ตาม guideline"
+        "I + aVF ช่วย screen axis",
+        "II/III/aVF = inferior",
+        "V1–V4 = anterior/septal",
+        "Wide complex tachycardia + instability → treat first"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "Learning focus: OMI concepts continue to influence ECG education",
+          "takeaway": "Contemporary ECG education increasingly emphasizes recognizing acute coronary occlusion patterns beyond classic ST-elevation criteria, but local activation pathways still follow formal ACS/STEMI protocols.",
+          "source": "LITFL / contemporary ECG education",
+          "url": "https://litfl.com/top-100/ecg/",
+          "evidence": "Educational trend"
+        }
       ],
       "sources": [
-        "OneDrive: ECG interpretation and treatment-1.pdf",
-        "LITFL Top 150 ECG",
-        "AHA 2025 algorithms"
-      ],
-      "further": [
         {
-          "label": "LITFL Top 150 ECG",
-          "url": "https://litfl.com/top-100/ecg/"
+          "label": "OneDrive ECG interpretation/OSCE",
+          "type": "local"
+        },
+        {
+          "label": "LITFL ECG Library",
+          "url": "https://litfl.com/ecg-library/",
+          "type": "educational"
         }
       ],
       "actions": [
@@ -81,18 +204,18 @@
       ],
       "quiz": [
         {
-          "q": "ลำดับใดเหมาะกับการอ่าน ECG แบบเป็นระบบมากที่สุด?",
+          "q": "ลำดับที่ช่วยลด omission มากที่สุดคือข้อใด?",
           "options": [
-            "ST segment → diagnosis → rate",
-            "Rhythm → rate → intervals → P/QRS → ST-T",
-            "Rate → drug dose → ST segment",
-            "Axis → treatment → rhythm"
+            "ST-T → axis → rate",
+            "Rhythm → rate → axis/intervals → P/QRS → ST-T",
+            "Rate → diagnosis → treatment",
+            "QRS → drug → rhythm"
           ],
           "answer": 1,
-          "explain": "ใช้ลำดับคงที่ช่วยลด omission และควรเชื่อมกับ clinical context."
+          "explain": "ลำดับคงที่ช่วยลดการข้ามองค์ประกอบสำคัญและต้องผูกกับ clinical context."
         },
         {
-          "q": "ST elevation ที่ II, III, aVF สื่อถึง territory ใดมากที่สุด?",
+          "q": "ST elevation II, III, aVF สื่อถึง territory ใด?",
           "options": [
             "Anterior",
             "Inferior",
@@ -100,39 +223,143 @@
             "Posterior only"
           ],
           "answer": 1,
-          "explain": "II, III และ aVF เป็น inferior leads."
+          "explain": "II, III, aVF เป็น inferior leads."
+        },
+        {
+          "q": "Wide-complex tachycardia ในผู้ป่วย unstable ควรทำอย่างไร?",
+          "options": [
+            "รอ ECG 12 lead สมบูรณ์ก่อน",
+            "ให้ treatment ตาม unstable tachy pathway และคิด VT ไว้ก่อน",
+            "ให้ adenosine ทุกคน",
+            "ไม่ต้อง monitor"
+          ],
+          "answer": 1,
+          "explain": "ความไม่คงที่ทาง hemodynamics เป็น priority."
         }
       ]
     },
     {
-      "id": "acs-prehospital",
+      "id": "acs-deep",
       "category": "cardiology",
-      "title": "ACS / STEMI สำหรับ Prehospital",
-      "minutes": 9,
-      "level": "Core",
-      "summary": "เป้าหมาย prehospital คือจำแนกผู้ป่วยเสี่ยงสูง, ทำ ECG เร็ว, เฝ้าระวัง instability, activation/notification ที่เหมาะสม และหลีกเลี่ยงการรักษาที่ไม่จำเป็น.",
+      "title": "Acute Coronary Syndrome: Pathophysiology → ECG → Prehospital System",
+      "minutes": 30,
+      "level": "Core+",
+      "summary": "ACS ครอบคลุม unstable angina, NSTEMI และ STEMI/acute coronary occlusion. เป้าหมาย EMS คือจำแนก high-risk, ทำ ECG เร็ว, ให้การรักษาที่มีข้อบ่งชี้ และลดเวลาถึง reperfusion.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Pathophysiology",
+          "paragraphs": [
+            "Plaque disruption/erosion → platelet activation → thrombus → supply-demand mismatch หรือ acute coronary occlusion. ระดับ ischemia ขึ้นกับตำแหน่งหลอดเลือด, collateral flow, duration และ myocardial demand."
+          ],
+          "bullets": [
+            "Ischemia อาจ transient หรือ dynamic",
+            "Troponin บอก myocardial injury แต่ prehospital decision จำนวนมากต้องเริ่มก่อน lab",
+            "Mechanical/electrical complications อาจเกิดเร็ว เช่น VT/VF, AV block, pulmonary edema, shock"
+          ]
+        },
+        {
+          "title": "2) History & risk framing",
+          "paragraphs": [
+            "Chest pressure/heaviness ร้าวแขน/กราม, diaphoresis, dyspnea, nausea เป็น classic แต่ atypical presentation พบได้ โดยเฉพาะสูงอายุ เบาหวาน และผู้หญิง."
+          ],
+          "bullets": [
+            "OPQRST + SAMPLE",
+            "ถาม bleeding risk/anticoagulant/allergy",
+            "คิด aortic syndrome, PE, pneumothorax, esophageal cause, pericarditis และอื่น ๆ ก่อนผูกกับ ACS"
+          ]
+        },
+        {
+          "title": "3) ECG strategy",
+          "paragraphs": [
+            "ทำ 12-lead เร็วและทำ serial ECG เมื่ออาการ/ECG เปลี่ยน. Inferior pattern ให้คิด RV infarct; posterior clues ให้คิด posterior leads."
+          ],
+          "bullets": [
+            "Compare old ECG if available",
+            "Dynamic ST-T change เพิ่มความน่าเชื่อถือของ acute ischemia",
+            "Normal first ECG ไม่ได้ตัด ACS"
+          ]
+        },
+        {
+          "title": "4) Prehospital treatment principles",
+          "paragraphs": [
+            "2025 ACS guideline: oxygen แนะนำเมื่อ SpO₂ <90% เพื่อเพิ่ม saturation ≥90%; routine oxygen เมื่อ saturation ≥90% ไม่แนะนำเพราะไม่เพิ่ม cardiovascular outcomes."
+          ],
+          "bullets": [
+            "Aspirin/antiplatelet strategy ต้องตาม local protocol/contraindications",
+            "Nitrates/analgesia ต้องดู BP, RV infarction, PDE-5 use และ local protocol",
+            "Transport destination/activation มีผลต่อ time-to-reperfusion"
+          ]
+        },
+        {
+          "title": "5) Complications & red flags",
+          "paragraphs": [
+            "Inferior MI อาจเกิด brady/AV block; anterior large infarct เสี่ยง cardiogenic shock; ongoing chest pain + hypotension + pulmonary edema/arrhythmia เป็น high-risk."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "ประเมิน ABC, vitals, monitor และ 12-lead ECG เร็ว",
-        "ถ้า ECG แรกไม่ diagnostic แต่สงสัยสูง ให้พิจารณา serial ECG ตามระบบ",
-        "Inferior MI อาจต้องใช้ right-sided leads เพื่อประเมิน RV involvement",
-        "Oxygen ใช้เมื่อ hypoxemia/ข้อบ่งชี้ ไม่ใช่ routine ในผู้ที่ oxygenation เพียงพอ",
-        "Activation/transport destination ต้องตาม local STEMI pathway",
-        "คิด differential ที่คุกคามชีวิต เช่น aortic syndrome, PE, tension pneumothorax"
+        "ทำ 12-lead เร็วและ repeat เมื่อ clinical picture ยังน่าสงสัย",
+        "Oxygen ไม่ใช่ routine ใน normoxic ACS",
+        "รักษาและ transport เป็นระบบเวลา-sensitive",
+        "คิด differential รุนแรงเสมอ"
       ],
       "quick_review": [
-        "12-lead ECG เป็นข้อมูลหลัก แต่ไม่ควร delay transport/definitive care",
-        "อาการ atypical พบได้ โดยเฉพาะผู้สูงอายุ/เบาหวาน/หญิง",
-        "การรักษาด้วย antiplatelet/anti-ischemic ต้องตาม local protocol และ contraindications"
+        "ACS + SpO₂ ≥90% → ไม่ให้ออกซิเจน routine",
+        "Inferior MI → right-sided leads when indicated",
+        "Normal ECG ครั้งแรก ≠ ACS excluded"
+      ],
+      "prehospital_focus": [
+        "12-lead early",
+        "serial ECG if needed",
+        "STEMI/PCI center pre-notification",
+        "avoid scene delay without benefit"
+      ],
+      "red_flags": [
+        "Hypotension/shock",
+        "Refractory chest pain",
+        "Pulmonary edema",
+        "Sustained VT/VF or high-grade AV block",
+        "Mechanical complication suspicion"
+      ],
+      "pitfalls": [
+        "ให้ออกซิเจน routine ทั้งที่ normoxic",
+        "ตัด ACS จาก ECG แรกปกติ",
+        "ลืม RV/posterior leads เมื่อมีข้อบ่งชี้"
+      ],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "ACS guideline consolidated STEMI + NSTEMI evidence",
+          "takeaway": "The 2025 guideline replaced the separated older STEMI/NSTEMI frameworks with one ACS guideline and updates antiplatelet, invasive strategy and supportive-care recommendations.",
+          "source": "AHA/ACC 2025 ACS Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "evidence": "Guideline update"
+        },
+        {
+          "year": 2025,
+          "title": "Routine oxygen in normoxic ACS",
+          "takeaway": "Randomized evidence reviewed in the 2025 guideline shows no cardiovascular benefit from routine oxygen when SpO₂ is already ≥90%.",
+          "source": "Circulation ACS Guideline",
+          "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309",
+          "evidence": "High-level evidence"
+        }
       ],
       "sources": [
-        "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS guideline",
-        "OneDrive ECG OSCE teaching reference",
-        "ER goldbook"
-      ],
-      "further": [
+        {
+          "label": "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "type": "primary"
+        },
+        {
+          "label": "OneDrive ECG OSCE",
+          "type": "local"
+        },
         {
           "label": "ER goldbook",
-          "url": "https://ergoldbook.blogspot.com/"
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
         }
       ],
       "actions": [
@@ -147,112 +374,356 @@
       ],
       "quiz": [
         {
-          "q": "ผู้ป่วยเจ็บหน้าอกสงสัย ACS แต่ ECG แรกไม่ diagnostic ควรคิดอย่างไร?",
+          "q": "2025 ACS guideline แนะนำ oxygen routine เมื่อ SpO₂ 97% หรือไม่?",
           "options": [
-            "ตัด ACS ทันที",
-            "พิจารณา serial ECG/ประเมินซ้ำตามความเสี่ยง",
-            "ไม่ต้อง monitor",
-            "ให้ oxygen ทุกคน"
+            "แนะนำทุกคน",
+            "ไม่แนะนำ routine",
+            "ให้ 15 L/min เสมอ",
+            "ขึ้นกับอายุเท่านั้น"
           ],
           "answer": 1,
-          "explain": "ECG แรกอาจยังไม่แสดง dynamic ischemic change."
+          "explain": "Routine oxygen เมื่อ saturation ≥90% ไม่ได้เพิ่ม cardiovascular outcomes."
         },
         {
-          "q": "Oxygen ใน ACS ควรให้แบบใด?",
+          "q": "Inferior ST elevation ควรคิด lead เพิ่มใด?",
           "options": [
-            "ให้ทุกคนเสมอ",
-            "ใช้เมื่อ hypoxemia หรือมีข้อบ่งชี้",
-            "ห้ามให้ทุกกรณี",
-            "ให้เฉพาะหลัง PCI"
+            "V4R",
+            "aVR เท่านั้น",
+            "V1R เท่านั้น",
+            "ไม่มี"
           ],
-          "answer": 1,
-          "explain": "ไม่แนะนำ routine oxygen ในผู้ที่ไม่ hypoxemic."
+          "answer": 0,
+          "explain": "Right-sided leads เช่น V3R/V4R ช่วยประเมิน RV involvement."
         }
       ]
     },
     {
-      "id": "arrhythmia-framework",
+      "id": "arrhythmia-deep",
       "category": "cardiology",
-      "title": "Brady / Tachy: คิดจาก Hemodynamic Stability",
-      "minutes": 8,
-      "level": "Core",
-      "summary": "การจัดการ arrhythmia เริ่มจากดูว่าจังหวะทำให้เกิด cardiopulmonary compromise หรือไม่ ก่อนเลือก medication, pacing หรือ synchronized cardioversion.",
+      "title": "Bradycardia & Tachyarrhythmia: Hemodynamics ก่อนชื่อ rhythm",
+      "minutes": 24,
+      "level": "Core+",
+      "summary": "เป้าหมายคือประเมิน perfusion/instability, แยก narrow vs wide, regular vs irregular และรักษาตาม physiology ก่อนพยายามตั้งชื่อ rhythm แบบละเอียด.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Instability framework",
+          "paragraphs": [
+            "Signs of poor perfusion ได้แก่ hypotension, altered mental status, ischemic chest discomfort, acute heart failure/shock. ถ้ามี instability จาก arrhythmia จริง ให้ electrical therapy ตาม algorithm เร็ว."
+          ],
+          "bullets": [
+            "Brady: หาสาเหตุ hypoxia, ischemia, drugs, electrolyte, conduction disease",
+            "Tachy: narrow/wide + regular/irregular + stable/unstable"
+          ]
+        },
+        {
+          "title": "2) Adult bradycardia",
+          "paragraphs": [
+            "AHA 2025 adult brady algorithm ใช้ atropine 1 mg IV bolus; repeat every 3–5 min, max 3 mg. ถ้า ineffective ให้พิจารณา transcutaneous pacing และ/หรือ dopamine/epinephrine infusion ตาม algorithm/local protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Adult tachycardia",
+          "paragraphs": [
+            "Unstable tachycardia → synchronized cardioversion. Stable narrow regular SVT → vagal maneuvers/adenosine when appropriate. Wide-complex tachycardia ต้องระวัง VT; irregular wide-complex อาจเป็น pre-excited AF และ adenosine/AV-nodal blockers อาจอันตรายในบางบริบท."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Pediatric differences",
+          "paragraphs": [
+            "Pediatric bradycardia มัก secondary to hypoxia/respiratory failure มากกว่ primary conduction disease. หาก HR <60/min พร้อม cardiopulmonary compromise แม้ ventilation/oxygenation effective แล้ว ให้เริ่ม CPR ตาม PALS."
+          ],
+          "bullets": [
+            "SVT stable: vagal → adenosine if IV/IO available",
+            "SVT unstable: synchronized cardioversion starting 0.5–1 J/kg, then 2 J/kg if unsuccessful"
+          ]
+        },
+        {
+          "title": "5) Post-conversion",
+          "paragraphs": [
+            "หลัง rhythm conversion ต้องหาสาเหตุ, repeat ECG, monitor recurrence, electrolyte/glucose, medication/toxin and ischemia evaluation."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "เริ่มจาก airway/breathing/monitor/IV และหา cause ที่แก้ได้",
-        "Brady: ถ้ามี hypotension, AMS, shock, ischemic chest discomfort หรือ acute HF ให้เข้าสู่ symptomatic pathway",
-        "Tachy: instability จาก rhythm → synchronized cardioversion ไม่ควรรอ medication ที่ไม่จำเป็น",
-        "Regular narrow-complex tachycardia อาจใช้ vagal/adenosine ตาม algorithm",
-        "Wide-complex tachycardia ต้องระวัง VT และหลีกเลี่ยงการตีความแบบรีบสรุป"
+        "Treat the patient, not only the monitor",
+        "Unstable rhythm → electrical therapy priority",
+        "Pediatric brady often = oxygenation/ventilation problem",
+        "Wide complex tachycardia: assume VT until proven otherwise when uncertain"
       ],
       "quick_review": [
-        "Treat the patient, not the monitor",
-        "Cardioversion = synchronized; defibrillation = unsynchronized",
-        "ค้น reversible causes และ medication/toxin context เสมอ"
+        "Adult atropine 1 mg, max 3 mg",
+        "Peds HR <60 + compromise despite oxygenation → CPR",
+        "SVT unstable peds: 0.5–1 then 2 J/kg cardioversion"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Syncope/shock",
+        "Ischemic chest pain",
+        "Acute pulmonary edema",
+        "Very wide/irregular tachycardia",
+        "High-grade AV block"
+      ],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "PALS bradycardia evidence remains low certainty",
+          "takeaway": "2025 PALS reinforces ventilation-first thinking and CPR when HR <60/min with compromise despite effective ventilation; much of bradycardia evidence remains observational.",
+          "source": "AHA/AAP PALS 2025",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "evidence": "Guideline evidence update"
+        }
       ],
       "sources": [
-        "AHA 2025 Adult Bradycardia Algorithm",
-        "AHA 2025 Adult Tachyarrhythmia Algorithm",
-        "LITFL ECG"
+        {
+          "label": "AHA 2025 Adult ALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด Adult Brady/Tachy",
+          "label": "Adult Brady/Tachy",
           "route": "adult-arrhythmia"
         },
         {
-          "label": "เปิด Pediatric Brady/Tachy",
+          "label": "Pediatric Brady/Tachy",
           "route": "peds-arrhythmia"
         }
       ],
       "quiz": [
         {
-          "q": "Tachyarrhythmia ที่ทำให้ hypotension และ altered mental status ควรคิดถึงอะไรเป็นหลัก?",
+          "q": "เด็ก brady HR 50/min มี shock despite effective ventilation ควรคิดอะไรต่อ?",
           "options": [
-            "Observation อย่างเดียว",
-            "Synchronized cardioversion pathway",
-            "Adenosine ทุกกรณี",
-            "Defibrillation ทุกกรณี"
+            "Observe only",
+            "Start CPR per PALS",
+            "Adenosine",
+            "No monitoring"
           ],
           "answer": 1,
-          "explain": "Hemodynamic instability จาก tachyarrhythmia เป็นข้อบ่งชี้สำคัญของ synchronized cardioversion."
+          "explain": "PALS recommends CPR for HR <60/min with cardiopulmonary compromise despite effective ventilation with oxygen."
         },
         {
-          "q": "หลักคิดสำคัญของ arrhythmia คือข้อใด?",
+          "q": "Unstable adult tachyarrhythmia treatment priority?",
           "options": [
-            "ดู monitor ก่อนผู้ป่วย",
-            "ประเมิน stability และ clinical compromise",
-            "ยาเหมือนกันทุก rhythm",
-            "หลีกเลี่ยง ECG 12 lead"
+            "Synchronized cardioversion",
+            "Wait for troponin",
+            "Adenosine in every rhythm",
+            "No treatment"
           ],
-          "answer": 1,
-          "explain": "Stability และ perfusion เป็นตัวกำหนด urgency/pathway."
+          "answer": 0,
+          "explain": "Unstable tachyarrhythmia should receive synchronized cardioversion according to algorithm."
+        }
+      ]
+    },
+    {
+      "id": "cardiac-arrest-deep",
+      "category": "cardiology",
+      "title": "Cardiac Arrest & Post-ROSC: CPR physiology, rhythms, drugs, EtCO₂",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "เข้าใจเหตุผลของ high-quality CPR, shock timing, epinephrine, reversible causes, capnography และ post-ROSC care แทนการจำ algorithm อย่างเดียว.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) CPR physiology",
+          "paragraphs": [
+            "Chest compressions generate coronary/cerebral perfusion. Compression pauses rapidly reduce perfusion; minimizing interruptions is therefore central. Full recoil preserves venous return."
+          ],
+          "bullets": [
+            "Adult rate 100–120/min",
+            "Adult depth at least 5 cm",
+            "Avoid excessive ventilation",
+            "Change compressor about every 2 min"
+          ]
+        },
+        {
+          "title": "2) Shockable vs non-shockable",
+          "paragraphs": [
+            "VF/pVT: defibrillation is causal therapy; shock rapidly and resume CPR. PEA/asystole: prioritize CPR, epinephrine and reversible causes."
+          ],
+          "bullets": [
+            "Epinephrine adult 1 mg IV/IO every 3–5 min",
+            "Amiodarone/lidocaine considered in refractory VF/pVT",
+            "Hs & Ts guide reversible-cause search"
+          ]
+        },
+        {
+          "title": "3) Airway & capnography",
+          "paragraphs": [
+            "Advanced airway should not delay initial CPR/defibrillation. Continuous waveform capnography is recommended to confirm/monitor ETT in adult arrest and can help assess CPR quality/trends."
+          ],
+          "bullets": [
+            "Abrupt sustained rise in EtCO₂ may suggest ROSC",
+            "Persistently low/decreasing EtCO₂ → reassess CPR quality and other causes, not a stand-alone termination rule"
+          ]
+        },
+        {
+          "title": "4) Post-ROSC priorities",
+          "paragraphs": [
+            "Reassess oxygenation/ventilation, blood pressure/perfusion, 12-lead ECG, cause of arrest, temperature management and neurologic status. Avoid hyperoxia/hypoventilation extremes and treat shock."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Shock VF/pVT early",
+        "Epinephrine ASAP in nonshockable pediatric arrest",
+        "Capnography = tube confirmation + trend",
+        "Post-ROSC care starts immediately"
+      ],
+      "quick_review": [
+        "CPR 2-min cycles",
+        "Avoid pauses",
+        "EtCO₂ trend can support CPR quality assessment"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Pediatric epinephrine timing",
+          "takeaway": "2025 evidence update found observational data favoring earlier epinephrine for initial nonshockable pediatric arrest, while timing in shockable rhythms remains uncertain because defibrillation must remain the priority.",
+          "source": "ILCOR/AHA-AAP 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074853/205239/",
+          "evidence": "Evidence update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult ALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "เปิด Cardiac Arrest Algorithm",
+          "route": "cardiac-arrest"
+        },
+        {
+          "label": "เปิด CPR Timer",
+          "route": "cpr-timer"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ใน VF/pVT priority คืออะไร?",
+          "options": [
+            "Defibrillation promptly",
+            "Wait for central line",
+            "Bicarbonate routine",
+            "Calcium routine"
+          ],
+          "answer": 0,
+          "explain": "Rapid defibrillation is the priority for shockable arrest."
+        },
+        {
+          "q": "Continuous waveform capnography in adult arrest is useful mainly for?",
+          "options": [
+            "Confirm/monitor ETT and CPR trend",
+            "Diagnose MI alone",
+            "Replace pulse check entirely",
+            "Measure sodium"
+          ],
+          "answer": 0,
+          "explain": "AHA recommends waveform capnography to confirm/monitor ETT and it can support CPR quality assessment."
         }
       ]
     },
     {
       "id": "airway-assessment",
       "category": "airway",
-      "title": "Airway Assessment & Preparation",
-      "minutes": 10,
-      "level": "Core",
-      "summary": "Airway ที่ดีเริ่มจากการคาดการณ์ปัญหาและเตรียม rescue plan มากกว่าการมุ่งใส่ท่อเพียงอย่างเดียว.",
+      "title": "Airway Assessment & Difficult Airway: Plan A/B/C/D",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "คิด airway เป็น continuum ตั้งแต่ basic opening, suction, BVM, SGA, ETT จนถึง rescue airway โดยมี oxygenation เป็นเป้าหมาย ไม่ใช่การ “ต้องใส่ท่อให้ได้”.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Airway threat recognition",
+          "paragraphs": [
+            "ดูเสียง/effort/mental status/secretions/blood/facial trauma. Stridor, gurgling, snoring, inability to handle secretions, progressive edema และ severe fatigue เป็น red flags."
+          ],
+          "bullets": [
+            "Airway protection ≠ ventilation ≠ oxygenation; ประเมินแยกกัน",
+            "GCS อย่างเดียวไม่ควรเป็นข้อบ่งชี้เดี่ยวโดยไม่ดู airway reflex/trajectory/ventilation"
+          ]
+        },
+        {
+          "title": "2) Difficult airway predictors",
+          "paragraphs": [
+            "LEMON ใช้เตือน difficult laryngoscopy; MOANS ช่วยคิด difficult BVM; RODS ใช้กับ SGA; SMART ใช้คิด surgical airway difficulty. สิ่งเหล่านี้ไม่ใช่ perfect scores แต่เป็น prompts ให้เตรียม backup."
+          ],
+          "bullets": [
+            "Look externally",
+            "Evaluate 3-3-2",
+            "Mallampati where feasible",
+            "Obstruction/obesity",
+            "Neck mobility"
+          ]
+        },
+        {
+          "title": "3) Airway strategy",
+          "paragraphs": [
+            "Plan A = optimized first attempt; Plan B = alternate device/SGA; Plan C = oxygenation rescue/BVM; Plan D = emergency front-of-neck accessตาม scope/protocol. ทุกขั้นต้องกำหนด trigger สำหรับ move on เพื่อไม่ fixation error."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Pre-intubation checklist",
+          "paragraphs": [
+            "SOAP-ME: suction, oxygen, airway equipment, pharmacy, monitoring, equipment/backup. เพิ่ม hemodynamic optimization, position, preoxygenation and post-intubation plan."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "ดู obstruction, secretions/blood, work of breathing และ mental status",
-        "เตรียม suction, oxygen, BVM, airway adjuncts, SGA/ETT และ backup plan",
-        "ใช้ structured difficult-airway assessment เช่น LEMON/MOANS เป็น cognitive aid",
-        "Preoxygenation และ positioning ลด desaturation risk",
-        "อย่าให้ advanced airway ทำให้ CPR หยุดนานใน cardiac arrest",
-        "หลังใส่ท่อต้อง confirmation + fixation + reassessment"
+        "Goal = oxygenation/ventilation, not tube placement",
+        "Prepare backup before induction",
+        "Suction is a primary airway tool, not an afterthought",
+        "Set failure thresholds before attempt"
       ],
       "quick_review": [
-        "SOAP-ME ช่วยเตรียมอุปกรณ์ก่อน intubation",
-        "BVM ที่มี technique ดีอาจช่วยชีวิตได้มากกว่าการรีบ intubate",
-        "Failed airway ต้องมี rescue oxygenation plan"
+        "LEMON / MOANS / RODS / SMART",
+        "SOAP-ME",
+        "Plan A-B-C-D"
       ],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Cannot oxygenate/ventilate",
+        "Progressive upper airway edema",
+        "Massive airway contamination",
+        "Severe facial/neck injury",
+        "Rapidly falling mental status with loss of airway protection"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
       "sources": [
-        "OneDrive: 1. Airway management.pdf",
-        "AHA 2025 Adult ALS",
-        "AHA/AAP 2025 PALS"
+        {
+          "label": "AHA 2025 Adult ALS airway section",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "OneDrive Airway management teaching file",
+          "type": "local"
+        }
       ],
       "actions": [
         {
@@ -260,555 +731,1906 @@
           "route": "airway"
         },
         {
-          "label": "เปิด ETT Confirmation",
+          "label": "ETT Confirmation",
           "route": "ett-confirm"
         }
       ],
       "quiz": [
         {
-          "q": "สิ่งใดควรเตรียมก่อน advanced airway มากที่สุด?",
+          "q": "Airway success ที่สำคัญที่สุดคืออะไร?",
           "options": [
-            "เฉพาะ ETT เบอร์เดียว",
-            "Suction/O₂/BVM/backup airway/monitoring",
-            "เฉพาะยา",
-            "เฉพาะ laryngoscope"
+            "ETT placed at all costs",
+            "Maintaining oxygenation/ventilation safely",
+            "Using one device only",
+            "Avoiding suction"
           ],
           "answer": 1,
-          "explain": "Airway preparation ต้องมี oxygenation/rescue options ครบ."
+          "explain": "Airway management is about maintaining oxygenation/ventilation; ETT is one tool."
         },
         {
-          "q": "ใน cardiac arrest การทำ advanced airway ควรเป็นอย่างไร?",
+          "q": "MOANS ใช้เตือนเรื่องใด?",
           "options": [
-            "หยุด compression ให้นานเพื่อใส่ให้สำเร็จ",
-            "ลด interruption ของ chest compression",
-            "ใส่ก่อน defibrillation เสมอ",
-            "ไม่ต้อง capnography"
+            "Difficult BVM",
+            "ECG axis",
+            "Shock index",
+            "Stroke"
           ],
-          "answer": 1,
-          "explain": "High-quality CPR และ defibrillation priority สูง; airway ไม่ควรทำให้ pause ยาว."
+          "answer": 0,
+          "explain": "MOANS is a common mnemonic for difficult bag-mask ventilation."
         }
       ]
     },
     {
-      "id": "capnography-ett",
+      "id": "preoxygenation-bvm",
       "category": "airway",
-      "title": "ETT Confirmation & Capnography",
-      "minutes": 7,
-      "level": "Core",
-      "summary": "การยืนยัน ETT ไม่ควรพึ่ง auscultation เพียงอย่างเดียว ต้องรวม clinical assessment กับ exhaled CO₂/waveform capnography เมื่อเหมาะสม.",
+      "title": "Preoxygenation, BVM & Peri-intubation Oxygenation",
+      "minutes": 24,
+      "level": "Core+",
+      "summary": "ช่วงอันตรายที่สุดของ intubation มักเป็น hypoxemia/hypotension ไม่ใช่แค่ laryngoscopy failure. บทนี้เน้นการสร้าง oxygen reserve, BVM technique และ peri-intubation physiology.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Why preoxygenation matters",
+          "paragraphs": [
+            "Preoxygenation replaces nitrogen in functional residual capacity with oxygen to prolong safe apnea time. Patients with shunt physiology, obesity, pregnancy or severe hypoxemia desaturate much faster."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) BVM technique",
+          "paragraphs": [
+            "Use proper mask size, airway positioning, OPA/NPA when appropriate, two-hand mask seal with second rescuer squeezing bag if available. Watch chest rise and avoid excessive pressure/volume."
+          ],
+          "bullets": [
+            "Jaw thrust/chin lift as appropriate",
+            "PEEP can help selected hypoxemic patients",
+            "Suction before and during ventilation if contaminated"
+          ]
+        },
+        {
+          "title": "3) Apneic oxygenation & positive pressure",
+          "paragraphs": [
+            "Nasal oxygen during attempts may help selected patients, but does not replace ventilation when ventilation is needed. NIV/CPAP preoxygenation is useful in some severely hypoxemic patients if they can tolerate it and have no contraindication."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Hemodynamic preparation",
+          "paragraphs": [
+            "Positive pressure and induction can reduce venous return and BP. Identify shock, optimize volume/vasopressor strategy per protocol, choose induction dose thoughtfully, and monitor closely."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "ดู tube marking/depth และ bilateral chest rise",
-        "ฟัง breath sounds สองข้างและ epigastrium เป็นส่วนเสริม",
-        "Waveform capnography ช่วย confirm และ monitor tube position",
-        "Recheck หลังเคลื่อนย้าย/ย้ายเปล/เปลี่ยน ventilator circuit",
-        "ใน CPR trend ของ EtCO₂ ช่วยสะท้อน perfusion/quality บางส่วน แต่ต้องตีความร่วมกับบริบท"
+        "BVM excellence is a core rescue skill",
+        "Two-person seal often improves ventilation",
+        "Preoxygenation plan must match physiology",
+        "Avoid both hypoxia and excessive ventilation"
       ],
       "quick_review": [
-        "Confirm → secure → document → reassess",
-        "Sudden waveform loss: คิด disconnection/displacement/obstruction/circulatory change",
-        "อย่าพึ่งค่าเดียวโดยไม่ดูผู้ป่วยและ waveform"
+        "Position + seal + adjunct + suction",
+        "Watch chest rise",
+        "Think hemodynamics before induction"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2019,
+          "title": "Bag-mask ventilation during intubation",
+          "takeaway": "A randomized trial in critically ill adults found bag-mask ventilation during the apneic period reduced severe hypoxemia without a clear increase in aspiration; application depends on aspiration risk and local airway practice.",
+          "source": "NEJM",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1812405",
+          "evidence": "Randomized trial"
+        }
       ],
       "sources": [
-        "AHA 2025 Adult ALS",
-        "AHA/AAP 2025 PALS",
-        "OneDrive airway teaching reference"
+        {
+          "label": "Emergency airway physiology references",
+          "type": "educational"
+        },
+        {
+          "label": "OneDrive airway teaching file",
+          "type": "local"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "ผู้ป่วย severe hypoxemia ก่อน intubation ควรคิดอะไร?",
+          "options": [
+            "Preoxygenation strategy and rescue ventilation",
+            "Skip oxygen",
+            "Induce immediately without plan",
+            "Avoid monitoring"
+          ],
+          "answer": 0,
+          "explain": "Optimization before laryngoscopy reduces peri-intubation hypoxemia risk."
+        }
+      ]
+    },
+    {
+      "id": "intubation-rsi",
+      "category": "airway",
+      "title": "RSI / Tracheal Intubation: First-pass success, drugs, capnography",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "RSI คือ controlled process: prepare → preoxygenate → optimize physiology → induce/paralyze → place → confirm → secure → post-intubation sedation/ventilation.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Indications & decision",
+          "paragraphs": [
+            "Intubate when airway cannot be protected, oxygenation/ventilation cannot be maintained, anticipated deterioration requires definitive airway, or procedural need justifies risk. Avoid reflex intubation without considering BVM/SGA/NIV alternatives."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) First-pass strategy",
+          "paragraphs": [
+            "First-pass success matters because repeated attempts increase hypoxemia, aspiration and trauma. Optimize operator/device/position/bougie/suction before starting."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Video vs direct laryngoscopy",
+          "paragraphs": [
+            "DEVICE trial in critically ill adults showed higher first-attempt success with video laryngoscopy (85.1% vs 70.8%) without reduction in severe complication rate, supporting VL when equipment/training are available."
+          ],
+          "bullets": [
+            "VL does not eliminate need for DL skills",
+            "Screen view can be excellent while tube delivery remains difficult—optimize stylet/bougie technique"
+          ]
+        },
+        {
+          "title": "4) Confirmation",
+          "paragraphs": [
+            "Continuous waveform capnography + clinical assessment is the most reliable confirmation/monitoring method in adult arrest. Reconfirm after movement and if waveform/ventilation changes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Post-intubation care",
+          "paragraphs": [
+            "Tube fixation, analgesia/sedation, ventilator/BVM settings, BP monitoring, EtCO₂ trend and repeat auscultation are part of the procedure—not optional afterthoughts."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "First attempt should be best attempt",
+        "Capnography confirmation whenever available",
+        "Post-intubation sedation and hemodynamics matter",
+        "Do not let intubation interrupt CPR excessively"
+      ],
+      "quick_review": [
+        "Prepare suction + backup",
+        "VL improves first-pass success in DEVICE trial",
+        "Confirm with waveform CO₂"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2023,
+          "title": "DEVICE randomized trial",
+          "takeaway": "Video laryngoscopy improved first-attempt intubation success from 70.8% to 85.1% in critically ill adults; severe complications were similar.",
+          "source": "NEJM",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301601",
+          "evidence": "Randomized trial"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult ALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "DEVICE Trial, NEJM 2023",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301601",
+          "type": "research"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด ETT Confirmation",
-          "route": "ett-confirm"
+          "label": "Airway checklist",
+          "route": "airway"
         },
         {
-          "label": "เปิด Airway",
+          "label": "ETT confirmation",
+          "route": "ett-confirm"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "DEVICE trial primary finding?",
+          "options": [
+            "VL reduced all mortality",
+            "VL increased first-attempt success",
+            "DL was superior",
+            "No difference in first-pass success"
+          ],
+          "answer": 1,
+          "explain": "First-attempt success was higher with video laryngoscopy."
+        },
+        {
+          "q": "Most reliable ETT confirmation adjunct in adult arrest?",
+          "options": [
+            "Chest rise alone",
+            "Waveform capnography plus clinical assessment",
+            "Tube fogging",
+            "Pulse oximetry alone"
+          ],
+          "answer": 1,
+          "explain": "AHA recommends continuous waveform capnography in addition to clinical assessment."
+        }
+      ]
+    },
+    {
+      "id": "resp-failure",
+      "category": "airway",
+      "title": "Acute Respiratory Failure: Asthma, COPD, Pulmonary Edema, Pneumonia",
+      "minutes": 30,
+      "level": "Core+",
+      "summary": "เรียนแบบ physiology-first: oxygenation failure, ventilation failure, work of breathing และ impending fatigue แล้วค่อยแยกโรค.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Respiratory failure framework",
+          "paragraphs": [
+            "Type 1 = hypoxemic failure; Type 2 = hypercapnic/ventilatory failure. ผู้ป่วยอาจมีทั้งสอง. ดู mental status, respiratory effort, speech, air entry, SpO₂ และ capnography/ABG when available."
+          ],
+          "bullets": [
+            "Silent chest + fatigue = late ominous sign",
+            "Normal SpO₂ ไม่ได้ยืนยัน ventilation ปกติ",
+            "Rising CO₂ + declining effort can indicate fatigue"
+          ]
+        },
+        {
+          "title": "2) Asthma/COPD",
+          "paragraphs": [
+            "Bronchospasm causes expiratory flow limitation and dynamic hyperinflation. Prioritize bronchodilation, oxygen to target, steroids per protocol and avoid excessive ventilation if mechanically ventilating severe obstruction."
+          ],
+          "bullets": [
+            "Look for prior ICU/intubation",
+            "Beware air trapping/auto-PEEP",
+            "A suddenly quiet chest can mean worsening obstruction, not improvement"
+          ]
+        },
+        {
+          "title": "3) Cardiogenic pulmonary edema",
+          "paragraphs": [
+            "Acute pulmonary edema is a pressure/volume problem causing alveolar flooding and severe work of breathing. CPAP/NIV can improve oxygenation and reduce preload/afterload in appropriate conscious patients; nitrates/other therapy depend on BP/local protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Pneumonia/other parenchymal disease",
+          "paragraphs": [
+            "Shunt physiology may make simple oxygen less effective; positioning, high-flow/NIV or intubation may be required depending on trajectory and resources."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Assess work of breathing, not SpO₂ alone",
+        "Ventilation failure can exist with acceptable saturation",
+        "NIV is powerful but requires cooperation and airway protection",
+        "Silent chest/fatigue = danger"
+      ],
+      "quick_review": [
+        "Oxygenation vs ventilation",
+        "Asthma: avoid excessive minute ventilation",
+        "Pulmonary edema: think CPAP/NIV if appropriate"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER goldbook respiratory topics",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        },
+        {
+          "label": "Medscape Emergency Medicine",
+          "url": "https://www.medscape.com/emergencymedicine",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Airway tools",
           "route": "airway"
         }
       ],
       "quiz": [
         {
-          "q": "หลังใส่ ETT แล้วควรทำอะไรเมื่อเคลื่อนย้ายผู้ป่วย?",
+          "q": "SpO₂ 98% แต่ผู้ป่วยซึมและ hypoventilate สามารถมี respiratory failure ได้หรือไม่?",
           "options": [
-            "ไม่ต้องตรวจซ้ำ",
-            "Reconfirm tube position และ ventilation",
-            "ถอด capnography",
-            "ลด monitoring"
-          ],
-          "answer": 1,
-          "explain": "Tube displacement สามารถเกิดระหว่าง movement จึงต้อง reassess."
-        },
-        {
-          "q": "Capnography มีบทบาทใด?",
-          "options": [
-            "ใช้แทน clinical assessment ทั้งหมด",
-            "ช่วย confirm/monitor ETT และ ventilation/perfusion trend",
-            "ใช้เฉพาะผู้ป่วยรู้สึกตัว",
-            "ใช้เฉพาะ neonate"
-          ],
-          "answer": 1,
-          "explain": "เป็นข้อมูลสำคัญแต่ต้องตีความร่วมกับ clinical assessment."
-        }
-      ]
-    },
-    {
-      "id": "pals-assessment",
-      "category": "pals",
-      "title": "Pediatric Systematic Assessment",
-      "minutes": 9,
-      "level": "Core",
-      "summary": "เด็กทรุดเร็วและ compensates ได้นาน การประเมินแบบ systematic ช่วยจับ respiratory failure/shock ก่อน cardiac arrest.",
-      "key_points": [
-        "เริ่มด้วย general impression/PAT แล้ว Primary Assessment ABCDE",
-        "แยก respiratory distress ออกจาก respiratory failure",
-        "Shock ในเด็กอาจมี BP ปกติช่วง compensated phase",
-        "ดู mental status, pulses, capillary refill, skin temperature และ urine/perfusion context",
-        "Reassess หลัง intervention ทุกครั้ง"
-      ],
-      "quick_review": [
-        "Hypotension เป็น late sign ใน pediatric shock",
-        "Bradycardia ในเด็กมักสัมพันธ์กับ hypoxia จึงต้องแก้ oxygenation/ventilation เร็ว",
-        "Weight-based dosing ต้อง double-check units/concentration"
-      ],
-      "sources": [
-        "AHA/AAP 2025 PALS",
-        "OneDrive: PALS 2021 update-1.pdf"
-      ],
-      "actions": [
-        {
-          "label": "เปิด PALS",
-          "route": "pediatric"
-        },
-        {
-          "label": "เปิด PALS Calculator",
-          "route": "peds-neonate-calc"
-        }
-      ],
-      "quiz": [
-        {
-          "q": "ข้อใดเป็น late sign ของ shock ในเด็กมากกว่า?",
-          "options": [
-            "Tachycardia",
-            "Hypotension",
-            "Cool extremities",
-            "Delayed cap refill"
-          ],
-          "answer": 1,
-          "explain": "เด็กสามารถ maintain BP ได้นาน; hypotension จึงบ่งชี้ decompensation."
-        },
-        {
-          "q": "Bradycardia ในเด็กควรคิดถึงอะไรสำคัญ?",
-          "options": [
-            "Hypoxia/ventilation problem",
-            "Hyperthyroidism",
-            "ECG artifact เท่านั้น",
-            "Pain only"
+            "ได้",
+            "ไม่ได้"
           ],
           "answer": 0,
-          "explain": "Hypoxia เป็นสาเหตุสำคัญและต้องแก้ oxygenation/ventilation เร็ว."
+          "explain": "SpO₂ reflects oxygenation, not ventilation/CO₂ clearance."
         }
       ]
     },
     {
-      "id": "pals-arrest",
-      "category": "pals",
-      "title": "Pediatric Cardiac Arrest Essentials",
-      "minutes": 8,
-      "level": "Core",
-      "summary": "PALS arrest เน้น high-quality CPR, ventilation ที่เหมาะสม, defibrillation แบบ weight-based, epinephrine และการแก้ reversible causes.",
+      "id": "peds-assessment",
+      "category": "pediatrics",
+      "title": "Pediatric Systematic Assessment: PAT → ABCDE → SAMPLE",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "เด็ก decompensate ได้เร็วและ hypotension เป็น late sign. ใช้ appearance/work of breathing/circulation + primary assessment เพื่อตีความ physiology ก่อน diagnosis.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Pediatric Assessment Triangle",
+          "paragraphs": [
+            "PAT = Appearance + Work of Breathing + Circulation to skin. เป็น rapid visual/auditory impression ไม่ต้องใช้อุปกรณ์ และช่วย classify respiratory distress/failure, shock or CNS/metabolic problem."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Primary assessment",
+          "paragraphs": [
+            "A/B/C/D/E พร้อม age-appropriate vitals. HR/RR/BP ต้องตีความตามอายุและ context. Cap refill/peripheral pulse/mental status ช่วยเมื่อ BP ยังปกติ."
+          ],
+          "bullets": [
+            "Hypotension = decompensated shock until proven otherwise",
+            "Bradycardia in sick child often points to hypoxia/late deterioration"
+          ]
+        },
+        {
+          "title": "3) Secondary assessment",
+          "paragraphs": [
+            "SAMPLE + focused history: feeding/urine, fever, seizure, birth/prematurity, congenital heart disease, toxin/medication, trauma, immunization depending on case."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Reassessment",
+          "paragraphs": [
+            "เด็กเปลี่ยนเร็ว จึงต้อง trend mental status, WOB, HR, perfusion, SpO₂, glucose and response to intervention rather than relying on one snapshot."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "Compression 100–120/min และ depth ≥1/3 AP diameter",
-        "Shock: 2 J/kg → 4 J/kg → ≥4 J/kg up to 10 J/kg/adult dose",
-        "Epinephrine IV/IO 0.01 mg/kg (0.1 mg/mL) q3–5 min",
-        "Refractory VF/pVT: amiodarone or lidocaine ตาม algorithm",
-        "Advanced airway: continuous compressions + breath every 2–3 sec"
+        "Hypotension is late in children",
+        "PAT is rapid physiology sorting",
+        "Reassessment is continuous",
+        "Weight matters for drugs/energy/equipment"
       ],
       "quick_review": [
-        "Non-shockable rhythm: epinephrine ASAP",
-        "Always use actual weight when available",
-        "Use calculator as cognitive aid, not medication double-check replacement"
+        "Appearance / WOB / circulation",
+        "Check glucose early in altered child",
+        "Use actual weight when available"
       ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
       "sources": [
-        "AHA/AAP 2025 Pediatric Cardiac Arrest Algorithm"
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "OneDrive Pediatrics teaching reference",
+          "type": "local"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด Cardiac Arrest → PALS",
-          "route": "cardiac-arrest"
-        },
-        {
-          "label": "เปิด PALS Calculator",
+          "label": "PALS Calculator",
           "route": "peds-neonate-calc"
-        }
-      ],
-      "quiz": [
-        {
-          "q": "First shock ใน pediatric VF/pVT เท่าไร?",
-          "options": [
-            "1 J/kg",
-            "2 J/kg",
-            "4 J/kg",
-            "10 J/kg"
-          ],
-          "answer": 1,
-          "explain": "PALS 2025 เริ่มที่ 2 J/kg."
         },
         {
-          "q": "Epinephrine IV/IO ใน pediatric arrest ใช้ความเข้มข้นใดใน calculator?",
-          "options": [
-            "1 mg/mL",
-            "0.1 mg/mL",
-            "10 mg/mL",
-            "0.01 mg/mL"
-          ],
-          "answer": 1,
-          "explain": "Dose 0.01 mg/kg โดยใช้ 0.1 mg/mL (1:10,000)."
-        }
-      ]
-    },
-    {
-      "id": "pals-arrhythmia",
-      "category": "pals",
-      "title": "Pediatric Brady / Tachy Essentials",
-      "minutes": 8,
-      "level": "Core",
-      "summary": "ในเด็ก rhythm management ต้องให้ความสำคัญกับ oxygenation/ventilation, perfusion และ signs of compromise ก่อนเลือกยา/energy.",
-      "key_points": [
-        "Brady + cardiopulmonary compromise: support airway/ventilation, oxygen, CPR when indicated",
-        "Epinephrine เป็น key medication ใน significant pediatric bradycardia pathway",
-        "Atropine ใช้ใน increased vagal tone/primary AV block ตาม algorithm",
-        "Tachy: แยก sinus tachycardia จาก SVT และ assess stability",
-        "Unstable tachy: synchronized cardioversion; stable regular narrow complex อาจพิจารณา adenosine"
-      ],
-      "quick_review": [
-        "อย่า treat monitor โดยไม่ดู perfusion",
-        "PALS calculator ช่วยคำนวณ adenosine/atropine/cardioversion energy",
-        "Reassess after each intervention"
-      ],
-      "sources": [
-        "AHA/AAP 2025 Pediatric Bradycardia Algorithm",
-        "AHA/AAP 2025 Pediatric Tachyarrhythmia Algorithm"
-      ],
-      "actions": [
-        {
-          "label": "เปิด Pediatric Brady/Tachy",
+          "label": "Pediatric Brady/Tachy",
           "route": "peds-arrhythmia"
-        },
-        {
-          "label": "เปิด PALS Calculator",
-          "route": "peds-neonate-calc"
         }
       ],
       "quiz": [
         {
-          "q": "เด็ก bradycardia จาก hypoxia สิ่งสำคัญต้น ๆ คือ?",
+          "q": "Hypotension ในเด็กมักเป็น early หรือ late sign ของ shock?",
           "options": [
-            "แก้ oxygenation/ventilation",
-            "ให้ adenosine",
-            "Cardioversion ทันที",
-            "Observe อย่างเดียว"
+            "Early",
+            "Late"
           ],
-          "answer": 0,
-          "explain": "Hypoxia/ventilation problem เป็น reversible driver สำคัญ."
-        },
-        {
-          "q": "Unstable pediatric tachyarrhythmia ควรเข้าสู่ pathway ใด?",
-          "options": [
-            "Synchronized cardioversion",
-            "Atropine",
-            "Defibrillation ทุกกรณี",
-            "CPR ทันทีแม้มี pulse"
-          ],
-          "answer": 0,
-          "explain": "Unstable tachyarrhythmia with pulse ใช้ synchronized cardioversion pathway."
+          "answer": 1,
+          "explain": "Children can compensate with tachycardia/vasoconstriction until later decompensation."
         }
       ]
     },
     {
-      "id": "nrp-initial",
-      "category": "neonatal",
-      "title": "NRP Initial Steps & Ventilation",
-      "minutes": 10,
-      "level": "Core",
-      "summary": "ใน neonatal resuscitation ventilation คือ intervention หลัก เพราะ bradycardia ส่วนใหญ่สัมพันธ์กับ inadequate gas exchange/lung inflation.",
+      "id": "peds-arrest-shock",
+      "category": "pediatrics",
+      "title": "Pediatric Arrest & Shock: ventilation-first physiology, epinephrine, defibrillation",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "เด็ก arrest มักเริ่มจาก respiratory failure/shock. หัวใจของ PALS คือ prevention, ventilation/oxygenation, CPR quality, timely defibrillation และ weight-based dosing.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Arrest prevention",
+          "paragraphs": [
+            "Recognize respiratory failure and shock before pulseless arrest. Correct hypoxia, support ventilation, obtain vascular access when needed and treat underlying cause."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) CPR/defibrillation",
+          "paragraphs": [
+            "Compression 100–120/min, depth ≥1/3 AP diameter. Shockable arrest: 2 J/kg → 4 J/kg → subsequent ≥4 J/kg up to 10 J/kg or adult dose."
+          ],
+          "bullets": [
+            "Advanced airway: continuous compressions + breath every 2–3 s",
+            "Monitor EtCO₂ and invasive diastolic BP when available"
+          ]
+        },
+        {
+          "title": "3) Epinephrine & antiarrhythmics",
+          "paragraphs": [
+            "Nonshockable pediatric arrest: initial epinephrine as early as possible. Shockable rhythm: prioritize defibrillation; epinephrine may be given after 2 shocks or earlier if rapid defibrillation is not possible."
+          ],
+          "bullets": [
+            "Epinephrine 0.01 mg/kg IV/IO (0.1 mg/mL), max 1 mg",
+            "Amiodarone 5 mg/kg or lidocaine 1 mg/kg for shock-refractory VF/pVT"
+          ]
+        },
+        {
+          "title": "4) Shock types",
+          "paragraphs": [
+            "Hypovolemic, distributive, cardiogenic and obstructive shock require different resuscitation. Fluid volume/rate should reflect cause and response; cardiogenic shock can worsen with indiscriminate large boluses."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "ก่อนคลอด: team briefing/equipment check",
-        "หลังคลอดประเมิน term, tone, breathing/crying และดำเนิน cord/thermal plan",
-        "ถ้า apnea/gasping หรือ HR <100: เริ่ม ventilation และ monitor response",
-        "ถ้า HR ยัง <100: optimize ventilation/corrective steps และพิจารณา alternative airway",
-        "ถ้า HR <60 หลัง effective ventilation: chest compression 3:1 + 100% oxygen + vascular access pathway"
+        "Pediatric arrest often follows hypoxia/shock",
+        "Defibrillation first for VF/pVT",
+        "Early epinephrine matters in nonshockable arrest",
+        "Avoid routine calcium/bicarbonate unless special indication"
       ],
       "quick_review": [
-        "Ventilation quality > medication priority",
-        "HR response เป็นตัวชี้สำคัญของ effective ventilation",
-        "Target SpO₂ เพิ่มขึ้นตามนาทีหลังคลอด ไม่ต้องรีบให้ 100% O₂ ในทุกคนตั้งแต่แรก"
+        "2 J/kg → 4 J/kg",
+        "Epi 0.01 mg/kg IV/IO",
+        "Ventilate 20–30/min with advanced airway"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Earlier epinephrine in nonshockable pediatric arrest",
+          "takeaway": "Evidence updates identified observational studies linking shorter time to first epinephrine with better outcomes in nonshockable arrest; certainty remains limited.",
+          "source": "ILCOR/AHA-AAP",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074853/205239/",
+          "evidence": "Evidence update"
+        }
       ],
       "sources": [
-        "AHA/AAP 2025 Neonatal Resuscitation Guidelines"
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด NEONATE / NRP",
+          "label": "PALS Calculator",
+          "route": "peds-neonate-calc"
+        },
+        {
+          "label": "Cardiac Arrest",
+          "route": "cardiac-arrest"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Initial nonshockable pediatric arrest: epinephrine timing?",
+          "options": [
+            "As early as possible",
+            "After 20 minutes",
+            "Never",
+            "Only after 3 shocks"
+          ],
+          "answer": 0,
+          "explain": "2025 PALS supports early epinephrine for nonshockable arrest."
+        },
+        {
+          "q": "Routine calcium in pediatric arrest?",
+          "options": [
+            "Recommended for all",
+            "Not recommended except special circumstances",
+            "Required every 5 min",
+            "Only oral"
+          ],
+          "answer": 1,
+          "explain": "Routine calcium is not recommended except specific indications such as hypocalcemia, hyperkalemia or CCB overdose."
+        }
+      ]
+    },
+    {
+      "id": "peds-arrhythmia",
+      "category": "pediatrics",
+      "title": "Pediatric Bradycardia, SVT & Wide-Complex Tachycardia",
+      "minutes": 25,
+      "level": "Advanced",
+      "summary": "Arrhythmia ในเด็กต้องเริ่มจาก perfusion/respiratory status. Bradycardia ส่วนใหญ่ secondary; tachycardia ต้องแยก sinus tachycardia, SVT และ wide-complex rhythms.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Bradycardia",
+          "paragraphs": [
+            "Correct hypoxia/ventilation first. If HR <60/min with cardiopulmonary compromise despite effective ventilation with oxygen → start CPR. Epinephrine IV/IO if persistent after correction. Atropine for increased vagal tone/primary AV block."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) SVT",
+          "paragraphs": [
+            "SVT often regular narrow complex, abrupt onset, rate often very high for age. Stable → vagal then adenosine if access available. Unstable → synchronized cardioversion starting 0.5–1 J/kg, then 2 J/kg."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Wide-complex tachycardia",
+          "paragraphs": [
+            "Consider VT vs SVT with aberrancy; if unstable cardiovert. Stable wide-complex requires expert guidance and careful drug selection; avoid reflex AV nodal blockade in pre-excitation contexts."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Brady = oxygenation/ventilation first",
+        "Stable SVT: vagal/adenosine",
+        "Unstable SVT/VT with pulse: synchronized cardioversion",
+        "Treat patient physiology first"
+      ],
+      "quick_review": [
+        "HR <60 + compromise despite ventilation → CPR",
+        "Cardioversion 0.5–1 then 2 J/kg"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Pediatric Brady/Tachy",
+          "route": "peds-arrhythmia"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Atropine เหมาะที่สุดใน pediatric brady แบบใด?",
+          "options": [
+            "Hypoxia alone",
+            "Increased vagal tone or primary AV block",
+            "Any tachycardia",
+            "VF"
+          ],
+          "answer": 1,
+          "explain": "2025 PALS limits atropine use to vagal tone/AV conduction block contexts rather than hypoxic bradycardia."
+        }
+      ]
+    },
+    {
+      "id": "neonatal-transition",
+      "category": "neonatal",
+      "title": "Neonatal Transition & Initial Steps: first minute matters",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "Neonatal resuscitation differs from PALS: most bradycardia at birth is due to ineffective ventilation/gas exchange. Effective lung inflation is the central intervention.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Transition physiology",
+          "paragraphs": [
+            "At birth pulmonary vascular resistance falls, lungs aerate and oxygen saturation rises gradually over minutes. Newborn targets are therefore lower than older children/adults in the first minutes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Initial questions",
+          "paragraphs": [
+            "Term gestation? good tone? breathing/crying? If yes → routine care/temperature/ongoing evaluation. If no → warm, dry, position, stimulate, clear airway only if needed."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) When to ventilate",
+          "paragraphs": [
+            "Apnea/gasping or HR <100/min → begin positive-pressure ventilation promptly. Rise in heart rate is the best indicator of effective ventilation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Oxygen strategy",
+          "paragraphs": [
+            "2025 AHA/AAP: term/late preterm ≥35 wk can reasonably start respiratory support with 21% O₂; 32–34+6 wk 21–30%; <32 wk may need 30–100%, titrated to preductal SpO₂ targets."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Ventilation is the priority",
+        "HR response tells you if ventilation works",
+        "Preductal oximeter = right hand/wrist",
+        "Avoid both hypoxia and hyperoxia"
+      ],
+      "quick_review": [
+        "Apnea/gasping or HR<100 → PPV",
+        "HR rise = ventilation success",
+        "Right hand/wrist SpO₂"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP Neonatal Resuscitation 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "NEONATE Calculator",
+          "route": "peds-neonate-calc"
+        },
+        {
+          "label": "Neonatal algorithm",
           "route": "neonate"
-        },
-        {
-          "label": "เปิด NEONATE Calculator",
-          "route": "peds-neonate-calc"
         }
       ],
       "quiz": [
         {
-          "q": "Intervention สำคัญที่สุดใน neonatal bradycardia ส่วนใหญ่คือ?",
+          "q": "Key indicator of effective PPV in newborn?",
           "options": [
-            "Effective ventilation",
-            "Adenosine",
-            "Defibrillation",
-            "Atropine"
+            "Rising heart rate",
+            "Tube fogging",
+            "Skin color alone",
+            "BP only"
           ],
           "answer": 0,
-          "explain": "Newborn bradycardia มักเกิดจาก inadequate ventilation/gas exchange."
-        },
-        {
-          "q": "Compression:ventilation ratio ใน neonatal resuscitation คือ?",
-          "options": [
-            "30:2",
-            "15:2",
-            "3:1",
-            "5:1"
-          ],
-          "answer": 2,
-          "explain": "NRP ใช้ 3:1 เมื่อ chest compressions indicated."
+          "explain": "A rising heart rate is the primary indicator of effective ventilation."
         }
       ]
     },
     {
-      "id": "nrp-airway",
+      "id": "neonatal-airway",
       "category": "neonatal",
-      "title": "Neonatal Airway: ETT, Depth & Blade",
-      "minutes": 9,
-      "level": "Core",
-      "summary": "Neonatal airway selection ใช้ gestational age และ birth weight เพื่อเตรียม ETT/depth และ blade โดยต้องยืนยันตำแหน่งหลังใส่เสมอ.",
+      "title": "Neonatal Ventilation, ETT, Laryngeal Mask & Video Laryngoscopy",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "Airway newborn ต้องคิดตาม GA/weight, device availability และ ventilation effectiveness. New 2025 evidence strengthens the role of supraglottic airway and video laryngoscopy in selected settings.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Face-mask ventilation problems",
+          "paragraphs": [
+            "Mask leak and airway obstruction are common. If HR stays <100/min despite PPV, perform corrective ventilation steps and consider alternative airway."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Laryngeal mask",
+          "paragraphs": [
+            "2025 guidance: laryngeal mask is reasonable as an alternative to ETT when face-mask ventilation fails in newborns ≥34 weeks, and may be reasonable as a primary ventilation interface in that group where training/resources support it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) ETT sizing & depth",
+          "paragraphs": [
+            "Use GA/weight table rather than one universal formula. Prepare adjacent tube sizes and confirm depth by clinical response/exhaled CO₂ and local imaging where appropriate."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Video laryngoscopy evidence",
+          "paragraphs": [
+            "ILCOR 2025 suggests video laryngoscopy over traditional laryngoscopy where resources/training allow, especially for less-experienced clinicians. Meta-analysis of RCTs showed higher overall and first-attempt success."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Blade selection",
+          "paragraphs": [
+            "Straight Miller-type blades are standard neonatal tools; #00 for extremely preterm/small infants in some systems, #0 for preterm, #1 for term/larger infants, but exact device choice should follow local equipment and training."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "เตรียม straight Miller blade ให้เหมาะกับ prematurity/size",
-        "ETT size/depth เป็น starting estimate ไม่ใช่ confirmation",
-        "Extremely preterm อาจต้องอุปกรณ์ขนาดเล็กกว่า term infant",
-        "Depth ต้องยืนยันด้วย clinical response และ exhaled CO₂/วิธีตามระบบ",
-        "หลังยึดท่อให้ reassess หลัง movement ทุกครั้ง"
+        "Fix ventilation before compressions",
+        "GA/weight guide ETT selection",
+        "SGA is increasingly important ≥34 wk",
+        "Video laryngoscopy improves first-attempt success in neonatal evidence"
       ],
       "quick_review": [
-        "Term มักเตรียม Miller #1",
-        "Preterm มักเตรียม Miller #0; extremely small preterm อาจเตรียม #00",
-        "ใช้ NEONATE calculator เพื่อดู GA/weight-based estimate"
+        "Preterm often Miller 0; term often Miller 1",
+        "Confirm exhaled CO₂",
+        "Prepare backup size/device"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Neonatal video laryngoscopy evidence",
+          "takeaway": "Across 4 RCTs, video laryngoscopy increased overall and first-attempt intubation success; ILCOR 2025 conditionally favors VL where resources/training permit.",
+          "source": "ILCOR 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074766/205238/",
+          "evidence": "Systematic review evidence"
+        },
+        {
+          "year": 2026,
+          "title": "NICU quality improvement with VL",
+          "takeaway": "A 2026 QI project reported sustained improvement in first-attempt success after implementing VL and standardized oxygenation, including infants <1000 g.",
+          "source": "Pediatrics 2026",
+          "url": "https://publications.aap.org/pediatrics/article/158/3/e2025074216/208610/",
+          "evidence": "Quality improvement"
+        }
       ],
       "sources": [
-        "Queensland Neonatal Resuscitation guideline",
-        "Ambulance Victoria Newborn Resuscitation CPG",
-        "AHA/AAP 2025 Neonatal"
+        {
+          "label": "AHA/AAP Neonatal 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/",
+          "type": "primary"
+        },
+        {
+          "label": "ILCOR Neonatal Life Support 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074766/205238/",
+          "type": "primary"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด NEONATE Calculator",
+          "label": "NEONATE Calculator",
           "route": "peds-neonate-calc"
         },
         {
-          "label": "เปิด ETT Confirmation",
+          "label": "ETT Confirmation",
           "route": "ett-confirm"
         }
       ],
       "quiz": [
         {
-          "q": "Term newborn โดยทั่วไปควรเตรียม Miller blade ใด?",
+          "q": "2025 neonatal guidance supports laryngeal mask most clearly in which group?",
           "options": [
-            "#00",
-            "#0",
-            "#1",
-            "#4"
+            "≥34 weeks gestation",
+            "All 22-week infants",
+            "Adults only",
+            "Never"
           ],
-          "answer": 2,
-          "explain": "Term newborn โดยทั่วไปใช้ straight Miller #1; size ต้องปรับตามทารก/อุปกรณ์."
+          "answer": 0,
+          "explain": "Evidence and recommendations are strongest for newborns ≥34 weeks."
         },
         {
-          "q": "ETT depth table มีบทบาทอย่างไร?",
+          "q": "2025 neonatal evidence for video laryngoscopy?",
           "options": [
-            "ยืนยันตำแหน่งได้ 100%",
-            "เป็น starting estimate ที่ต้อง confirm",
-            "ใช้แทน CO₂ detection",
-            "ไม่ต้องดู weight/GA"
+            "Lower first-attempt success",
+            "Higher first-attempt success",
+            "No data at all",
+            "Prohibited"
           ],
           "answer": 1,
-          "explain": "Depth เป็น estimate และต้อง confirm tube placement clinically."
+          "explain": "RCT evidence summarized by ILCOR showed improved first-attempt success."
+        }
+      ]
+    },
+    {
+      "id": "neonatal-advanced",
+      "category": "neonatal",
+      "title": "Advanced Neonatal Resuscitation: compressions, epinephrine, volume, post-care",
+      "minutes": 28,
+      "level": "Advanced",
+      "summary": "เมื่อ HR ยัง <60/min หลัง ventilation ที่ทำให้ chest movement แล้ว ให้ escalate อย่างเป็นลำดับ: alternative airway → compressions 3:1 → oxygen/vascular access → epinephrine → causes/volume.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Chest compressions",
+          "paragraphs": [
+            "If HR remains <60/min despite 30 s effective ventilation, provide chest compressions. Preferred technique = two-thumb encircling hands, ratio 3:1 with ventilation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Epinephrine",
+          "paragraphs": [
+            "If HR remains <60/min despite 60 s compressions + adequate ventilation, give intravascular epinephrine 0.01–0.03 mg/kg. ET epinephrine 0.05–0.1 mg/kg may be used while obtaining vascular access. Repeat q3–5 min if needed."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Vascular access",
+          "paragraphs": [
+            "Low-lying umbilical venous catheter is preferred; IO may be considered when IV/UVC not feasible, depending on setting and expertise."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Volume expansion",
+          "paragraphs": [
+            "When blood loss/hypovolemia is suspected and there is inadequate response to epinephrine, volume expansion is indicated; choice/volume follow neonatal/local protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Postresuscitation",
+          "paragraphs": [
+            "Monitor glucose, temperature, oxygenation/ventilation, neurologic status and complications after prolonged ventilation/advanced resuscitation."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Ventilation before compressions",
+        "3:1 compression:ventilation",
+        "IV/UVC epinephrine preferred",
+        "Think blood loss/pneumothorax if refractory"
+      ],
+      "quick_review": [
+        "Epi IV 0.01–0.03 mg/kg",
+        "ET 0.05–0.1 mg/kg while access pending",
+        "q3–5 min"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP Neonatal Resuscitation 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Neonatal Algorithm",
+          "route": "neonate"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Neonatal compressions start after?",
+          "options": [
+            "HR<60 despite effective ventilation",
+            "Any HR<100 immediately",
+            "Any cyanosis",
+            "Before PPV"
+          ],
+          "answer": 0,
+          "explain": "Effective ventilation must be established first; compressions are for persistent HR <60/min."
         }
       ]
     },
     {
       "id": "trauma-xabcde",
       "category": "trauma",
-      "title": "Trauma Primary Survey: XABCDE",
-      "minutes": 10,
-      "level": "Core",
-      "summary": "Primary survey มีเป้าหมายค้นหาและแก้ immediate life threats พร้อมกัน โดย prehospital ควรลด scene time และเลือกปลายทางที่เหมาะสม.",
+      "title": "Trauma XABCDE & Hemorrhage Control",
+      "minutes": 32,
+      "level": "Core+",
+      "summary": "เป้าหมาย trauma resuscitation คือแก้ immediate killers ตามลำดับ โดยเฉพาะ catastrophic hemorrhage, airway compromise, tension physiology และ shock ขณะลด scene time ที่ไม่จำเป็น.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) X — exsanguination",
+          "paragraphs": [
+            "Control catastrophic external bleeding immediately: direct pressure, wound packing/hemostatic gauze, tourniquet when indicated. Reassess bleeding after movement/transport."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) A/B",
+          "paragraphs": [
+            "Airway with C-spine consideration when mechanism/assessment indicates. Breathing: identify tension pneumothorax, open pneumothorax, massive hemothorax, flail/chest wall injury and ventilatory failure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) C — perfusion",
+          "paragraphs": [
+            "Assess pulse quality, skin, mental status, BP trend and shock index. Avoid spending scene time on interventions that do not change immediate survival/transport priority."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) D/E",
+          "paragraphs": [
+            "GCS/pupils/glucose when indicated. Fully expose enough to find injury while actively preventing hypothermia because hypothermia worsens coagulopathy."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Handover",
+          "paragraphs": [
+            "MIST/ATMIST should transmit mechanism, injuries/findings, vital trends and treatment/response—not just single vital values."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "X: catastrophic external hemorrhage control ก่อน airway เมื่อมี massive bleeding",
-        "A: airway + cervical spine consideration ตามกลไก/ข้อบ่งชี้",
-        "B: identify life-threatening chest/ventilation problems",
-        "C: perfusion + hemorrhage source + shock recognition",
-        "D: neurologic status/GCS/pupils/glucose when indicated",
-        "E: expose enough to find injury while preventing hypothermia"
+        "X before A when catastrophic hemorrhage",
+        "Hypothermia prevention starts early",
+        "Trend vitals, not one reading",
+        "Transport to appropriate trauma capability"
       ],
       "quick_review": [
-        "Primary survey = identify and treat simultaneously",
-        "Repeated reassessment is part of trauma care",
-        "Prehospital notification and destination decision can change outcome"
+        "Pressure/packing/tourniquet",
+        "Tension physiology is time-critical",
+        "MIST = mechanism/injury/signs/treatment"
       ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
       "sources": [
-        "OneDrive: Trauma 3.1.pdf",
-        "OneDrive: PHTLS teaching file"
+        {
+          "label": "OneDrive Trauma 3.1 teaching reference",
+          "type": "local"
+        },
+        {
+          "label": "Brain Trauma Foundation prehospital TBI",
+          "url": "https://braintrauma.org/coma/guidelines/pre-hospital",
+          "type": "primary"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด Trauma workflow",
+          "label": "Trauma workflow",
           "route": "trauma"
         },
         {
-          "label": "เปิด MIST",
+          "label": "MIST Builder",
           "route": "mist"
         }
       ],
       "quiz": [
         {
-          "q": "X ใน XABCDE หมายถึง?",
+          "q": "Massive external hemorrhage in XABCDE ถูกจัดการเมื่อใด?",
           "options": [
-            "X-ray",
-            "Catastrophic hemorrhage",
-            "Exposure",
-            "Extrication only"
+            "หลัง E",
+            "ก่อน A",
+            "หลัง secondary survey",
+            "หลัง CT"
           ],
           "answer": 1,
-          "explain": "X prioritizes exsanguinating/catastrophic hemorrhage control."
-        },
-        {
-          "q": "Primary survey ควรทำอย่างไร?",
-          "options": [
-            "ประเมินจบทั้งหมดแล้วค่อยรักษา",
-            "Assessment และ resuscitation ทำควบคู่กัน",
-            "ทำเฉพาะใน ER",
-            "ไม่ต้อง reassess"
-          ],
-          "answer": 1,
-          "explain": "Immediate life threats should be treated as they are identified."
+          "explain": "Catastrophic hemorrhage is the X priority before standard ABCDE."
         }
       ]
     },
     {
-      "id": "trauma-shock",
+      "id": "tbi-deep",
       "category": "trauma",
-      "title": "Trauma Shock & Perfusion",
-      "minutes": 9,
-      "level": "Core",
-      "summary": "Shock recognition ต้องอาศัย pattern ของ perfusion ไม่ใช่ BP อย่างเดียว โดยเฉพาะเด็ก ผู้สูงอายุ นักกีฬา และผู้ใช้ beta-blocker.",
+      "title": "Traumatic Brain Injury: prevent secondary brain injury",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "TBI outcome is heavily influenced by secondary insults—especially hypoxemia, hypotension, abnormal ventilation and delayed definitive care.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Primary vs secondary injury",
+          "paragraphs": [
+            "Primary injury occurs at impact; secondary injury evolves through ischemia, edema, excitotoxicity and impaired autoregulation. EMS cannot reverse primary injury but can prevent secondary insults."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Oxygenation/ventilation",
+          "paragraphs": [
+            "Avoid SpO₂ <90%. Establish airway if severe TBI with inability to protect airway or refractory hypoxemia. After intubation, monitor EtCO₂; avoid routine hyperventilation. BTF prehospital guidance targets normal ventilation, often EtCO₂ 35–40 mmHg, unless signs of herniation justify temporary hyperventilation per protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Blood pressure",
+          "paragraphs": [
+            "Hypotension worsens cerebral ischemia. Severe TBI guidelines suggest age-based higher SBP targets in adults; prehospital teams should avoid hypotension and treat shock while minimizing delay."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Neuro exam",
+          "paragraphs": [
+            "Trend GCS and pupils after ABC stabilization and preferably before sedative/paralytic drugs. Document lateralizing signs and changes over time."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Destination",
+          "paragraphs": [
+            "Severe TBI benefits from trauma/neurosurgical capability. Transport strategy should minimize total time to CT/neurosurgical care."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "ดู mental status, skin, pulse quality, HR/BP trend, capillary refill และ mechanism",
-        "Shock Index = HR/SBP เป็น adjunct ไม่ใช่ standalone diagnosis",
-        "Hypotension อาจมาช้า; normal BP ไม่ตัด occult shock",
-        "Control hemorrhage และ minimize heat loss",
-        "Fluid/blood strategy ต้องตาม current trauma/local protocol"
+        "Avoid hypoxia and hypotension",
+        "Avoid routine hyperventilation",
+        "Trend GCS/pupils",
+        "Destination matters"
       ],
       "quick_review": [
-        "Trend มีค่ามากกว่าค่าเดียว",
-        "SI ≥1 เป็น red flag ในหลายบริบท แต่ต้องตีความตามผู้ป่วย",
-        "Reassess response after each intervention"
+        "SpO₂ <90% is dangerous",
+        "EtCO₂ monitoring after RSI",
+        "GCS trend > single score"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "BTF prehospital TBI 3rd edition",
+          "takeaway": "The Brain Trauma Foundation now lists a 3rd edition prehospital guideline framework covering oxygenation, BP, ventilation, GCS, pupils, fluids, hyperosmolar therapy and destination decisions.",
+          "source": "Brain Trauma Foundation",
+          "url": "https://braintrauma.org/coma/guidelines/pre-hospital",
+          "evidence": "Guideline update"
+        }
       ],
       "sources": [
-        "OneDrive: Trauma 3.1.pdf",
-        "Current local trauma protocol required for definitive fluid/blood strategy"
+        {
+          "label": "Brain Trauma Foundation Prehospital TBI Guidelines",
+          "url": "https://braintrauma.org/coma/guidelines/pre-hospital",
+          "type": "primary"
+        },
+        {
+          "label": "Brain Trauma Foundation Severe TBI",
+          "url": "https://braintrauma.org/coma/guidelines/severe-tbi",
+          "type": "primary"
+        },
+        {
+          "label": "OneDrive Trauma 3.1",
+          "type": "local"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด Shock Index",
-          "route": "shock-index"
+          "label": "GCS Calculator",
+          "route": "gcs"
         },
         {
-          "label": "เปิด MAP",
-          "route": "map"
+          "label": "Trauma workflow",
+          "route": "trauma"
         }
       ],
       "quiz": [
         {
-          "q": "Shock Index คำนวณจาก?",
+          "q": "Routine prophylactic hyperventilation in severe TBI?",
           "options": [
-            "SBP/HR",
-            "HR/SBP",
-            "DBP/HR",
-            "MAP/RR"
+            "Recommended",
+            "Avoid unless specific herniation indication/protocol",
+            "Always ETCO₂ <25",
+            "No EtCO₂ monitoring"
           ],
           "answer": 1,
-          "explain": "Shock Index = HR ÷ SBP."
-        },
-        {
-          "q": "Normal BP ใน trauma หมายความว่าอย่างไร?",
-          "options": [
-            "ตัด shock ได้",
-            "ยังอาจมี compensated/occult shock",
-            "ไม่ต้อง reassess",
-            "ไม่มี bleeding"
-          ],
-          "answer": 1,
-          "explain": "BP อาจยังปกติใน compensated shock."
+          "explain": "Routine hyperventilation can reduce cerebral blood flow and is avoided except selected herniation contexts."
         }
       ]
     },
     {
-      "id": "trauma-head-chest",
+      "id": "chest-trauma",
       "category": "trauma",
-      "title": "Head & Chest Trauma Red Flags",
-      "minutes": 9,
-      "level": "Intermediate",
-      "summary": "Head/chest trauma มี life threats ที่อาจไม่ชัดในช่วงแรก จึงต้องใช้ repeated ABCD reassessment และ mechanism-based suspicion.",
+      "title": "Chest Trauma: tension pneumothorax, hemothorax, flail chest, tamponade",
+      "minutes": 28,
+      "level": "Advanced",
+      "summary": "Chest trauma kills through ventilation failure and obstructive/hemorrhagic shock. Diagnosis is primarily clinical in the unstable patient.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Tension pneumothorax",
+          "paragraphs": [
+            "Think respiratory distress, unilateral reduced breath sounds, shock/obstructive physiology; late tracheal deviation is not required. Immediate decompression follows local scope/protocol when clinically suspected in an unstable patient."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Open pneumothorax",
+          "paragraphs": [
+            "Manage open chest wound with appropriate vented/occlusive strategy per protocol while watching for tension development."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Massive hemothorax",
+          "paragraphs": [
+            "Causes both blood loss and impaired ventilation. Look for shock + decreased breath sounds/dullness; definitive treatment requires chest drainage/surgery at hospital."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Tamponade / blunt cardiac injury",
+          "paragraphs": [
+            "Tamponade may present with obstructive shock but classic Beck triad is often incomplete in trauma. ECG/ultrasound can support diagnosis; rapid transport/definitive intervention matters."
+          ],
+          "bullets": []
+        }
+      ],
       "key_points": [
-        "Chest: tension pneumothorax/open pneumothorax/massive hemothorax/tamponade เป็น immediate threats",
-        "Head: ติดตาม GCS trend, pupils และ signs of deterioration",
-        "Hypoxia/hypotension ทำให้ secondary brain injury แย่ลง",
-        "Airway/ventilation intervention ต้องคำนึงถึง hemodynamics",
-        "Transport destination/activation ตาม trauma system สำคัญพอ ๆ กับ procedure"
+        "Clinical deterioration can precede textbook signs",
+        "Tension pneumothorax is a clinical emergency",
+        "Chest injury can cause both respiratory and circulatory failure"
       ],
       "quick_review": [
-        "Deteriorating GCS = reassess ABC ก่อนสรุปว่าเป็น neurologic อย่างเดียว",
-        "Absent/asymmetric breath sounds + shock ต้องคิด chest life threat",
-        "Prevent hypothermia throughout trauma care"
+        "Unilateral breath loss + shock = tension until proven otherwise in the right context",
+        "Classic signs may be absent"
       ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
       "sources": [
-        "OneDrive: Trauma 3.1.pdf",
-        "OneDrive: Head trauma / thoracic injury teaching material"
+        {
+          "label": "OneDrive Trauma 3.1",
+          "type": "local"
+        },
+        {
+          "label": "PHTLS/ATLS-aligned principles",
+          "type": "educational"
+        }
       ],
       "actions": [
         {
-          "label": "เปิด Trauma workflow",
+          "label": "Trauma workflow",
           "route": "trauma"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Tracheal deviation จำเป็นต้องมีเพื่อวินิจฉัย tension pneumothorax หรือไม่?",
+          "options": [
+            "จำเป็น",
+            "ไม่จำเป็น เป็น late sign"
+          ],
+          "answer": 1,
+          "explain": "Diagnosis in unstable trauma is clinical; late textbook signs may be absent."
+        }
+      ]
+    },
+    {
+      "id": "prehospital-blood",
+      "category": "trauma",
+      "title": "Hemorrhagic Shock & Prehospital Blood: what is changing?",
+      "minutes": 26,
+      "level": "Advanced",
+      "summary": "การ resuscitate hemorrhage เปลี่ยนจาก crystalloid-heavy ไปสู่ early blood component/whole blood strategies ใน systems ที่พร้อม โดยต้อง balance evidence, logistics, safety and local protocol.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Hemorrhagic shock physiology",
+          "paragraphs": [
+            "Loss of circulating volume reduces preload and oxygen delivery; compensatory vasoconstriction/tachycardia may mask severity. Lactate/mental status/skin/pulse/BP trends help assess perfusion."
+          ],
+          "bullets": []
         },
         {
-          "label": "เปิด GCS",
+          "title": "2) Why blood rather than large crystalloid volumes",
+          "paragraphs": [
+            "Large crystalloid volumes can worsen dilution, edema, hypothermia and coagulopathy. Modern trauma systems increasingly prioritize blood products when available for severe hemorrhagic shock."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Prehospital whole blood",
+          "paragraphs": [
+            "Implementation requires cold chain, donor/product policy, transfusion reactions preparedness and clear activation criteria. Evidence is evolving and system-specific."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Control bleeding + restore oxygen-carrying capacity",
+        "Avoid unnecessary crystalloid overload",
+        "Whole blood programs require system infrastructure"
+      ],
+      "quick_review": [
+        "Hemorrhage control first",
+        "Warm patient/products",
+        "Trend response"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "TOWAR prehospital whole blood trial",
+          "takeaway": "A large pragmatic cluster-randomized phase 3 trial compared up to 2 units of whole blood with component therapy in prehospital trauma hemorrhage, reflecting the rapid maturation of prehospital transfusion systems. Interpret outcomes in context of local capability and protocol.",
+          "source": "NEJM 2026",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602167",
+          "evidence": "Randomized trial"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OneDrive Trauma 3.1",
+          "type": "local"
+        },
+        {
+          "label": "TOWAR trial NEJM 2026",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602167",
+          "type": "research"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "Large-volume crystalloid in hemorrhagic shock can worsen?",
+          "options": [
+            "Dilution/hypothermia/coagulopathy",
+            "Oxygen carrying capacity",
+            "Hemoglobin concentration",
+            "Clot strength"
+          ],
+          "answer": 0,
+          "explain": "Excess crystalloid may worsen dilution, hypothermia and coagulopathy."
+        }
+      ]
+    },
+    {
+      "id": "stroke-2026",
+      "category": "neuro",
+      "title": "Acute Ischemic Stroke 2026: EMS triage, TNK, thrombectomy & time windows",
+      "minutes": 32,
+      "level": "Core+",
+      "summary": "2026 AHA/ASA guideline updates the full stroke pathway from prehospital evaluation through acute treatment, with broader thrombectomy eligibility and stronger systems-of-care emphasis.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Prehospital recognition",
+          "paragraphs": [
+            "Use validated stroke recognition, establish last known well, glucose, anticoagulant history, baseline function and rapid destination decision. BE-FAST helps capture posterior symptoms but should not replace local stroke scale/pathway."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Time & imaging",
+          "paragraphs": [
+            "Do not delay transport for unnecessary interventions. In-hospital imaging determines hemorrhage, LVO and thrombolysis/thrombectomy eligibility; prehospital notification helps shorten door-to-treatment times."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) 2026 thrombolysis update",
+          "paragraphs": [
+            "For eligible adults within 4.5 h, 2026 guideline recommends tenecteplase 0.25 mg/kg (max 25 mg) or alteplase 0.9 mg/kg. Extended-window thrombolysis may be reasonable in selected patients based on advanced imaging."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Thrombectomy expansion",
+          "paragraphs": [
+            "Eligibility for EVT has broadened, including selected larger-core and posterior circulation/basilar occlusions, with recommendations extending to up to 24 h in defined populations."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Supportive care",
+          "paragraphs": [
+            "Avoid hypoglycemia; treat severe abnormalities, monitor oxygenation/BP per stroke protocol, and avoid treatment that delays reperfusion."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "LKW is critical",
+        "Glucose early",
+        "Pre-notification improves system speed",
+        "2026 guideline broadens TNK/EVT framework"
+      ],
+      "quick_review": [
+        "BE-FAST + LKW + glucose",
+        "Think posterior stroke",
+        "Do not delay definitive stroke pathway"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "Major guideline update",
+          "takeaway": "2026 AIS guidance endorses mobile stroke units, refines EMS triage, expands tenecteplase use and broadens EVT eligibility including basilar occlusion and selected larger-core patients.",
+          "source": "AHA/ASA 2026",
+          "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke",
+          "evidence": "Guideline update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA/ASA 2026 Acute Ischemic Stroke Guideline",
+          "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Stroke workflow",
+          "route": "stroke"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "2026 AIS guideline recognizes which thrombolytic option within 4.5 h in eligible adults?",
+          "options": [
+            "Tenecteplase 0.25 mg/kg or alteplase 0.9 mg/kg",
+            "Aspirin only",
+            "Heparin bolus for all",
+            "No thrombolysis"
+          ],
+          "answer": 0,
+          "explain": "The 2026 guideline recommends either TNK 0.25 mg/kg (max 25 mg) or alteplase 0.9 mg/kg in eligible adults."
+        }
+      ]
+    },
+    {
+      "id": "seizure-ams",
+      "category": "neuro",
+      "title": "Seizure, Status Epilepticus & Altered Mental Status",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "ชักเป็น symptom ไม่ใช่ diagnosis. EMS ต้อง prioritize safety/ABC, duration, glucose, pregnancy/toxin/trauma, temperature and persistent altered state.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Seizure priorities",
+          "paragraphs": [
+            "Protect from injury, position/suction airway as needed, monitor ventilation/oxygenation, obtain glucose and time the seizure. Do not restrain forcefully or place objects in the mouth."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Status / ongoing seizure",
+          "paragraphs": [
+            "Persistent convulsive seizure is time-sensitive because longer duration increases treatment resistance and metabolic complications. Benzodiazepine route/dose must follow local protocol and available access."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Differential",
+          "paragraphs": [
+            "Hypoglycemia, stroke/ICH, infection, eclampsia, toxin/withdrawal, electrolyte disturbance, trauma and psychogenic nonepileptic events are important differentials."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Post-ictal reassessment",
+          "paragraphs": [
+            "Repeat neuro exam, vitals, glucose, trauma check and transport decision. Failure to regain expected mental status raises concern for nonconvulsive status, structural lesion or ongoing toxic/metabolic problem."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Time the seizure",
+        "Check glucose early",
+        "Persistent altered mental status needs reassessment",
+        "Pregnancy + seizure = eclampsia until evaluated"
+      ],
+      "quick_review": [
+        "ABC + glucose + duration",
+        "Look for trauma/toxin/pregnancy",
+        "Post-ictal ≠ automatic discharge"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "Emergency neurology references",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Seizure checklist",
+          "route": "seizure"
+        },
+        {
+          "label": "GCS Calculator",
           "route": "gcs"
         }
       ],
       "quiz": [
         {
-          "q": "ผู้ป่วย head trauma GCS ลดลง สิ่งแรกที่ควรทำคือ?",
+          "q": "Early bedside test in altered/seizing patient?",
           "options": [
-            "สรุป intracranial bleeding ทันที",
-            "Reassess ABC/oxygenation/perfusion พร้อม neuro exam",
-            "ให้เดินทดสอบ",
-            "หยุด monitoring"
+            "Glucose",
+            "AFP",
+            "HbA1c only",
+            "Bone scan"
           ],
-          "answer": 1,
-          "explain": "Hypoxia/hypotension และ airway problems สามารถทำให้ neurologic status แย่ลงและต้องแก้ทันที."
+          "answer": 0,
+          "explain": "Hypoglycemia is rapidly reversible and must be checked early."
+        }
+      ]
+    },
+    {
+      "id": "shock-physiology",
+      "category": "shock",
+      "title": "Shock Physiology: preload, pump, SVR and oxygen delivery",
+      "minutes": 30,
+      "level": "Core+",
+      "summary": "เรียน shock โดยถาม 4 อย่าง: volume/preload, pump, vascular tone, obstruction. การรู้ physiology ช่วยเลือก fluid, vasopressor, ventilation and destination ได้ถูกกว่าใช้ BP อย่างเดียว.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Oxygen delivery",
+          "paragraphs": [
+            "DO₂ ≈ cardiac output × arterial oxygen content. Cardiac output = HR × stroke volume; oxygen content depends heavily on hemoglobin and saturation. Normal BP ไม่ได้แปลว่า perfusion ปกติ."
+          ],
+          "bullets": []
         },
         {
-          "q": "ข้อใดเป็น immediate chest life threat?",
+          "title": "2) Hypovolemic shock",
+          "paragraphs": [
+            "Low preload from hemorrhage/dehydration. Treat source + appropriate volume/blood strategy. Hemorrhage requires bleeding control, not just fluid."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Distributive shock",
+          "paragraphs": [
+            "Vasodilation/maldistribution (sepsis, anaphylaxis, neurogenic). Fluid and vasopressor needs depend on cause, response and local protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Cardiogenic shock",
+          "paragraphs": [
+            "Pump failure: MI, myocarditis, severe arrhythmia. Excess fluid can worsen pulmonary edema; consider vasoactive/inotropic support and reperfusion/definitive care."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Obstructive shock",
+          "paragraphs": [
+            "Tension pneumothorax, tamponade, massive PE impair filling/outflow. Definitive relief of obstruction is key; fluids/pressors are temporizing."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "BP is not perfusion",
+        "Treat shock cause, not only number",
+        "Hemorrhage = control + blood strategy",
+        "Obstruction needs relief"
+      ],
+      "quick_review": [
+        "Volume / pump / tone / obstruction",
+        "Trend mental status, pulse, skin, BP, lactate when available"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "PALS/Trauma/Sepsis physiology sources",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "MAP Calculator",
+          "route": "map"
+        },
+        {
+          "label": "Shock Index",
+          "route": "shock-index"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Tension pneumothorax causes which shock type?",
           "options": [
-            "Simple rib tenderness",
-            "Tension pneumothorax",
-            "Old scar",
-            "Stable clavicle fracture"
+            "Obstructive",
+            "Cardiogenic only",
+            "Distributive only",
+            "None"
+          ],
+          "answer": 0,
+          "explain": "Tension pneumothorax reduces venous return and causes obstructive shock."
+        }
+      ]
+    },
+    {
+      "id": "sepsis-2026",
+      "category": "shock",
+      "title": "Sepsis & Septic Shock 2026: recognition, source, fluids, vasopressors",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "2026 Surviving Sepsis Campaign updates adult sepsis guidance and explicitly includes the immediate prehospital setting. Early recognition, source-directed care and hemodynamic reassessment remain central.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) What sepsis is",
+          "paragraphs": [
+            "Sepsis is life-threatening organ dysfunction from a dysregulated host response to infection. Do not equate fever + tachycardia alone with sepsis; look for organ dysfunction/perfusion failure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Prehospital recognition",
+          "paragraphs": [
+            "Suspect infection + altered mentation, hypotension, tachypnea, mottling, oliguria history, elevated lactate if available. qSOFA is not a stand-alone rule-out tool."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Resuscitation thinking",
+          "paragraphs": [
+            "Give oxygen for hypoxemia, obtain IV/IO if indicated, fluid strategy should be individualized and reassessed frequently; persistent hypotension may require vasopressor support per system capability."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Source & antibiotics",
+          "paragraphs": [
+            "Definitive sepsis care requires timely antimicrobials and source control, but prehospital protocols vary. Pre-notification can speed in-hospital bundle execution."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Reassessment",
+          "paragraphs": [
+            "Reassess BP/MAP, mental status, capillary refill, urine history, lactate trend if measured, lung exam/ultrasound and signs of fluid intolerance."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Sepsis = infection + organ dysfunction",
+        "Reassess after fluid rather than fixed-volume reflex",
+        "Source control/antibiotics matter",
+        "Prehospital recognition can shorten time to treatment"
+      ],
+      "quick_review": [
+        "qSOFA is not rule-out",
+        "Look at perfusion",
+        "Avoid fluid overload in poor cardiac reserve"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "Surviving Sepsis Campaign update",
+          "takeaway": "The 2026 SSC replaces 2021 guidance with 129 statements, including 46 new statements and explicit attention to immediate prehospital care.",
+          "source": "SCCM/ESICM 2026",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "evidence": "Guideline update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Surviving Sepsis Campaign 2026",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "type": "primary"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "2026 SSC guideline scope includes?",
+          "options": [
+            "Hospital only",
+            "Hospital + immediate prehospital and post-hospital settings",
+            "Dentistry only",
+            "Pediatrics only"
           ],
           "answer": 1,
-          "explain": "Tension pneumothorax เป็น life-threatening breathing/circulatory problem."
+          "explain": "The 2026 adult guideline explicitly includes the immediate prehospital setting."
+        }
+      ]
+    },
+    {
+      "id": "med-safety",
+      "category": "pharm",
+      "title": "Emergency Pharmacology & Medication Safety",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "ความผิดพลาด EMS มักเกิดจาก concentration, decimal, weight, route หรือ unit ไม่ใช่การจำชื่อยาไม่ได้. บทนี้เน้นระบบป้องกัน error.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Dose language",
+          "paragraphs": [
+            "แยก mg, mg/kg, mcg/kg/min, mL และ concentration ให้ชัด. คำนวณ dose ก่อน แล้วค่อยแปลงเป็น volume."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Weight-based dosing",
+          "paragraphs": [
+            "ใช้ actual measured weight เมื่อเป็นไปได้. Estimated weight โดยเฉพาะ neonate/เด็กเล็กเป็น safety risk และต้อง double-check."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Concentration traps",
+          "paragraphs": [
+            "Epinephrine เป็น classic high-risk example: concentration ต่างกันตาม indication/route. แอปต้องโชว์ mg และ mL พร้อม concentration ทุกครั้ง."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Independent double-check",
+          "paragraphs": [
+            "High-alert medication ควร verbalize: patient weight, indication, dose, concentration, volume, route, max dose และ time given."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Infusions",
+          "paragraphs": [
+            "ก่อนเริ่ม infusion ให้ยืนยัน drug amount, diluent volume, final concentration, dose unit, pump rate and compatible line."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Dose first → volume second",
+        "Always display units",
+        "Use leading zero; avoid trailing zero",
+        "High-alert drugs need independent check"
+      ],
+      "quick_review": [
+        "0.1 mg ≠ 0.1 mL unless concentration says so",
+        "mcg vs mg = 1000-fold difference"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP drug tables and local medication protocols",
+          "type": "primary/local"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Dose → Volume Calculator",
+          "route": "dose-volume"
+        },
+        {
+          "label": "Drug Tools",
+          "route": "drug"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "หลักที่ปลอดภัยที่สุดก่อนแปลงยาเป็น mL?",
+          "options": [
+            "คำนวณ dose ที่ต้องการเป็น mg/mcg ก่อน",
+            "เดา volume",
+            "ใช้ mL อย่างเดียว",
+            "ไม่ต้องดู concentration"
+          ],
+          "answer": 0,
+          "explain": "Dose and concentration must be separated before calculating volume."
+        }
+      ]
+    },
+    {
+      "id": "pph-pregnancy",
+      "category": "ob",
+      "title": "Obstetric Emergencies: PPH, eclampsia & cardiac arrest in pregnancy",
+      "minutes": 32,
+      "level": "Advanced",
+      "summary": "OB emergencies combine hemorrhage, airway difficulty, altered physiology and two-patient considerations. PPH and cardiac arrest are strongly time-sensitive.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Postpartum hemorrhage",
+          "paragraphs": [
+            "PPH may occur without obvious risk factors. Quantify blood loss when possible, assess vitals/perfusion, uterine tone and source of bleeding. The 2025 WHO consolidated guideline emphasizes earlier recognition and rapid bundle-based treatment."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) WHO 2025 MOTIVE bundle",
+          "paragraphs": [
+            "Once PPH is diagnosed, WHO highlights immediate coordinated actions: uterine Massage, Oxytocic drugs, Tranexamic acid, IV fluids, Vaginal/genital tract examination, and Escalation of care."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) TXA timing",
+          "paragraphs": [
+            "WHO evidence supports early IV TXA for PPH as part of treatment; benefit decreases with delay and administration beyond 3 h after birth is not supported by the cited evidence. Local EMS scope/protocol determines prehospital use."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Pregnancy cardiac arrest",
+          "paragraphs": [
+            "AHA 2025: standard high-quality CPR + continuous left lateral uterine displacement when fundus at/above umbilicus; prepare resuscitative delivery immediately with goal completion by 5 min if no ROSC, depending on resources."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Eclampsia",
+          "paragraphs": [
+            "Pregnancy/postpartum seizure with hypertension features requires airway/oxygenation protection, magnesium-based treatment per obstetric protocol, BP management and rapid obstetric destination."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "PPH requires early recognition and coordinated response",
+        "TXA is time-sensitive",
+        "Pregnancy arrest: left uterine displacement + prepare delivery",
+        "Airway may be more difficult in pregnancy"
+      ],
+      "quick_review": [
+        "MOTIVE bundle",
+        "Goal resuscitative delivery by 5 min if no ROSC",
+        "Think eclampsia in pregnant/postpartum seizure"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "WHO consolidated PPH guideline",
+          "takeaway": "WHO/FIGO/ICM consolidated 51 evidence-based recommendations and emphasized earlier diagnosis and immediate MOTIVE bundle treatment.",
+          "source": "WHO 2025",
+          "url": "https://www.who.int/publications/i/item/9789240115637/",
+          "evidence": "Guideline update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO PPH Guideline 2025",
+          "url": "https://www.who.int/publications/i/item/9789240115637/",
+          "type": "primary"
+        },
+        {
+          "label": "AHA 2025 Pregnancy Arrest Algorithm",
+          "url": "https://www.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-SC-ACLS-CA-in-Pregnancy-250620.pdf",
+          "type": "primary"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "WHO 2025 PPH bundle acronym includes TXA?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 0,
+          "explain": "Tranexamic acid is part of the MOTIVE bundle."
+        },
+        {
+          "q": "AHA pregnancy arrest target for resuscitative delivery if no ROSC?",
+          "options": [
+            "By 5 minutes",
+            "After 30 minutes",
+            "Never",
+            "Only after CT"
+          ],
+          "answer": 0,
+          "explain": "AHA 2025 recommends preparing immediately with a goal to complete by 5 minutes when indicated/resources allow."
+        }
+      ]
+    },
+    {
+      "id": "tox-deep",
+      "category": "tox",
+      "title": "Toxicology: toxidromes, cardiotoxic poisonings & special resuscitation",
+      "minutes": 34,
+      "level": "Advanced",
+      "summary": "Toxicology management starts with supportive ABC, glucose/temperature/ECG, pattern recognition and consultation—not antidote memorization alone.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Toxidrome approach",
+          "paragraphs": [
+            "Sympathomimetic, anticholinergic, cholinergic, opioid, sedative-hypnotic and serotonin syndromes provide pattern recognition, but mixed ingestions are common."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) ECG in poisoning",
+          "paragraphs": [
+            "QRS widening, QT prolongation, AV block/bradycardia and ventricular dysrhythmia can guide urgency and toxin class. Sodium-channel blockers, TCAs and some antiarrhythmics are classic QRS-widening causes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Supportive priorities",
+          "paragraphs": [
+            "Airway/ventilation, seizure control, temperature, glucose, fluids/vasopressors and continuous ECG are often more important than a specific antidote early."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) 2025 AHA special circumstances",
+          "paragraphs": [
+            "Updated guidance covers opioid, beta-blocker, calcium-channel blocker, cocaine/sympathomimetic, cyanide, digoxin, local anesthetic systemic toxicity, methemoglobinemia, organophosphate/carbamate, sodium-channel blocker and hydrocarbon poisoning."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) CCB poisoning example",
+          "paragraphs": [
+            "2025 AHA: high-dose insulin and vasopressors are recommended for hypotension in life-threatening CCB poisoning; calcium is reasonable, while glucagon usefulness is uncertain."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Supportive care first",
+        "ECG is a toxicology vital sign",
+        "Mixed ingestions break textbook toxidromes",
+        "Call poison center/toxicology early when available"
+      ],
+      "quick_review": [
+        "Opioid: ventilation + naloxone when indicated",
+        "QRS widening: think sodium-channel blockade",
+        "Brady/hypotension: consider beta/CCB toxicity"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Special circumstances guideline expansion",
+          "takeaway": "AHA 2025 updated 44 recommendations and added 140 new recommendations across special circumstances including multiple poisonings and pregnancy.",
+          "source": "AHA 2025",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "evidence": "Guideline update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "primary"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "Life-threatening CCB poisoning with hypotension: 2025 AHA recommends?",
+          "options": [
+            "High-dose insulin + vasopressors",
+            "No hemodynamic support",
+            "Aspirin",
+            "Adenosine only"
+          ],
+          "answer": 0,
+          "explain": "High-dose insulin and vasopressors are recommended for hypotension in life-threatening CCB poisoning."
         }
       ]
     }
