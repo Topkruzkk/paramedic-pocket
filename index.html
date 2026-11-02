@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Paramedic Pocket" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Paramedic Pocket</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-wrap" onclick="go('home')" role="button" tabindex="0">
+        <div class="brand-mark" aria-hidden="true">✚</div>
+        <div>
+          <h1>Paramedic Pocket</h1>
+          <p>Clinical & EMS Toolkit • v0.3</p>
+        </div>
+      </div>
+      <button class="icon-btn" id="themeBtn" aria-label="เปลี่ยนธีม">☾</button>
+    </header>
+
+    <main id="app" class="content" aria-live="polite"></main>
+
+    <nav class="bottom-nav" aria-label="เมนูหลัก">
+      <button data-route="home" class="nav-item active"><span>⌂</span><small>หน้าแรก</small></button>
+      <button data-route="emergency" class="nav-item"><span>⚡</span><small>ฉุกเฉิน</small></button>
+      <button data-route="drug" class="nav-item"><span>💉</span><small>ยา</small></button>
+      <button data-route="tools" class="nav-item"><span>⌘</span><small>Tools</small></button>
+      <button data-route="more" class="nav-item"><span>☰</span><small>เพิ่มเติม</small></button>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
