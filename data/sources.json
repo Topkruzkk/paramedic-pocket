@@ -1,132 +1,82 @@
 [
   {
-    "id": "aha2025-adult-bls",
-    "title": "2025 AHA Adult Basic Life Support",
-    "type": "current-guideline",
+    "id": "aha-adult-algo",
+    "title": "AHA 2025 Adult Cardiac Arrest Algorithm",
+    "type": "guideline",
     "status": "verified",
     "year": 2025,
-    "reviewed_on": "2026-11-02",
-    "scope": "Adult CPR rate/depth, ventilation and BLS",
-    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
-  },
-  {
-    "id": "aha2025-adult-als",
-    "title": "2025 AHA Adult Advanced Life Support",
-    "type": "current-guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-02",
-    "scope": "Adult cardiac arrest, epinephrine timing, defibrillation, airway/capnography",
-    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support"
-  },
-  {
-    "id": "aha2025-adult-ca-algorithm",
-    "title": "2025 AHA Adult Cardiac Arrest Algorithm",
-    "type": "current-algorithm",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-02",
-    "scope": "VF/pVT, PEA/asystole, shock energy and arrest drug doses",
+    "reviewed_on": "2026-11-03",
+    "scope": "Primary-source adult cardiac arrest algorithm image and drug / airway notes",
     "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-CA-250527.pdf"
   },
   {
-    "id": "aha2025-pals",
-    "title": "2025 AHA/AAP Pediatric Advanced Life Support",
-    "type": "current-guideline",
+    "id": "aha-peds-algo",
+    "title": "AHA/AAP 2025 Pediatric Cardiac Arrest Algorithm",
+    "type": "guideline",
     "status": "verified",
     "year": 2025,
-    "reviewed_on": "2026-11-02",
-    "scope": "Pediatric arrest, defibrillation, airway, brady/tachy, shock",
-    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support"
-  },
-  {
-    "id": "aha2025-pbls",
-    "title": "2025 AHA/AAP Pediatric Basic Life Support",
-    "type": "current-guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-02",
-    "scope": "Pediatric CPR, ventilation and infant compression technique",
-    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support"
-  },
-  {
-    "id": "aha2025-peds-ca-algorithm",
-    "title": "2025 AHA/AAP Pediatric Cardiac Arrest Algorithm",
-    "type": "current-algorithm",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-02",
-    "scope": "Pediatric shock energy and cardiac arrest medication doses",
+    "reviewed_on": "2026-11-03",
+    "scope": "Primary-source pediatric cardiac arrest algorithm image and shock / epinephrine guidance",
     "url": "https://cpr.heart.org/en/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-CA-250123.pdf"
   },
   {
-    "id": "gcs-official",
-    "title": "Glasgow Coma Scale — Structured Approach",
-    "type": "reference",
+    "id": "aha-neonatal-highlights",
+    "title": "AHA/AAP 2025 Highlights – Neonatal Resuscitation Algorithm",
+    "type": "guideline",
     "status": "verified",
-    "year": 2026,
-    "reviewed_on": "2026-11-02",
-    "scope": "Eye, verbal and motor response assessment and reporting",
-    "url": "https://www.glasgowcomascale.org/"
-  },
-  {
-    "id": "thai-anaphylaxis-2017",
-    "title": "Thai CPG Anaphylaxis 2017 — AAIAT",
-    "type": "local-national-reference",
-    "status": "review",
-    "year": 2017,
-    "reviewed_on": "2026-11-02",
-    "scope": "Thai anaphylaxis recognition and treatment; retained for local comparison",
-    "url": "https://allergy.or.th/2016/resources_guideline.php"
-  },
-  {
-    "id": "rcuk-anaphylaxis-2025",
-    "title": "Resuscitation Council UK 2025 — Anaphylaxis / Special Circumstances",
-    "type": "current-external-guideline",
-    "status": "review",
     "year": 2025,
-    "reviewed_on": "2026-11-02",
-    "scope": "Current external anaphylaxis guidance; requires reconciliation with Thai/local protocol",
-    "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines"
+    "reviewed_on": "2026-11-03",
+    "scope": "Primary-source neonatal resuscitation algorithm figure and oxygen target table",
+    "url": "https://cpr.heart.org/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Resuscitation-Science/252500_Hghlghts_2025ECCGuidelines.pdf"
+  },
+  {
+    "id": "litfl-ecg",
+    "title": "LITFL Top 150 ECG",
+    "type": "reference",
+    "status": "review",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "External learning resource for ECG case practice and rhythm recognition",
+    "url": "https://litfl.com/top-100/ecg/"
+  },
+  {
+    "id": "ergoldbook",
+    "title": "ER goldbook",
+    "type": "reference",
+    "status": "review",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Thai-language emergency medicine knowledge resource",
+    "url": "https://ergoldbook.blogspot.com/"
+  },
+  {
+    "id": "medscape-em",
+    "title": "Medscape Emergency Medicine",
+    "type": "reference",
+    "status": "review",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Broad emergency medicine reference; may require login/subscription",
+    "url": "https://www.medscape.com/emergencymedicine"
   },
   {
     "id": "local-airway",
-    "title": "OneDrive: 1. Airway management.pdf",
+    "title": "OneDrive Airway teaching reference",
     "type": "local-reference",
     "status": "review",
     "year": 2022,
-    "reviewed_on": "2026-11-02",
-    "scope": "Airway, RSI, difficult airway, NIPPV, capnography",
+    "reviewed_on": "2026-11-03",
+    "scope": "Local airway teaching file used for SOAP-ME structure and cross-reference",
     "url": ""
   },
   {
-    "id": "local-pals2021",
-    "title": "OneDrive: PALS 2021 update-1.pdf",
+    "id": "local-pals-2021",
+    "title": "OneDrive PALS 2021 teaching reference",
     "type": "local-reference",
     "status": "review",
     "year": 2021,
-    "reviewed_on": "2026-11-02",
-    "scope": "Pediatric BLS/PALS teaching reference; contains older techniques retained only for comparison",
-    "url": ""
-  },
-  {
-    "id": "local-phtls",
-    "title": "OneDrive: 1. PHTLS สอน นักศึกษา Paramedic.pdf",
-    "type": "local-reference",
-    "status": "review",
-    "year": 2022,
-    "reviewed_on": "2026-11-02",
-    "scope": "Trauma / prehospital trauma teaching reference",
-    "url": ""
-  },
-  {
-    "id": "local-pals2021-ett-dose",
-    "title": "OneDrive: PALS 2021 update-1.pdf — ETT formula / adenosine teaching doses",
-    "type": "local-reference",
-    "status": "review",
-    "year": 2021,
-    "reviewed_on": "2026-11-02",
-    "scope": "Age-based ETT size/depth estimates and pediatric teaching doses retained for local review",
+    "reviewed_on": "2026-11-03",
+    "scope": "Used for comparison only where current 2025 guidance differs",
     "url": ""
   }
 ]
