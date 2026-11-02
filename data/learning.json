@@ -1,0 +1,816 @@
+{
+  "categories": [
+    {
+      "id": "cardiology",
+      "icon": "❤️",
+      "title": "Cardiology & ECG",
+      "desc": "ECG approach, ACS, brady/tachy",
+      "order": 1
+    },
+    {
+      "id": "airway",
+      "icon": "🫁",
+      "title": "Airway & Respiratory",
+      "desc": "Assessment, oxygenation, ETT confirmation",
+      "order": 2
+    },
+    {
+      "id": "pals",
+      "icon": "👶",
+      "title": "PALS",
+      "desc": "Pediatric assessment, arrest, arrhythmia",
+      "order": 3
+    },
+    {
+      "id": "neonatal",
+      "icon": "🍼",
+      "title": "Neonatal / NRP",
+      "desc": "Initial steps, ventilation, neonatal airway",
+      "order": 4
+    },
+    {
+      "id": "trauma",
+      "icon": "🩸",
+      "title": "Trauma",
+      "desc": "XABCDE, shock, head/chest trauma",
+      "order": 5
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ecg-systematic",
+      "category": "cardiology",
+      "title": "อ่าน ECG อย่างเป็นระบบ",
+      "minutes": 10,
+      "level": "Core",
+      "summary": "เริ่มจาก clinical context แล้วอ่าน ECG ด้วยลำดับคงที่เพื่อลดการพลาด: rhythm → rate → intervals → P wave → QRS → ST-T → comparison/territory.",
+      "key_points": [
+        "ตรวจ calibration/lead quality ก่อนตีความ",
+        "Rhythm: regularity, P-QRS relationship และ origin",
+        "Rate: ใช้วิธีที่เหมาะกับ rhythm regular/irregular",
+        "Intervals: PR, QRS, QT/QTc",
+        "QRS: width, axis, morphology, pathologic Q waves",
+        "ST-T: elevation/depression, reciprocal change, T-wave pattern",
+        "สรุป ECG ต้องเชื่อมกับอาการและ hemodynamics"
+      ],
+      "quick_review": [
+        "Inferior territory: II, III, aVF",
+        "Reciprocal change ช่วยเพิ่มความมั่นใจ แต่การไม่มี reciprocal change ไม่ตัด ACS",
+        "Wide-complex tachycardia ในผู้ป่วยไม่คงที่ต้องคิดเรื่อง cardioversion/VT pathway ตาม guideline"
+      ],
+      "sources": [
+        "OneDrive: ECG interpretation and treatment-1.pdf",
+        "LITFL Top 150 ECG",
+        "AHA 2025 algorithms"
+      ],
+      "further": [
+        {
+          "label": "LITFL Top 150 ECG",
+          "url": "https://litfl.com/top-100/ecg/"
+        }
+      ],
+      "actions": [
+        {
+          "label": "เปิด ECG Quick Reference",
+          "route": "ecg"
+        },
+        {
+          "label": "เปิด ACS / STEMI",
+          "route": "acs"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ลำดับใดเหมาะกับการอ่าน ECG แบบเป็นระบบมากที่สุด?",
+          "options": [
+            "ST segment → diagnosis → rate",
+            "Rhythm → rate → intervals → P/QRS → ST-T",
+            "Rate → drug dose → ST segment",
+            "Axis → treatment → rhythm"
+          ],
+          "answer": 1,
+          "explain": "ใช้ลำดับคงที่ช่วยลด omission และควรเชื่อมกับ clinical context."
+        },
+        {
+          "q": "ST elevation ที่ II, III, aVF สื่อถึง territory ใดมากที่สุด?",
+          "options": [
+            "Anterior",
+            "Inferior",
+            "Lateral",
+            "Posterior only"
+          ],
+          "answer": 1,
+          "explain": "II, III และ aVF เป็น inferior leads."
+        }
+      ]
+    },
+    {
+      "id": "acs-prehospital",
+      "category": "cardiology",
+      "title": "ACS / STEMI สำหรับ Prehospital",
+      "minutes": 9,
+      "level": "Core",
+      "summary": "เป้าหมาย prehospital คือจำแนกผู้ป่วยเสี่ยงสูง, ทำ ECG เร็ว, เฝ้าระวัง instability, activation/notification ที่เหมาะสม และหลีกเลี่ยงการรักษาที่ไม่จำเป็น.",
+      "key_points": [
+        "ประเมิน ABC, vitals, monitor และ 12-lead ECG เร็ว",
+        "ถ้า ECG แรกไม่ diagnostic แต่สงสัยสูง ให้พิจารณา serial ECG ตามระบบ",
+        "Inferior MI อาจต้องใช้ right-sided leads เพื่อประเมิน RV involvement",
+        "Oxygen ใช้เมื่อ hypoxemia/ข้อบ่งชี้ ไม่ใช่ routine ในผู้ที่ oxygenation เพียงพอ",
+        "Activation/transport destination ต้องตาม local STEMI pathway",
+        "คิด differential ที่คุกคามชีวิต เช่น aortic syndrome, PE, tension pneumothorax"
+      ],
+      "quick_review": [
+        "12-lead ECG เป็นข้อมูลหลัก แต่ไม่ควร delay transport/definitive care",
+        "อาการ atypical พบได้ โดยเฉพาะผู้สูงอายุ/เบาหวาน/หญิง",
+        "การรักษาด้วย antiplatelet/anti-ischemic ต้องตาม local protocol และ contraindications"
+      ],
+      "sources": [
+        "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS guideline",
+        "OneDrive ECG OSCE teaching reference",
+        "ER goldbook"
+      ],
+      "further": [
+        {
+          "label": "ER goldbook",
+          "url": "https://ergoldbook.blogspot.com/"
+        }
+      ],
+      "actions": [
+        {
+          "label": "เปิด ACS workflow",
+          "route": "acs"
+        },
+        {
+          "label": "เปิด ECG Quick Reference",
+          "route": "ecg"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ผู้ป่วยเจ็บหน้าอกสงสัย ACS แต่ ECG แรกไม่ diagnostic ควรคิดอย่างไร?",
+          "options": [
+            "ตัด ACS ทันที",
+            "พิจารณา serial ECG/ประเมินซ้ำตามความเสี่ยง",
+            "ไม่ต้อง monitor",
+            "ให้ oxygen ทุกคน"
+          ],
+          "answer": 1,
+          "explain": "ECG แรกอาจยังไม่แสดง dynamic ischemic change."
+        },
+        {
+          "q": "Oxygen ใน ACS ควรให้แบบใด?",
+          "options": [
+            "ให้ทุกคนเสมอ",
+            "ใช้เมื่อ hypoxemia หรือมีข้อบ่งชี้",
+            "ห้ามให้ทุกกรณี",
+            "ให้เฉพาะหลัง PCI"
+          ],
+          "answer": 1,
+          "explain": "ไม่แนะนำ routine oxygen ในผู้ที่ไม่ hypoxemic."
+        }
+      ]
+    },
+    {
+      "id": "arrhythmia-framework",
+      "category": "cardiology",
+      "title": "Brady / Tachy: คิดจาก Hemodynamic Stability",
+      "minutes": 8,
+      "level": "Core",
+      "summary": "การจัดการ arrhythmia เริ่มจากดูว่าจังหวะทำให้เกิด cardiopulmonary compromise หรือไม่ ก่อนเลือก medication, pacing หรือ synchronized cardioversion.",
+      "key_points": [
+        "เริ่มจาก airway/breathing/monitor/IV และหา cause ที่แก้ได้",
+        "Brady: ถ้ามี hypotension, AMS, shock, ischemic chest discomfort หรือ acute HF ให้เข้าสู่ symptomatic pathway",
+        "Tachy: instability จาก rhythm → synchronized cardioversion ไม่ควรรอ medication ที่ไม่จำเป็น",
+        "Regular narrow-complex tachycardia อาจใช้ vagal/adenosine ตาม algorithm",
+        "Wide-complex tachycardia ต้องระวัง VT และหลีกเลี่ยงการตีความแบบรีบสรุป"
+      ],
+      "quick_review": [
+        "Treat the patient, not the monitor",
+        "Cardioversion = synchronized; defibrillation = unsynchronized",
+        "ค้น reversible causes และ medication/toxin context เสมอ"
+      ],
+      "sources": [
+        "AHA 2025 Adult Bradycardia Algorithm",
+        "AHA 2025 Adult Tachyarrhythmia Algorithm",
+        "LITFL ECG"
+      ],
+      "actions": [
+        {
+          "label": "เปิด Adult Brady/Tachy",
+          "route": "adult-arrhythmia"
+        },
+        {
+          "label": "เปิด Pediatric Brady/Tachy",
+          "route": "peds-arrhythmia"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Tachyarrhythmia ที่ทำให้ hypotension และ altered mental status ควรคิดถึงอะไรเป็นหลัก?",
+          "options": [
+            "Observation อย่างเดียว",
+            "Synchronized cardioversion pathway",
+            "Adenosine ทุกกรณี",
+            "Defibrillation ทุกกรณี"
+          ],
+          "answer": 1,
+          "explain": "Hemodynamic instability จาก tachyarrhythmia เป็นข้อบ่งชี้สำคัญของ synchronized cardioversion."
+        },
+        {
+          "q": "หลักคิดสำคัญของ arrhythmia คือข้อใด?",
+          "options": [
+            "ดู monitor ก่อนผู้ป่วย",
+            "ประเมิน stability และ clinical compromise",
+            "ยาเหมือนกันทุก rhythm",
+            "หลีกเลี่ยง ECG 12 lead"
+          ],
+          "answer": 1,
+          "explain": "Stability และ perfusion เป็นตัวกำหนด urgency/pathway."
+        }
+      ]
+    },
+    {
+      "id": "airway-assessment",
+      "category": "airway",
+      "title": "Airway Assessment & Preparation",
+      "minutes": 10,
+      "level": "Core",
+      "summary": "Airway ที่ดีเริ่มจากการคาดการณ์ปัญหาและเตรียม rescue plan มากกว่าการมุ่งใส่ท่อเพียงอย่างเดียว.",
+      "key_points": [
+        "ดู obstruction, secretions/blood, work of breathing และ mental status",
+        "เตรียม suction, oxygen, BVM, airway adjuncts, SGA/ETT และ backup plan",
+        "ใช้ structured difficult-airway assessment เช่น LEMON/MOANS เป็น cognitive aid",
+        "Preoxygenation และ positioning ลด desaturation risk",
+        "อย่าให้ advanced airway ทำให้ CPR หยุดนานใน cardiac arrest",
+        "หลังใส่ท่อต้อง confirmation + fixation + reassessment"
+      ],
+      "quick_review": [
+        "SOAP-ME ช่วยเตรียมอุปกรณ์ก่อน intubation",
+        "BVM ที่มี technique ดีอาจช่วยชีวิตได้มากกว่าการรีบ intubate",
+        "Failed airway ต้องมี rescue oxygenation plan"
+      ],
+      "sources": [
+        "OneDrive: 1. Airway management.pdf",
+        "AHA 2025 Adult ALS",
+        "AHA/AAP 2025 PALS"
+      ],
+      "actions": [
+        {
+          "label": "เปิด Airway",
+          "route": "airway"
+        },
+        {
+          "label": "เปิด ETT Confirmation",
+          "route": "ett-confirm"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "สิ่งใดควรเตรียมก่อน advanced airway มากที่สุด?",
+          "options": [
+            "เฉพาะ ETT เบอร์เดียว",
+            "Suction/O₂/BVM/backup airway/monitoring",
+            "เฉพาะยา",
+            "เฉพาะ laryngoscope"
+          ],
+          "answer": 1,
+          "explain": "Airway preparation ต้องมี oxygenation/rescue options ครบ."
+        },
+        {
+          "q": "ใน cardiac arrest การทำ advanced airway ควรเป็นอย่างไร?",
+          "options": [
+            "หยุด compression ให้นานเพื่อใส่ให้สำเร็จ",
+            "ลด interruption ของ chest compression",
+            "ใส่ก่อน defibrillation เสมอ",
+            "ไม่ต้อง capnography"
+          ],
+          "answer": 1,
+          "explain": "High-quality CPR และ defibrillation priority สูง; airway ไม่ควรทำให้ pause ยาว."
+        }
+      ]
+    },
+    {
+      "id": "capnography-ett",
+      "category": "airway",
+      "title": "ETT Confirmation & Capnography",
+      "minutes": 7,
+      "level": "Core",
+      "summary": "การยืนยัน ETT ไม่ควรพึ่ง auscultation เพียงอย่างเดียว ต้องรวม clinical assessment กับ exhaled CO₂/waveform capnography เมื่อเหมาะสม.",
+      "key_points": [
+        "ดู tube marking/depth และ bilateral chest rise",
+        "ฟัง breath sounds สองข้างและ epigastrium เป็นส่วนเสริม",
+        "Waveform capnography ช่วย confirm และ monitor tube position",
+        "Recheck หลังเคลื่อนย้าย/ย้ายเปล/เปลี่ยน ventilator circuit",
+        "ใน CPR trend ของ EtCO₂ ช่วยสะท้อน perfusion/quality บางส่วน แต่ต้องตีความร่วมกับบริบท"
+      ],
+      "quick_review": [
+        "Confirm → secure → document → reassess",
+        "Sudden waveform loss: คิด disconnection/displacement/obstruction/circulatory change",
+        "อย่าพึ่งค่าเดียวโดยไม่ดูผู้ป่วยและ waveform"
+      ],
+      "sources": [
+        "AHA 2025 Adult ALS",
+        "AHA/AAP 2025 PALS",
+        "OneDrive airway teaching reference"
+      ],
+      "actions": [
+        {
+          "label": "เปิด ETT Confirmation",
+          "route": "ett-confirm"
+        },
+        {
+          "label": "เปิด Airway",
+          "route": "airway"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "หลังใส่ ETT แล้วควรทำอะไรเมื่อเคลื่อนย้ายผู้ป่วย?",
+          "options": [
+            "ไม่ต้องตรวจซ้ำ",
+            "Reconfirm tube position และ ventilation",
+            "ถอด capnography",
+            "ลด monitoring"
+          ],
+          "answer": 1,
+          "explain": "Tube displacement สามารถเกิดระหว่าง movement จึงต้อง reassess."
+        },
+        {
+          "q": "Capnography มีบทบาทใด?",
+          "options": [
+            "ใช้แทน clinical assessment ทั้งหมด",
+            "ช่วย confirm/monitor ETT และ ventilation/perfusion trend",
+            "ใช้เฉพาะผู้ป่วยรู้สึกตัว",
+            "ใช้เฉพาะ neonate"
+          ],
+          "answer": 1,
+          "explain": "เป็นข้อมูลสำคัญแต่ต้องตีความร่วมกับ clinical assessment."
+        }
+      ]
+    },
+    {
+      "id": "pals-assessment",
+      "category": "pals",
+      "title": "Pediatric Systematic Assessment",
+      "minutes": 9,
+      "level": "Core",
+      "summary": "เด็กทรุดเร็วและ compensates ได้นาน การประเมินแบบ systematic ช่วยจับ respiratory failure/shock ก่อน cardiac arrest.",
+      "key_points": [
+        "เริ่มด้วย general impression/PAT แล้ว Primary Assessment ABCDE",
+        "แยก respiratory distress ออกจาก respiratory failure",
+        "Shock ในเด็กอาจมี BP ปกติช่วง compensated phase",
+        "ดู mental status, pulses, capillary refill, skin temperature และ urine/perfusion context",
+        "Reassess หลัง intervention ทุกครั้ง"
+      ],
+      "quick_review": [
+        "Hypotension เป็น late sign ใน pediatric shock",
+        "Bradycardia ในเด็กมักสัมพันธ์กับ hypoxia จึงต้องแก้ oxygenation/ventilation เร็ว",
+        "Weight-based dosing ต้อง double-check units/concentration"
+      ],
+      "sources": [
+        "AHA/AAP 2025 PALS",
+        "OneDrive: PALS 2021 update-1.pdf"
+      ],
+      "actions": [
+        {
+          "label": "เปิด PALS",
+          "route": "pediatric"
+        },
+        {
+          "label": "เปิด PALS Calculator",
+          "route": "peds-neonate-calc"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ข้อใดเป็น late sign ของ shock ในเด็กมากกว่า?",
+          "options": [
+            "Tachycardia",
+            "Hypotension",
+            "Cool extremities",
+            "Delayed cap refill"
+          ],
+          "answer": 1,
+          "explain": "เด็กสามารถ maintain BP ได้นาน; hypotension จึงบ่งชี้ decompensation."
+        },
+        {
+          "q": "Bradycardia ในเด็กควรคิดถึงอะไรสำคัญ?",
+          "options": [
+            "Hypoxia/ventilation problem",
+            "Hyperthyroidism",
+            "ECG artifact เท่านั้น",
+            "Pain only"
+          ],
+          "answer": 0,
+          "explain": "Hypoxia เป็นสาเหตุสำคัญและต้องแก้ oxygenation/ventilation เร็ว."
+        }
+      ]
+    },
+    {
+      "id": "pals-arrest",
+      "category": "pals",
+      "title": "Pediatric Cardiac Arrest Essentials",
+      "minutes": 8,
+      "level": "Core",
+      "summary": "PALS arrest เน้น high-quality CPR, ventilation ที่เหมาะสม, defibrillation แบบ weight-based, epinephrine และการแก้ reversible causes.",
+      "key_points": [
+        "Compression 100–120/min และ depth ≥1/3 AP diameter",
+        "Shock: 2 J/kg → 4 J/kg → ≥4 J/kg up to 10 J/kg/adult dose",
+        "Epinephrine IV/IO 0.01 mg/kg (0.1 mg/mL) q3–5 min",
+        "Refractory VF/pVT: amiodarone or lidocaine ตาม algorithm",
+        "Advanced airway: continuous compressions + breath every 2–3 sec"
+      ],
+      "quick_review": [
+        "Non-shockable rhythm: epinephrine ASAP",
+        "Always use actual weight when available",
+        "Use calculator as cognitive aid, not medication double-check replacement"
+      ],
+      "sources": [
+        "AHA/AAP 2025 Pediatric Cardiac Arrest Algorithm"
+      ],
+      "actions": [
+        {
+          "label": "เปิด Cardiac Arrest → PALS",
+          "route": "cardiac-arrest"
+        },
+        {
+          "label": "เปิด PALS Calculator",
+          "route": "peds-neonate-calc"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "First shock ใน pediatric VF/pVT เท่าไร?",
+          "options": [
+            "1 J/kg",
+            "2 J/kg",
+            "4 J/kg",
+            "10 J/kg"
+          ],
+          "answer": 1,
+          "explain": "PALS 2025 เริ่มที่ 2 J/kg."
+        },
+        {
+          "q": "Epinephrine IV/IO ใน pediatric arrest ใช้ความเข้มข้นใดใน calculator?",
+          "options": [
+            "1 mg/mL",
+            "0.1 mg/mL",
+            "10 mg/mL",
+            "0.01 mg/mL"
+          ],
+          "answer": 1,
+          "explain": "Dose 0.01 mg/kg โดยใช้ 0.1 mg/mL (1:10,000)."
+        }
+      ]
+    },
+    {
+      "id": "pals-arrhythmia",
+      "category": "pals",
+      "title": "Pediatric Brady / Tachy Essentials",
+      "minutes": 8,
+      "level": "Core",
+      "summary": "ในเด็ก rhythm management ต้องให้ความสำคัญกับ oxygenation/ventilation, perfusion และ signs of compromise ก่อนเลือกยา/energy.",
+      "key_points": [
+        "Brady + cardiopulmonary compromise: support airway/ventilation, oxygen, CPR when indicated",
+        "Epinephrine เป็น key medication ใน significant pediatric bradycardia pathway",
+        "Atropine ใช้ใน increased vagal tone/primary AV block ตาม algorithm",
+        "Tachy: แยก sinus tachycardia จาก SVT และ assess stability",
+        "Unstable tachy: synchronized cardioversion; stable regular narrow complex อาจพิจารณา adenosine"
+      ],
+      "quick_review": [
+        "อย่า treat monitor โดยไม่ดู perfusion",
+        "PALS calculator ช่วยคำนวณ adenosine/atropine/cardioversion energy",
+        "Reassess after each intervention"
+      ],
+      "sources": [
+        "AHA/AAP 2025 Pediatric Bradycardia Algorithm",
+        "AHA/AAP 2025 Pediatric Tachyarrhythmia Algorithm"
+      ],
+      "actions": [
+        {
+          "label": "เปิด Pediatric Brady/Tachy",
+          "route": "peds-arrhythmia"
+        },
+        {
+          "label": "เปิด PALS Calculator",
+          "route": "peds-neonate-calc"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "เด็ก bradycardia จาก hypoxia สิ่งสำคัญต้น ๆ คือ?",
+          "options": [
+            "แก้ oxygenation/ventilation",
+            "ให้ adenosine",
+            "Cardioversion ทันที",
+            "Observe อย่างเดียว"
+          ],
+          "answer": 0,
+          "explain": "Hypoxia/ventilation problem เป็น reversible driver สำคัญ."
+        },
+        {
+          "q": "Unstable pediatric tachyarrhythmia ควรเข้าสู่ pathway ใด?",
+          "options": [
+            "Synchronized cardioversion",
+            "Atropine",
+            "Defibrillation ทุกกรณี",
+            "CPR ทันทีแม้มี pulse"
+          ],
+          "answer": 0,
+          "explain": "Unstable tachyarrhythmia with pulse ใช้ synchronized cardioversion pathway."
+        }
+      ]
+    },
+    {
+      "id": "nrp-initial",
+      "category": "neonatal",
+      "title": "NRP Initial Steps & Ventilation",
+      "minutes": 10,
+      "level": "Core",
+      "summary": "ใน neonatal resuscitation ventilation คือ intervention หลัก เพราะ bradycardia ส่วนใหญ่สัมพันธ์กับ inadequate gas exchange/lung inflation.",
+      "key_points": [
+        "ก่อนคลอด: team briefing/equipment check",
+        "หลังคลอดประเมิน term, tone, breathing/crying และดำเนิน cord/thermal plan",
+        "ถ้า apnea/gasping หรือ HR <100: เริ่ม ventilation และ monitor response",
+        "ถ้า HR ยัง <100: optimize ventilation/corrective steps และพิจารณา alternative airway",
+        "ถ้า HR <60 หลัง effective ventilation: chest compression 3:1 + 100% oxygen + vascular access pathway"
+      ],
+      "quick_review": [
+        "Ventilation quality > medication priority",
+        "HR response เป็นตัวชี้สำคัญของ effective ventilation",
+        "Target SpO₂ เพิ่มขึ้นตามนาทีหลังคลอด ไม่ต้องรีบให้ 100% O₂ ในทุกคนตั้งแต่แรก"
+      ],
+      "sources": [
+        "AHA/AAP 2025 Neonatal Resuscitation Guidelines"
+      ],
+      "actions": [
+        {
+          "label": "เปิด NEONATE / NRP",
+          "route": "neonate"
+        },
+        {
+          "label": "เปิด NEONATE Calculator",
+          "route": "peds-neonate-calc"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Intervention สำคัญที่สุดใน neonatal bradycardia ส่วนใหญ่คือ?",
+          "options": [
+            "Effective ventilation",
+            "Adenosine",
+            "Defibrillation",
+            "Atropine"
+          ],
+          "answer": 0,
+          "explain": "Newborn bradycardia มักเกิดจาก inadequate ventilation/gas exchange."
+        },
+        {
+          "q": "Compression:ventilation ratio ใน neonatal resuscitation คือ?",
+          "options": [
+            "30:2",
+            "15:2",
+            "3:1",
+            "5:1"
+          ],
+          "answer": 2,
+          "explain": "NRP ใช้ 3:1 เมื่อ chest compressions indicated."
+        }
+      ]
+    },
+    {
+      "id": "nrp-airway",
+      "category": "neonatal",
+      "title": "Neonatal Airway: ETT, Depth & Blade",
+      "minutes": 9,
+      "level": "Core",
+      "summary": "Neonatal airway selection ใช้ gestational age และ birth weight เพื่อเตรียม ETT/depth และ blade โดยต้องยืนยันตำแหน่งหลังใส่เสมอ.",
+      "key_points": [
+        "เตรียม straight Miller blade ให้เหมาะกับ prematurity/size",
+        "ETT size/depth เป็น starting estimate ไม่ใช่ confirmation",
+        "Extremely preterm อาจต้องอุปกรณ์ขนาดเล็กกว่า term infant",
+        "Depth ต้องยืนยันด้วย clinical response และ exhaled CO₂/วิธีตามระบบ",
+        "หลังยึดท่อให้ reassess หลัง movement ทุกครั้ง"
+      ],
+      "quick_review": [
+        "Term มักเตรียม Miller #1",
+        "Preterm มักเตรียม Miller #0; extremely small preterm อาจเตรียม #00",
+        "ใช้ NEONATE calculator เพื่อดู GA/weight-based estimate"
+      ],
+      "sources": [
+        "Queensland Neonatal Resuscitation guideline",
+        "Ambulance Victoria Newborn Resuscitation CPG",
+        "AHA/AAP 2025 Neonatal"
+      ],
+      "actions": [
+        {
+          "label": "เปิด NEONATE Calculator",
+          "route": "peds-neonate-calc"
+        },
+        {
+          "label": "เปิด ETT Confirmation",
+          "route": "ett-confirm"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Term newborn โดยทั่วไปควรเตรียม Miller blade ใด?",
+          "options": [
+            "#00",
+            "#0",
+            "#1",
+            "#4"
+          ],
+          "answer": 2,
+          "explain": "Term newborn โดยทั่วไปใช้ straight Miller #1; size ต้องปรับตามทารก/อุปกรณ์."
+        },
+        {
+          "q": "ETT depth table มีบทบาทอย่างไร?",
+          "options": [
+            "ยืนยันตำแหน่งได้ 100%",
+            "เป็น starting estimate ที่ต้อง confirm",
+            "ใช้แทน CO₂ detection",
+            "ไม่ต้องดู weight/GA"
+          ],
+          "answer": 1,
+          "explain": "Depth เป็น estimate และต้อง confirm tube placement clinically."
+        }
+      ]
+    },
+    {
+      "id": "trauma-xabcde",
+      "category": "trauma",
+      "title": "Trauma Primary Survey: XABCDE",
+      "minutes": 10,
+      "level": "Core",
+      "summary": "Primary survey มีเป้าหมายค้นหาและแก้ immediate life threats พร้อมกัน โดย prehospital ควรลด scene time และเลือกปลายทางที่เหมาะสม.",
+      "key_points": [
+        "X: catastrophic external hemorrhage control ก่อน airway เมื่อมี massive bleeding",
+        "A: airway + cervical spine consideration ตามกลไก/ข้อบ่งชี้",
+        "B: identify life-threatening chest/ventilation problems",
+        "C: perfusion + hemorrhage source + shock recognition",
+        "D: neurologic status/GCS/pupils/glucose when indicated",
+        "E: expose enough to find injury while preventing hypothermia"
+      ],
+      "quick_review": [
+        "Primary survey = identify and treat simultaneously",
+        "Repeated reassessment is part of trauma care",
+        "Prehospital notification and destination decision can change outcome"
+      ],
+      "sources": [
+        "OneDrive: Trauma 3.1.pdf",
+        "OneDrive: PHTLS teaching file"
+      ],
+      "actions": [
+        {
+          "label": "เปิด Trauma workflow",
+          "route": "trauma"
+        },
+        {
+          "label": "เปิด MIST",
+          "route": "mist"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "X ใน XABCDE หมายถึง?",
+          "options": [
+            "X-ray",
+            "Catastrophic hemorrhage",
+            "Exposure",
+            "Extrication only"
+          ],
+          "answer": 1,
+          "explain": "X prioritizes exsanguinating/catastrophic hemorrhage control."
+        },
+        {
+          "q": "Primary survey ควรทำอย่างไร?",
+          "options": [
+            "ประเมินจบทั้งหมดแล้วค่อยรักษา",
+            "Assessment และ resuscitation ทำควบคู่กัน",
+            "ทำเฉพาะใน ER",
+            "ไม่ต้อง reassess"
+          ],
+          "answer": 1,
+          "explain": "Immediate life threats should be treated as they are identified."
+        }
+      ]
+    },
+    {
+      "id": "trauma-shock",
+      "category": "trauma",
+      "title": "Trauma Shock & Perfusion",
+      "minutes": 9,
+      "level": "Core",
+      "summary": "Shock recognition ต้องอาศัย pattern ของ perfusion ไม่ใช่ BP อย่างเดียว โดยเฉพาะเด็ก ผู้สูงอายุ นักกีฬา และผู้ใช้ beta-blocker.",
+      "key_points": [
+        "ดู mental status, skin, pulse quality, HR/BP trend, capillary refill และ mechanism",
+        "Shock Index = HR/SBP เป็น adjunct ไม่ใช่ standalone diagnosis",
+        "Hypotension อาจมาช้า; normal BP ไม่ตัด occult shock",
+        "Control hemorrhage และ minimize heat loss",
+        "Fluid/blood strategy ต้องตาม current trauma/local protocol"
+      ],
+      "quick_review": [
+        "Trend มีค่ามากกว่าค่าเดียว",
+        "SI ≥1 เป็น red flag ในหลายบริบท แต่ต้องตีความตามผู้ป่วย",
+        "Reassess response after each intervention"
+      ],
+      "sources": [
+        "OneDrive: Trauma 3.1.pdf",
+        "Current local trauma protocol required for definitive fluid/blood strategy"
+      ],
+      "actions": [
+        {
+          "label": "เปิด Shock Index",
+          "route": "shock-index"
+        },
+        {
+          "label": "เปิด MAP",
+          "route": "map"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Shock Index คำนวณจาก?",
+          "options": [
+            "SBP/HR",
+            "HR/SBP",
+            "DBP/HR",
+            "MAP/RR"
+          ],
+          "answer": 1,
+          "explain": "Shock Index = HR ÷ SBP."
+        },
+        {
+          "q": "Normal BP ใน trauma หมายความว่าอย่างไร?",
+          "options": [
+            "ตัด shock ได้",
+            "ยังอาจมี compensated/occult shock",
+            "ไม่ต้อง reassess",
+            "ไม่มี bleeding"
+          ],
+          "answer": 1,
+          "explain": "BP อาจยังปกติใน compensated shock."
+        }
+      ]
+    },
+    {
+      "id": "trauma-head-chest",
+      "category": "trauma",
+      "title": "Head & Chest Trauma Red Flags",
+      "minutes": 9,
+      "level": "Intermediate",
+      "summary": "Head/chest trauma มี life threats ที่อาจไม่ชัดในช่วงแรก จึงต้องใช้ repeated ABCD reassessment และ mechanism-based suspicion.",
+      "key_points": [
+        "Chest: tension pneumothorax/open pneumothorax/massive hemothorax/tamponade เป็น immediate threats",
+        "Head: ติดตาม GCS trend, pupils และ signs of deterioration",
+        "Hypoxia/hypotension ทำให้ secondary brain injury แย่ลง",
+        "Airway/ventilation intervention ต้องคำนึงถึง hemodynamics",
+        "Transport destination/activation ตาม trauma system สำคัญพอ ๆ กับ procedure"
+      ],
+      "quick_review": [
+        "Deteriorating GCS = reassess ABC ก่อนสรุปว่าเป็น neurologic อย่างเดียว",
+        "Absent/asymmetric breath sounds + shock ต้องคิด chest life threat",
+        "Prevent hypothermia throughout trauma care"
+      ],
+      "sources": [
+        "OneDrive: Trauma 3.1.pdf",
+        "OneDrive: Head trauma / thoracic injury teaching material"
+      ],
+      "actions": [
+        {
+          "label": "เปิด Trauma workflow",
+          "route": "trauma"
+        },
+        {
+          "label": "เปิด GCS",
+          "route": "gcs"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ผู้ป่วย head trauma GCS ลดลง สิ่งแรกที่ควรทำคือ?",
+          "options": [
+            "สรุป intracranial bleeding ทันที",
+            "Reassess ABC/oxygenation/perfusion พร้อม neuro exam",
+            "ให้เดินทดสอบ",
+            "หยุด monitoring"
+          ],
+          "answer": 1,
+          "explain": "Hypoxia/hypotension และ airway problems สามารถทำให้ neurologic status แย่ลงและต้องแก้ทันที."
+        },
+        {
+          "q": "ข้อใดเป็น immediate chest life threat?",
+          "options": [
+            "Simple rib tenderness",
+            "Tension pneumothorax",
+            "Old scar",
+            "Stable clavicle fracture"
+          ],
+          "answer": 1,
+          "explain": "Tension pneumothorax เป็น life-threatening breathing/circulatory problem."
+        }
+      ]
+    }
+  ]
+}

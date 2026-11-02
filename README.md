@@ -1,19 +1,20 @@
-# Paramedic Pocket v0.5
+# Paramedic Pocket v0.6
 
-Mobile-first offline PWA for paramedic / EMS workflows.
+Mobile-first offline PWA for paramedic / EMS clinical tools and learning.
 
-## v0.5 highlights
-- Corrected **NEONATE calculator** to use gestational age / birth-weight airway tables for ETT size and depth
-- Added **Miller blade** guidance: 00/0 for preterm preparation and 1 for term preparation, with context-sensitive output
-- Updated neonatal epinephrine and volume expansion to 2025 AHA/AAP guidance
-- Added real **AHA 2025 Adult Bradycardia / Tachyarrhythmia** algorithm images
-- Added real **AHA/AAP 2025 Pediatric Bradycardia / Tachyarrhythmia** algorithm images
-- PALS calculator now shows arrest + bradycardia + tachyarrhythmia doses/energy in one calculation
-- Added **ACS / STEMI** workflow and ECG territory quick reference
-- Expanded ECG learning page with LITFL / ER goldbook / Medscape / AHA links
+## v0.6 highlights
+- New **Learning Hub** with 5 categories and 13 synthesized lessons
+- Categories: Cardiology & ECG, Airway & Respiratory, PALS, Neonatal/NRP, Trauma
+- Every lesson includes Key Concepts, Quick Review, Mini Quiz, Sources and Clinical Integration buttons
+- Local progress tracking in browser (`localStorage`)
+- Smart Patient Context expanded to Adult/Pediatric/Neonate + Age/GA + Weight
+- PALS and NEONATE calculators reuse Smart Patient Context
+- Drug Tools moved into Quick Tools; bottom navigation now gives Learning a dedicated tab
+- Learning content synthesizes current primary guidelines, local OneDrive teaching material, LITFL, ER goldbook and other educational sources without copying full source text
+- Existing v0.5 clinical algorithms/calculators remain available
 
-## Safety
-This is clinical decision support, not a substitute for local EMS protocol, medical direction, device instructions, or medication double-check. Estimated pediatric weight is explicitly labeled and should be replaced with actual weight whenever possible.
+## Safety model
+Learning material is educational synthesis. Clinical care must follow current guidelines, local EMS protocol/medical direction, clinical judgment, and medication/device double-checks.
 
 ## Deploy
-Upload all files/folders to the root of your GitHub repository and commit to `main`. GitHub Pages will rebuild automatically.
+Static PWA: upload all files/folders to the repository root used by GitHub Pages. No build command required.

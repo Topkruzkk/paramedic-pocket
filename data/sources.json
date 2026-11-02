@@ -138,5 +138,45 @@
     "reviewed_on": "2026-11-03",
     "scope": "Age-based estimated pediatric weight formulas when actual weight is unavailable",
     "url": "https://www.evelinalondon.nhs.uk/our-services/hospital/south-thames-retrieval-service/medical-formulas.aspx"
+  },
+  {
+    "id": "local-ecg-osce",
+    "title": "OneDrive: ECG interpretation and treatment-1.pdf",
+    "type": "local-teaching",
+    "status": "review",
+    "year": 2024,
+    "reviewed_on": "2026-11-03",
+    "scope": "Local OSCE teaching structure for systematic ECG interpretation and inferior STEMI scenario",
+    "url": ""
+  },
+  {
+    "id": "local-trauma31",
+    "title": "OneDrive: Trauma 3.1.pdf",
+    "type": "local-teaching",
+    "status": "review",
+    "year": 2024,
+    "reviewed_on": "2026-11-03",
+    "scope": "Trauma primary survey, XABCDE, shock, chest/head/pelvic trauma teaching reference",
+    "url": ""
+  },
+  {
+    "id": "local-airway-learning",
+    "title": "OneDrive: 1. Airway management.pdf",
+    "type": "local-teaching",
+    "status": "review",
+    "year": 2022,
+    "reviewed_on": "2026-11-03",
+    "scope": "Airway assessment, NIPPV, RSI preparation and difficult-airway teaching reference",
+    "url": ""
+  },
+  {
+    "id": "local-pals-learning",
+    "title": "OneDrive: PALS 2021 update-1.pdf",
+    "type": "local-teaching",
+    "status": "review",
+    "year": 2021,
+    "reviewed_on": "2026-11-03",
+    "scope": "Older PALS teaching source retained for comparison with 2025 AHA/AAP guidance",
+    "url": ""
   }
 ]
