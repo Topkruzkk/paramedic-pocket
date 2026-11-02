@@ -178,5 +178,105 @@
     "reviewed_on": "2026-11-03",
     "scope": "Older PALS teaching source retained for comparison with 2025 AHA/AAP guidance",
     "url": ""
+  },
+  {
+    "id": "stroke-2026",
+    "title": "AHA/ASA 2026 Acute Ischemic Stroke Guideline",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Current acute ischemic stroke guideline including EMS systems, tenecteplase, thrombectomy and pediatric AIS",
+    "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke"
+  },
+  {
+    "id": "ssc-2026",
+    "title": "Surviving Sepsis Campaign 2026 Adult Guidelines",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Adult sepsis and septic shock including immediate prehospital setting",
+    "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines"
+  },
+  {
+    "id": "gina-2026",
+    "title": "GINA 2026 Strategy Report",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Current global asthma management and prevention strategy",
+    "url": "https://ginasthma.org/2026-gina-strategy-report/"
+  },
+  {
+    "id": "gold-2026",
+    "title": "GOLD 2026 COPD Report",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Current global COPD diagnosis, management and prevention strategy",
+    "url": "https://goldcopd.org/2026-gold-report-and-pocket-guide/"
+  },
+  {
+    "id": "who-pph-2025",
+    "title": "WHO 2025 Consolidated Postpartum Haemorrhage Guideline",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2025,
+    "reviewed_on": "2026-11-03",
+    "scope": "Prevention, diagnosis and treatment of postpartum hemorrhage",
+    "url": "https://www.who.int/publications/i/item/9789240115637"
+  },
+  {
+    "id": "aha-special-2025",
+    "title": "AHA 2025 Special Circumstances of Resuscitation",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2025,
+    "reviewed_on": "2026-11-03",
+    "scope": "Pregnancy, drowning, temperature emergencies, hyperkalemia and poisoning resuscitation",
+    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/"
+  },
+  {
+    "id": "device-2023",
+    "title": "DEVICE Trial — Video vs Direct Laryngoscopy",
+    "type": "research",
+    "status": "review",
+    "year": 2023,
+    "reviewed_on": "2026-11-03",
+    "scope": "Randomized trial of first-attempt success in critically ill adult intubation",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301601"
+  },
+  {
+    "id": "preoxi-2024",
+    "title": "PREOXI Trial — NIV Preoxygenation",
+    "type": "research",
+    "status": "review",
+    "year": 2024,
+    "reviewed_on": "2026-11-03",
+    "scope": "Randomized trial of NIV vs oxygen mask for emergency intubation preoxygenation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11282951/"
+  },
+  {
+    "id": "towar-2026",
+    "title": "TOWAR Trial — Prehospital Whole Blood",
+    "type": "research",
+    "status": "review",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Randomized comparison of prehospital whole blood and blood components in trauma hemorrhage",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602167"
+  },
+  {
+    "id": "local-ventilator-osce",
+    "title": "OneDrive: Ventilator.pdf",
+    "type": "local-teaching",
+    "status": "review",
+    "year": 2024,
+    "reviewed_on": "2026-11-03",
+    "scope": "Local ventilator OSCE teaching including volume control, monitoring, capnography and DOPE troubleshooting",
+    "url": ""
   }
 ]

@@ -1,0 +1,568 @@
+{
+  "category": "tox",
+  "lessons": [
+    {
+      "id": "tox-deep",
+      "category": "tox",
+      "title": "Toxicology: toxidromes, cardiotoxic poisonings & special resuscitation",
+      "minutes": 34,
+      "level": "Advanced",
+      "summary": "Toxicology management starts with supportive ABC, glucose/temperature/ECG, pattern recognition and consultation—not antidote memorization alone.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Toxidrome approach",
+          "paragraphs": [
+            "Sympathomimetic, anticholinergic, cholinergic, opioid, sedative-hypnotic and serotonin syndromes provide pattern recognition, but mixed ingestions are common."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) ECG in poisoning",
+          "paragraphs": [
+            "QRS widening, QT prolongation, AV block/bradycardia and ventricular dysrhythmia can guide urgency and toxin class. Sodium-channel blockers, TCAs and some antiarrhythmics are classic QRS-widening causes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Supportive priorities",
+          "paragraphs": [
+            "Airway/ventilation, seizure control, temperature, glucose, fluids/vasopressors and continuous ECG are often more important than a specific antidote early."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) 2025 AHA special circumstances",
+          "paragraphs": [
+            "Updated guidance covers opioid, beta-blocker, calcium-channel blocker, cocaine/sympathomimetic, cyanide, digoxin, local anesthetic systemic toxicity, methemoglobinemia, organophosphate/carbamate, sodium-channel blocker and hydrocarbon poisoning."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) CCB poisoning example",
+          "paragraphs": [
+            "2025 AHA: high-dose insulin and vasopressors are recommended for hypotension in life-threatening CCB poisoning; calcium is reasonable, while glucagon usefulness is uncertain."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Supportive care first",
+        "ECG is a toxicology vital sign",
+        "Mixed ingestions break textbook toxidromes",
+        "Call poison center/toxicology early when available"
+      ],
+      "quick_review": [
+        "Opioid: ventilation + naloxone when indicated",
+        "QRS widening: think sodium-channel blockade",
+        "Brady/hypotension: consider beta/CCB toxicity"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Special circumstances guideline expansion",
+          "takeaway": "AHA 2025 updated 44 recommendations and added 140 new recommendations across special circumstances including multiple poisonings and pregnancy.",
+          "source": "AHA 2025",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "evidence": "Guideline update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "primary"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "Life-threatening CCB poisoning with hypotension: 2025 AHA recommends?",
+          "options": [
+            "High-dose insulin + vasopressors",
+            "No hemodynamic support",
+            "Aspirin",
+            "Adenosine only"
+          ],
+          "answer": 0,
+          "explain": "High-dose insulin and vasopressors are recommended for hypotension in life-threatening CCB poisoning."
+        }
+      ],
+      "visual": "assets/visuals/toxidrome.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "acetaminophen-tox",
+      "category": "tox",
+      "title": "Acetaminophen/Paracetamol Poisoning: Silent Early, Dangerous Later",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "ผู้ป่วยอาจดูดีช่วงแรกแต่เกิด hepatic failure ภายหลัง—timing and dose history matter.",
+      "keywords": [
+        "acetaminophen",
+        "paracetamol",
+        "NAC"
+      ],
+      "sections": [
+        {
+          "title": "1) Toxic mechanism",
+          "paragraphs": [
+            "Excess dose saturates normal metabolism and increases toxic NAPQI formation; glutathione depletion leads to hepatic injury."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) History",
+          "paragraphs": [
+            "Clarify exact product, strength, number taken, time, repeated supratherapeutic use, co-ingestants and body weight. Combination products are common."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Evaluation",
+          "paragraphs": [
+            "A timed serum concentration is interpreted with appropriate nomogram only for eligible acute single ingestions; repeated/unknown-time ingestion needs a different strategy. Liver tests and metabolic markers matter in delayed presentation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Antidote",
+          "paragraphs": [
+            "N-acetylcysteine replenishes glutathione and is most effective when started early, but can benefit later toxicity. Exact initiation/route/regimen follows poison center/local protocol."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [
+        "Bring packages/blister packs when safe",
+        "Contact poison center/medical control early for significant ingestion"
+      ],
+      "red_flags": [],
+      "pitfalls": [
+        "Reassurance because patient is asymptomatic early",
+        "Using nomogram for repeated or unknown-time ingestion"
+      ],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "salicylate-tox",
+      "category": "tox",
+      "title": "Salicylate Poisoning: Hyperventilation Is Protective",
+      "minutes": 24,
+      "level": "Deep",
+      "summary": "tachypnea is often compensation; intubation that reduces minute ventilation can precipitate abrupt deterioration.",
+      "keywords": [
+        "salicylate",
+        "aspirin",
+        "alkalosis"
+      ],
+      "sections": [
+        {
+          "title": "1) Acid-base physiology",
+          "paragraphs": [
+            "Salicylates stimulate respiratory center → respiratory alkalosis, while mitochondrial toxicity produces metabolic acidosis. As pH falls, more nonionized salicylate enters CNS."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Clinical clues",
+          "paragraphs": [
+            "Tinnitus, nausea/vomiting, diaphoresis, tachypnea, fever, altered mental status and pulmonary edema. Chronic toxicity can be subtle, especially in older adults."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Airway danger",
+          "paragraphs": [
+            "If intubation becomes unavoidable, losing the patient’s high minute ventilation or allowing acidemia can rapidly increase CNS salicylate. Expert planning is crucial."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Definitive concepts",
+          "paragraphs": [
+            "Alkalinization and, in severe cases, hemodialysis are key hospital therapies. Serial levels and clinical status are more informative than one concentration."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Altered mental status",
+        "Pulmonary edema",
+        "Acidemia",
+        "Renal failure"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "tca-sodium-channel",
+      "category": "tox",
+      "title": "TCA & Sodium-Channel Blocker Toxicity: QRS Is a Warning Sign",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "cardiotoxicity from sodium-channel blockade can cause wide QRS, hypotension, seizure and ventricular dysrhythmia.",
+      "keywords": [
+        "TCA",
+        "QRS",
+        "sodium bicarbonate"
+      ],
+      "sections": [
+        {
+          "title": "1) Mechanism",
+          "paragraphs": [
+            "Fast sodium-channel blockade slows phase-0 depolarization and conduction; TCAs also have anticholinergic and alpha-blocking effects."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) ECG clues",
+          "paragraphs": [
+            "QRS widening, terminal R in aVR and ventricular dysrhythmia support sodium-channel toxicity but ECG must be interpreted clinically."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Sodium bicarbonate",
+          "paragraphs": [
+            "Hypertonic sodium load/alkalinization is a central therapy for significant TCA/sodium-channel blocker cardiotoxicity according to toxicology guidance."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Seizure/shock",
+          "paragraphs": [
+            "Treat seizures promptly, support ventilation and perfusion, and obtain toxicology/poison-center guidance for refractory cases."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "LITFL ECG / Critical Care Compendium",
+          "url": "https://litfl.com/",
+          "type": "educational"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "bb-ccb-tox",
+      "category": "tox",
+      "title": "Beta-Blocker & Calcium-Channel Blocker Poisoning",
+      "minutes": 26,
+      "level": "Deep",
+      "summary": "bradycardic shock from cardiotoxic drugs requires physiology-driven antidotal and vasoactive care.",
+      "keywords": [
+        "beta blocker",
+        "CCB",
+        "high dose insulin"
+      ],
+      "sections": [
+        {
+          "title": "1) Phenotypes",
+          "paragraphs": [
+            "Beta-blockers often cause bradycardia, hypotension and reduced contractility; some have sodium-channel or CNS effects. CCBs can cause vasodilation, bradycardia/conduction delay and hyperglycemia (especially severe CCB toxicity)."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Immediate stabilization",
+          "paragraphs": [
+            "Airway/ventilation, ECG, glucose, perfusion and early poison-center consultation. Conventional atropine may be insufficient in severe poisoning."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) High-dose insulin concept",
+          "paragraphs": [
+            "AHA 2025 special-circumstances guidance supports high-dose insulin therapy in life-threatening CCB poisoning, with vasopressors and consideration of calcium. This requires intensive glucose/potassium monitoring and protocolized dosing."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Refractory shock",
+          "paragraphs": [
+            "Multiple therapies may be required, including vasopressors/inotropes and advanced mechanical support in selected centers."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "AHA Special Circumstances: cardiotoxic poisoning",
+          "takeaway": "Updated AHA resuscitation guidance includes high-dose insulin and vasoactive support for life-threatening calcium-channel blocker poisoning.",
+          "source": "AHA",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "evidence": "GUIDELINE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "opioid-tox",
+      "category": "tox",
+      "title": "Opioid Toxicity: Ventilation First, Naloxone to Restore Breathing",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "เป้าหมายคือ oxygenation/ventilation และ reversal ของ dangerous respiratory depression ไม่ใช่ทำให้ตื่นเต็มที่ทุกคน.",
+      "keywords": [
+        "opioid",
+        "naloxone",
+        "respiratory depression"
+      ],
+      "sections": [
+        {
+          "title": "1) Toxidrome",
+          "paragraphs": [
+            "CNS depression, slow/absent respirations and miosis are classic but pupils can vary. Synthetic opioids may be potent and co-ingestants common."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Immediate priority",
+          "paragraphs": [
+            "Open airway and ventilate with BVM/oxygen when breathing is inadequate. Do not wait for naloxone to work before supporting ventilation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Naloxone strategy",
+          "paragraphs": [
+            "Titrate according to protocol to restore adequate spontaneous ventilation. Larger/repeated doses may be needed with potent opioids; abrupt full withdrawal can cause agitation/vomiting."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Re-sedation",
+          "paragraphs": [
+            "Naloxone duration may be shorter than the opioid; observe for recurrent respiratory depression and consider long-acting/extended-release exposures."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "organophosphate",
+      "category": "tox",
+      "title": "Organophosphate/Carbamate Poisoning: Cholinergic Crisis",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "secretions + bronchospasm + weakness make airway management central; atropine endpoint is pulmonary drying/improved ventilation.",
+      "keywords": [
+        "organophosphate",
+        "atropine",
+        "cholinergic"
+      ],
+      "sections": [
+        {
+          "title": "1) Cholinergic excess",
+          "paragraphs": [
+            "Muscarinic findings include bronchorrhea, bronchospasm, bradycardia, vomiting/diarrhea, urination, sweating and miosis. Nicotinic effects include fasciculations, weakness and paralysis."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Decontamination safety",
+          "paragraphs": [
+            "Protect rescuers from secondary contamination; remove contaminated clothing and decontaminate according to hazmat/poison protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Atropine goal",
+          "paragraphs": [
+            "Atropine is titrated to control life-threatening muscarinic effects—especially bronchial secretions/bronchospasm and ventilation—not to normalize pupil size."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Oxime/benzodiazepine",
+          "paragraphs": [
+            "Pralidoxime and seizure treatment may be indicated depending on agent/severity/protocol."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/visuals/toxidrome.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "alcohol-withdrawal",
+      "category": "tox",
+      "title": "Alcohol Withdrawal: From Tremor to Delirium Tremens",
+      "minutes": 19,
+      "level": "Core",
+      "summary": "autonomic hyperactivity can progress to seizures and delirium; do not overlook hypoglycemia, trauma or infection.",
+      "keywords": [
+        "alcohol withdrawal",
+        "DT",
+        "seizure"
+      ],
+      "sections": [
+        {
+          "title": "1) Spectrum",
+          "paragraphs": [
+            "Tremor, anxiety, nausea, diaphoresis, tachycardia and hypertension can begin after reduction/cessation. Withdrawal seizures and delirium tremens are severe manifestations."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Differential",
+          "paragraphs": [
+            "Head injury, sepsis, hypoglycemia, hepatic encephalopathy, toxic ingestion and psychiatric disease may coexist."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Treatment principle",
+          "paragraphs": [
+            "Benzodiazepines are standard first-line therapy for clinically significant withdrawal in most protocols; severe cases need repeated assessment and airway monitoring."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Nutrition/metabolic issues",
+          "paragraphs": [
+            "Chronic alcohol use raises concern for thiamine deficiency, electrolyte disorders and malnutrition; check glucose promptly."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "category": "trauma",
+  "lessons": [
+    {
+      "id": "trauma-xabcde",
+      "category": "trauma",
+      "title": "Trauma XABCDE & Hemorrhage Control",
+      "minutes": 32,
+      "level": "Core+",
+      "summary": "เป้าหมาย trauma resuscitation คือแก้ immediate killers ตามลำดับ โดยเฉพาะ catastrophic hemorrhage, airway compromise, tension physiology และ shock ขณะลด scene time ที่ไม่จำเป็น.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) X — exsanguination",
+          "paragraphs": [
+            "Control catastrophic external bleeding immediately: direct pressure, wound packing/hemostatic gauze, tourniquet when indicated. Reassess bleeding after movement/transport."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) A/B",
+          "paragraphs": [
+            "Airway with C-spine consideration when mechanism/assessment indicates. Breathing: identify tension pneumothorax, open pneumothorax, massive hemothorax, flail/chest wall injury and ventilatory failure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) C — perfusion",
+          "paragraphs": [
+            "Assess pulse quality, skin, mental status, BP trend and shock index. Avoid spending scene time on interventions that do not change immediate survival/transport priority."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) D/E",
+          "paragraphs": [
+            "GCS/pupils/glucose when indicated. Fully expose enough to find injury while actively preventing hypothermia because hypothermia worsens coagulopathy."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Handover",
+          "paragraphs": [
+            "MIST/ATMIST should transmit mechanism, injuries/findings, vital trends and treatment/response—not just single vital values."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "X before A when catastrophic hemorrhage",
+        "Hypothermia prevention starts early",
+        "Trend vitals, not one reading",
+        "Transport to appropriate trauma capability"
+      ],
+      "quick_review": [
+        "Pressure/packing/tourniquet",
+        "Tension physiology is time-critical",
+        "MIST = mechanism/injury/signs/treatment"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "OneDrive Trauma 3.1 teaching reference",
+          "type": "local"
+        },
+        {
+          "label": "Brain Trauma Foundation prehospital TBI",
+          "url": "https://braintrauma.org/coma/guidelines/pre-hospital",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Trauma workflow",
+          "route": "trauma"
+        },
+        {
+          "label": "MIST Builder",
+          "route": "mist"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Massive external hemorrhage in XABCDE ถูกจัดการเมื่อใด?",
+          "options": [
+            "หลัง E",
+            "ก่อน A",
+            "หลัง secondary survey",
+            "หลัง CT"
+          ],
+          "answer": 1,
+          "explain": "Catastrophic hemorrhage is the X priority before standard ABCDE."
+        }
+      ],
+      "visual": "assets/visuals/xabcde.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "tbi-deep",
+      "category": "trauma",
+      "title": "Traumatic Brain Injury: prevent secondary brain injury",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "TBI outcome is heavily influenced by secondary insults—especially hypoxemia, hypotension, abnormal ventilation and delayed definitive care.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Primary vs secondary injury",
+          "paragraphs": [
+            "Primary injury occurs at impact; secondary injury evolves through ischemia, edema, excitotoxicity and impaired autoregulation. EMS cannot reverse primary injury but can prevent secondary insults."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Oxygenation/ventilation",
+          "paragraphs": [
+            "Avoid SpO₂ <90%. Establish airway if severe TBI with inability to protect airway or refractory hypoxemia. After intubation, monitor EtCO₂; avoid routine hyperventilation. BTF prehospital guidance targets normal ventilation, often EtCO₂ 35–40 mmHg, unless signs of herniation justify temporary hyperventilation per protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Blood pressure",
+          "paragraphs": [
+            "Hypotension worsens cerebral ischemia. Severe TBI guidelines suggest age-based higher SBP targets in adults; prehospital teams should avoid hypotension and treat shock while minimizing delay."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Neuro exam",
+          "paragraphs": [
+            "Trend GCS and pupils after ABC stabilization and preferably before sedative/paralytic drugs. Document lateralizing signs and changes over time."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Destination",
+          "paragraphs": [
+            "Severe TBI benefits from trauma/neurosurgical capability. Transport strategy should minimize total time to CT/neurosurgical care."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Avoid hypoxia and hypotension",
+        "Avoid routine hyperventilation",
+        "Trend GCS/pupils",
+        "Destination matters"
+      ],
+      "quick_review": [
+        "SpO₂ <90% is dangerous",
+        "EtCO₂ monitoring after RSI",
+        "GCS trend > single score"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "BTF prehospital TBI 3rd edition",
+          "takeaway": "The Brain Trauma Foundation now lists a 3rd edition prehospital guideline framework covering oxygenation, BP, ventilation, GCS, pupils, fluids, hyperosmolar therapy and destination decisions.",
+          "source": "Brain Trauma Foundation",
+          "url": "https://braintrauma.org/coma/guidelines/pre-hospital",
+          "evidence": "Guideline update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Brain Trauma Foundation Prehospital TBI Guidelines",
+          "url": "https://braintrauma.org/coma/guidelines/pre-hospital",
+          "type": "primary"
+        },
+        {
+          "label": "Brain Trauma Foundation Severe TBI",
+          "url": "https://braintrauma.org/coma/guidelines/severe-tbi",
+          "type": "primary"
+        },
+        {
+          "label": "OneDrive Trauma 3.1",
+          "type": "local"
+        }
+      ],
+      "actions": [
+        {
+          "label": "GCS Calculator",
+          "route": "gcs"
+        },
+        {
+          "label": "Trauma workflow",
+          "route": "trauma"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Routine prophylactic hyperventilation in severe TBI?",
+          "options": [
+            "Recommended",
+            "Avoid unless specific herniation indication/protocol",
+            "Always ETCO₂ <25",
+            "No EtCO₂ monitoring"
+          ],
+          "answer": 1,
+          "explain": "Routine hyperventilation can reduce cerebral blood flow and is avoided except selected herniation contexts."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "chest-trauma",
+      "category": "trauma",
+      "title": "Chest Trauma: tension pneumothorax, hemothorax, flail chest, tamponade",
+      "minutes": 28,
+      "level": "Advanced",
+      "summary": "Chest trauma kills through ventilation failure and obstructive/hemorrhagic shock. Diagnosis is primarily clinical in the unstable patient.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Tension pneumothorax",
+          "paragraphs": [
+            "Think respiratory distress, unilateral reduced breath sounds, shock/obstructive physiology; late tracheal deviation is not required. Immediate decompression follows local scope/protocol when clinically suspected in an unstable patient."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Open pneumothorax",
+          "paragraphs": [
+            "Manage open chest wound with appropriate vented/occlusive strategy per protocol while watching for tension development."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Massive hemothorax",
+          "paragraphs": [
+            "Causes both blood loss and impaired ventilation. Look for shock + decreased breath sounds/dullness; definitive treatment requires chest drainage/surgery at hospital."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Tamponade / blunt cardiac injury",
+          "paragraphs": [
+            "Tamponade may present with obstructive shock but classic Beck triad is often incomplete in trauma. ECG/ultrasound can support diagnosis; rapid transport/definitive intervention matters."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Clinical deterioration can precede textbook signs",
+        "Tension pneumothorax is a clinical emergency",
+        "Chest injury can cause both respiratory and circulatory failure"
+      ],
+      "quick_review": [
+        "Unilateral breath loss + shock = tension until proven otherwise in the right context",
+        "Classic signs may be absent"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "OneDrive Trauma 3.1",
+          "type": "local"
+        },
+        {
+          "label": "PHTLS/ATLS-aligned principles",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Trauma workflow",
+          "route": "trauma"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Tracheal deviation จำเป็นต้องมีเพื่อวินิจฉัย tension pneumothorax หรือไม่?",
+          "options": [
+            "จำเป็น",
+            "ไม่จำเป็น เป็น late sign"
+          ],
+          "answer": 1,
+          "explain": "Diagnosis in unstable trauma is clinical; late textbook signs may be absent."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "prehospital-blood",
+      "category": "trauma",
+      "title": "Hemorrhagic Shock & Prehospital Blood: what is changing?",
+      "minutes": 26,
+      "level": "Advanced",
+      "summary": "การ resuscitate hemorrhage เปลี่ยนจาก crystalloid-heavy ไปสู่ early blood component/whole blood strategies ใน systems ที่พร้อม โดยต้อง balance evidence, logistics, safety and local protocol.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Hemorrhagic shock physiology",
+          "paragraphs": [
+            "Loss of circulating volume reduces preload and oxygen delivery; compensatory vasoconstriction/tachycardia may mask severity. Lactate/mental status/skin/pulse/BP trends help assess perfusion."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Why blood rather than large crystalloid volumes",
+          "paragraphs": [
+            "Large crystalloid volumes can worsen dilution, edema, hypothermia and coagulopathy. Modern trauma systems increasingly prioritize blood products when available for severe hemorrhagic shock."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Prehospital whole blood",
+          "paragraphs": [
+            "Implementation requires cold chain, donor/product policy, transfusion reactions preparedness and clear activation criteria. Evidence is evolving and system-specific."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Control bleeding + restore oxygen-carrying capacity",
+        "Avoid unnecessary crystalloid overload",
+        "Whole blood programs require system infrastructure"
+      ],
+      "quick_review": [
+        "Hemorrhage control first",
+        "Warm patient/products",
+        "Trend response"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "TOWAR prehospital whole blood trial",
+          "takeaway": "A large pragmatic cluster-randomized phase 3 trial compared up to 2 units of whole blood with component therapy in prehospital trauma hemorrhage, reflecting the rapid maturation of prehospital transfusion systems. Interpret outcomes in context of local capability and protocol.",
+          "source": "NEJM 2026",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602167",
+          "evidence": "Randomized trial"
+        },
+        {
+          "year": 2026,
+          "title": "TOWAR: whole blood vs blood components",
+          "takeaway": "The 2026 TOWAR phase 3 cluster-randomized trial did not show lower 30-day mortality with prehospital whole blood compared with blood components. This does not mean prehospital transfusion is ineffective; it cautions against assuming whole blood is superior to a component strategy in all systems.",
+          "source": "NEJM",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602167",
+          "evidence": "RCT"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OneDrive Trauma 3.1",
+          "type": "local"
+        },
+        {
+          "label": "TOWAR trial NEJM 2026",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602167",
+          "type": "research"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "Large-volume crystalloid in hemorrhagic shock can worsen?",
+          "options": [
+            "Dilution/hypothermia/coagulopathy",
+            "Oxygen carrying capacity",
+            "Hemoglobin concentration",
+            "Clot strength"
+          ],
+          "answer": 0,
+          "explain": "Excess crystalloid may worsen dilution, hypothermia and coagulopathy."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "abdominal-pelvic-trauma",
+      "category": "trauma",
+      "title": "Abdominal & Pelvic Trauma: Hidden Hemorrhage",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "ช่องท้องและ pelvis ซ่อนเลือดได้มาก—absence of external bleeding does not reassure.",
+      "keywords": [
+        "pelvis",
+        "abdomen",
+        "hemorrhage"
+      ],
+      "sections": [
+        {
+          "title": "1) Mechanism and anatomy",
+          "paragraphs": [
+            "Blunt deceleration/compression can injure spleen, liver, mesentery, bowel and retroperitoneum; penetrating trauma has trajectory-dependent injury. Pelvic ring disruption can cause major retroperitoneal bleeding."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Assessment",
+          "paragraphs": [
+            "Look for shock, tenderness/guarding, distension, seatbelt marks, pelvic instability clues, hematuria and associated chest/long-bone injury. Repeated exams are more useful than a single early benign abdomen."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Pelvic stabilization",
+          "paragraphs": [
+            "When significant pelvic fracture is suspected from mechanism/physiology, place a pelvic binder correctly over the greater trochanters according to protocol; avoid repeated pelvic “springing.”"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Destination",
+          "paragraphs": [
+            "Unstable patients need rapid hemorrhage-control capability. Do not delay transport for nondefinitive procedures when scene time is critical."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [
+        "Binder over greater trochanters",
+        "Control external bleeding and prevent hypothermia"
+      ],
+      "red_flags": [
+        "Shock without external source",
+        "Pelvic pain/deformity + hypotension",
+        "Peritonitis"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "OneDrive Trauma 3.1 — local teaching source",
+          "type": "local"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "spinal-motion-restriction",
+      "category": "trauma",
+      "title": "Spinal Motion Restriction: Selective, Safe, Reassessed",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "เป้าหมายคือจำกัดการเคลื่อนไหวที่อาจทำอันตราย ไม่ใช่ immobilize ทุกคนแบบอัตโนมัติ.",
+      "keywords": [
+        "spine",
+        "SMR",
+        "collar"
+      ],
+      "sections": [
+        {
+          "title": "1) Why the concept changed",
+          "paragraphs": [
+            "Rigid long-board immobilization for every trauma patient can cause pain, pressure injury and respiratory compromise. Modern practice emphasizes selective spinal motion restriction based on mechanism, exam and reliability."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) High-risk features",
+          "paragraphs": [
+            "Midline spinal tenderness, focal neurologic deficit, altered consciousness/intoxication, distracting injury, high-risk mechanism or inability to assess reliably increase concern."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Practical care",
+          "paragraphs": [
+            "Use manual stabilization during critical airway/extrication tasks, appropriate collar/device per local protocol, minimize transfers and reassess neuro status after movement."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Airway priority",
+          "paragraphs": [
+            "Suspected spine injury never outranks oxygenation/ventilation. Use techniques that balance airway success and movement minimization."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "OneDrive spinal trauma teaching files",
+          "type": "local"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "burns",
+      "category": "trauma",
+      "title": "Burns: Airway, TBSA, Fluids, Hypothermia & Special Mechanisms",
+      "minutes": 25,
+      "level": "Core",
+      "summary": "ประเมิน burn depth/extent แต่ต้องหา airway injury, shock, electrical/chemical injury และ trauma ร่วมก่อน.",
+      "keywords": [
+        "burn",
+        "TBSA",
+        "inhalation"
+      ],
+      "sections": [
+        {
+          "title": "1) Primary threats",
+          "paragraphs": [
+            "Enclosed-space fire, facial burns, soot, hoarseness/stridor, altered mental status and carbon monoxide/cyanide exposure raise airway/toxic inhalation concern. Edema can progress."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Estimate extent",
+          "paragraphs": [
+            "Use rule of nines or palm method in adults; pediatric proportions differ. Fluid formulas are starting estimates for significant burns, not a substitute for urine/perfusion-guided resuscitation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Temperature and pain",
+          "paragraphs": [
+            "Burn patients lose heat rapidly. Cover with clean dry material after cooling small recent thermal burns; avoid prolonged ice/cooling that causes hypothermia. Provide analgesia per protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Special burns",
+          "paragraphs": [
+            "Electrical injury may have deep tissue/cardiac effects despite small skin wounds. Chemical burns require decontamination/irrigation according to substance and safety considerations."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Stridor/hoarseness after fire",
+        "Enclosed-space exposure",
+        "Circumferential chest burn with ventilation problem",
+        "Electrical high-voltage injury"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "crush-blast",
+      "category": "trauma",
+      "title": "Crush & Blast Injury: Hidden Systemic Threats",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "injury pattern extends beyond what is visible: hyperkalemia/rhabdomyolysis in crush and multi-system pressure effects in blast.",
+      "keywords": [
+        "crush",
+        "blast",
+        "rhabdomyolysis",
+        "hyperkalemia"
+      ],
+      "sections": [
+        {
+          "title": "1) Crush syndrome",
+          "paragraphs": [
+            "Prolonged muscle compression causes myonecrosis with potassium, phosphate and myoglobin release after reperfusion. Hyperkalemia, acidosis and AKI can follow."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Before release",
+          "paragraphs": [
+            "In prolonged entrapment, anticipate sudden deterioration at extrication and coordinate fluids/monitoring/medication strategy with local protocol and medical control."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Blast mechanisms",
+          "paragraphs": [
+            "Primary blast: pressure wave (lung/ear/GI). Secondary: fragments. Tertiary: body displacement. Quaternary: burns/inhalation/toxic exposure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Triage",
+          "paragraphs": [
+            "Blast scenes may involve multiple casualties and hazardous materials; scene safety and MCI principles are essential."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "extremity-hemorrhage",
+      "category": "trauma",
+      "title": "External Hemorrhage Control: Direct Pressure, Packing & Tourniquet",
+      "minutes": 16,
+      "level": "Core",
+      "summary": "Stop catastrophic bleeding fast and verify that the intervention actually works.",
+      "keywords": [
+        "tourniquet",
+        "packing",
+        "bleeding"
+      ],
+      "sections": [
+        {
+          "title": "1) Recognize life-threatening external hemorrhage",
+          "paragraphs": [
+            "Pulsatile/continuous heavy bleeding, pooling blood, soaked dressings, partial/complete amputation or shock physiology."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Direct pressure and packing",
+          "paragraphs": [
+            "For junctional/deep wounds, pack to the bleeding source with gauze/hemostatic gauze when trained, then maintain firm pressure for the recommended product time."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Tourniquet",
+          "paragraphs": [
+            "For life-threatening extremity hemorrhage not rapidly controlled by direct pressure, apply commercial tourniquet proximal to wound (not over joint), tighten until bleeding stops, document time, reassess. A second may be needed."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Common failures",
+          "paragraphs": [
+            "Too loose, placed over bulky objects/joint, not reassessed, or delaying definitive hemorrhage control."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "OneDrive Trauma 3.1 — local teaching source",
+          "type": "local"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/visuals/xabcde.svg",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

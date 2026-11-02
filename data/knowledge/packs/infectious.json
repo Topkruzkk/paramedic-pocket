@@ -1,0 +1,199 @@
+{
+  "category": "infectious",
+  "lessons": [
+    {
+      "id": "pneumonia",
+      "category": "infectious",
+      "title": "Severe Pneumonia: Respiratory Failure & Sepsis",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "pneumonia severity is determined by gas exchange and organ dysfunction, not just fever/cough.",
+      "keywords": [
+        "pneumonia",
+        "sepsis",
+        "hypoxemia"
+      ],
+      "sections": [
+        {
+          "title": "1) Presentation",
+          "paragraphs": [
+            "Fever or hypothermia, cough, sputum, pleuritic pain, tachypnea, hypoxemia and focal/diffuse lung findings. Older/immunocompromised patients may present with confusion or weakness."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Complications",
+          "paragraphs": [
+            "Sepsis, ARDS, parapneumonic effusion/empyema, necrotizing infection and respiratory failure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Differential",
+          "paragraphs": [
+            "Heart failure, PE, aspiration, COPD/asthma, pneumothorax and noninfectious inflammatory lung disease."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital focus",
+          "paragraphs": [
+            "Oxygen/ventilation support, sepsis/shock recognition, cautious fluids based on phenotype, and early hospital notification in severe hypoxemia/shock."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "Surviving Sepsis Campaign 2026 Adult Guidelines",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "dengue",
+      "category": "infectious",
+      "title": "Dengue: Warning Signs, Critical Phase & Fluid Precision",
+      "minutes": 24,
+      "level": "Core",
+      "summary": "dengue can worsen around defervescence when plasma leakage begins; too much fluid can also harm.",
+      "keywords": [
+        "dengue",
+        "shock",
+        "plasma leakage"
+      ],
+      "sections": [
+        {
+          "title": "1) Phases",
+          "paragraphs": [
+            "Febrile phase → possible critical phase near defervescence → recovery. Plasma leakage can cause hemoconcentration, effusions and shock."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Warning signs",
+          "paragraphs": [
+            "Severe abdominal pain, persistent vomiting, mucosal bleeding, lethargy/restlessness, fluid accumulation, hepatomegaly and laboratory trends can indicate risk."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Shock",
+          "paragraphs": [
+            "Narrow pulse pressure, cool extremities and delayed refill can precede hypotension. Fluid resuscitation must be carefully reassessed because leak later reverses."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Avoid harm",
+          "paragraphs": [
+            "Avoid NSAIDs/aspirin because of bleeding risk; IM injections and unnecessary invasive procedures may be problematic in thrombocytopenia."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "WHO dengue guidance / local Thai protocols",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "infection-antimicrobial",
+      "category": "infectious",
+      "title": "Antimicrobial Thinking in Emergency Care",
+      "minutes": 17,
+      "level": "Core",
+      "summary": "early antibiotics can be lifesaving in serious bacterial infection, but stewardship requires correct indication, source and reassessment.",
+      "keywords": [
+        "antibiotics",
+        "sepsis",
+        "stewardship"
+      ],
+      "sections": [
+        {
+          "title": "1) Infection is not always bacterial",
+          "paragraphs": [
+            "Viral, fungal, parasitic and noninfectious inflammatory syndromes mimic bacterial sepsis. Obtain useful cultures/testing when it does not meaningfully delay urgent therapy."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Time-sensitive severe infection",
+          "paragraphs": [
+            "Septic shock/meningitis and selected severe infections require rapid antimicrobial therapy; exact timing/regimen depends on syndrome and guideline."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Source control",
+          "paragraphs": [
+            "Drain abscess, relieve obstruction, remove infected device, operate on perforation—antibiotics alone cannot fix some sources."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Stewardship",
+          "paragraphs": [
+            "Use local antibiogram/protocol, allergies, renal function and previous resistant organisms; de-escalate when data permit."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "Surviving Sepsis Campaign 2026 Adult Guidelines",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

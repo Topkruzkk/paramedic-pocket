@@ -1,0 +1,429 @@
+{
+  "category": "ob",
+  "lessons": [
+    {
+      "id": "pph-pregnancy",
+      "category": "ob",
+      "title": "Obstetric Emergencies: PPH, eclampsia & cardiac arrest in pregnancy",
+      "minutes": 32,
+      "level": "Advanced",
+      "summary": "OB emergencies combine hemorrhage, airway difficulty, altered physiology and two-patient considerations. PPH and cardiac arrest are strongly time-sensitive.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Postpartum hemorrhage",
+          "paragraphs": [
+            "PPH may occur without obvious risk factors. Quantify blood loss when possible, assess vitals/perfusion, uterine tone and source of bleeding. The 2025 WHO consolidated guideline emphasizes earlier recognition and rapid bundle-based treatment."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) WHO 2025 MOTIVE bundle",
+          "paragraphs": [
+            "Once PPH is diagnosed, WHO highlights immediate coordinated actions: uterine Massage, Oxytocic drugs, Tranexamic acid, IV fluids, Vaginal/genital tract examination, and Escalation of care."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) TXA timing",
+          "paragraphs": [
+            "WHO evidence supports early IV TXA for PPH as part of treatment; benefit decreases with delay and administration beyond 3 h after birth is not supported by the cited evidence. Local EMS scope/protocol determines prehospital use."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Pregnancy cardiac arrest",
+          "paragraphs": [
+            "AHA 2025: standard high-quality CPR + continuous left lateral uterine displacement when fundus at/above umbilicus; prepare resuscitative delivery immediately with goal completion by 5 min if no ROSC, depending on resources."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Eclampsia",
+          "paragraphs": [
+            "Pregnancy/postpartum seizure with hypertension features requires airway/oxygenation protection, magnesium-based treatment per obstetric protocol, BP management and rapid obstetric destination."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "PPH requires early recognition and coordinated response",
+        "TXA is time-sensitive",
+        "Pregnancy arrest: left uterine displacement + prepare delivery",
+        "Airway may be more difficult in pregnancy"
+      ],
+      "quick_review": [
+        "MOTIVE bundle",
+        "Goal resuscitative delivery by 5 min if no ROSC",
+        "Think eclampsia in pregnant/postpartum seizure"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "WHO consolidated PPH guideline",
+          "takeaway": "WHO/FIGO/ICM consolidated 51 evidence-based recommendations and emphasized earlier diagnosis and immediate MOTIVE bundle treatment.",
+          "source": "WHO 2025",
+          "url": "https://www.who.int/publications/i/item/9789240115637/",
+          "evidence": "Guideline update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO PPH Guideline 2025",
+          "url": "https://www.who.int/publications/i/item/9789240115637/",
+          "type": "primary"
+        },
+        {
+          "label": "AHA 2025 Pregnancy Arrest Algorithm",
+          "url": "https://www.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-SC-ACLS-CA-in-Pregnancy-250620.pdf",
+          "type": "primary"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "WHO 2025 PPH bundle acronym includes TXA?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 0,
+          "explain": "Tranexamic acid is part of the MOTIVE bundle."
+        },
+        {
+          "q": "AHA pregnancy arrest target for resuscitative delivery if no ROSC?",
+          "options": [
+            "By 5 minutes",
+            "After 30 minutes",
+            "Never",
+            "Only after CT"
+          ],
+          "answer": 0,
+          "explain": "AHA 2025 recommends preparing immediately with a goal to complete by 5 minutes when indicated/resources allow."
+        }
+      ],
+      "visual": "assets/visuals/pph-4ts.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "normal-delivery",
+      "category": "ob",
+      "title": "Normal Prehospital Delivery & Immediate Newborn Care",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "เตรียม mother + newborn simultaneously: recognize imminent birth, support physiologic delivery and prevent hypothermia.",
+      "keywords": [
+        "delivery",
+        "newborn",
+        "labor"
+      ],
+      "sections": [
+        {
+          "title": "1) Is birth imminent?",
+          "paragraphs": [
+            "Strong regular contractions, urge to push, crowning, multiparity and prior rapid delivery increase likelihood. Check gestation, membranes, bleeding, complications and number of fetuses if known."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Support delivery",
+          "paragraphs": [
+            "Provide privacy, clean environment and controlled support; do not pull the baby. Check for nuchal cord according to training and manage shoulder dystocia if encountered."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) After birth",
+          "paragraphs": [
+            "Assess breathing/tone, provide warmth/skin-to-skin when appropriate, manage cord according to current neonatal plan, and observe maternal bleeding/uterine tone."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Placenta",
+          "paragraphs": [
+            "Do not apply uncontrolled traction. Preserve placenta/tissue for hospital assessment and monitor for PPH."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Neonatal Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "eclampsia",
+      "category": "ob",
+      "title": "Preeclampsia & Eclampsia: Seizure in Pregnancy/Postpartum",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "eclampsia can occur antepartum, intrapartum or postpartum and requires simultaneous seizure, BP and obstetric management.",
+      "keywords": [
+        "eclampsia",
+        "preeclampsia",
+        "magnesium"
+      ],
+      "sections": [
+        {
+          "title": "1) Preeclampsia spectrum",
+          "paragraphs": [
+            "Hypertension after mid-pregnancy with organ dysfunction can involve brain, liver, kidney, platelets and placenta. Severe headache, visual symptoms, RUQ/epigastric pain and pulmonary edema are danger signs."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Eclampsia",
+          "paragraphs": [
+            "Generalized seizure in a patient with preeclampsia spectrum after excluding other causes. Protect airway, prevent injury and support oxygenation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Magnesium sulfate",
+          "paragraphs": [
+            "Magnesium is the key anticonvulsant for eclampsia prevention/treatment in obstetric protocols; exact dose/route must follow local guideline. Monitor respiratory depression and reflexes when relevant."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Severe hypertension",
+          "paragraphs": [
+            "Persistent severe BP requires urgent obstetric antihypertensive management because of stroke risk; transport to obstetric-capable facility."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Seizure pregnancy/postpartum",
+        "Severe headache/visual symptoms",
+        "RUQ pain",
+        "Pulmonary edema"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "ectopic-pregnancy",
+      "category": "ob",
+      "title": "Ectopic Pregnancy & Early-Pregnancy Hemorrhagic Shock",
+      "minutes": 19,
+      "level": "Core",
+      "summary": "reproductive-age patient + abdominal pain/syncope/shock = consider ectopic even without known pregnancy.",
+      "keywords": [
+        "ectopic",
+        "pregnancy",
+        "hemorrhage"
+      ],
+      "sections": [
+        {
+          "title": "1) Pathophysiology",
+          "paragraphs": [
+            "Implantation outside uterine cavity, most often tubal, can rupture and cause life-threatening intra-abdominal bleeding."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Presentation",
+          "paragraphs": [
+            "Unilateral/lower abdominal pain, vaginal bleeding, shoulder-tip pain, syncope or shock. Symptoms may be nonspecific and vaginal bleeding can be minimal despite major hemoperitoneum."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Risk factors",
+          "paragraphs": [
+            "Prior ectopic, tubal surgery/disease, assisted reproduction and IUD pregnancy increase risk, but many patients lack classic risk factors."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) EMS priorities",
+          "paragraphs": [
+            "Treat shock, avoid delays, obtain pregnancy/gestational history and alert an appropriate receiving facility. Definitive care is surgical/gynecologic evaluation."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Shock/syncope in possible pregnancy",
+        "Shoulder pain + abdominal pain"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "shoulder-dystocia",
+      "category": "ob",
+      "title": "Shoulder Dystocia: Time-Critical Delivery Maneuvers",
+      "minutes": 15,
+      "level": "Core",
+      "summary": "หลังศีรษะคลอดแล้วไหล่ติดเป็น obstetric emergency—recognize and perform trained maneuvers promptly.",
+      "keywords": [
+        "shoulder dystocia",
+        "delivery"
+      ],
+      "sections": [
+        {
+          "title": "1) Recognition",
+          "paragraphs": [
+            "Head delivers but retracts against perineum (“turtle sign”) or shoulders fail to deliver with normal gentle traction."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) First maneuvers",
+          "paragraphs": [
+            "Call for help, note time, avoid fundal pressure. McRoberts positioning and suprapubic pressure are common first-line maneuvers; subsequent maneuvers depend on training/protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Avoid harmful actions",
+          "paragraphs": [
+            "Do not apply excessive traction to fetal head/neck and do not use fundal pressure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) After delivery",
+          "paragraphs": [
+            "Prepare neonatal resuscitation and assess maternal bleeding/trauma. Document sequence and timing."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "maternal-arrest",
+      "category": "ob",
+      "title": "Cardiac Arrest in Pregnancy: Maternal Resuscitation & Resuscitative Delivery",
+      "minutes": 25,
+      "level": "Deep",
+      "summary": "resuscitate the mother aggressively while accounting for aortocaval compression and pregnancy-specific reversible causes.",
+      "keywords": [
+        "maternal arrest",
+        "pregnancy CPR",
+        "resuscitative delivery"
+      ],
+      "sections": [
+        {
+          "title": "1) CPR modifications",
+          "paragraphs": [
+            "High-quality CPR and standard defibrillation remain critical. In later pregnancy, manual left uterine displacement can reduce aortocaval compression while keeping the patient supine for effective compressions."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Airway",
+          "paragraphs": [
+            "Pregnancy increases aspiration risk and airway difficulty; prepare experienced airway support early without delaying compressions/defibrillation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Causes",
+          "paragraphs": [
+            "Hemorrhage, PE, eclampsia, amniotic fluid embolism, sepsis, cardiac disease and anesthesia/toxicity are important pregnancy-specific contexts alongside usual Hs & Ts."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Resuscitative delivery",
+          "paragraphs": [
+            "When indicated in a sufficiently advanced pregnancy and ROSC does not occur promptly, resuscitative delivery can improve maternal resuscitation by relieving aortocaval compression and may benefit fetus; timing/system protocol and trained team are essential."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "WHO 2025 Consolidated PPH Guideline",
+          "url": "https://www.who.int/publications/i/item/9789240115637",
+          "type": "guideline"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

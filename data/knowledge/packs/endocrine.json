@@ -1,0 +1,242 @@
+{
+  "category": "endocrine",
+  "lessons": [
+    {
+      "id": "hypoglycemia",
+      "category": "endocrine",
+      "title": "Hypoglycemia: Brain Fuel Emergency",
+      "minutes": 16,
+      "level": "Core",
+      "summary": "glucose is a fast reversible cause of altered mental status, seizure and focal neurologic mimic.",
+      "keywords": [
+        "hypoglycemia",
+        "glucose",
+        "seizure"
+      ],
+      "sections": [
+        {
+          "title": "1) Symptoms",
+          "paragraphs": [
+            "Adrenergic symptoms include sweating, tremor and palpitations; neuroglycopenia causes confusion, behavior change, seizure, coma or focal deficits. Beta-blockers may blunt warning symptoms."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Confirm and treat",
+          "paragraphs": [
+            "Check point-of-care glucose early in altered patients. If low with symptoms, treat promptly with oral carbohydrate when safe or IV/IO glucose/glucagon according to protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Find the cause",
+          "paragraphs": [
+            "Insulin/sulfonylurea, missed meals, renal/liver failure, sepsis, alcohol and adrenal disease are common contexts."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Rebound risk",
+          "paragraphs": [
+            "Long-acting insulin/sulfonylurea or systemic illness can cause recurrence; a normal glucose after treatment does not always make discharge safe."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "dka-hhs",
+      "category": "endocrine",
+      "title": "DKA & HHS: Fluids, Potassium, Insulin and Cerebral Risk",
+      "minutes": 25,
+      "level": "Core",
+      "summary": "hyperglycemic crisis is a fluid/electrolyte/acid-base emergency—not just a high glucose number.",
+      "keywords": [
+        "DKA",
+        "HHS",
+        "potassium"
+      ],
+      "sections": [
+        {
+          "title": "1) DKA physiology",
+          "paragraphs": [
+            "Insulin deficiency + counter-regulatory hormones → lipolysis/ketones → metabolic acidosis, osmotic diuresis and dehydration. Total-body potassium is depleted despite normal/high serum K."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) HHS",
+          "paragraphs": [
+            "Usually profound hyperglycemia/hyperosmolality and dehydration with less ketosis; neurologic dysfunction may be prominent."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Treatment sequence concept",
+          "paragraphs": [
+            "Volume resuscitation, potassium-aware insulin therapy and treatment of precipitating cause. Starting insulin without understanding potassium can be dangerous."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital priorities",
+          "paragraphs": [
+            "ABC, ECG, glucose, perfusion, mental status, cautious protocol-based fluids and rapid transport. Avoid empiric insulin outside authorized protocol."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Shock",
+        "Severe altered mental status",
+        "Hyperkalemic ECG",
+        "Cerebral edema concern in children"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "adrenal-crisis",
+      "category": "endocrine",
+      "title": "Adrenal Crisis: Refractory Shock, Hyponatremia & Hypoglycemia",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "consider adrenal crisis in unexplained shock—especially known adrenal disease/steroid dependence.",
+      "keywords": [
+        "adrenal crisis",
+        "steroid",
+        "hyponatremia"
+      ],
+      "sections": [
+        {
+          "title": "1) Why shock occurs",
+          "paragraphs": [
+            "Cortisol deficiency impairs vascular responsiveness and glucose homeostasis; mineralocorticoid deficiency can cause sodium loss, volume depletion and hyperkalemia in primary adrenal failure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Clues",
+          "paragraphs": [
+            "Hypotension/shock, weakness, abdominal symptoms, vomiting, hyponatremia, hypoglycemia and hyperkalemia; history of adrenal insufficiency or chronic steroid withdrawal is high yield."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Treatment concept",
+          "paragraphs": [
+            "Rapid isotonic fluid, glucose if needed and stress-dose corticosteroid are central once suspected; exact regimen follows protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Trigger",
+          "paragraphs": [
+            "Infection, surgery, trauma, vomiting or missed steroids can precipitate crisis."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "thyroid-emergencies",
+      "category": "endocrine",
+      "title": "Thyroid Storm & Myxedema Coma",
+      "minutes": 17,
+      "level": "Core",
+      "summary": "opposite endocrine extremes can both produce cardiovascular and neurologic collapse.",
+      "keywords": [
+        "thyroid storm",
+        "myxedema"
+      ],
+      "sections": [
+        {
+          "title": "1) Thyroid storm",
+          "paragraphs": [
+            "Severe thyrotoxicosis with hyperthermia, tachyarrhythmia, heart failure, GI/hepatic dysfunction and delirium. Triggered by infection, surgery, stopping therapy and other stressors."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Myxedema coma",
+          "paragraphs": [
+            "Severe hypothyroidism with hypothermia, bradycardia, hypoventilation, hyponatremia and altered consciousness."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) EMS focus",
+          "paragraphs": [
+            "Support airway/ventilation, temperature, glucose, rhythm and perfusion; avoid overly aggressive active warming in severe hypothyroid shock; definitive endocrine therapy is hospital-based."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

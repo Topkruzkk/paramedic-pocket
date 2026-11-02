@@ -1,0 +1,448 @@
+{
+  "category": "neuro",
+  "lessons": [
+    {
+      "id": "stroke-2026",
+      "category": "neuro",
+      "title": "Acute Ischemic Stroke 2026: EMS triage, TNK, thrombectomy & time windows",
+      "minutes": 32,
+      "level": "Core+",
+      "summary": "2026 AHA/ASA guideline updates the full stroke pathway from prehospital evaluation through acute treatment, with broader thrombectomy eligibility and stronger systems-of-care emphasis.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Prehospital recognition",
+          "paragraphs": [
+            "Use validated stroke recognition, establish last known well, glucose, anticoagulant history, baseline function and rapid destination decision. BE-FAST helps capture posterior symptoms but should not replace local stroke scale/pathway."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Time & imaging",
+          "paragraphs": [
+            "Do not delay transport for unnecessary interventions. In-hospital imaging determines hemorrhage, LVO and thrombolysis/thrombectomy eligibility; prehospital notification helps shorten door-to-treatment times."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) 2026 thrombolysis update",
+          "paragraphs": [
+            "For eligible adults within 4.5 h, 2026 guideline recommends tenecteplase 0.25 mg/kg (max 25 mg) or alteplase 0.9 mg/kg. Extended-window thrombolysis may be reasonable in selected patients based on advanced imaging."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Thrombectomy expansion",
+          "paragraphs": [
+            "Eligibility for EVT has broadened, including selected larger-core and posterior circulation/basilar occlusions, with recommendations extending to up to 24 h in defined populations."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Supportive care",
+          "paragraphs": [
+            "Avoid hypoglycemia; treat severe abnormalities, monitor oxygenation/BP per stroke protocol, and avoid treatment that delays reperfusion."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "LKW is critical",
+        "Glucose early",
+        "Pre-notification improves system speed",
+        "2026 guideline broadens TNK/EVT framework"
+      ],
+      "quick_review": [
+        "BE-FAST + LKW + glucose",
+        "Think posterior stroke",
+        "Do not delay definitive stroke pathway"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "Major guideline update",
+          "takeaway": "2026 AIS guidance endorses mobile stroke units, refines EMS triage, expands tenecteplase use and broadens EVT eligibility including basilar occlusion and selected larger-core patients.",
+          "source": "AHA/ASA 2026",
+          "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke",
+          "evidence": "Guideline update"
+        },
+        {
+          "year": 2026,
+          "title": "AHA/ASA 2026 expands stroke systems and treatment eligibility",
+          "takeaway": "The 2026 guideline adds recommendations around mobile stroke units, refined EMS destination strategy, broader tenecteplase and EVT eligibility, and pediatric AIS.",
+          "source": "AHA/ASA",
+          "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke",
+          "evidence": "GUIDELINE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA/ASA 2026 Acute Ischemic Stroke Guideline",
+          "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Stroke workflow",
+          "route": "stroke"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "2026 AIS guideline recognizes which thrombolytic option within 4.5 h in eligible adults?",
+          "options": [
+            "Tenecteplase 0.25 mg/kg or alteplase 0.9 mg/kg",
+            "Aspirin only",
+            "Heparin bolus for all",
+            "No thrombolysis"
+          ],
+          "answer": 0,
+          "explain": "The 2026 guideline recommends either TNK 0.25 mg/kg (max 25 mg) or alteplase 0.9 mg/kg in eligible adults."
+        }
+      ],
+      "visual": "assets/visuals/befast.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "seizure-ams",
+      "category": "neuro",
+      "title": "Seizure, Status Epilepticus & Altered Mental Status",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "ชักเป็น symptom ไม่ใช่ diagnosis. EMS ต้อง prioritize safety/ABC, duration, glucose, pregnancy/toxin/trauma, temperature and persistent altered state.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Seizure priorities",
+          "paragraphs": [
+            "Protect from injury, position/suction airway as needed, monitor ventilation/oxygenation, obtain glucose and time the seizure. Do not restrain forcefully or place objects in the mouth."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Status / ongoing seizure",
+          "paragraphs": [
+            "Persistent convulsive seizure is time-sensitive because longer duration increases treatment resistance and metabolic complications. Benzodiazepine route/dose must follow local protocol and available access."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Differential",
+          "paragraphs": [
+            "Hypoglycemia, stroke/ICH, infection, eclampsia, toxin/withdrawal, electrolyte disturbance, trauma and psychogenic nonepileptic events are important differentials."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Post-ictal reassessment",
+          "paragraphs": [
+            "Repeat neuro exam, vitals, glucose, trauma check and transport decision. Failure to regain expected mental status raises concern for nonconvulsive status, structural lesion or ongoing toxic/metabolic problem."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Time the seizure",
+        "Check glucose early",
+        "Persistent altered mental status needs reassessment",
+        "Pregnancy + seizure = eclampsia until evaluated"
+      ],
+      "quick_review": [
+        "ABC + glucose + duration",
+        "Look for trauma/toxin/pregnancy",
+        "Post-ictal ≠ automatic discharge"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "Emergency neurology references",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Seizure checklist",
+          "route": "seizure"
+        },
+        {
+          "label": "GCS Calculator",
+          "route": "gcs"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Early bedside test in altered/seizing patient?",
+          "options": [
+            "Glucose",
+            "AFP",
+            "HbA1c only",
+            "Bone scan"
+          ],
+          "answer": 0,
+          "explain": "Hypoglycemia is rapidly reversible and must be checked early."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "sah-headache",
+      "category": "neuro",
+      "title": "Thunderclap Headache & Subarachnoid Hemorrhage",
+      "minutes": 19,
+      "level": "Core",
+      "summary": "“Worst headache” ไม่ใช่ criterion เดียว—onset speed, neurologic findings and context matter.",
+      "keywords": [
+        "SAH",
+        "thunderclap",
+        "headache"
+      ],
+      "sections": [
+        {
+          "title": "1) Thunderclap phenotype",
+          "paragraphs": [
+            "Pain reaching maximal intensity within seconds to about a minute is a major red flag. SAH, reversible cerebral vasoconstriction, cervical artery dissection, venous thrombosis and pituitary apoplexy are important causes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) SAH clues",
+          "paragraphs": [
+            "Sudden severe headache, vomiting, neck stiffness, syncope, seizure, focal deficit or reduced consciousness. Sentinel headaches may precede major hemorrhage."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Assessment",
+          "paragraphs": [
+            "ABC, GCS, pupils, focal neuro exam, glucose, anticoagulants, pregnancy/postpartum, onset time. Avoid dismissing normal initial neuro exam."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital care",
+          "paragraphs": [
+            "Manage airway/ventilation when needed, treat seizures, avoid hypotension/hypoxemia and transport to imaging/neurosurgical capability based on system."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Thunderclap onset",
+        "Syncope",
+        "Meningismus",
+        "Focal deficit",
+        "Anticoagulation"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "meningitis-encephalitis",
+      "category": "neuro",
+      "title": "Meningitis & Encephalitis: Infection of CNS",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "ไข้ + altered mental status/meningismus/seizure ต้องคิด CNS infection แม้ triad ไม่ครบ.",
+      "keywords": [
+        "meningitis",
+        "encephalitis",
+        "fever"
+      ],
+      "sections": [
+        {
+          "title": "1) Syndromes",
+          "paragraphs": [
+            "Meningitis primarily involves meninges; encephalitis involves brain parenchyma and more often causes altered behavior, focal deficits or seizures. Mixed presentations occur."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Do not require the classic triad",
+          "paragraphs": [
+            "Fever, neck stiffness and altered mental status are not all present in every patient. Elderly, immunocompromised and children may be atypical."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Immediate threats",
+          "paragraphs": [
+            "Airway compromise, status epilepticus, shock, raised intracranial pressure and severe sepsis."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital priorities",
+          "paragraphs": [
+            "Isolation/PPE when indicated, ABC support, glucose, seizure control per protocol, hemodynamic support and early hospital notification. Definitive antimicrobial/antiviral timing is hospital/protocol dependent."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "spinal-cord-emergency",
+      "category": "neuro",
+      "title": "Acute Spinal Cord Syndromes & Neurogenic Shock",
+      "minutes": 21,
+      "level": "Core",
+      "summary": "แยก cord injury, spinal shock และ neurogenic shock ซึ่งไม่ใช่สิ่งเดียวกัน.",
+      "keywords": [
+        "spinal cord",
+        "neurogenic shock"
+      ],
+      "sections": [
+        {
+          "title": "1) Cord syndromes",
+          "paragraphs": [
+            "Motor/sensory deficit, sensory level, autonomic dysfunction and bladder symptoms suggest cord pathology. Trauma, epidural compression/abscess/hematoma and vascular causes are time-sensitive."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Neurogenic shock",
+          "paragraphs": [
+            "Loss of sympathetic tone after high spinal cord injury can cause hypotension with relative bradycardia and warm vasodilated skin. Hemorrhage must still be excluded first in trauma."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Spinal shock",
+          "paragraphs": [
+            "Neurologic phenomenon of transient loss of reflexes/flaccidity below cord lesion—not a hemodynamic shock state."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) EMS priorities",
+          "paragraphs": [
+            "Spinal motion restriction when indicated, maintain oxygenation/perfusion, serial neuro exam and destination appropriate to trauma/neurosurgical needs."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [
+        "Attributing trauma hypotension to neurogenic shock before excluding bleeding"
+      ],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "vertigo-dangerous",
+      "category": "neuro",
+      "title": "Acute Dizziness/Vertigo: Do Not Miss Posterior Stroke",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "คำว่า “เวียนหัว” กว้างมาก ต้องแยก syndrome และ neurologic danger signs.",
+      "keywords": [
+        "vertigo",
+        "posterior stroke",
+        "HINTS"
+      ],
+      "sections": [
+        {
+          "title": "1) Define the syndrome",
+          "paragraphs": [
+            "Distinguish acute vestibular syndrome (continuous vertigo/nausea/gait unsteadiness), episodic triggered vertigo and spontaneous episodic dizziness. Symptom quality alone is unreliable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Posterior circulation danger",
+          "paragraphs": [
+            "New severe gait/truncal ataxia, diplopia, dysarthria, dysphagia, focal weakness/numbness, new headache/neck pain or vascular risk raises concern for central cause."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) HINTS caution",
+          "paragraphs": [
+            "HINTS can be powerful in correctly selected continuous acute vestibular syndrome when performed by trained clinicians; misuse outside that context can mislead."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital focus",
+          "paragraphs": [
+            "Check glucose, neuro exam, gait if safe, LKW/onset and consider stroke pathway rather than labeling “peripheral vertigo” too early."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/ASA 2026 Acute Ischemic Stroke Guideline",
+          "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

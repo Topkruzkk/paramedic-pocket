@@ -1,0 +1,453 @@
+{
+  "category": "shock",
+  "lessons": [
+    {
+      "id": "shock-physiology",
+      "category": "shock",
+      "title": "Shock Physiology: preload, pump, SVR and oxygen delivery",
+      "minutes": 30,
+      "level": "Core+",
+      "summary": "เรียน shock โดยถาม 4 อย่าง: volume/preload, pump, vascular tone, obstruction. การรู้ physiology ช่วยเลือก fluid, vasopressor, ventilation and destination ได้ถูกกว่าใช้ BP อย่างเดียว.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Oxygen delivery",
+          "paragraphs": [
+            "DO₂ ≈ cardiac output × arterial oxygen content. Cardiac output = HR × stroke volume; oxygen content depends heavily on hemoglobin and saturation. Normal BP ไม่ได้แปลว่า perfusion ปกติ."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Hypovolemic shock",
+          "paragraphs": [
+            "Low preload from hemorrhage/dehydration. Treat source + appropriate volume/blood strategy. Hemorrhage requires bleeding control, not just fluid."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Distributive shock",
+          "paragraphs": [
+            "Vasodilation/maldistribution (sepsis, anaphylaxis, neurogenic). Fluid and vasopressor needs depend on cause, response and local protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Cardiogenic shock",
+          "paragraphs": [
+            "Pump failure: MI, myocarditis, severe arrhythmia. Excess fluid can worsen pulmonary edema; consider vasoactive/inotropic support and reperfusion/definitive care."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Obstructive shock",
+          "paragraphs": [
+            "Tension pneumothorax, tamponade, massive PE impair filling/outflow. Definitive relief of obstruction is key; fluids/pressors are temporizing."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "BP is not perfusion",
+        "Treat shock cause, not only number",
+        "Hemorrhage = control + blood strategy",
+        "Obstruction needs relief"
+      ],
+      "quick_review": [
+        "Volume / pump / tone / obstruction",
+        "Trend mental status, pulse, skin, BP, lactate when available"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "PALS/Trauma/Sepsis physiology sources",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "MAP Calculator",
+          "route": "map"
+        },
+        {
+          "label": "Shock Index",
+          "route": "shock-index"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Tension pneumothorax causes which shock type?",
+          "options": [
+            "Obstructive",
+            "Cardiogenic only",
+            "Distributive only",
+            "None"
+          ],
+          "answer": 0,
+          "explain": "Tension pneumothorax reduces venous return and causes obstructive shock."
+        }
+      ],
+      "visual": "assets/visuals/shock-matrix.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "sepsis-2026",
+      "category": "shock",
+      "title": "Sepsis & Septic Shock 2026: recognition, source, fluids, vasopressors",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "2026 Surviving Sepsis Campaign updates adult sepsis guidance and explicitly includes the immediate prehospital setting. Early recognition, source-directed care and hemodynamic reassessment remain central.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) What sepsis is",
+          "paragraphs": [
+            "Sepsis is life-threatening organ dysfunction from a dysregulated host response to infection. Do not equate fever + tachycardia alone with sepsis; look for organ dysfunction/perfusion failure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Prehospital recognition",
+          "paragraphs": [
+            "Suspect infection + altered mentation, hypotension, tachypnea, mottling, oliguria history, elevated lactate if available. qSOFA is not a stand-alone rule-out tool."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Resuscitation thinking",
+          "paragraphs": [
+            "Give oxygen for hypoxemia, obtain IV/IO if indicated, fluid strategy should be individualized and reassessed frequently; persistent hypotension may require vasopressor support per system capability."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Source & antibiotics",
+          "paragraphs": [
+            "Definitive sepsis care requires timely antimicrobials and source control, but prehospital protocols vary. Pre-notification can speed in-hospital bundle execution."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Reassessment",
+          "paragraphs": [
+            "Reassess BP/MAP, mental status, capillary refill, urine history, lactate trend if measured, lung exam/ultrasound and signs of fluid intolerance."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Sepsis = infection + organ dysfunction",
+        "Reassess after fluid rather than fixed-volume reflex",
+        "Source control/antibiotics matter",
+        "Prehospital recognition can shorten time to treatment"
+      ],
+      "quick_review": [
+        "qSOFA is not rule-out",
+        "Look at perfusion",
+        "Avoid fluid overload in poor cardiac reserve"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "Surviving Sepsis Campaign update",
+          "takeaway": "The 2026 SSC replaces 2021 guidance with 129 statements, including 46 new statements and explicit attention to immediate prehospital care.",
+          "source": "SCCM/ESICM 2026",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "evidence": "Guideline update"
+        },
+        {
+          "year": 2026,
+          "title": "Surviving Sepsis Campaign 2026",
+          "takeaway": "The 2026 adult guideline includes 129 statements, 46 new, and explicitly spans immediate prehospital, hospital and immediate post-hospital settings.",
+          "source": "SCCM/ESICM",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "evidence": "GUIDELINE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Surviving Sepsis Campaign 2026",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "type": "primary"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "2026 SSC guideline scope includes?",
+          "options": [
+            "Hospital only",
+            "Hospital + immediate prehospital and post-hospital settings",
+            "Dentistry only",
+            "Pediatrics only"
+          ],
+          "answer": 1,
+          "explain": "The 2026 adult guideline explicitly includes the immediate prehospital setting."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "hypovolemic-shock",
+      "category": "shock",
+      "title": "Hypovolemic & Hemorrhagic Shock: Volume Loss, Compensation & Resuscitation",
+      "minutes": 24,
+      "level": "Core",
+      "summary": "เข้าใจ compensated shock ก่อน hypotension และแยก hemorrhage จาก dehydration/third spacing.",
+      "keywords": [
+        "hypovolemia",
+        "hemorrhage",
+        "shock"
+      ],
+      "sections": [
+        {
+          "title": "1) Physiology",
+          "paragraphs": [
+            "Reduced circulating volume lowers venous return/preload → stroke volume falls → sympathetic tachycardia/vasoconstriction. Hypotension can be late, especially in young patients."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Recognize perfusion failure",
+          "paragraphs": [
+            "Mental status, skin, pulse quality, capillary refill, urine output (when available), shock index and trends complement BP."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Hemorrhage control first",
+          "paragraphs": [
+            "Tourniquet, wound packing/direct pressure, pelvic stabilization when indicated and rapid definitive hemorrhage control matter more than chasing normal BP with crystalloid."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Fluids/blood",
+          "paragraphs": [
+            "Resuscitation strategy depends on bleeding, TBI, age and local blood availability. Excess crystalloid can worsen dilution, hypothermia and tissue edema."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/visuals/shock-matrix.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "cardiogenic-shock",
+      "category": "shock",
+      "title": "Cardiogenic Shock: Pump Failure & Mechanical Complications",
+      "minutes": 23,
+      "level": "Core",
+      "summary": "เมื่อหัวใจปั๊มไม่พอ การเติมน้ำแบบ reflex อาจทำให้ปอดแย่ลง.",
+      "keywords": [
+        "cardiogenic shock",
+        "MI",
+        "pump failure"
+      ],
+      "sections": [
+        {
+          "title": "1) Mechanisms",
+          "paragraphs": [
+            "Large MI, severe LV/RV failure, acute MR/VSD, myocarditis and malignant arrhythmia can reduce cardiac output. High filling pressures often coexist with poor systemic perfusion."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Clinical phenotype",
+          "paragraphs": [
+            "Cold/clammy, altered mental state, hypotension, weak pulse, pulmonary edema (LV) or JVD/clear lungs (isolated RV patterns). ECG and ultrasound when available help identify cause."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Resuscitation",
+          "paragraphs": [
+            "Correct arrhythmia/hypoxia, evaluate ACS, use cautious fluid only when physiology suggests preload responsiveness, and vasoactive/inotropic support according to protocol/expert care."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Time-sensitive mechanical causes",
+          "paragraphs": [
+            "Papillary muscle rupture, VSD, free-wall rupture/tamponade require urgent definitive intervention."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "obstructive-shock",
+      "category": "shock",
+      "title": "Obstructive Shock: PE, Tamponade & Tension Pneumothorax",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "จำ physiology: pump may be okay but filling/outflow is mechanically blocked.",
+      "keywords": [
+        "obstructive shock",
+        "PE",
+        "tamponade",
+        "tension"
+      ],
+      "sections": [
+        {
+          "title": "1) Three major emergencies",
+          "paragraphs": [
+            "Massive PE obstructs pulmonary flow/RV output; tamponade prevents diastolic filling; tension pneumothorax impairs venous return and pulmonary circulation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Pattern recognition",
+          "paragraphs": [
+            "Shock with JVD and relatively clear lungs suggests obstructive/RV physiology, but findings vary. POCUS can rapidly clarify when trained/available."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Treatment is cause-specific",
+          "paragraphs": [
+            "Pressors/fluids may temporize but definitive action is relieving obstruction: decompression, pericardial drainage, or reperfusion strategy for high-risk PE."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Arrest",
+          "paragraphs": [
+            "PE and tension can present as PEA; reversible-cause search during arrest must be active."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/visuals/shock-matrix.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "vasopressors-hemodynamics",
+      "category": "shock",
+      "title": "Vasopressors & Hemodynamic Reasoning",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "เลือก vasoactive support จาก MAP/perfusion + vascular tone + pump function ไม่ใช่จาก BP อย่างเดียว.",
+      "keywords": [
+        "vasopressor",
+        "norepinephrine",
+        "MAP"
+      ],
+      "sections": [
+        {
+          "title": "1) MAP and organ perfusion",
+          "paragraphs": [
+            "MAP is a pressure surrogate, not direct flow. A patient can have “acceptable” MAP and poor cardiac output, or low MAP with preserved mentation in selected contexts."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Receptor thinking",
+          "paragraphs": [
+            "Alpha-1 increases vascular tone; beta-1 increases chronotropy/inotropy; different agents have mixed profiles. Disease phenotype and arrhythmia risk matter."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Norepinephrine concept",
+          "paragraphs": [
+            "For septic vasodilatory shock, norepinephrine remains a major first-line vasopressor in contemporary guidelines once fluid strategy is addressed."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Peripheral administration",
+          "paragraphs": [
+            "Modern protocols may allow carefully monitored peripheral vasopressor initiation to avoid harmful delay, using an appropriate vein, concentration and frequent site checks; follow local policy."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "Surviving Sepsis Campaign 2026 Adult Guidelines",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

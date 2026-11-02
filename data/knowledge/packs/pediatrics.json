@@ -1,0 +1,670 @@
+{
+  "category": "pediatrics",
+  "lessons": [
+    {
+      "id": "peds-assessment",
+      "category": "pediatrics",
+      "title": "Pediatric Systematic Assessment: PAT → ABCDE → SAMPLE",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "เด็ก decompensate ได้เร็วและ hypotension เป็น late sign. ใช้ appearance/work of breathing/circulation + primary assessment เพื่อตีความ physiology ก่อน diagnosis.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Pediatric Assessment Triangle",
+          "paragraphs": [
+            "PAT = Appearance + Work of Breathing + Circulation to skin. เป็น rapid visual/auditory impression ไม่ต้องใช้อุปกรณ์ และช่วย classify respiratory distress/failure, shock or CNS/metabolic problem."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Primary assessment",
+          "paragraphs": [
+            "A/B/C/D/E พร้อม age-appropriate vitals. HR/RR/BP ต้องตีความตามอายุและ context. Cap refill/peripheral pulse/mental status ช่วยเมื่อ BP ยังปกติ."
+          ],
+          "bullets": [
+            "Hypotension = decompensated shock until proven otherwise",
+            "Bradycardia in sick child often points to hypoxia/late deterioration"
+          ]
+        },
+        {
+          "title": "3) Secondary assessment",
+          "paragraphs": [
+            "SAMPLE + focused history: feeding/urine, fever, seizure, birth/prematurity, congenital heart disease, toxin/medication, trauma, immunization depending on case."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Reassessment",
+          "paragraphs": [
+            "เด็กเปลี่ยนเร็ว จึงต้อง trend mental status, WOB, HR, perfusion, SpO₂, glucose and response to intervention rather than relying on one snapshot."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Hypotension is late in children",
+        "PAT is rapid physiology sorting",
+        "Reassessment is continuous",
+        "Weight matters for drugs/energy/equipment"
+      ],
+      "quick_review": [
+        "Appearance / WOB / circulation",
+        "Check glucose early in altered child",
+        "Use actual weight when available"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "OneDrive Pediatrics teaching reference",
+          "type": "local"
+        }
+      ],
+      "actions": [
+        {
+          "label": "PALS Calculator",
+          "route": "peds-neonate-calc"
+        },
+        {
+          "label": "Pediatric Brady/Tachy",
+          "route": "peds-arrhythmia"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Hypotension ในเด็กมักเป็น early หรือ late sign ของ shock?",
+          "options": [
+            "Early",
+            "Late"
+          ],
+          "answer": 1,
+          "explain": "Children can compensate with tachycardia/vasoconstriction until later decompensation."
+        }
+      ],
+      "visual": "assets/visuals/pat-triangle.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "peds-arrest-shock",
+      "category": "pediatrics",
+      "title": "Pediatric Arrest & Shock: ventilation-first physiology, epinephrine, defibrillation",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "เด็ก arrest มักเริ่มจาก respiratory failure/shock. หัวใจของ PALS คือ prevention, ventilation/oxygenation, CPR quality, timely defibrillation และ weight-based dosing.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Arrest prevention",
+          "paragraphs": [
+            "Recognize respiratory failure and shock before pulseless arrest. Correct hypoxia, support ventilation, obtain vascular access when needed and treat underlying cause."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) CPR/defibrillation",
+          "paragraphs": [
+            "Compression 100–120/min, depth ≥1/3 AP diameter. Shockable arrest: 2 J/kg → 4 J/kg → subsequent ≥4 J/kg up to 10 J/kg or adult dose."
+          ],
+          "bullets": [
+            "Advanced airway: continuous compressions + breath every 2–3 s",
+            "Monitor EtCO₂ and invasive diastolic BP when available"
+          ]
+        },
+        {
+          "title": "3) Epinephrine & antiarrhythmics",
+          "paragraphs": [
+            "Nonshockable pediatric arrest: initial epinephrine as early as possible. Shockable rhythm: prioritize defibrillation; epinephrine may be given after 2 shocks or earlier if rapid defibrillation is not possible."
+          ],
+          "bullets": [
+            "Epinephrine 0.01 mg/kg IV/IO (0.1 mg/mL), max 1 mg",
+            "Amiodarone 5 mg/kg or lidocaine 1 mg/kg for shock-refractory VF/pVT"
+          ]
+        },
+        {
+          "title": "4) Shock types",
+          "paragraphs": [
+            "Hypovolemic, distributive, cardiogenic and obstructive shock require different resuscitation. Fluid volume/rate should reflect cause and response; cardiogenic shock can worsen with indiscriminate large boluses."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Pediatric arrest often follows hypoxia/shock",
+        "Defibrillation first for VF/pVT",
+        "Early epinephrine matters in nonshockable arrest",
+        "Avoid routine calcium/bicarbonate unless special indication"
+      ],
+      "quick_review": [
+        "2 J/kg → 4 J/kg",
+        "Epi 0.01 mg/kg IV/IO",
+        "Ventilate 20–30/min with advanced airway"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Earlier epinephrine in nonshockable pediatric arrest",
+          "takeaway": "Evidence updates identified observational studies linking shorter time to first epinephrine with better outcomes in nonshockable arrest; certainty remains limited.",
+          "source": "ILCOR/AHA-AAP",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074853/205239/",
+          "evidence": "Evidence update"
+        },
+        {
+          "year": 2025,
+          "title": "AHA/AAP PALS guideline refresh",
+          "takeaway": "The 2025 PALS guideline covers prearrest, arrest and post-arrest care, ventilation, drug/energy dosing, shock and arrhythmias across prehospital and hospital settings.",
+          "source": "AHA/AAP",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "evidence": "GUIDELINE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "PALS Calculator",
+          "route": "peds-neonate-calc"
+        },
+        {
+          "label": "Cardiac Arrest",
+          "route": "cardiac-arrest"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Initial nonshockable pediatric arrest: epinephrine timing?",
+          "options": [
+            "As early as possible",
+            "After 20 minutes",
+            "Never",
+            "Only after 3 shocks"
+          ],
+          "answer": 0,
+          "explain": "2025 PALS supports early epinephrine for nonshockable arrest."
+        },
+        {
+          "q": "Routine calcium in pediatric arrest?",
+          "options": [
+            "Recommended for all",
+            "Not recommended except special circumstances",
+            "Required every 5 min",
+            "Only oral"
+          ],
+          "answer": 1,
+          "explain": "Routine calcium is not recommended except specific indications such as hypocalcemia, hyperkalemia or CCB overdose."
+        }
+      ],
+      "visual": "assets/peds-arrest-algorithm.png",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "peds-arrhythmia",
+      "category": "pediatrics",
+      "title": "Pediatric Bradycardia, SVT & Wide-Complex Tachycardia",
+      "minutes": 25,
+      "level": "Advanced",
+      "summary": "Arrhythmia ในเด็กต้องเริ่มจาก perfusion/respiratory status. Bradycardia ส่วนใหญ่ secondary; tachycardia ต้องแยก sinus tachycardia, SVT และ wide-complex rhythms.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Bradycardia",
+          "paragraphs": [
+            "Correct hypoxia/ventilation first. If HR <60/min with cardiopulmonary compromise despite effective ventilation with oxygen → start CPR. Epinephrine IV/IO if persistent after correction. Atropine for increased vagal tone/primary AV block."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) SVT",
+          "paragraphs": [
+            "SVT often regular narrow complex, abrupt onset, rate often very high for age. Stable → vagal then adenosine if access available. Unstable → synchronized cardioversion starting 0.5–1 J/kg, then 2 J/kg."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Wide-complex tachycardia",
+          "paragraphs": [
+            "Consider VT vs SVT with aberrancy; if unstable cardiovert. Stable wide-complex requires expert guidance and careful drug selection; avoid reflex AV nodal blockade in pre-excitation contexts."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Brady = oxygenation/ventilation first",
+        "Stable SVT: vagal/adenosine",
+        "Unstable SVT/VT with pulse: synchronized cardioversion",
+        "Treat patient physiology first"
+      ],
+      "quick_review": [
+        "HR <60 + compromise despite ventilation → CPR",
+        "Cardioversion 0.5–1 then 2 J/kg"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Pediatric Brady/Tachy",
+          "route": "peds-arrhythmia"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Atropine เหมาะที่สุดใน pediatric brady แบบใด?",
+          "options": [
+            "Hypoxia alone",
+            "Increased vagal tone or primary AV block",
+            "Any tachycardia",
+            "VF"
+          ],
+          "answer": 1,
+          "explain": "2025 PALS limits atropine use to vagal tone/AV conduction block contexts rather than hypoxic bradycardia."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "peds-respiratory",
+      "category": "pediatrics",
+      "title": "Pediatric Respiratory Distress & Failure",
+      "minutes": 24,
+      "level": "Core",
+      "summary": "เด็ก arrest มักเริ่มจาก respiratory failure: recognize compensation before bradycardia/hypotension.",
+      "keywords": [
+        "pediatric respiratory",
+        "failure",
+        "PALS"
+      ],
+      "sections": [
+        {
+          "title": "1) Pediatric physiology",
+          "paragraphs": [
+            "Higher metabolic demand, smaller airways and lower functional reserve mean deterioration can be rapid. Tachypnea, retractions, nasal flaring and agitation are early; fatigue, poor effort, cyanosis and decreased consciousness suggest failure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Upper vs lower vs lung tissue vs control",
+          "paragraphs": [
+            "Stridor → upper airway; wheeze → lower airway; crackles/decreased compliance → lung tissue; irregular/slow breathing may reflect CNS or fatigue. Mixed disease is common."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Oxygenation and ventilation",
+          "paragraphs": [
+            "SpO₂ alone can lag or mislead. Watch work of breathing, mental state, air movement and EtCO₂ when available."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Escalation",
+          "paragraphs": [
+            "Position/suction, oxygen, bronchodilator/epinephrine when syndrome-appropriate, BVM support and advanced airway when ventilation cannot be maintained."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Pediatric Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/visuals/pat-triangle.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "peds-shock",
+      "category": "pediatrics",
+      "title": "Pediatric Shock: Compensated First, Hypotensive Late",
+      "minutes": 23,
+      "level": "Core",
+      "summary": "tachycardia + perfusion abnormalities can be shock before BP falls.",
+      "keywords": [
+        "pediatric shock",
+        "capillary refill"
+      ],
+      "sections": [
+        {
+          "title": "1) Types",
+          "paragraphs": [
+            "Hypovolemic, distributive, cardiogenic and obstructive shock all occur in children. History/exam and response to intervention guide phenotype."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Compensated shock",
+          "paragraphs": [
+            "Tachycardia, cool or abnormal skin, prolonged capillary refill, weak peripheral pulses, narrow pulse pressure, irritability/lethargy may precede hypotension."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Fluids are not one-size-fits-all",
+          "paragraphs": [
+            "Bolus volume and reassessment depend on condition. Myocarditis/cardiogenic shock and resource-limited septic contexts require special caution. Reassess lungs, liver, perfusion and BP after each bolus."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Deterioration",
+          "paragraphs": [
+            "Bradycardia in a sick child often signals severe hypoxia/late decompensation; support ventilation aggressively."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Pediatric Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "febrile-seizure",
+      "category": "pediatrics",
+      "title": "Febrile Seizure: Simple vs Complex & Dangerous Mimics",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "ชักร่วมไข้ส่วนใหญ่ benign แต่ต้องแยก prolonged/complex seizure และ CNS infection.",
+      "keywords": [
+        "febrile seizure",
+        "pediatric"
+      ],
+      "sections": [
+        {
+          "title": "1) Typical simple febrile seizure",
+          "paragraphs": [
+            "Generally generalized, brief, single episode in 24 h in a developmentally typical young child with fever; exact diagnostic age ranges follow pediatric guidance/local policy."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Complex/red flags",
+          "paragraphs": [
+            "Focal features, prolonged duration, recurrence within 24 h, persistent altered mental status, meningismus, toxic appearance, age/context atypical or concern for CNS infection."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Immediate care",
+          "paragraphs": [
+            "Protect from injury, airway positioning/suction, oxygen/ventilation as needed, check glucose, time seizure and treat prolonged seizure according to pediatric protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Fever itself",
+          "paragraphs": [
+            "Antipyretics may improve comfort but do not reliably prevent recurrence of febrile seizures."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "peds-fever-sepsis",
+      "category": "pediatrics",
+      "title": "Fever & Sepsis in Infants/Children",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "appearance and age can matter more than the height of fever.",
+      "keywords": [
+        "pediatric sepsis",
+        "fever"
+      ],
+      "sections": [
+        {
+          "title": "1) High-risk groups",
+          "paragraphs": [
+            "Young infants, immunocompromised children, complex chronic disease and toxic/poor-appearing children need lower threshold for serious infection evaluation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Pediatric sepsis phenotype",
+          "paragraphs": [
+            "Abnormal perfusion, mental state, tachycardia, temperature abnormality and respiratory distress may precede hypotension."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Look for source but do not delay stabilization",
+          "paragraphs": [
+            "Respiratory, urinary, CNS, skin/soft tissue and intra-abdominal sources are common."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) EMS priorities",
+          "paragraphs": [
+            "ABC, glucose, perfusion, temperature, appropriate oxygen/ventilation, IV/IO when indicated and early destination notification for shock."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Pediatric Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "peds-asthma",
+      "category": "pediatrics",
+      "title": "Pediatric Asthma & Wheeze: Severity and Escalation",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "wheeze in children has a broad differential; severe asthma is a clinical diagnosis of airflow failure.",
+      "keywords": [
+        "pediatric asthma",
+        "wheeze"
+      ],
+      "sections": [
+        {
+          "title": "1) Differential by age",
+          "paragraphs": [
+            "Asthma, viral-induced wheeze/bronchiolitis, anaphylaxis, foreign body and structural airway problems can present with wheeze. Sudden unilateral wheeze/choking history raises foreign body concern."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Severity",
+          "paragraphs": [
+            "Retractions, inability to speak/feed, agitation then fatigue, poor air entry, hypoxemia and altered consciousness indicate worsening severity."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Treatment principle",
+          "paragraphs": [
+            "Inhaled bronchodilator is central for asthma; add systemic steroid and other adjuncts for moderate/severe disease according to protocol. IM epinephrine is for anaphylaxis rather than routine isolated asthma."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Impending failure",
+          "paragraphs": [
+            "A tiring child with decreasing respiratory effort or bradycardia is an emergency—support ventilation and prepare advanced airway."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Pediatric Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "GINA 2026 Strategy Report",
+          "url": "https://ginasthma.org/2026-gina-strategy-report/",
+          "type": "guideline"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "peds-trauma",
+      "category": "pediatrics",
+      "title": "Pediatric Trauma: Anatomy, Compensation & Non-Accidental Injury",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "children compensate differently and lose heat quickly; mechanism must be interpreted in context of development.",
+      "keywords": [
+        "pediatric trauma",
+        "child abuse"
+      ],
+      "sections": [
+        {
+          "title": "1) Anatomy/physiology",
+          "paragraphs": [
+            "Larger head-to-body ratio, compliant chest wall, smaller circulating volume and high surface-area-to-mass ratio affect injury patterns and hypothermia risk."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Shock recognition",
+          "paragraphs": [
+            "Hypotension is late. Tachycardia, skin/peripheral pulse changes and mental status are important early clues."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Airway/spine",
+          "paragraphs": [
+            "Occiput and airway anatomy can complicate neutral positioning. Use pediatric equipment and age/size-appropriate techniques."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Safeguarding",
+          "paragraphs": [
+            "Injury inconsistent with developmental ability, patterned injuries, changing stories or delay in care can suggest non-accidental trauma; document objectively and follow safeguarding pathways."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Pediatric Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

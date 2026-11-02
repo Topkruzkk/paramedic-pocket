@@ -1,0 +1,327 @@
+{
+  "category": "environmental",
+  "lessons": [
+    {
+      "id": "heat-stroke",
+      "category": "environmental",
+      "title": "Heat Stroke: Cool First, Fast",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "hyperthermia + CNS dysfunction after heat exposure is a cooling emergency.",
+      "keywords": [
+        "heat stroke",
+        "hyperthermia",
+        "cooling"
+      ],
+      "sections": [
+        {
+          "title": "1) Definition concept",
+          "paragraphs": [
+            "Heat stroke is severe heat illness with marked hyperthermia and central neurologic dysfunction; exertional and classic forms have different populations but both require rapid cooling."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Organ injury",
+          "paragraphs": [
+            "Coagulopathy, rhabdomyolysis, hepatic/renal injury, shock and electrolyte disturbances can develop."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Cooling",
+          "paragraphs": [
+            "Immediate active cooling is the priority; cold-water immersion is highly effective for exertional heat stroke when feasible, with alternative evaporative/conductive methods as context dictates."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Avoid delay",
+          "paragraphs": [
+            "Do not postpone cooling for transport or diagnostic certainty when heat stroke is clear and safe cooling can begin."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "hypothermia",
+      "category": "environmental",
+      "title": "Accidental Hypothermia: Gentle Handling, Rewarming & Arrest",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "cold patients can have profound bradycardia and altered consciousness; physiology and resuscitation differ.",
+      "keywords": [
+        "hypothermia",
+        "rewarming"
+      ],
+      "sections": [
+        {
+          "title": "1) Staging by physiology",
+          "paragraphs": [
+            "Mild: shivering/alert. Moderate/severe: declining consciousness, shivering may stop, bradycardia/hypoventilation and arrhythmia risk increase."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Handling",
+          "paragraphs": [
+            "Move gently, prevent further heat loss, remove wet clothing when safe, insulate and use appropriate active/passive rewarming."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Cardiac arrest",
+          "paragraphs": [
+            "Pulse may be very slow and hard to detect; follow hypothermia-specific resuscitation guidance for defibrillation/medications and transport to extracorporeal-capable center when indicated."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Rewarming choices",
+          "paragraphs": [
+            "External vs internal rewarming depends on severity/circulation. Avoid rough handling and unnecessary extremity warming in severe hypothermia."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "drowning",
+      "category": "environmental",
+      "title": "Drowning: Hypoxia First",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "drowning arrest is primarily hypoxic; ventilation is unusually important compared with primary cardiac arrest.",
+      "keywords": [
+        "drowning",
+        "hypoxia",
+        "ventilation"
+      ],
+      "sections": [
+        {
+          "title": "1) Pathophysiology",
+          "paragraphs": [
+            "Submersion/immersion causes airway impairment, hypoxemia and potentially cardiac arrest. Aspiration and lung injury may persist after rescue."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Rescue priorities",
+          "paragraphs": [
+            "Scene/water safety first. Begin ventilation/CPR promptly once safe and indicated; AED/defibrillation follows standard principles."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Do not “drain water”",
+          "paragraphs": [
+            "Routine abdominal thrusts/Heimlich to remove water are not recommended and delay ventilation; use suction if material obstructs the airway."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Post-rescue",
+          "paragraphs": [
+            "Persistent cough, hypoxemia, dyspnea or altered mental state requires medical evaluation; hypothermia can coexist."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "snakebite",
+      "category": "environmental",
+      "title": "Snakebite: Envenomation Recognition & Safe First Aid",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "avoid harmful traditional first aid; immobilize, monitor and identify syndrome/antivenom need.",
+      "keywords": [
+        "snakebite",
+        "envenomation",
+        "antivenom"
+      ],
+      "sections": [
+        {
+          "title": "1) Local vs systemic effects",
+          "paragraphs": [
+            "Pain/swelling, coagulopathy/bleeding, neuroparalysis, rhabdomyolysis, shock and renal injury vary by species."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) First aid",
+          "paragraphs": [
+            "Keep patient calm, minimize exertion, immobilize affected limb in a functional position and transport. Remove rings/tight items as swelling evolves."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Avoid",
+          "paragraphs": [
+            "No cutting/sucking, ice, electric shock or tight arterial tourniquet. Pressure immobilization is species/region dependent and should follow local guidance."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Antivenom",
+          "paragraphs": [
+            "Antivenom is for clinically significant envenomation and requires trained monitoring for reactions; species-appropriate Thai protocols are essential."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "WHO / Thai snakebite guidance",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "electrocution",
+      "category": "environmental",
+      "title": "Electrical Injury & Lightning",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "skin burns can underestimate internal injury; scene electricity is the first hazard.",
+      "keywords": [
+        "electrocution",
+        "lightning"
+      ],
+      "sections": [
+        {
+          "title": "1) Scene safety",
+          "paragraphs": [
+            "Do not touch patient until electrical source is isolated. High-voltage scenes may have step potential and require utility/fire rescue."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Injury mechanisms",
+          "paragraphs": [
+            "Arrhythmia, respiratory arrest, deep muscle injury, fractures/falls, burns and rhabdomyolysis. Lightning can cause simultaneous cardiac and respiratory arrest."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Monitoring",
+          "paragraphs": [
+            "ECG and evaluation are important after significant current exposure, syncope, chest symptoms, abnormal ECG or high-voltage injury."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Lightning triage",
+          "paragraphs": [
+            "In mass lightning casualty situations, patients in arrest may deserve early resuscitation because respiratory arrest can precede potentially reversible cardiac arrest."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

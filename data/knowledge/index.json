@@ -1,0 +1,1830 @@
+{
+  "version": "0.7.1",
+  "reviewed_on": "2026-11-03",
+  "architecture": "category-pack lazy-load: one JSON per category; upload-friendly for GitHub web UI",
+  "categories": [
+    {
+      "id": "fundamentals",
+      "icon": "🧭",
+      "title": "Emergency Fundamentals",
+      "desc": "Approach, assessment, triage, history, high-risk decisions",
+      "order": 1,
+      "lesson_count": 5
+    },
+    {
+      "id": "resus",
+      "icon": "❤️‍🔥",
+      "title": "Resuscitation Science",
+      "desc": "BLS/ALS, arrest, peri-arrest, post-ROSC, resuscitation physiology",
+      "order": 2,
+      "lesson_count": 6
+    },
+    {
+      "id": "cardiology",
+      "icon": "❤️",
+      "title": "Cardiology & ECG",
+      "desc": "ECG, ACS, arrhythmias, heart failure and cardiovascular emergencies",
+      "order": 3,
+      "lesson_count": 8
+    },
+    {
+      "id": "airway",
+      "icon": "🫁",
+      "title": "Airway & Respiratory",
+      "desc": "Airway, intubation, ventilation and acute respiratory disease",
+      "order": 4,
+      "lesson_count": 10
+    },
+    {
+      "id": "neuro",
+      "icon": "🧠",
+      "title": "Neurology",
+      "desc": "Stroke, seizure, altered consciousness and neurologic emergencies",
+      "order": 5,
+      "lesson_count": 6
+    },
+    {
+      "id": "shock",
+      "icon": "🫀",
+      "title": "Shock & Sepsis",
+      "desc": "Hemodynamics, shock phenotypes, sepsis and vasoactive support",
+      "order": 6,
+      "lesson_count": 6
+    },
+    {
+      "id": "trauma",
+      "icon": "🩸",
+      "title": "Trauma",
+      "desc": "XABCDE, hemorrhage, TBI, chest, abdomen, burns and special trauma",
+      "order": 7,
+      "lesson_count": 9
+    },
+    {
+      "id": "pediatrics",
+      "icon": "👶",
+      "title": "Pediatrics / PALS",
+      "desc": "Pediatric assessment, respiratory failure, shock, arrest and common emergencies",
+      "order": 8,
+      "lesson_count": 9
+    },
+    {
+      "id": "neonatal",
+      "icon": "🍼",
+      "title": "Neonatal / NRP",
+      "desc": "Transition, ventilation, airway and advanced neonatal resuscitation",
+      "order": 9,
+      "lesson_count": 6
+    },
+    {
+      "id": "ob",
+      "icon": "🤰",
+      "title": "OB-GYN",
+      "desc": "Delivery, hemorrhage, hypertensive disorders and obstetric emergencies",
+      "order": 10,
+      "lesson_count": 6
+    },
+    {
+      "id": "tox",
+      "icon": "☠️",
+      "title": "Toxicology",
+      "desc": "Toxidromes, antidotes and high-risk poisonings",
+      "order": 11,
+      "lesson_count": 8
+    },
+    {
+      "id": "endocrine",
+      "icon": "🧪",
+      "title": "Endocrine & Metabolic",
+      "desc": "Glucose emergencies, DKA/HHS, adrenal and thyroid emergencies",
+      "order": 12,
+      "lesson_count": 4
+    },
+    {
+      "id": "renal",
+      "icon": "🧂",
+      "title": "Renal & Electrolytes",
+      "desc": "Electrolytes, AKI and dialysis-related emergencies",
+      "order": 13,
+      "lesson_count": 4
+    },
+    {
+      "id": "infectious",
+      "icon": "🦠",
+      "title": "Infectious Emergencies",
+      "desc": "Pneumonia, dengue, severe infection and antimicrobial principles",
+      "order": 14,
+      "lesson_count": 3
+    },
+    {
+      "id": "environmental",
+      "icon": "🌡️",
+      "title": "Environmental",
+      "desc": "Heat, cold, drowning, envenomation and electrical injury",
+      "order": 15,
+      "lesson_count": 5
+    },
+    {
+      "id": "pharm",
+      "icon": "💉",
+      "title": "Emergency Pharmacology",
+      "desc": "Medication safety, analgesia, vasopressors and antiarrhythmics",
+      "order": 16,
+      "lesson_count": 5
+    },
+    {
+      "id": "ems",
+      "icon": "🚑",
+      "title": "EMS Operations",
+      "desc": "Handover, dispatch, MCI, transfer and documentation",
+      "order": 17,
+      "lesson_count": 5
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ecg-deep",
+      "category": "cardiology",
+      "title": "ECG Interpretation: จากไฟฟ้าหัวใจสู่การตัดสินใจ",
+      "summary": "บทเรียนแบบเป็นระบบตั้งแต่ conduction system, ECG paper, rate/rhythm/axis/intervals จนถึง ischemia, conduction disease และการเชื่อม ECG กับ hemodynamics.",
+      "minutes": 28,
+      "level": "Core+",
+      "keywords": [
+        "axis",
+        "qtc",
+        "omi",
+        "stemi",
+        "av block",
+        "wide complex"
+      ],
+      "visual": "assets/visuals/conduction-system.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 1
+    },
+    {
+      "id": "acs-deep",
+      "category": "cardiology",
+      "title": "Acute Coronary Syndrome: Pathophysiology → ECG → Prehospital System",
+      "summary": "ACS ครอบคลุม unstable angina, NSTEMI และ STEMI/acute coronary occlusion. เป้าหมาย EMS คือจำแนก high-risk, ทำ ECG เร็ว, ให้การรักษาที่มีข้อบ่งชี้ และลดเวลาถึง reperfusion.",
+      "minutes": 30,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "assets/visuals/ecg-territories.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 3
+    },
+    {
+      "id": "arrhythmia-deep",
+      "category": "cardiology",
+      "title": "Bradycardia & Tachyarrhythmia: Hemodynamics ก่อนชื่อ rhythm",
+      "summary": "เป้าหมายคือประเมิน perfusion/instability, แยก narrow vs wide, regular vs irregular และรักษาตาม physiology ก่อนพยายามตั้งชื่อ rhythm แบบละเอียด.",
+      "minutes": 24,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 1
+    },
+    {
+      "id": "cardiac-arrest-deep",
+      "category": "resus",
+      "title": "Cardiac Arrest & Post-ROSC: CPR physiology, rhythms, drugs, EtCO₂",
+      "summary": "เข้าใจเหตุผลของ high-quality CPR, shock timing, epinephrine, reversible causes, capnography และ post-ROSC care แทนการจำ algorithm อย่างเดียว.",
+      "minutes": 30,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "assets/adult-arrest-algorithm.png",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/resus.json",
+      "research_count": 1
+    },
+    {
+      "id": "airway-assessment",
+      "category": "airway",
+      "title": "Airway Assessment & Difficult Airway: Plan A/B/C/D",
+      "summary": "คิด airway เป็น continuum ตั้งแต่ basic opening, suction, BVM, SGA, ETT จนถึง rescue airway โดยมี oxygenation เป็นเป้าหมาย ไม่ใช่การ “ต้องใส่ท่อให้ได้”.",
+      "minutes": 28,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 0
+    },
+    {
+      "id": "preoxygenation-bvm",
+      "category": "airway",
+      "title": "Preoxygenation, BVM & Peri-intubation Oxygenation",
+      "summary": "ช่วงอันตรายที่สุดของ intubation มักเป็น hypoxemia/hypotension ไม่ใช่แค่ laryngoscopy failure. บทนี้เน้นการสร้าง oxygen reserve, BVM technique และ peri-intubation physiology.",
+      "minutes": 24,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 2
+    },
+    {
+      "id": "intubation-rsi",
+      "category": "airway",
+      "title": "RSI / Tracheal Intubation: First-pass success, drugs, capnography",
+      "summary": "RSI คือ controlled process: prepare → preoxygenate → optimize physiology → induce/paralyze → place → confirm → secure → post-intubation sedation/ventilation.",
+      "minutes": 30,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "assets/visuals/airway-oxygenation.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 3
+    },
+    {
+      "id": "resp-failure",
+      "category": "airway",
+      "title": "Acute Respiratory Failure: Asthma, COPD, Pulmonary Edema, Pneumonia",
+      "summary": "เรียนแบบ physiology-first: oxygenation failure, ventilation failure, work of breathing และ impending fatigue แล้วค่อยแยกโรค.",
+      "minutes": 30,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "assets/visuals/airway-oxygenation.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 0
+    },
+    {
+      "id": "peds-assessment",
+      "category": "pediatrics",
+      "title": "Pediatric Systematic Assessment: PAT → ABCDE → SAMPLE",
+      "summary": "เด็ก decompensate ได้เร็วและ hypotension เป็น late sign. ใช้ appearance/work of breathing/circulation + primary assessment เพื่อตีความ physiology ก่อน diagnosis.",
+      "minutes": 28,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "assets/visuals/pat-triangle.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "peds-arrest-shock",
+      "category": "pediatrics",
+      "title": "Pediatric Arrest & Shock: ventilation-first physiology, epinephrine, defibrillation",
+      "summary": "เด็ก arrest มักเริ่มจาก respiratory failure/shock. หัวใจของ PALS คือ prevention, ventilation/oxygenation, CPR quality, timely defibrillation และ weight-based dosing.",
+      "minutes": 30,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "assets/peds-arrest-algorithm.png",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 2
+    },
+    {
+      "id": "peds-arrhythmia",
+      "category": "pediatrics",
+      "title": "Pediatric Bradycardia, SVT & Wide-Complex Tachycardia",
+      "summary": "Arrhythmia ในเด็กต้องเริ่มจาก perfusion/respiratory status. Bradycardia ส่วนใหญ่ secondary; tachycardia ต้องแยก sinus tachycardia, SVT และ wide-complex rhythms.",
+      "minutes": 25,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "neonatal-transition",
+      "category": "neonatal",
+      "title": "Neonatal Transition & Initial Steps: first minute matters",
+      "summary": "Neonatal resuscitation differs from PALS: most bradycardia at birth is due to ineffective ventilation/gas exchange. Effective lung inflation is the central intervention.",
+      "minutes": 28,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "assets/visuals/neonatal-transition.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neonatal.json",
+      "research_count": 1
+    },
+    {
+      "id": "neonatal-airway",
+      "category": "neonatal",
+      "title": "Neonatal Ventilation, ETT, Laryngeal Mask & Video Laryngoscopy",
+      "summary": "Airway newborn ต้องคิดตาม GA/weight, device availability และ ventilation effectiveness. New 2025 evidence strengthens the role of supraglottic airway and video laryngoscopy in selected settings.",
+      "minutes": 30,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neonatal.json",
+      "research_count": 2
+    },
+    {
+      "id": "neonatal-advanced",
+      "category": "neonatal",
+      "title": "Advanced Neonatal Resuscitation: compressions, epinephrine, volume, post-care",
+      "summary": "เมื่อ HR ยัง <60/min หลัง ventilation ที่ทำให้ chest movement แล้ว ให้ escalate อย่างเป็นลำดับ: alternative airway → compressions 3:1 → oxygen/vascular access → epinephrine → causes/volume.",
+      "minutes": 28,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "assets/neonatal-algorithm.png",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neonatal.json",
+      "research_count": 0
+    },
+    {
+      "id": "trauma-xabcde",
+      "category": "trauma",
+      "title": "Trauma XABCDE & Hemorrhage Control",
+      "summary": "เป้าหมาย trauma resuscitation คือแก้ immediate killers ตามลำดับ โดยเฉพาะ catastrophic hemorrhage, airway compromise, tension physiology และ shock ขณะลด scene time ที่ไม่จำเป็น.",
+      "minutes": 32,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "assets/visuals/xabcde.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 0
+    },
+    {
+      "id": "tbi-deep",
+      "category": "trauma",
+      "title": "Traumatic Brain Injury: prevent secondary brain injury",
+      "summary": "TBI outcome is heavily influenced by secondary insults—especially hypoxemia, hypotension, abnormal ventilation and delayed definitive care.",
+      "minutes": 30,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 1
+    },
+    {
+      "id": "chest-trauma",
+      "category": "trauma",
+      "title": "Chest Trauma: tension pneumothorax, hemothorax, flail chest, tamponade",
+      "summary": "Chest trauma kills through ventilation failure and obstructive/hemorrhagic shock. Diagnosis is primarily clinical in the unstable patient.",
+      "minutes": 28,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 0
+    },
+    {
+      "id": "prehospital-blood",
+      "category": "trauma",
+      "title": "Hemorrhagic Shock & Prehospital Blood: what is changing?",
+      "summary": "การ resuscitate hemorrhage เปลี่ยนจาก crystalloid-heavy ไปสู่ early blood component/whole blood strategies ใน systems ที่พร้อม โดยต้อง balance evidence, logistics, safety and local protocol.",
+      "minutes": 26,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 2
+    },
+    {
+      "id": "stroke-2026",
+      "category": "neuro",
+      "title": "Acute Ischemic Stroke 2026: EMS triage, TNK, thrombectomy & time windows",
+      "summary": "2026 AHA/ASA guideline updates the full stroke pathway from prehospital evaluation through acute treatment, with broader thrombectomy eligibility and stronger systems-of-care emphasis.",
+      "minutes": 32,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "assets/visuals/befast.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neuro.json",
+      "research_count": 2
+    },
+    {
+      "id": "seizure-ams",
+      "category": "neuro",
+      "title": "Seizure, Status Epilepticus & Altered Mental Status",
+      "summary": "ชักเป็น symptom ไม่ใช่ diagnosis. EMS ต้อง prioritize safety/ABC, duration, glucose, pregnancy/toxin/trauma, temperature and persistent altered state.",
+      "minutes": 28,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neuro.json",
+      "research_count": 0
+    },
+    {
+      "id": "shock-physiology",
+      "category": "shock",
+      "title": "Shock Physiology: preload, pump, SVR and oxygen delivery",
+      "summary": "เรียน shock โดยถาม 4 อย่าง: volume/preload, pump, vascular tone, obstruction. การรู้ physiology ช่วยเลือก fluid, vasopressor, ventilation and destination ได้ถูกกว่าใช้ BP อย่างเดียว.",
+      "minutes": 30,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "assets/visuals/shock-matrix.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/shock.json",
+      "research_count": 0
+    },
+    {
+      "id": "sepsis-2026",
+      "category": "shock",
+      "title": "Sepsis & Septic Shock 2026: recognition, source, fluids, vasopressors",
+      "summary": "2026 Surviving Sepsis Campaign updates adult sepsis guidance and explicitly includes the immediate prehospital setting. Early recognition, source-directed care and hemodynamic reassessment remain central.",
+      "minutes": 30,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/shock.json",
+      "research_count": 2
+    },
+    {
+      "id": "med-safety",
+      "category": "pharm",
+      "title": "Emergency Pharmacology & Medication Safety",
+      "summary": "ความผิดพลาด EMS มักเกิดจาก concentration, decimal, weight, route หรือ unit ไม่ใช่การจำชื่อยาไม่ได้. บทนี้เน้นระบบป้องกัน error.",
+      "minutes": 28,
+      "level": "Core+",
+      "keywords": [],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pharm.json",
+      "research_count": 0
+    },
+    {
+      "id": "pph-pregnancy",
+      "category": "ob",
+      "title": "Obstetric Emergencies: PPH, eclampsia & cardiac arrest in pregnancy",
+      "summary": "OB emergencies combine hemorrhage, airway difficulty, altered physiology and two-patient considerations. PPH and cardiac arrest are strongly time-sensitive.",
+      "minutes": 32,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "assets/visuals/pph-4ts.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ob.json",
+      "research_count": 1
+    },
+    {
+      "id": "tox-deep",
+      "category": "tox",
+      "title": "Toxicology: toxidromes, cardiotoxic poisonings & special resuscitation",
+      "summary": "Toxicology management starts with supportive ABC, glucose/temperature/ECG, pattern recognition and consultation—not antidote memorization alone.",
+      "minutes": 34,
+      "level": "Advanced",
+      "keywords": [],
+      "visual": "assets/visuals/toxidrome.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 1
+    },
+    {
+      "id": "emergency-approach",
+      "category": "fundamentals",
+      "title": "Approach to the Undifferentiated Emergency Patient",
+      "summary": "กรอบคิดสำหรับผู้ป่วยที่ยังไม่รู้ diagnosis: scene → primary survey → resuscitation → focused differential → reassessment.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "ABCDE",
+        "undifferentiated",
+        "primary survey"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/fundamentals.json",
+      "research_count": 0
+    },
+    {
+      "id": "history-exam",
+      "category": "fundamentals",
+      "title": "High-Yield History & Focused Examination",
+      "summary": "การซักประวัติและตรวจร่างกายแบบที่ช่วยตัดสินใจ ไม่ใช่เก็บข้อมูลทุกอย่าง.",
+      "minutes": 15,
+      "level": "Core",
+      "keywords": [
+        "SAMPLE",
+        "OPQRST",
+        "history"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/fundamentals.json",
+      "research_count": 0
+    },
+    {
+      "id": "triage-esi",
+      "category": "fundamentals",
+      "title": "Emergency Triage & Resource Thinking",
+      "summary": "หลักคิด triage: ใครต้องช่วยเดี๋ยวนี้ ใครมี high-risk physiology และใครต้องใช้ทรัพยากรมาก.",
+      "minutes": 14,
+      "level": "Core",
+      "keywords": [
+        "triage",
+        "ESI",
+        "priority"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/fundamentals.json",
+      "research_count": 0
+    },
+    {
+      "id": "pain-sedation",
+      "category": "fundamentals",
+      "title": "Pain, Agitation & Procedural Sedation Principles",
+      "summary": "เข้าใจ pain/agitation แบบ physiologic และใช้ sedation อย่างปลอดภัย.",
+      "minutes": 18,
+      "level": "Core+",
+      "keywords": [
+        "sedation",
+        "analgesia",
+        "agitation"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/fundamentals.json",
+      "research_count": 0
+    },
+    {
+      "id": "geriatric-emergency",
+      "category": "fundamentals",
+      "title": "Geriatric Emergency: Atypical Presentation & Frailty",
+      "summary": "ผู้สูงอายุมี physiologic reserve ต่ำและมักแสดงอาการไม่คลาสสิก.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "geriatric",
+        "frailty",
+        "delirium"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/fundamentals.json",
+      "research_count": 0
+    },
+    {
+      "id": "adult-bls-als",
+      "category": "resus",
+      "title": "Adult BLS/ALS 2025: High-Quality CPR to Reversible Causes",
+      "summary": "แกนของ adult resuscitation: CPR quality, early defibrillation, correct drug timing, airway without interrupting compressions และ reversible causes.",
+      "minutes": 24,
+      "level": "Core+",
+      "keywords": [
+        "CPR",
+        "VF",
+        "PEA",
+        "ACLS"
+      ],
+      "visual": "assets/adult-arrest-algorithm.png",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/resus.json",
+      "research_count": 0
+    },
+    {
+      "id": "adult-bradycardia",
+      "category": "resus",
+      "title": "Adult Symptomatic Bradycardia: Perfusion Before Rate",
+      "summary": "Bradycardia ต้องรักษาเมื่อทำให้ perfusion ไม่พอ ไม่ใช่เพราะตัวเลข HR ต่ำอย่างเดียว.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "bradycardia",
+        "pacing",
+        "atropine"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/resus.json",
+      "research_count": 0
+    },
+    {
+      "id": "adult-tachycardia",
+      "category": "resus",
+      "title": "Adult Tachyarrhythmia With a Pulse: Stability, Width, Regularity",
+      "summary": "แยก unstable vs stable ก่อน แล้วใช้ QRS width/regularity ช่วยเลือก pathway.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "tachycardia",
+        "SVT",
+        "VT",
+        "cardioversion"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/resus.json",
+      "research_count": 0
+    },
+    {
+      "id": "post-arrest-care",
+      "category": "resus",
+      "title": "Post–Cardiac Arrest Care: Oxygen, Ventilation, Pressure, Temperature & Cause",
+      "summary": "ROSC เป็นจุดเริ่มต้นของ phase ใหม่ที่ต้องป้องกัน secondary injury และหาสาเหตุ arrest.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "ROSC",
+        "post arrest",
+        "temperature"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/resus.json",
+      "research_count": 0
+    },
+    {
+      "id": "cpr-capnography",
+      "category": "resus",
+      "title": "Capnography During CPR: What EtCO₂ Can and Cannot Tell You",
+      "summary": "EtCO₂ เป็นทั้ง airway confirmation tool และ physiologic trend ระหว่าง CPR แต่ต้องตีความตาม ventilation, perfusion และ context.",
+      "minutes": 16,
+      "level": "Core",
+      "keywords": [
+        "EtCO2",
+        "capnography",
+        "CPR"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/resus.json",
+      "research_count": 0
+    },
+    {
+      "id": "acute-heart-failure",
+      "category": "cardiology",
+      "title": "Acute Heart Failure & Cardiogenic Pulmonary Edema",
+      "summary": "แยก congestion, afterload problem, ischemia และ cardiogenic shock เพื่อเลือก intervention ที่ถูก physiology.",
+      "minutes": 24,
+      "level": "Core",
+      "keywords": [
+        "heart failure",
+        "pulmonary edema",
+        "CPAP"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 0
+    },
+    {
+      "id": "hypertensive-emergency",
+      "category": "cardiology",
+      "title": "Hypertensive Emergency: Treat Organ Injury, Not the Number",
+      "summary": "ความดันสูงมากจะเป็น emergency เมื่อมี acute target-organ injury.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "hypertension",
+        "emergency",
+        "BP"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 0
+    },
+    {
+      "id": "aortic-syndrome",
+      "category": "cardiology",
+      "title": "Acute Aortic Syndrome: Dissection, Intramural Hematoma & Rupture",
+      "summary": "เจ็บฉับพลัน + pulse/neuro/perfusion abnormality ต้องคิด aortic catastrophe.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "aortic dissection",
+        "chest pain"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 0
+    },
+    {
+      "id": "tamponade-pericarditis",
+      "category": "cardiology",
+      "title": "Pericarditis & Cardiac Tamponade",
+      "summary": "จาก pleuritic positional pain ไปถึง obstructive shock: เข้าใจ pericardial pressure-volume relationship.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "tamponade",
+        "pericarditis",
+        "obstructive shock"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 0
+    },
+    {
+      "id": "pacemaker-ecg",
+      "category": "cardiology",
+      "title": "Pacemaker ECG & Malfunction Basics",
+      "summary": "รู้จัก pacing spike, capture, sensing และภาวะ malfunction ที่คุกคาม perfusion.",
+      "minutes": 17,
+      "level": "Core",
+      "keywords": [
+        "pacemaker",
+        "capture",
+        "sensing"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/cardiology.json",
+      "research_count": 0
+    },
+    {
+      "id": "asthma-2026",
+      "category": "airway",
+      "title": "Acute Asthma 2026: Bronchospasm, Dynamic Hyperinflation & Escalation",
+      "summary": "ตั้งแต่ airway inflammation/bronchospasm ไปถึง silent chest, auto-PEEP และ peri-intubation collapse.",
+      "minutes": 30,
+      "level": "Deep",
+      "keywords": [
+        "asthma",
+        "wheeze",
+        "auto-PEEP"
+      ],
+      "visual": "assets/visuals/airway-oxygenation.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 1
+    },
+    {
+      "id": "copd-2026",
+      "category": "airway",
+      "title": "COPD Exacerbation 2026: Oxygen, Ventilation & Hypercapnia",
+      "summary": "ประเมิน exacerbation, gas-exchange failure, oxygen titration และบทบาท NIV.",
+      "minutes": 26,
+      "level": "Deep",
+      "keywords": [
+        "COPD",
+        "NIV",
+        "hypercapnia"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 1
+    },
+    {
+      "id": "ventilator-basics",
+      "category": "airway",
+      "title": "Mechanical Ventilation Basics for Paramedics: Settings, Waveforms & DOPE",
+      "summary": "เข้าใจ ventilator แบบ physiology-first: oxygenation, ventilation, pressure, synchrony และ troubleshooting.",
+      "minutes": 30,
+      "level": "Deep",
+      "keywords": [
+        "ventilator",
+        "PEEP",
+        "tidal volume",
+        "DOPE"
+      ],
+      "visual": "assets/visuals/ventilator-dope.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 0
+    },
+    {
+      "id": "pulmonary-embolism",
+      "category": "airway",
+      "title": "Pulmonary Embolism: From Dyspnea to Obstructive Shock",
+      "summary": "คิด PE เมื่อ dyspnea/chest pain/syncope ไม่มีคำอธิบาย โดยเฉพาะมี VTE risk และ RV strain.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "PE",
+        "pulmonary embolism",
+        "obstructive shock"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 0
+    },
+    {
+      "id": "pneumothorax",
+      "category": "airway",
+      "title": "Pneumothorax & Tension Physiology",
+      "summary": "อย่ารอภาพถ่ายเมื่อ obstructive shock + compatible chest findings บอก tension pneumothorax.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "pneumothorax",
+        "tension",
+        "decompression"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 0
+    },
+    {
+      "id": "pulmonary-edema",
+      "category": "airway",
+      "title": "Acute Pulmonary Edema: CPAP/NIV, Afterload & the Failing LV",
+      "summary": "เข้าใจว่าบางราย “น้ำท่วมปอด” เกิดจาก abrupt pressure redistribution มากกว่าปริมาณน้ำส่วนเกินอย่างเดียว.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "pulmonary edema",
+        "CPAP",
+        "SCAPE"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/airway.json",
+      "research_count": 0
+    },
+    {
+      "id": "sah-headache",
+      "category": "neuro",
+      "title": "Thunderclap Headache & Subarachnoid Hemorrhage",
+      "summary": "“Worst headache” ไม่ใช่ criterion เดียว—onset speed, neurologic findings and context matter.",
+      "minutes": 19,
+      "level": "Core",
+      "keywords": [
+        "SAH",
+        "thunderclap",
+        "headache"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neuro.json",
+      "research_count": 0
+    },
+    {
+      "id": "meningitis-encephalitis",
+      "category": "neuro",
+      "title": "Meningitis & Encephalitis: Infection of CNS",
+      "summary": "ไข้ + altered mental status/meningismus/seizure ต้องคิด CNS infection แม้ triad ไม่ครบ.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "meningitis",
+        "encephalitis",
+        "fever"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neuro.json",
+      "research_count": 0
+    },
+    {
+      "id": "spinal-cord-emergency",
+      "category": "neuro",
+      "title": "Acute Spinal Cord Syndromes & Neurogenic Shock",
+      "summary": "แยก cord injury, spinal shock และ neurogenic shock ซึ่งไม่ใช่สิ่งเดียวกัน.",
+      "minutes": 21,
+      "level": "Core",
+      "keywords": [
+        "spinal cord",
+        "neurogenic shock"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neuro.json",
+      "research_count": 0
+    },
+    {
+      "id": "vertigo-dangerous",
+      "category": "neuro",
+      "title": "Acute Dizziness/Vertigo: Do Not Miss Posterior Stroke",
+      "summary": "คำว่า “เวียนหัว” กว้างมาก ต้องแยก syndrome และ neurologic danger signs.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "vertigo",
+        "posterior stroke",
+        "HINTS"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neuro.json",
+      "research_count": 0
+    },
+    {
+      "id": "hypovolemic-shock",
+      "category": "shock",
+      "title": "Hypovolemic & Hemorrhagic Shock: Volume Loss, Compensation & Resuscitation",
+      "summary": "เข้าใจ compensated shock ก่อน hypotension และแยก hemorrhage จาก dehydration/third spacing.",
+      "minutes": 24,
+      "level": "Core",
+      "keywords": [
+        "hypovolemia",
+        "hemorrhage",
+        "shock"
+      ],
+      "visual": "assets/visuals/shock-matrix.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/shock.json",
+      "research_count": 0
+    },
+    {
+      "id": "cardiogenic-shock",
+      "category": "shock",
+      "title": "Cardiogenic Shock: Pump Failure & Mechanical Complications",
+      "summary": "เมื่อหัวใจปั๊มไม่พอ การเติมน้ำแบบ reflex อาจทำให้ปอดแย่ลง.",
+      "minutes": 23,
+      "level": "Core",
+      "keywords": [
+        "cardiogenic shock",
+        "MI",
+        "pump failure"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/shock.json",
+      "research_count": 0
+    },
+    {
+      "id": "obstructive-shock",
+      "category": "shock",
+      "title": "Obstructive Shock: PE, Tamponade & Tension Pneumothorax",
+      "summary": "จำ physiology: pump may be okay but filling/outflow is mechanically blocked.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "obstructive shock",
+        "PE",
+        "tamponade",
+        "tension"
+      ],
+      "visual": "assets/visuals/shock-matrix.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/shock.json",
+      "research_count": 0
+    },
+    {
+      "id": "vasopressors-hemodynamics",
+      "category": "shock",
+      "title": "Vasopressors & Hemodynamic Reasoning",
+      "summary": "เลือก vasoactive support จาก MAP/perfusion + vascular tone + pump function ไม่ใช่จาก BP อย่างเดียว.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "vasopressor",
+        "norepinephrine",
+        "MAP"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/shock.json",
+      "research_count": 0
+    },
+    {
+      "id": "abdominal-pelvic-trauma",
+      "category": "trauma",
+      "title": "Abdominal & Pelvic Trauma: Hidden Hemorrhage",
+      "summary": "ช่องท้องและ pelvis ซ่อนเลือดได้มาก—absence of external bleeding does not reassure.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "pelvis",
+        "abdomen",
+        "hemorrhage"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 0
+    },
+    {
+      "id": "spinal-motion-restriction",
+      "category": "trauma",
+      "title": "Spinal Motion Restriction: Selective, Safe, Reassessed",
+      "summary": "เป้าหมายคือจำกัดการเคลื่อนไหวที่อาจทำอันตราย ไม่ใช่ immobilize ทุกคนแบบอัตโนมัติ.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "spine",
+        "SMR",
+        "collar"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 0
+    },
+    {
+      "id": "burns",
+      "category": "trauma",
+      "title": "Burns: Airway, TBSA, Fluids, Hypothermia & Special Mechanisms",
+      "summary": "ประเมิน burn depth/extent แต่ต้องหา airway injury, shock, electrical/chemical injury และ trauma ร่วมก่อน.",
+      "minutes": 25,
+      "level": "Core",
+      "keywords": [
+        "burn",
+        "TBSA",
+        "inhalation"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 0
+    },
+    {
+      "id": "crush-blast",
+      "category": "trauma",
+      "title": "Crush & Blast Injury: Hidden Systemic Threats",
+      "summary": "injury pattern extends beyond what is visible: hyperkalemia/rhabdomyolysis in crush and multi-system pressure effects in blast.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "crush",
+        "blast",
+        "rhabdomyolysis",
+        "hyperkalemia"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 0
+    },
+    {
+      "id": "extremity-hemorrhage",
+      "category": "trauma",
+      "title": "External Hemorrhage Control: Direct Pressure, Packing & Tourniquet",
+      "summary": "Stop catastrophic bleeding fast and verify that the intervention actually works.",
+      "minutes": 16,
+      "level": "Core",
+      "keywords": [
+        "tourniquet",
+        "packing",
+        "bleeding"
+      ],
+      "visual": "assets/visuals/xabcde.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/trauma.json",
+      "research_count": 0
+    },
+    {
+      "id": "peds-respiratory",
+      "category": "pediatrics",
+      "title": "Pediatric Respiratory Distress & Failure",
+      "summary": "เด็ก arrest มักเริ่มจาก respiratory failure: recognize compensation before bradycardia/hypotension.",
+      "minutes": 24,
+      "level": "Core",
+      "keywords": [
+        "pediatric respiratory",
+        "failure",
+        "PALS"
+      ],
+      "visual": "assets/visuals/pat-triangle.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "peds-shock",
+      "category": "pediatrics",
+      "title": "Pediatric Shock: Compensated First, Hypotensive Late",
+      "summary": "tachycardia + perfusion abnormalities can be shock before BP falls.",
+      "minutes": 23,
+      "level": "Core",
+      "keywords": [
+        "pediatric shock",
+        "capillary refill"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "febrile-seizure",
+      "category": "pediatrics",
+      "title": "Febrile Seizure: Simple vs Complex & Dangerous Mimics",
+      "summary": "ชักร่วมไข้ส่วนใหญ่ benign แต่ต้องแยก prolonged/complex seizure และ CNS infection.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "febrile seizure",
+        "pediatric"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "peds-fever-sepsis",
+      "category": "pediatrics",
+      "title": "Fever & Sepsis in Infants/Children",
+      "summary": "appearance and age can matter more than the height of fever.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "pediatric sepsis",
+        "fever"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "peds-asthma",
+      "category": "pediatrics",
+      "title": "Pediatric Asthma & Wheeze: Severity and Escalation",
+      "summary": "wheeze in children has a broad differential; severe asthma is a clinical diagnosis of airflow failure.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "pediatric asthma",
+        "wheeze"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "peds-trauma",
+      "category": "pediatrics",
+      "title": "Pediatric Trauma: Anatomy, Compensation & Non-Accidental Injury",
+      "summary": "children compensate differently and lose heat quickly; mechanism must be interpreted in context of development.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "pediatric trauma",
+        "child abuse"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pediatrics.json",
+      "research_count": 0
+    },
+    {
+      "id": "neonatal-oxygen-thermal",
+      "category": "neonatal",
+      "title": "Neonatal Thermal Care & Oxygen Targets",
+      "summary": "newborn resuscitation begins with transition physiology, temperature control and appropriate oxygen—not automatic 100% oxygen.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "neonatal",
+        "oxygen",
+        "temperature"
+      ],
+      "visual": "assets/visuals/neonatal-transition.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neonatal.json",
+      "research_count": 0
+    },
+    {
+      "id": "neonatal-ppv",
+      "category": "neonatal",
+      "title": "Neonatal Positive-Pressure Ventilation: The Most Important Skill",
+      "summary": "Most neonatal bradycardia is caused by inadequate gas exchange; effective ventilation is the central resuscitation intervention.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "newborn",
+        "PPV",
+        "ventilation"
+      ],
+      "visual": "assets/neonatal-algorithm.png",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neonatal.json",
+      "research_count": 0
+    },
+    {
+      "id": "neonatal-postresus",
+      "category": "neonatal",
+      "title": "Post-Resuscitation Care of the Newborn",
+      "summary": "ROSC/HR recovery does not end risk: monitor glucose, temperature, oxygenation and neurologic status.",
+      "minutes": 16,
+      "level": "Core",
+      "keywords": [
+        "newborn",
+        "postresuscitation"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/neonatal.json",
+      "research_count": 0
+    },
+    {
+      "id": "normal-delivery",
+      "category": "ob",
+      "title": "Normal Prehospital Delivery & Immediate Newborn Care",
+      "summary": "เตรียม mother + newborn simultaneously: recognize imminent birth, support physiologic delivery and prevent hypothermia.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "delivery",
+        "newborn",
+        "labor"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ob.json",
+      "research_count": 0
+    },
+    {
+      "id": "eclampsia",
+      "category": "ob",
+      "title": "Preeclampsia & Eclampsia: Seizure in Pregnancy/Postpartum",
+      "summary": "eclampsia can occur antepartum, intrapartum or postpartum and requires simultaneous seizure, BP and obstetric management.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "eclampsia",
+        "preeclampsia",
+        "magnesium"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ob.json",
+      "research_count": 0
+    },
+    {
+      "id": "ectopic-pregnancy",
+      "category": "ob",
+      "title": "Ectopic Pregnancy & Early-Pregnancy Hemorrhagic Shock",
+      "summary": "reproductive-age patient + abdominal pain/syncope/shock = consider ectopic even without known pregnancy.",
+      "minutes": 19,
+      "level": "Core",
+      "keywords": [
+        "ectopic",
+        "pregnancy",
+        "hemorrhage"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ob.json",
+      "research_count": 0
+    },
+    {
+      "id": "shoulder-dystocia",
+      "category": "ob",
+      "title": "Shoulder Dystocia: Time-Critical Delivery Maneuvers",
+      "summary": "หลังศีรษะคลอดแล้วไหล่ติดเป็น obstetric emergency—recognize and perform trained maneuvers promptly.",
+      "minutes": 15,
+      "level": "Core",
+      "keywords": [
+        "shoulder dystocia",
+        "delivery"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ob.json",
+      "research_count": 0
+    },
+    {
+      "id": "maternal-arrest",
+      "category": "ob",
+      "title": "Cardiac Arrest in Pregnancy: Maternal Resuscitation & Resuscitative Delivery",
+      "summary": "resuscitate the mother aggressively while accounting for aortocaval compression and pregnancy-specific reversible causes.",
+      "minutes": 25,
+      "level": "Deep",
+      "keywords": [
+        "maternal arrest",
+        "pregnancy CPR",
+        "resuscitative delivery"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ob.json",
+      "research_count": 0
+    },
+    {
+      "id": "acetaminophen-tox",
+      "category": "tox",
+      "title": "Acetaminophen/Paracetamol Poisoning: Silent Early, Dangerous Later",
+      "summary": "ผู้ป่วยอาจดูดีช่วงแรกแต่เกิด hepatic failure ภายหลัง—timing and dose history matter.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "acetaminophen",
+        "paracetamol",
+        "NAC"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 0
+    },
+    {
+      "id": "salicylate-tox",
+      "category": "tox",
+      "title": "Salicylate Poisoning: Hyperventilation Is Protective",
+      "summary": "tachypnea is often compensation; intubation that reduces minute ventilation can precipitate abrupt deterioration.",
+      "minutes": 24,
+      "level": "Deep",
+      "keywords": [
+        "salicylate",
+        "aspirin",
+        "alkalosis"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 0
+    },
+    {
+      "id": "tca-sodium-channel",
+      "category": "tox",
+      "title": "TCA & Sodium-Channel Blocker Toxicity: QRS Is a Warning Sign",
+      "summary": "cardiotoxicity from sodium-channel blockade can cause wide QRS, hypotension, seizure and ventricular dysrhythmia.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "TCA",
+        "QRS",
+        "sodium bicarbonate"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 0
+    },
+    {
+      "id": "bb-ccb-tox",
+      "category": "tox",
+      "title": "Beta-Blocker & Calcium-Channel Blocker Poisoning",
+      "summary": "bradycardic shock from cardiotoxic drugs requires physiology-driven antidotal and vasoactive care.",
+      "minutes": 26,
+      "level": "Deep",
+      "keywords": [
+        "beta blocker",
+        "CCB",
+        "high dose insulin"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 1
+    },
+    {
+      "id": "opioid-tox",
+      "category": "tox",
+      "title": "Opioid Toxicity: Ventilation First, Naloxone to Restore Breathing",
+      "summary": "เป้าหมายคือ oxygenation/ventilation และ reversal ของ dangerous respiratory depression ไม่ใช่ทำให้ตื่นเต็มที่ทุกคน.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "opioid",
+        "naloxone",
+        "respiratory depression"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 0
+    },
+    {
+      "id": "organophosphate",
+      "category": "tox",
+      "title": "Organophosphate/Carbamate Poisoning: Cholinergic Crisis",
+      "summary": "secretions + bronchospasm + weakness make airway management central; atropine endpoint is pulmonary drying/improved ventilation.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "organophosphate",
+        "atropine",
+        "cholinergic"
+      ],
+      "visual": "assets/visuals/toxidrome.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 0
+    },
+    {
+      "id": "alcohol-withdrawal",
+      "category": "tox",
+      "title": "Alcohol Withdrawal: From Tremor to Delirium Tremens",
+      "summary": "autonomic hyperactivity can progress to seizures and delirium; do not overlook hypoglycemia, trauma or infection.",
+      "minutes": 19,
+      "level": "Core",
+      "keywords": [
+        "alcohol withdrawal",
+        "DT",
+        "seizure"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/tox.json",
+      "research_count": 0
+    },
+    {
+      "id": "hypoglycemia",
+      "category": "endocrine",
+      "title": "Hypoglycemia: Brain Fuel Emergency",
+      "summary": "glucose is a fast reversible cause of altered mental status, seizure and focal neurologic mimic.",
+      "minutes": 16,
+      "level": "Core",
+      "keywords": [
+        "hypoglycemia",
+        "glucose",
+        "seizure"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/endocrine.json",
+      "research_count": 0
+    },
+    {
+      "id": "dka-hhs",
+      "category": "endocrine",
+      "title": "DKA & HHS: Fluids, Potassium, Insulin and Cerebral Risk",
+      "summary": "hyperglycemic crisis is a fluid/electrolyte/acid-base emergency—not just a high glucose number.",
+      "minutes": 25,
+      "level": "Core",
+      "keywords": [
+        "DKA",
+        "HHS",
+        "potassium"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/endocrine.json",
+      "research_count": 0
+    },
+    {
+      "id": "adrenal-crisis",
+      "category": "endocrine",
+      "title": "Adrenal Crisis: Refractory Shock, Hyponatremia & Hypoglycemia",
+      "summary": "consider adrenal crisis in unexplained shock—especially known adrenal disease/steroid dependence.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "adrenal crisis",
+        "steroid",
+        "hyponatremia"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/endocrine.json",
+      "research_count": 0
+    },
+    {
+      "id": "thyroid-emergencies",
+      "category": "endocrine",
+      "title": "Thyroid Storm & Myxedema Coma",
+      "summary": "opposite endocrine extremes can both produce cardiovascular and neurologic collapse.",
+      "minutes": 17,
+      "level": "Core",
+      "keywords": [
+        "thyroid storm",
+        "myxedema"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/endocrine.json",
+      "research_count": 0
+    },
+    {
+      "id": "hyperkalemia",
+      "category": "renal",
+      "title": "Hyperkalemia: Stabilize, Shift, Remove",
+      "summary": "ECG may be normal despite dangerous potassium; treatment concepts have three distinct goals.",
+      "minutes": 24,
+      "level": "Deep",
+      "keywords": [
+        "hyperkalemia",
+        "calcium",
+        "insulin"
+      ],
+      "visual": "assets/visuals/toxidrome.svg",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/renal.json",
+      "research_count": 0
+    },
+    {
+      "id": "hyponatremia",
+      "category": "renal",
+      "title": "Hyponatremia: Brain Swelling, Symptoms & Safe Correction",
+      "summary": "severity depends on symptoms, acuity and tonicity—not sodium number alone.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "hyponatremia",
+        "seizure",
+        "hypertonic saline"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/renal.json",
+      "research_count": 0
+    },
+    {
+      "id": "aki",
+      "category": "renal",
+      "title": "Acute Kidney Injury: Perfusion, Toxins & Obstruction",
+      "summary": "AKI is a syndrome with pre-renal, intrinsic and post-renal mechanisms; emergencies often arise from complications.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "AKI",
+        "renal failure"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/renal.json",
+      "research_count": 0
+    },
+    {
+      "id": "dialysis-emergencies",
+      "category": "renal",
+      "title": "Dialysis Patient Emergencies: Hyperkalemia, Volume, Access & Missed Dialysis",
+      "summary": "dialysis patients can deteriorate from electrolyte, volume and access-related problems.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "dialysis",
+        "AV fistula",
+        "hyperkalemia"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/renal.json",
+      "research_count": 0
+    },
+    {
+      "id": "pneumonia",
+      "category": "infectious",
+      "title": "Severe Pneumonia: Respiratory Failure & Sepsis",
+      "summary": "pneumonia severity is determined by gas exchange and organ dysfunction, not just fever/cough.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "pneumonia",
+        "sepsis",
+        "hypoxemia"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/infectious.json",
+      "research_count": 0
+    },
+    {
+      "id": "dengue",
+      "category": "infectious",
+      "title": "Dengue: Warning Signs, Critical Phase & Fluid Precision",
+      "summary": "dengue can worsen around defervescence when plasma leakage begins; too much fluid can also harm.",
+      "minutes": 24,
+      "level": "Core",
+      "keywords": [
+        "dengue",
+        "shock",
+        "plasma leakage"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/infectious.json",
+      "research_count": 0
+    },
+    {
+      "id": "infection-antimicrobial",
+      "category": "infectious",
+      "title": "Antimicrobial Thinking in Emergency Care",
+      "summary": "early antibiotics can be lifesaving in serious bacterial infection, but stewardship requires correct indication, source and reassessment.",
+      "minutes": 17,
+      "level": "Core",
+      "keywords": [
+        "antibiotics",
+        "sepsis",
+        "stewardship"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/infectious.json",
+      "research_count": 0
+    },
+    {
+      "id": "heat-stroke",
+      "category": "environmental",
+      "title": "Heat Stroke: Cool First, Fast",
+      "summary": "hyperthermia + CNS dysfunction after heat exposure is a cooling emergency.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "heat stroke",
+        "hyperthermia",
+        "cooling"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/environmental.json",
+      "research_count": 0
+    },
+    {
+      "id": "hypothermia",
+      "category": "environmental",
+      "title": "Accidental Hypothermia: Gentle Handling, Rewarming & Arrest",
+      "summary": "cold patients can have profound bradycardia and altered consciousness; physiology and resuscitation differ.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "hypothermia",
+        "rewarming"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/environmental.json",
+      "research_count": 0
+    },
+    {
+      "id": "drowning",
+      "category": "environmental",
+      "title": "Drowning: Hypoxia First",
+      "summary": "drowning arrest is primarily hypoxic; ventilation is unusually important compared with primary cardiac arrest.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "drowning",
+        "hypoxia",
+        "ventilation"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/environmental.json",
+      "research_count": 0
+    },
+    {
+      "id": "snakebite",
+      "category": "environmental",
+      "title": "Snakebite: Envenomation Recognition & Safe First Aid",
+      "summary": "avoid harmful traditional first aid; immobilize, monitor and identify syndrome/antivenom need.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "snakebite",
+        "envenomation",
+        "antivenom"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/environmental.json",
+      "research_count": 0
+    },
+    {
+      "id": "electrocution",
+      "category": "environmental",
+      "title": "Electrical Injury & Lightning",
+      "summary": "skin burns can underestimate internal injury; scene electricity is the first hazard.",
+      "minutes": 18,
+      "level": "Core",
+      "keywords": [
+        "electrocution",
+        "lightning"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/environmental.json",
+      "research_count": 0
+    },
+    {
+      "id": "analgesia-sedation",
+      "category": "pharm",
+      "title": "Emergency Analgesia & Sedation Pharmacology",
+      "summary": "เลือกยาโดยจับคู่ indication + hemodynamics + airway risk + duration ไม่ใช่จำ dose อย่างเดียว.",
+      "minutes": 22,
+      "level": "Core",
+      "keywords": [
+        "analgesia",
+        "sedation",
+        "ketamine"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pharm.json",
+      "research_count": 0
+    },
+    {
+      "id": "vasopressor-pharm",
+      "category": "pharm",
+      "title": "Vasopressor & Inotrope Pharmacology",
+      "summary": "เข้าใจ receptor effect และ disease phenotype ก่อนเลือกยา.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "norepinephrine",
+        "epinephrine",
+        "dobutamine"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pharm.json",
+      "research_count": 0
+    },
+    {
+      "id": "antiarrhythmics-pharm",
+      "category": "pharm",
+      "title": "Emergency Antiarrhythmics: Mechanism, Rhythm and Toxicity",
+      "summary": "antiarrhythmics can be proarrhythmic—match drug to rhythm and hemodynamic context.",
+      "minutes": 21,
+      "level": "Core",
+      "keywords": [
+        "amiodarone",
+        "lidocaine",
+        "adenosine",
+        "magnesium"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pharm.json",
+      "research_count": 0
+    },
+    {
+      "id": "concentration-safety",
+      "category": "pharm",
+      "title": "Medication Concentration, Dilution & Dose Safety",
+      "summary": "most catastrophic medication errors are system errors: wrong concentration, decimal, route or unit.",
+      "minutes": 16,
+      "level": "Core",
+      "keywords": [
+        "medication safety",
+        "concentration",
+        "dose"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/pharm.json",
+      "research_count": 0
+    },
+    {
+      "id": "mist-sbar",
+      "category": "ems",
+      "title": "MIST, ATMIST & SBAR: High-Fidelity Handover",
+      "summary": "handover ที่ดีถ่ายทอด trajectory, severity และสิ่งที่ต้องทำต่อ—not a data dump.",
+      "minutes": 16,
+      "level": "Core",
+      "keywords": [
+        "MIST",
+        "SBAR",
+        "handover"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ems.json",
+      "research_count": 0
+    },
+    {
+      "id": "emd-dispatch",
+      "category": "ems",
+      "title": "Emergency Medical Dispatch: From Call to Safe Resource Allocation",
+      "summary": "dispatch decisions shape care before ambulance arrival through structured interrogation, prioritization and caller instructions.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "EMD",
+        "dispatch",
+        "triage"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ems.json",
+      "research_count": 0
+    },
+    {
+      "id": "mass-casualty",
+      "category": "ems",
+      "title": "Mass Casualty Incident: Triage, Command & Resource Matching",
+      "summary": "เมื่อ demand เกิน resources เป้าหมายเปลี่ยนจาก individual optimization เป็น greatest good with organized command.",
+      "minutes": 20,
+      "level": "Core",
+      "keywords": [
+        "MCI",
+        "triage",
+        "incident command"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ems.json",
+      "research_count": 0
+    },
+    {
+      "id": "patient-transfer",
+      "category": "ems",
+      "title": "Interfacility Transfer & Critical Transport",
+      "summary": "transport is a clinical procedure: anticipate what can fail when moving away from the current resources.",
+      "minutes": 19,
+      "level": "Core",
+      "keywords": [
+        "transfer",
+        "transport",
+        "critical care"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ems.json",
+      "research_count": 0
+    },
+    {
+      "id": "documentation-quality",
+      "category": "ems",
+      "title": "EMS Documentation, Clinical Reasoning & QA",
+      "summary": "PCR should reconstruct what happened, why decisions were made and how the patient changed.",
+      "minutes": 17,
+      "level": "Core",
+      "keywords": [
+        "documentation",
+        "PCR",
+        "QA"
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03",
+      "path": "data/knowledge/packs/ems.json",
+      "research_count": 0
+    }
+  ]
+}

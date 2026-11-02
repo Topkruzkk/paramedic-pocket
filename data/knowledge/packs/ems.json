@@ -1,0 +1,310 @@
+{
+  "category": "ems",
+  "lessons": [
+    {
+      "id": "mist-sbar",
+      "category": "ems",
+      "title": "MIST, ATMIST & SBAR: High-Fidelity Handover",
+      "minutes": 16,
+      "level": "Core",
+      "summary": "handover ที่ดีถ่ายทอด trajectory, severity และสิ่งที่ต้องทำต่อ—not a data dump.",
+      "keywords": [
+        "MIST",
+        "SBAR",
+        "handover"
+      ],
+      "sections": [
+        {
+          "title": "1) MIST/ATMIST",
+          "paragraphs": [
+            "Age/Time/Mechanism/Medical complaint, Injuries/Information, Signs including trends, Treatments and response."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) SBAR",
+          "paragraphs": [
+            "Situation, Background, Assessment, Recommendation works well for interprofessional escalation and structured updates."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Trends matter",
+          "paragraphs": [
+            "“BP 90/60” น้อยกว่าการบอก “120/80 → 90/60 despite 500 mL; HR rising 100→130.” Include response to treatment."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Closed-loop",
+          "paragraphs": [
+            "Pause for questions and explicitly hand over responsibility, drugs running, airway/device status and unresolved risks."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "MIST Builder",
+          "route": "mist"
+        }
+      ],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "emd-dispatch",
+      "category": "ems",
+      "title": "Emergency Medical Dispatch: From Call to Safe Resource Allocation",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "dispatch decisions shape care before ambulance arrival through structured interrogation, prioritization and caller instructions.",
+      "keywords": [
+        "EMD",
+        "dispatch",
+        "triage"
+      ],
+      "sections": [
+        {
+          "title": "1) Core tasks",
+          "paragraphs": [
+            "Identify location/callback, chief complaint, immediate threats, consciousness/breathing and scene hazards; assign priority/resource according to system protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Caller instructions",
+          "paragraphs": [
+            "High-impact pre-arrival instructions include CPR/AED, hemorrhage control, childbirth support and airway positioning when protocol allows. Keep instructions simple and verify understanding."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Dynamic incidents",
+          "paragraphs": [
+            "Update responding crews with meaningful changes: arrest, violence, entrapment, number of patients, hazardous material or need for additional agencies."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Quality",
+          "paragraphs": [
+            "Dispatch QA reviews protocol compliance, under/over-triage, caller comprehension and outcome-linked opportunities—not only call duration."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "mass-casualty",
+      "category": "ems",
+      "title": "Mass Casualty Incident: Triage, Command & Resource Matching",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "เมื่อ demand เกิน resources เป้าหมายเปลี่ยนจาก individual optimization เป็น greatest good with organized command.",
+      "keywords": [
+        "MCI",
+        "triage",
+        "incident command"
+      ],
+      "sections": [
+        {
+          "title": "1) Scene organization",
+          "paragraphs": [
+            "Safety, incident command, zones, communication, casualty collection and transport coordination prevent chaos."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Triage",
+          "paragraphs": [
+            "Use your jurisdiction’s MCI triage system consistently; categories prioritize immediate threat, delayed care, minor injury and expectant/deceased according to policy."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Re-triage",
+          "paragraphs": [
+            "Triage category can change after treatment or deterioration. Reassess at collection/transport points."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Distribution",
+          "paragraphs": [
+            "Avoid overwhelming the nearest hospital; coordinate destination based on capacity and specialty."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "patient-transfer",
+      "category": "ems",
+      "title": "Interfacility Transfer & Critical Transport",
+      "minutes": 19,
+      "level": "Core",
+      "summary": "transport is a clinical procedure: anticipate what can fail when moving away from the current resources.",
+      "keywords": [
+        "transfer",
+        "transport",
+        "critical care"
+      ],
+      "sections": [
+        {
+          "title": "1) Stabilize and define purpose",
+          "paragraphs": [
+            "Know why the patient is moving, receiving capability, transport time and what cannot be provided en route."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Device/medication check",
+          "paragraphs": [
+            "Airway secure, oxygen reserve, ventilator battery, IV lines, pumps, drains, blood products and medication supply must cover transport with margin."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Risk forecast",
+          "paragraphs": [
+            "Ask: what is most likely to deteriorate in the next hour? Prepare rescue drugs/equipment and thresholds for intervention."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Documentation/handover",
+          "paragraphs": [
+            "Include baseline and latest trends, imaging/labs, allergies, medications, procedures, response, pending tasks and accepting clinician/facility."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "documentation-quality",
+      "category": "ems",
+      "title": "EMS Documentation, Clinical Reasoning & QA",
+      "minutes": 17,
+      "level": "Core",
+      "summary": "PCR should reconstruct what happened, why decisions were made and how the patient changed.",
+      "keywords": [
+        "documentation",
+        "PCR",
+        "QA"
+      ],
+      "sections": [
+        {
+          "title": "1) Narrative structure",
+          "paragraphs": [
+            "Dispatch/scene → initial impression/primary survey → focused history/exam → serial vitals → interventions with dose/time → response → consultation → transport/handover."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Objective language",
+          "paragraphs": [
+            "Document observed facts and patient statements. Avoid judgmental labels; describe behavior/mental status."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Trends and response",
+          "paragraphs": [
+            "Serial data is stronger than isolated values. Record failed attempts, complications and corrective actions."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) QA value",
+          "paragraphs": [
+            "Good records support continuity, audit, education and system improvement. Missing timestamps/doses/device confirmation can hide safety problems."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

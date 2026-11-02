@@ -1,0 +1,254 @@
+{
+  "category": "renal",
+  "lessons": [
+    {
+      "id": "hyperkalemia",
+      "category": "renal",
+      "title": "Hyperkalemia: Stabilize, Shift, Remove",
+      "minutes": 24,
+      "level": "Deep",
+      "summary": "ECG may be normal despite dangerous potassium; treatment concepts have three distinct goals.",
+      "keywords": [
+        "hyperkalemia",
+        "calcium",
+        "insulin"
+      ],
+      "sections": [
+        {
+          "title": "1) Causes",
+          "paragraphs": [
+            "Renal failure, medications, acidosis, cell breakdown/crush, tumor lysis and hypoaldosteronism. Pseudohyperkalemia from hemolysis must be considered when context conflicts."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) ECG",
+          "paragraphs": [
+            "Peaked T waves, PR prolongation, P-wave loss, QRS widening and sine-wave pattern can occur, but ECG sensitivity is limited."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Stabilize membrane",
+          "paragraphs": [
+            "IV calcium antagonizes cardiac membrane effects but does not lower serum potassium. It is used for significant ECG toxicity/peri-arrest according to protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Shift vs remove",
+          "paragraphs": [
+            "Insulin/glucose and beta-agonist shift K intracellularly; bicarbonate has selected roles. Definitive removal requires renal/GI strategies or dialysis depending on situation."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/",
+          "type": "guideline"
+        },
+        {
+          "label": "LITFL ECG / Critical Care Compendium",
+          "url": "https://litfl.com/",
+          "type": "educational"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/visuals/toxidrome.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "hyponatremia",
+      "category": "renal",
+      "title": "Hyponatremia: Brain Swelling, Symptoms & Safe Correction",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "severity depends on symptoms, acuity and tonicity—not sodium number alone.",
+      "keywords": [
+        "hyponatremia",
+        "seizure",
+        "hypertonic saline"
+      ],
+      "sections": [
+        {
+          "title": "1) Neurologic danger",
+          "paragraphs": [
+            "Acute hypotonic hyponatremia can cause cerebral edema → headache, vomiting, confusion, seizure and coma. Chronic adaptation reduces edema risk but increases risk from overly rapid correction."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Initial questions",
+          "paragraphs": [
+            "Is it true hypotonic hyponatremia? Acute or chronic? Seizure/coma? Volume status? Medications, polydipsia, SIADH, heart/liver/kidney disease?"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Severe symptoms",
+          "paragraphs": [
+            "Hypertonic saline bolus strategies are used for severe neurologic symptoms under protocol with close sodium monitoring."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Overcorrection hazard",
+          "paragraphs": [
+            "Rapid correction of chronic hyponatremia can cause osmotic demyelination; hospital management requires controlled targets and frequent labs."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "aki",
+      "category": "renal",
+      "title": "Acute Kidney Injury: Perfusion, Toxins & Obstruction",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "AKI is a syndrome with pre-renal, intrinsic and post-renal mechanisms; emergencies often arise from complications.",
+      "keywords": [
+        "AKI",
+        "renal failure"
+      ],
+      "sections": [
+        {
+          "title": "1) Mechanisms",
+          "paragraphs": [
+            "Pre-renal: low perfusion. Intrinsic: tubular/glomerular/interstitial injury. Post-renal: obstruction. Mixed etiologies are common in sepsis/critical illness."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Immediate threats",
+          "paragraphs": [
+            "Hyperkalemia, pulmonary edema, severe acidosis and uremic complications can be life-threatening."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Assessment",
+          "paragraphs": [
+            "Trend urine output, creatinine if available, volume status, medication/toxin exposure, sepsis, obstruction symptoms and ECG."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Avoid harm",
+          "paragraphs": [
+            "Review nephrotoxins and avoid reflex large fluid loads when pulmonary edema/heart failure is present."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "dialysis-emergencies",
+      "category": "renal",
+      "title": "Dialysis Patient Emergencies: Hyperkalemia, Volume, Access & Missed Dialysis",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "dialysis patients can deteriorate from electrolyte, volume and access-related problems.",
+      "keywords": [
+        "dialysis",
+        "AV fistula",
+        "hyperkalemia"
+      ],
+      "sections": [
+        {
+          "title": "1) Missed dialysis",
+          "paragraphs": [
+            "Hyperkalemia, acidosis, uremia and pulmonary edema are major consequences. Ask last dialysis and residual urine output."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Access",
+          "paragraphs": [
+            "AV fistula/graft hemorrhage can be catastrophic; use direct pressure/hemostatic measures and protect access. Avoid routine BP/IV use in fistula arm when alternatives exist per local practice."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Hypotension after dialysis",
+          "paragraphs": [
+            "Consider excessive ultrafiltration but also sepsis, bleeding, cardiac ischemia and arrhythmia."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) ECG",
+          "paragraphs": [
+            "Treat suspected hyperkalemic cardiotoxicity promptly according to protocol rather than waiting for lab confirmation when the clinical picture is compelling."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

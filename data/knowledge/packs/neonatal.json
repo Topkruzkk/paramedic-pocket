@@ -1,0 +1,494 @@
+{
+  "category": "neonatal",
+  "lessons": [
+    {
+      "id": "neonatal-transition",
+      "category": "neonatal",
+      "title": "Neonatal Transition & Initial Steps: first minute matters",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "Neonatal resuscitation differs from PALS: most bradycardia at birth is due to ineffective ventilation/gas exchange. Effective lung inflation is the central intervention.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Transition physiology",
+          "paragraphs": [
+            "At birth pulmonary vascular resistance falls, lungs aerate and oxygen saturation rises gradually over minutes. Newborn targets are therefore lower than older children/adults in the first minutes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Initial questions",
+          "paragraphs": [
+            "Term gestation? good tone? breathing/crying? If yes → routine care/temperature/ongoing evaluation. If no → warm, dry, position, stimulate, clear airway only if needed."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) When to ventilate",
+          "paragraphs": [
+            "Apnea/gasping or HR <100/min → begin positive-pressure ventilation promptly. Rise in heart rate is the best indicator of effective ventilation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Oxygen strategy",
+          "paragraphs": [
+            "2025 AHA/AAP: term/late preterm ≥35 wk can reasonably start respiratory support with 21% O₂; 32–34+6 wk 21–30%; <32 wk may need 30–100%, titrated to preductal SpO₂ targets."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Ventilation is the priority",
+        "HR response tells you if ventilation works",
+        "Preductal oximeter = right hand/wrist",
+        "Avoid both hypoxia and hyperoxia"
+      ],
+      "quick_review": [
+        "Apnea/gasping or HR<100 → PPV",
+        "HR rise = ventilation success",
+        "Right hand/wrist SpO₂"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "2025 Neonatal Resuscitation emphasizes cord/transition systems",
+          "takeaway": "The 2025 AHA/AAP neonatal guideline introduces an updated algorithm and Newborn Chain of Care, with emphasis on cord-management planning, thermal care and effective ventilation.",
+          "source": "AHA/AAP",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation",
+          "evidence": "GUIDELINE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA/AAP Neonatal Resuscitation 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "NEONATE Calculator",
+          "route": "peds-neonate-calc"
+        },
+        {
+          "label": "Neonatal algorithm",
+          "route": "neonate"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Key indicator of effective PPV in newborn?",
+          "options": [
+            "Rising heart rate",
+            "Tube fogging",
+            "Skin color alone",
+            "BP only"
+          ],
+          "answer": 0,
+          "explain": "A rising heart rate is the primary indicator of effective ventilation."
+        }
+      ],
+      "visual": "assets/visuals/neonatal-transition.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "neonatal-airway",
+      "category": "neonatal",
+      "title": "Neonatal Ventilation, ETT, Laryngeal Mask & Video Laryngoscopy",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "Airway newborn ต้องคิดตาม GA/weight, device availability และ ventilation effectiveness. New 2025 evidence strengthens the role of supraglottic airway and video laryngoscopy in selected settings.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Face-mask ventilation problems",
+          "paragraphs": [
+            "Mask leak and airway obstruction are common. If HR stays <100/min despite PPV, perform corrective ventilation steps and consider alternative airway."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Laryngeal mask",
+          "paragraphs": [
+            "2025 guidance: laryngeal mask is reasonable as an alternative to ETT when face-mask ventilation fails in newborns ≥34 weeks, and may be reasonable as a primary ventilation interface in that group where training/resources support it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) ETT sizing & depth",
+          "paragraphs": [
+            "Use GA/weight table rather than one universal formula. Prepare adjacent tube sizes and confirm depth by clinical response/exhaled CO₂ and local imaging where appropriate."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Video laryngoscopy evidence",
+          "paragraphs": [
+            "ILCOR 2025 suggests video laryngoscopy over traditional laryngoscopy where resources/training allow, especially for less-experienced clinicians. Meta-analysis of RCTs showed higher overall and first-attempt success."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Blade selection",
+          "paragraphs": [
+            "Straight Miller-type blades are standard neonatal tools; #00 for extremely preterm/small infants in some systems, #0 for preterm, #1 for term/larger infants, but exact device choice should follow local equipment and training."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Fix ventilation before compressions",
+        "GA/weight guide ETT selection",
+        "SGA is increasingly important ≥34 wk",
+        "Video laryngoscopy improves first-attempt success in neonatal evidence"
+      ],
+      "quick_review": [
+        "Preterm often Miller 0; term often Miller 1",
+        "Confirm exhaled CO₂",
+        "Prepare backup size/device"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Neonatal video laryngoscopy evidence",
+          "takeaway": "Across 4 RCTs, video laryngoscopy increased overall and first-attempt intubation success; ILCOR 2025 conditionally favors VL where resources/training permit.",
+          "source": "ILCOR 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074766/205238/",
+          "evidence": "Systematic review evidence"
+        },
+        {
+          "year": 2026,
+          "title": "NICU quality improvement with VL",
+          "takeaway": "A 2026 QI project reported sustained improvement in first-attempt success after implementing VL and standardized oxygenation, including infants <1000 g.",
+          "source": "Pediatrics 2026",
+          "url": "https://publications.aap.org/pediatrics/article/158/3/e2025074216/208610/",
+          "evidence": "Quality improvement"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA/AAP Neonatal 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/",
+          "type": "primary"
+        },
+        {
+          "label": "ILCOR Neonatal Life Support 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074766/205238/",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "NEONATE Calculator",
+          "route": "peds-neonate-calc"
+        },
+        {
+          "label": "ETT Confirmation",
+          "route": "ett-confirm"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "2025 neonatal guidance supports laryngeal mask most clearly in which group?",
+          "options": [
+            "≥34 weeks gestation",
+            "All 22-week infants",
+            "Adults only",
+            "Never"
+          ],
+          "answer": 0,
+          "explain": "Evidence and recommendations are strongest for newborns ≥34 weeks."
+        },
+        {
+          "q": "2025 neonatal evidence for video laryngoscopy?",
+          "options": [
+            "Lower first-attempt success",
+            "Higher first-attempt success",
+            "No data at all",
+            "Prohibited"
+          ],
+          "answer": 1,
+          "explain": "RCT evidence summarized by ILCOR showed improved first-attempt success."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "neonatal-advanced",
+      "category": "neonatal",
+      "title": "Advanced Neonatal Resuscitation: compressions, epinephrine, volume, post-care",
+      "minutes": 28,
+      "level": "Advanced",
+      "summary": "เมื่อ HR ยัง <60/min หลัง ventilation ที่ทำให้ chest movement แล้ว ให้ escalate อย่างเป็นลำดับ: alternative airway → compressions 3:1 → oxygen/vascular access → epinephrine → causes/volume.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Chest compressions",
+          "paragraphs": [
+            "If HR remains <60/min despite 30 s effective ventilation, provide chest compressions. Preferred technique = two-thumb encircling hands, ratio 3:1 with ventilation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Epinephrine",
+          "paragraphs": [
+            "If HR remains <60/min despite 60 s compressions + adequate ventilation, give intravascular epinephrine 0.01–0.03 mg/kg. ET epinephrine 0.05–0.1 mg/kg may be used while obtaining vascular access. Repeat q3–5 min if needed."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Vascular access",
+          "paragraphs": [
+            "Low-lying umbilical venous catheter is preferred; IO may be considered when IV/UVC not feasible, depending on setting and expertise."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Volume expansion",
+          "paragraphs": [
+            "When blood loss/hypovolemia is suspected and there is inadequate response to epinephrine, volume expansion is indicated; choice/volume follow neonatal/local protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Postresuscitation",
+          "paragraphs": [
+            "Monitor glucose, temperature, oxygenation/ventilation, neurologic status and complications after prolonged ventilation/advanced resuscitation."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Ventilation before compressions",
+        "3:1 compression:ventilation",
+        "IV/UVC epinephrine preferred",
+        "Think blood loss/pneumothorax if refractory"
+      ],
+      "quick_review": [
+        "Epi IV 0.01–0.03 mg/kg",
+        "ET 0.05–0.1 mg/kg while access pending",
+        "q3–5 min"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP Neonatal Resuscitation 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Neonatal Algorithm",
+          "route": "neonate"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Neonatal compressions start after?",
+          "options": [
+            "HR<60 despite effective ventilation",
+            "Any HR<100 immediately",
+            "Any cyanosis",
+            "Before PPV"
+          ],
+          "answer": 0,
+          "explain": "Effective ventilation must be established first; compressions are for persistent HR <60/min."
+        }
+      ],
+      "visual": "assets/neonatal-algorithm.png",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "neonatal-oxygen-thermal",
+      "category": "neonatal",
+      "title": "Neonatal Thermal Care & Oxygen Targets",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "newborn resuscitation begins with transition physiology, temperature control and appropriate oxygen—not automatic 100% oxygen.",
+      "keywords": [
+        "neonatal",
+        "oxygen",
+        "temperature"
+      ],
+      "sections": [
+        {
+          "title": "1) Transition",
+          "paragraphs": [
+            "At birth, lung fluid clearance, aeration and fall in pulmonary vascular resistance allow pulmonary blood flow to rise. Effective ventilation is the key intervention when transition fails."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Temperature",
+          "paragraphs": [
+            "Hypothermia increases oxygen consumption and worsens outcomes. Use warm environment, drying/skin-to-skin for stable term infants and additional thermal measures for preterm infants."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Oxygen",
+          "paragraphs": [
+            "Use preductal pulse oximetry when resuscitation requires oxygen/ventilation and titrate according to neonatal target ranges and gestational context."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Cord management",
+          "paragraphs": [
+            "2025 guidance emphasizes a cord-management plan; deferred cord clamping is appropriate in many newborns who do not require immediate resuscitative intervention."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Neonatal Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation",
+          "type": "guideline"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/visuals/neonatal-transition.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "neonatal-ppv",
+      "category": "neonatal",
+      "title": "Neonatal Positive-Pressure Ventilation: The Most Important Skill",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "Most neonatal bradycardia is caused by inadequate gas exchange; effective ventilation is the central resuscitation intervention.",
+      "keywords": [
+        "newborn",
+        "PPV",
+        "ventilation"
+      ],
+      "sections": [
+        {
+          "title": "1) When to ventilate",
+          "paragraphs": [
+            "Apnea/gasping or HR <100/min after initial steps generally triggers ventilation in the neonatal algorithm."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Effectiveness",
+          "paragraphs": [
+            "Look for rising HR and chest movement. If HR does not improve, correct mask seal/position, airway obstruction and ventilation technique before assuming medication is needed."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Corrective steps",
+          "paragraphs": [
+            "Reposition airway, improve seal, suction if obstructed, adjust pressure and consider alternative airway when mask ventilation is ineffective."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Escalation",
+          "paragraphs": [
+            "If HR remains <60/min despite effective ventilation, advanced airway and coordinated compressions are considered; ensure ventilation truly is effective first."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Neonatal Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation",
+          "type": "guideline"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "assets/neonatal-algorithm.png",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "neonatal-postresus",
+      "category": "neonatal",
+      "title": "Post-Resuscitation Care of the Newborn",
+      "minutes": 16,
+      "level": "Core",
+      "summary": "ROSC/HR recovery does not end risk: monitor glucose, temperature, oxygenation and neurologic status.",
+      "keywords": [
+        "newborn",
+        "postresuscitation"
+      ],
+      "sections": [
+        {
+          "title": "1) Ongoing transition",
+          "paragraphs": [
+            "Infants who required significant resuscitation can deteriorate again from respiratory disease, hypoglycemia, hypothermia, pulmonary hypertension or neurologic injury."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Monitoring",
+          "paragraphs": [
+            "Temperature, glucose, oxygenation/ventilation, perfusion and neurologic state need continued observation."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Communication",
+          "paragraphs": [
+            "Document timing/interventions, communicate with neonatal team and family, and perform team debriefing."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Higher-level care",
+          "paragraphs": [
+            "Prolonged ventilation/compressions/epinephrine or persistent abnormal physiology warrants neonatal intensive care evaluation."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP 2025 Neonatal Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation",
+          "type": "guideline"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

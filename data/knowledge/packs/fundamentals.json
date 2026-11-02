@@ -1,0 +1,357 @@
+{
+  "category": "fundamentals",
+  "lessons": [
+    {
+      "id": "emergency-approach",
+      "category": "fundamentals",
+      "title": "Approach to the Undifferentiated Emergency Patient",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "กรอบคิดสำหรับผู้ป่วยที่ยังไม่รู้ diagnosis: scene → primary survey → resuscitation → focused differential → reassessment.",
+      "keywords": [
+        "ABCDE",
+        "undifferentiated",
+        "primary survey"
+      ],
+      "sections": [
+        {
+          "title": "1) Stabilize before naming the disease",
+          "paragraphs": [
+            "Emergency care เริ่มจากการหาสิ่งที่ฆ่าคนไข้ได้ในนาทีแรก ไม่ใช่การหาชื่อโรคให้สวยที่สุด. ใช้ ABCDE/XABCDE, monitor, glucose และ targeted bedside information เพื่อจัดลำดับปัญหา."
+          ],
+          "bullets": [
+            "Treat immediately reversible threats while assessment continues",
+            "Abnormal physiology often matters more than diagnosis in the first minutes"
+          ]
+        },
+        {
+          "title": "2) Primary survey",
+          "paragraphs": [
+            "A: patency/protection. B: work of breathing, oxygenation, ventilation. C: perfusion, pulse, BP, bleeding. D: consciousness, pupils, glucose, focal deficit. E: expose enough to find threats while preventing heat loss."
+          ],
+          "bullets": [
+            "Reassess after every intervention",
+            "A normal single vital sign does not exclude serious illness"
+          ]
+        },
+        {
+          "title": "3) Build a dangerous differential",
+          "paragraphs": [
+            "ใช้ complaint + physiology + risk factors สร้าง differential ที่ครอบคลุม immediately life-threatening causes ก่อน เช่น chest pain → ACS, aortic syndrome, PE, tension pneumothorax, tamponade, esophageal rupture."
+          ],
+          "bullets": [
+            "Use “cannot-miss” diagnosis lists",
+            "Ask what finding would change destination or treatment now"
+          ]
+        },
+        {
+          "title": "4) Reassessment is a diagnostic tool",
+          "paragraphs": [
+            "Trend HR, BP, RR, mental status, SpO₂, EtCO₂, pain and response to treatment. การเปลี่ยนแปลงหลัง intervention ช่วยบอกทั้ง severity และ diagnosis."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Treat threats before diagnosis",
+        "Trend physiology",
+        "Reassessment is mandatory"
+      ],
+      "quick_review": [],
+      "prehospital_focus": [
+        "Scene safety and early destination decision",
+        "Call for additional resources early when physiology is unstable"
+      ],
+      "red_flags": [
+        "Airway compromise",
+        "Severe work of breathing or silent chest",
+        "Shock or rapidly falling BP",
+        "New focal neurologic deficit",
+        "Severe altered mental status"
+      ],
+      "pitfalls": [
+        "Anchoring on dispatch complaint",
+        "Stopping assessment after first abnormality",
+        "Failure to reassess"
+      ],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [
+        {
+          "q": "สิ่งใดควรมาก่อนในผู้ป่วยยังไม่ทราบ diagnosis?",
+          "options": [
+            "CT",
+            "Primary survey and treatment of immediate threats",
+            "Full history",
+            "Final diagnosis"
+          ],
+          "answer": 1,
+          "explain": "Emergency assessment prioritizes immediate threats."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "history-exam",
+      "category": "fundamentals",
+      "title": "High-Yield History & Focused Examination",
+      "minutes": 15,
+      "level": "Core",
+      "summary": "การซักประวัติและตรวจร่างกายแบบที่ช่วยตัดสินใจ ไม่ใช่เก็บข้อมูลทุกอย่าง.",
+      "keywords": [
+        "SAMPLE",
+        "OPQRST",
+        "history"
+      ],
+      "sections": [
+        {
+          "title": "1) History frameworks",
+          "paragraphs": [
+            "SAMPLE ใช้ภาพรวม; OPQRST ใช้อาการ; medication/allergy/anticoagulant/insulin/last known well/last meal มีผลต่อการรักษา."
+          ],
+          "bullets": [
+            "Ask onset precisely",
+            "Clarify baseline function and mental status",
+            "Use collateral history when patient cannot answer"
+          ]
+        },
+        {
+          "title": "2) Focused exam",
+          "paragraphs": [
+            "ตรวจเพื่อหา discriminating findings: symmetry, perfusion, lung sounds, neuro deficit, skin, edema, abdominal rigidity, bleeding, trauma pattern."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Context changes risk",
+          "paragraphs": [
+            "Age, pregnancy, immunosuppression, renal disease, anticoagulation, recent surgery, cancer and substance exposure change pretest probability."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Communicate succinctly",
+          "paragraphs": [
+            "Summarize problem representation: age + key risk + syndrome + severity + most important positives/negatives."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [
+        "Onset matters",
+        "Medication list can change management",
+        "Pertinent negatives must be purposeful"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "triage-esi",
+      "category": "fundamentals",
+      "title": "Emergency Triage & Resource Thinking",
+      "minutes": 14,
+      "level": "Core",
+      "summary": "หลักคิด triage: ใครต้องช่วยเดี๋ยวนี้ ใครมี high-risk physiology และใครต้องใช้ทรัพยากรมาก.",
+      "keywords": [
+        "triage",
+        "ESI",
+        "priority"
+      ],
+      "sections": [
+        {
+          "title": "1) Triage is prioritization",
+          "paragraphs": [
+            "Triage ไม่ใช่ diagnosis. จุดประสงค์คือระบุ immediate life-saving intervention, high-risk situation, altered mental status/severe distress และคาด resource needs."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Red flags",
+          "paragraphs": [
+            "Airway threat, severe respiratory distress, shock, active major hemorrhage, seizure, severe AMS, STEMI/OMI concern, stroke syndrome, obstetric hemorrhage และ pediatric poor appearance ต้องขึ้น priority."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Re-triage",
+          "paragraphs": [
+            "ผู้ป่วยรอสามารถ deteriorate ได้ จึงต้องมี trigger สำหรับ repeat vitals/reassessment."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Triage prioritizes risk, not certainty",
+        "Re-triage is essential"
+      ],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "pain-sedation",
+      "category": "fundamentals",
+      "title": "Pain, Agitation & Procedural Sedation Principles",
+      "minutes": 18,
+      "level": "Core+",
+      "summary": "เข้าใจ pain/agitation แบบ physiologic และใช้ sedation อย่างปลอดภัย.",
+      "keywords": [
+        "sedation",
+        "analgesia",
+        "agitation"
+      ],
+      "sections": [
+        {
+          "title": "1) Treat cause and suffering",
+          "paragraphs": [
+            "Pain, hypoxia, hypercapnia, hypoglycemia, withdrawal, delirium and intracranial pathology can all look like agitation. Correct reversible physiology first."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Analgesia before sedation",
+          "paragraphs": [
+            "When pain is a major driver, analgesia-first strategies may reduce sedative requirements. Dose choices depend on protocol, hemodynamics and airway risk."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Sedation is an airway procedure",
+          "paragraphs": [
+            "Any sedative can produce loss of airway tone, hypoventilation or hypotension. Prepare suction, oxygen, BVM, monitoring and rescue plan before giving medication."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Monitor",
+          "paragraphs": [
+            "Use repeated consciousness, RR, SpO₂, BP and capnography when appropriate; document effect and adverse events."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Unexpected somnolence",
+        "Hypoventilation",
+        "Hypotension after medication"
+      ],
+      "pitfalls": [
+        "Sedating hypoxia without correcting it",
+        "No airway rescue plan"
+      ],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "geriatric-emergency",
+      "category": "fundamentals",
+      "title": "Geriatric Emergency: Atypical Presentation & Frailty",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "ผู้สูงอายุมี physiologic reserve ต่ำและมักแสดงอาการไม่คลาสสิก.",
+      "keywords": [
+        "geriatric",
+        "frailty",
+        "delirium"
+      ],
+      "sections": [
+        {
+          "title": "1) Why presentation differs",
+          "paragraphs": [
+            "Blunted fever/tachycardia, polypharmacy, sensory impairment and baseline cognitive disease can mask severity. Falls may be symptom of infection, arrhythmia, bleeding or stroke."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Medication hazards",
+          "paragraphs": [
+            "Anticoagulants, beta-blockers, diuretics, insulin, sedatives and anticholinergics frequently alter presentation and risk."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Delirium is acute organ dysfunction",
+          "paragraphs": [
+            "New confusion should trigger evaluation for infection, hypoxia, metabolic disturbance, medication toxicity, pain, urinary retention and intracranial disease."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Functional baseline matters",
+          "paragraphs": [
+            "Ask baseline cognition, mobility, ADL, goals of care and recent change."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Atypical does not mean mild",
+        "Medication review is high yield"
+      ],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

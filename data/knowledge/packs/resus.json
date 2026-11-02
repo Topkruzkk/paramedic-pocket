@@ -1,0 +1,477 @@
+{
+  "category": "resus",
+  "lessons": [
+    {
+      "id": "cardiac-arrest-deep",
+      "category": "resus",
+      "title": "Cardiac Arrest & Post-ROSC: CPR physiology, rhythms, drugs, EtCO₂",
+      "minutes": 30,
+      "level": "Advanced",
+      "summary": "เข้าใจเหตุผลของ high-quality CPR, shock timing, epinephrine, reversible causes, capnography และ post-ROSC care แทนการจำ algorithm อย่างเดียว.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) CPR physiology",
+          "paragraphs": [
+            "Chest compressions generate coronary/cerebral perfusion. Compression pauses rapidly reduce perfusion; minimizing interruptions is therefore central. Full recoil preserves venous return."
+          ],
+          "bullets": [
+            "Adult rate 100–120/min",
+            "Adult depth at least 5 cm",
+            "Avoid excessive ventilation",
+            "Change compressor about every 2 min"
+          ]
+        },
+        {
+          "title": "2) Shockable vs non-shockable",
+          "paragraphs": [
+            "VF/pVT: defibrillation is causal therapy; shock rapidly and resume CPR. PEA/asystole: prioritize CPR, epinephrine and reversible causes."
+          ],
+          "bullets": [
+            "Epinephrine adult 1 mg IV/IO every 3–5 min",
+            "Amiodarone/lidocaine considered in refractory VF/pVT",
+            "Hs & Ts guide reversible-cause search"
+          ]
+        },
+        {
+          "title": "3) Airway & capnography",
+          "paragraphs": [
+            "Advanced airway should not delay initial CPR/defibrillation. Continuous waveform capnography is recommended to confirm/monitor ETT in adult arrest and can help assess CPR quality/trends."
+          ],
+          "bullets": [
+            "Abrupt sustained rise in EtCO₂ may suggest ROSC",
+            "Persistently low/decreasing EtCO₂ → reassess CPR quality and other causes, not a stand-alone termination rule"
+          ]
+        },
+        {
+          "title": "4) Post-ROSC priorities",
+          "paragraphs": [
+            "Reassess oxygenation/ventilation, blood pressure/perfusion, 12-lead ECG, cause of arrest, temperature management and neurologic status. Avoid hyperoxia/hypoventilation extremes and treat shock."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Shock VF/pVT early",
+        "Epinephrine ASAP in nonshockable pediatric arrest",
+        "Capnography = tube confirmation + trend",
+        "Post-ROSC care starts immediately"
+      ],
+      "quick_review": [
+        "CPR 2-min cycles",
+        "Avoid pauses",
+        "EtCO₂ trend can support CPR quality assessment"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "Pediatric epinephrine timing",
+          "takeaway": "2025 evidence update found observational data favoring earlier epinephrine for initial nonshockable pediatric arrest, while timing in shockable rhythms remains uncertain because defibrillation must remain the priority.",
+          "source": "ILCOR/AHA-AAP 2025",
+          "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074853/205239/",
+          "evidence": "Evidence update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult ALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "เปิด Cardiac Arrest Algorithm",
+          "route": "cardiac-arrest"
+        },
+        {
+          "label": "เปิด CPR Timer",
+          "route": "cpr-timer"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ใน VF/pVT priority คืออะไร?",
+          "options": [
+            "Defibrillation promptly",
+            "Wait for central line",
+            "Bicarbonate routine",
+            "Calcium routine"
+          ],
+          "answer": 0,
+          "explain": "Rapid defibrillation is the priority for shockable arrest."
+        },
+        {
+          "q": "Continuous waveform capnography in adult arrest is useful mainly for?",
+          "options": [
+            "Confirm/monitor ETT and CPR trend",
+            "Diagnose MI alone",
+            "Replace pulse check entirely",
+            "Measure sodium"
+          ],
+          "answer": 0,
+          "explain": "AHA recommends waveform capnography to confirm/monitor ETT and it can support CPR quality assessment."
+        }
+      ],
+      "visual": "assets/adult-arrest-algorithm.png",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "adult-bls-als",
+      "category": "resus",
+      "title": "Adult BLS/ALS 2025: High-Quality CPR to Reversible Causes",
+      "minutes": 24,
+      "level": "Core+",
+      "summary": "แกนของ adult resuscitation: CPR quality, early defibrillation, correct drug timing, airway without interrupting compressions และ reversible causes.",
+      "keywords": [
+        "CPR",
+        "VF",
+        "PEA",
+        "ACLS"
+      ],
+      "sections": [
+        {
+          "title": "1) CPR physiology",
+          "paragraphs": [
+            "Coronary and cerebral perfusion depend on compression quality and minimizing pauses. Rate 100–120/min, adequate depth and recoil, compressor change about every 2 min."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Rhythm strategy",
+          "paragraphs": [
+            "VF/pVT → defibrillation + CPR; PEA/asystole → CPR + epinephrine promptly + reversible causes. Rhythm checks should be brief."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Airway/ventilation",
+          "paragraphs": [
+            "Avoid hyperventilation. Once advanced airway is placed, continuous compressions with adult ventilation about 10/min; waveform capnography helps confirm tube and trend CPR physiology."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Reversible causes",
+          "paragraphs": [
+            "Hypovolemia, hypoxia, hydrogen ion/acidosis, hypo-/hyperkalemia, hypothermia, tension pneumothorax, tamponade, toxins, pulmonary/coronary thrombosis."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "CPR and defibrillation dominate survival",
+        "Minimize pauses",
+        "Treat Hs & Ts"
+      ],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "guideline"
+        }
+      ],
+      "actions": [
+        {
+          "label": "เปิด Cardiac Arrest",
+          "route": "cardiac-arrest"
+        },
+        {
+          "label": "เปิด CPR Timer",
+          "route": "cpr-timer"
+        }
+      ],
+      "quiz": [],
+      "visual": "assets/adult-arrest-algorithm.png",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "adult-bradycardia",
+      "category": "resus",
+      "title": "Adult Symptomatic Bradycardia: Perfusion Before Rate",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "Bradycardia ต้องรักษาเมื่อทำให้ perfusion ไม่พอ ไม่ใช่เพราะตัวเลข HR ต่ำอย่างเดียว.",
+      "keywords": [
+        "bradycardia",
+        "pacing",
+        "atropine"
+      ],
+      "sections": [
+        {
+          "title": "1) Is the bradycardia causing compromise?",
+          "paragraphs": [
+            "Look for hypotension, acutely altered mental status, signs of shock, ischemic chest discomfort or acute heart failure. Athletes and sleep states can have physiologic bradycardia."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Immediate approach",
+          "paragraphs": [
+            "Airway/oxygen as indicated, monitor, IV access, 12-lead if it does not delay treatment. Search causes: ischemia, hypoxia, hyperkalemia, hypothermia, drugs/toxins, conduction disease."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Escalation",
+          "paragraphs": [
+            "AHA 2025 adult algorithm includes atropine and escalation to transcutaneous pacing and/or chronotropic infusion when atropine is ineffective, with expert consultation and transvenous pacing consideration."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Pacing pearls",
+          "paragraphs": [
+            "Electrical capture must be followed by mechanical capture: palpable pulse/arterial waveform and improved perfusion. Provide analgesia/sedation if time and hemodynamics permit."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [
+        "Treat unstable physiology promptly",
+        "Prepare pacing pads early in high-grade block"
+      ],
+      "red_flags": [],
+      "pitfalls": [
+        "Calling monitor artifact capture",
+        "Delaying pacing in high-grade block with shock"
+      ],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "LITFL ECG / Critical Care Compendium",
+          "url": "https://litfl.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Brady/Tachy Algorithms",
+          "route": "adult-arrhythmia"
+        }
+      ],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "adult-tachycardia",
+      "category": "resus",
+      "title": "Adult Tachyarrhythmia With a Pulse: Stability, Width, Regularity",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "แยก unstable vs stable ก่อน แล้วใช้ QRS width/regularity ช่วยเลือก pathway.",
+      "keywords": [
+        "tachycardia",
+        "SVT",
+        "VT",
+        "cardioversion"
+      ],
+      "sections": [
+        {
+          "title": "1) Is tachycardia the cause?",
+          "paragraphs": [
+            "Sinus tachycardia is usually a response to fever, pain, hypovolemia, sepsis, hypoxia or PE. Treat the driver rather than suppressing an appropriate compensatory rate."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Unstable tachyarrhythmia",
+          "paragraphs": [
+            "Hypotension, shock, altered mental status, ischemic chest discomfort or acute heart failure attributable to tachyarrhythmia → synchronized cardioversion pathway."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Narrow vs wide",
+          "paragraphs": [
+            "Narrow regular rhythms include SVT; irregular narrow often AF/flutter with variable conduction. Wide complex should be treated cautiously; VT is common and irregular wide raises concern for pre-excited AF or polymorphic VT."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Adenosine limits",
+          "paragraphs": [
+            "Adenosine is useful in selected regular narrow-complex tachycardia and may be considered diagnostically/therapeutically in regular monomorphic wide-complex tachycardia per algorithm; avoid reflex use in irregular/polymorphic wide rhythms."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [
+        "Calling compensatory sinus tachycardia SVT",
+        "Using adenosine in irregular wide-complex rhythm"
+      ],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "LITFL ECG / Critical Care Compendium",
+          "url": "https://litfl.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Brady/Tachy Algorithms",
+          "route": "adult-arrhythmia"
+        }
+      ],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "post-arrest-care",
+      "category": "resus",
+      "title": "Post–Cardiac Arrest Care: Oxygen, Ventilation, Pressure, Temperature & Cause",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "ROSC เป็นจุดเริ่มต้นของ phase ใหม่ที่ต้องป้องกัน secondary injury และหาสาเหตุ arrest.",
+      "keywords": [
+        "ROSC",
+        "post arrest",
+        "temperature"
+      ],
+      "sections": [
+        {
+          "title": "1) Airway and gas exchange",
+          "paragraphs": [
+            "Avoid both hypoxemia and unnecessary hyperoxia; use controlled oxygen when reliable saturation is available. Avoid marked hypo-/hypercapnia unless a specific clinical reason exists."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Hemodynamics",
+          "paragraphs": [
+            "Post-arrest myocardial dysfunction and vasoplegia are common. Use repeated BP/perfusion assessment, fluids when appropriate and vasopressors for persistent hypotension."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) ECG and coronary cause",
+          "paragraphs": [
+            "Obtain 12-lead ECG and evaluate for coronary occlusion/ACS while considering noncoronary causes such as PE, hemorrhage, hypoxia and toxins."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Neurologic/temperature care",
+          "paragraphs": [
+            "Prevent fever and use guideline-based temperature-control strategy in comatose survivors; avoid early definitive neurologic prognostication based on a single sign."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "guideline"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "cpr-capnography",
+      "category": "resus",
+      "title": "Capnography During CPR: What EtCO₂ Can and Cannot Tell You",
+      "minutes": 16,
+      "level": "Core",
+      "summary": "EtCO₂ เป็นทั้ง airway confirmation tool และ physiologic trend ระหว่าง CPR แต่ต้องตีความตาม ventilation, perfusion และ context.",
+      "keywords": [
+        "EtCO2",
+        "capnography",
+        "CPR"
+      ],
+      "sections": [
+        {
+          "title": "1) Why EtCO₂ falls during arrest",
+          "paragraphs": [
+            "CO₂ delivery to lungs is strongly influenced by pulmonary blood flow; during fixed ventilation, low EtCO₂ may reflect low cardiac output/poor CPR."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Use trends, not one number",
+          "paragraphs": [
+            "Sudden sustained rise can accompany ROSC. Persistently low or falling values should prompt CPR-quality and airway/ventilation reassessment, not automatic termination by a single threshold."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Confounders",
+          "paragraphs": [
+            "Ventilation rate/volume, bicarbonate, epinephrine, pulmonary embolism, severe lung disease and equipment issues alter EtCO₂."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Waveform matters",
+          "paragraphs": [
+            "A waveform supports tracheal placement and ventilation continuity; loss of waveform demands immediate equipment/tube/patient reassessment."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "guideline"
+        }
+      ],
+      "actions": [
+        {
+          "label": "ETT Confirmation",
+          "route": "ett-confirm"
+        }
+      ],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

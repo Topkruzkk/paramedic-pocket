@@ -1,0 +1,796 @@
+{
+  "category": "cardiology",
+  "lessons": [
+    {
+      "id": "ecg-deep",
+      "category": "cardiology",
+      "title": "ECG Interpretation: จากไฟฟ้าหัวใจสู่การตัดสินใจ",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "บทเรียนแบบเป็นระบบตั้งแต่ conduction system, ECG paper, rate/rhythm/axis/intervals จนถึง ischemia, conduction disease และการเชื่อม ECG กับ hemodynamics.",
+      "keywords": [
+        "axis",
+        "qtc",
+        "omi",
+        "stemi",
+        "av block",
+        "wide complex"
+      ],
+      "sections": [
+        {
+          "title": "1) Electrical foundation",
+          "paragraphs": [
+            "SA node เป็น pacemaker หลัก กระแสไฟผ่าน atria → AV node → His bundle → bundle branches → Purkinje. ECG เป็นภาพรวมของ depolarization/repolarization บนผิวกาย จึงต้องอ่านร่วมกับ physiology ไม่ใช่ดู pattern แยกจากคนไข้."
+          ],
+          "bullets": [
+            "P wave = atrial depolarization",
+            "PR interval = atrial-to-ventricular conduction time",
+            "QRS = ventricular depolarization",
+            "ST-T = ventricular repolarization"
+          ]
+        },
+        {
+          "title": "2) ECG paper & calibration",
+          "paragraphs": [
+            "มาตรฐานทั่วไป 25 mm/s และ 10 mm/mV. ที่ 25 mm/s: small box 0.04 s, large box 0.20 s. ก่อนตีความทุกครั้งให้ดู calibration, artifact และ lead reversal."
+          ],
+          "bullets": [
+            "Regular rhythm: 300 ÷ จำนวน large boxes ระหว่าง R-R เป็นการประมาณ rate",
+            "Irregular rhythm: นับ QRS ใน 10 s ×6",
+            "QRS ≥120 ms = wide complex"
+          ]
+        },
+        {
+          "title": "3) Systematic reading sequence",
+          "paragraphs": [
+            "ใช้ลำดับเดิมทุกครั้งเพื่อลด omission: Clinical context → Rhythm → Rate → Axis → P wave → PR → QRS width/morphology → QT/QTc → ST-T → comparison with old ECG."
+          ],
+          "bullets": [
+            "Rhythm: regular/irregular, P before every QRS?, QRS after every P?",
+            "Axis: ดู I และ aVF เป็น screening แล้วค่อยละเอียดขึ้นเมื่อจำเป็น",
+            "Intervals: PR 120–200 ms โดยประมาณ, QRS <120 ms ใน conduction ปกติ",
+            "QTc ต้องตีความตาม rate และบริบท เช่น electrolyte/drug effects"
+          ]
+        },
+        {
+          "title": "4) Ischemia / infarction thinking",
+          "paragraphs": [
+            "อย่าเริ่มจากคำว่า STEMI อย่างเดียว ให้ถามว่ามี acute coronary occlusion/ischemia หรือไม่และมี reciprocal change หรือ pattern high-risk หรือไม่."
+          ],
+          "bullets": [
+            "Inferior: II, III, aVF; reciprocal change มักเห็นที่ I/aVL",
+            "Anterior/septal: V1–V4; lateral: I, aVL, V5–V6",
+            "Posterior MI อาจเป็น ST depression V1–V3 + tall R; พิจารณา V7–V9",
+            "Inferior MI ควรคิด RV involvement และพิจารณา V3R/V4R ตามระบบ"
+          ]
+        },
+        {
+          "title": "5) Wide complex & conduction disease",
+          "paragraphs": [
+            "Wide-complex tachycardia ในผู้ใหญ่โดยเฉพาะมี structural heart disease ให้คิด VT ไว้ก่อนจนกว่าจะพิสูจน์ได้. AV block ต้องแยก 1st degree, Mobitz I, Mobitz II และ complete heart block โดยดู P-QRS relationship."
+          ],
+          "bullets": [
+            "Unstable rhythm = treatment priority over perfect rhythm naming",
+            "QRS morphology, AV dissociation, capture/fusion beats ช่วยสนับสนุน VT",
+            "Hyperkalemia, sodium-channel blockade และ pacing สามารถทำให้ QRS กว้างได้"
+          ]
+        },
+        {
+          "title": "6) How to write an ECG impression",
+          "paragraphs": [
+            "รายงานให้สั้นแต่ครบ: rhythm + rate + axis + interval + QRS + ischemic/conduction findings + clinical implication. ตัวอย่าง: 'Sinus rhythm ~60/min, narrow QRS, inferior ST elevation II/III/aVF with reciprocal depression I/aVL; concern for inferior OMI/STEMI, correlate symptoms and obtain right-sided leads.'"
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "อ่านด้วยลำดับคงที่ทุกครั้ง",
+        "ECG เป็น data point ไม่ใช่ diagnosis เดี่ยว ๆ",
+        "Hemodynamic instability มีผลต่อการตัดสินใจมากกว่าความสวยงามของ ECG label",
+        "อย่าพลาด lead reversal/artifact ก่อนประกาศ arrhythmia"
+      ],
+      "quick_review": [
+        "I + aVF ช่วย screen axis",
+        "II/III/aVF = inferior",
+        "V1–V4 = anterior/septal",
+        "Wide complex tachycardia + instability → treat first"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2026,
+          "title": "Learning focus: OMI concepts continue to influence ECG education",
+          "takeaway": "Contemporary ECG education increasingly emphasizes recognizing acute coronary occlusion patterns beyond classic ST-elevation criteria, but local activation pathways still follow formal ACS/STEMI protocols.",
+          "source": "LITFL / contemporary ECG education",
+          "url": "https://litfl.com/top-100/ecg/",
+          "evidence": "Educational trend"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OneDrive ECG interpretation/OSCE",
+          "type": "local"
+        },
+        {
+          "label": "LITFL ECG Library",
+          "url": "https://litfl.com/ecg-library/",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "เปิด ECG Quick Reference",
+          "route": "ecg"
+        },
+        {
+          "label": "เปิด ACS / STEMI",
+          "route": "acs"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ลำดับที่ช่วยลด omission มากที่สุดคือข้อใด?",
+          "options": [
+            "ST-T → axis → rate",
+            "Rhythm → rate → axis/intervals → P/QRS → ST-T",
+            "Rate → diagnosis → treatment",
+            "QRS → drug → rhythm"
+          ],
+          "answer": 1,
+          "explain": "ลำดับคงที่ช่วยลดการข้ามองค์ประกอบสำคัญและต้องผูกกับ clinical context."
+        },
+        {
+          "q": "ST elevation II, III, aVF สื่อถึง territory ใด?",
+          "options": [
+            "Anterior",
+            "Inferior",
+            "Lateral",
+            "Posterior only"
+          ],
+          "answer": 1,
+          "explain": "II, III, aVF เป็น inferior leads."
+        },
+        {
+          "q": "Wide-complex tachycardia ในผู้ป่วย unstable ควรทำอย่างไร?",
+          "options": [
+            "รอ ECG 12 lead สมบูรณ์ก่อน",
+            "ให้ treatment ตาม unstable tachy pathway และคิด VT ไว้ก่อน",
+            "ให้ adenosine ทุกคน",
+            "ไม่ต้อง monitor"
+          ],
+          "answer": 1,
+          "explain": "ความไม่คงที่ทาง hemodynamics เป็น priority."
+        }
+      ],
+      "visual": "assets/visuals/conduction-system.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "acs-deep",
+      "category": "cardiology",
+      "title": "Acute Coronary Syndrome: Pathophysiology → ECG → Prehospital System",
+      "minutes": 30,
+      "level": "Core+",
+      "summary": "ACS ครอบคลุม unstable angina, NSTEMI และ STEMI/acute coronary occlusion. เป้าหมาย EMS คือจำแนก high-risk, ทำ ECG เร็ว, ให้การรักษาที่มีข้อบ่งชี้ และลดเวลาถึง reperfusion.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Pathophysiology",
+          "paragraphs": [
+            "Plaque disruption/erosion → platelet activation → thrombus → supply-demand mismatch หรือ acute coronary occlusion. ระดับ ischemia ขึ้นกับตำแหน่งหลอดเลือด, collateral flow, duration และ myocardial demand."
+          ],
+          "bullets": [
+            "Ischemia อาจ transient หรือ dynamic",
+            "Troponin บอก myocardial injury แต่ prehospital decision จำนวนมากต้องเริ่มก่อน lab",
+            "Mechanical/electrical complications อาจเกิดเร็ว เช่น VT/VF, AV block, pulmonary edema, shock"
+          ]
+        },
+        {
+          "title": "2) History & risk framing",
+          "paragraphs": [
+            "Chest pressure/heaviness ร้าวแขน/กราม, diaphoresis, dyspnea, nausea เป็น classic แต่ atypical presentation พบได้ โดยเฉพาะสูงอายุ เบาหวาน และผู้หญิง."
+          ],
+          "bullets": [
+            "OPQRST + SAMPLE",
+            "ถาม bleeding risk/anticoagulant/allergy",
+            "คิด aortic syndrome, PE, pneumothorax, esophageal cause, pericarditis และอื่น ๆ ก่อนผูกกับ ACS"
+          ]
+        },
+        {
+          "title": "3) ECG strategy",
+          "paragraphs": [
+            "ทำ 12-lead เร็วและทำ serial ECG เมื่ออาการ/ECG เปลี่ยน. Inferior pattern ให้คิด RV infarct; posterior clues ให้คิด posterior leads."
+          ],
+          "bullets": [
+            "Compare old ECG if available",
+            "Dynamic ST-T change เพิ่มความน่าเชื่อถือของ acute ischemia",
+            "Normal first ECG ไม่ได้ตัด ACS"
+          ]
+        },
+        {
+          "title": "4) Prehospital treatment principles",
+          "paragraphs": [
+            "2025 ACS guideline: oxygen แนะนำเมื่อ SpO₂ <90% เพื่อเพิ่ม saturation ≥90%; routine oxygen เมื่อ saturation ≥90% ไม่แนะนำเพราะไม่เพิ่ม cardiovascular outcomes."
+          ],
+          "bullets": [
+            "Aspirin/antiplatelet strategy ต้องตาม local protocol/contraindications",
+            "Nitrates/analgesia ต้องดู BP, RV infarction, PDE-5 use และ local protocol",
+            "Transport destination/activation มีผลต่อ time-to-reperfusion"
+          ]
+        },
+        {
+          "title": "5) Complications & red flags",
+          "paragraphs": [
+            "Inferior MI อาจเกิด brady/AV block; anterior large infarct เสี่ยง cardiogenic shock; ongoing chest pain + hypotension + pulmonary edema/arrhythmia เป็น high-risk."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "ทำ 12-lead เร็วและ repeat เมื่อ clinical picture ยังน่าสงสัย",
+        "Oxygen ไม่ใช่ routine ใน normoxic ACS",
+        "รักษาและ transport เป็นระบบเวลา-sensitive",
+        "คิด differential รุนแรงเสมอ"
+      ],
+      "quick_review": [
+        "ACS + SpO₂ ≥90% → ไม่ให้ออกซิเจน routine",
+        "Inferior MI → right-sided leads when indicated",
+        "Normal ECG ครั้งแรก ≠ ACS excluded"
+      ],
+      "prehospital_focus": [
+        "12-lead early",
+        "serial ECG if needed",
+        "STEMI/PCI center pre-notification",
+        "avoid scene delay without benefit"
+      ],
+      "red_flags": [
+        "Hypotension/shock",
+        "Refractory chest pain",
+        "Pulmonary edema",
+        "Sustained VT/VF or high-grade AV block",
+        "Mechanical complication suspicion"
+      ],
+      "pitfalls": [
+        "ให้ออกซิเจน routine ทั้งที่ normoxic",
+        "ตัด ACS จาก ECG แรกปกติ",
+        "ลืม RV/posterior leads เมื่อมีข้อบ่งชี้"
+      ],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "ACS guideline consolidated STEMI + NSTEMI evidence",
+          "takeaway": "The 2025 guideline replaced the separated older STEMI/NSTEMI frameworks with one ACS guideline and updates antiplatelet, invasive strategy and supportive-care recommendations.",
+          "source": "AHA/ACC 2025 ACS Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "evidence": "Guideline update"
+        },
+        {
+          "year": 2025,
+          "title": "Routine oxygen in normoxic ACS",
+          "takeaway": "Randomized evidence reviewed in the 2025 guideline shows no cardiovascular benefit from routine oxygen when SpO₂ is already ≥90%.",
+          "source": "Circulation ACS Guideline",
+          "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309",
+          "evidence": "High-level evidence"
+        },
+        {
+          "year": 2025,
+          "title": "2025 multidisciplinary ACS guideline",
+          "takeaway": "The 2025 ACC/AHA/ACEP/NAEMSP/SCAI guideline consolidates STEMI, NSTEMI and unstable angina management with updated evidence across the acute-care system.",
+          "source": "AHA/ACC/ACEP/NAEMSP/SCAI",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "evidence": "GUIDELINE"
+        }
+      ],
+      "sources": [
+        {
+          "label": "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "type": "primary"
+        },
+        {
+          "label": "OneDrive ECG OSCE",
+          "type": "local"
+        },
+        {
+          "label": "ER goldbook",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "เปิด ACS workflow",
+          "route": "acs"
+        },
+        {
+          "label": "เปิด ECG Quick Reference",
+          "route": "ecg"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "2025 ACS guideline แนะนำ oxygen routine เมื่อ SpO₂ 97% หรือไม่?",
+          "options": [
+            "แนะนำทุกคน",
+            "ไม่แนะนำ routine",
+            "ให้ 15 L/min เสมอ",
+            "ขึ้นกับอายุเท่านั้น"
+          ],
+          "answer": 1,
+          "explain": "Routine oxygen เมื่อ saturation ≥90% ไม่ได้เพิ่ม cardiovascular outcomes."
+        },
+        {
+          "q": "Inferior ST elevation ควรคิด lead เพิ่มใด?",
+          "options": [
+            "V4R",
+            "aVR เท่านั้น",
+            "V1R เท่านั้น",
+            "ไม่มี"
+          ],
+          "answer": 0,
+          "explain": "Right-sided leads เช่น V3R/V4R ช่วยประเมิน RV involvement."
+        }
+      ],
+      "visual": "assets/visuals/ecg-territories.svg",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "arrhythmia-deep",
+      "category": "cardiology",
+      "title": "Bradycardia & Tachyarrhythmia: Hemodynamics ก่อนชื่อ rhythm",
+      "minutes": 24,
+      "level": "Core+",
+      "summary": "เป้าหมายคือประเมิน perfusion/instability, แยก narrow vs wide, regular vs irregular และรักษาตาม physiology ก่อนพยายามตั้งชื่อ rhythm แบบละเอียด.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Instability framework",
+          "paragraphs": [
+            "Signs of poor perfusion ได้แก่ hypotension, altered mental status, ischemic chest discomfort, acute heart failure/shock. ถ้ามี instability จาก arrhythmia จริง ให้ electrical therapy ตาม algorithm เร็ว."
+          ],
+          "bullets": [
+            "Brady: หาสาเหตุ hypoxia, ischemia, drugs, electrolyte, conduction disease",
+            "Tachy: narrow/wide + regular/irregular + stable/unstable"
+          ]
+        },
+        {
+          "title": "2) Adult bradycardia",
+          "paragraphs": [
+            "AHA 2025 adult brady algorithm ใช้ atropine 1 mg IV bolus; repeat every 3–5 min, max 3 mg. ถ้า ineffective ให้พิจารณา transcutaneous pacing และ/หรือ dopamine/epinephrine infusion ตาม algorithm/local protocol."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Adult tachycardia",
+          "paragraphs": [
+            "Unstable tachycardia → synchronized cardioversion. Stable narrow regular SVT → vagal maneuvers/adenosine when appropriate. Wide-complex tachycardia ต้องระวัง VT; irregular wide-complex อาจเป็น pre-excited AF และ adenosine/AV-nodal blockers อาจอันตรายในบางบริบท."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Pediatric differences",
+          "paragraphs": [
+            "Pediatric bradycardia มัก secondary to hypoxia/respiratory failure มากกว่ primary conduction disease. หาก HR <60/min พร้อม cardiopulmonary compromise แม้ ventilation/oxygenation effective แล้ว ให้เริ่ม CPR ตาม PALS."
+          ],
+          "bullets": [
+            "SVT stable: vagal → adenosine if IV/IO available",
+            "SVT unstable: synchronized cardioversion starting 0.5–1 J/kg, then 2 J/kg if unsuccessful"
+          ]
+        },
+        {
+          "title": "5) Post-conversion",
+          "paragraphs": [
+            "หลัง rhythm conversion ต้องหาสาเหตุ, repeat ECG, monitor recurrence, electrolyte/glucose, medication/toxin and ischemia evaluation."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Treat the patient, not only the monitor",
+        "Unstable rhythm → electrical therapy priority",
+        "Pediatric brady often = oxygenation/ventilation problem",
+        "Wide complex tachycardia: assume VT until proven otherwise when uncertain"
+      ],
+      "quick_review": [
+        "Adult atropine 1 mg, max 3 mg",
+        "Peds HR <60 + compromise despite oxygenation → CPR",
+        "SVT unstable peds: 0.5–1 then 2 J/kg cardioversion"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Syncope/shock",
+        "Ischemic chest pain",
+        "Acute pulmonary edema",
+        "Very wide/irregular tachycardia",
+        "High-grade AV block"
+      ],
+      "pitfalls": [],
+      "research_updates": [
+        {
+          "year": 2025,
+          "title": "PALS bradycardia evidence remains low certainty",
+          "takeaway": "2025 PALS reinforces ventilation-first thinking and CPR when HR <60/min with compromise despite effective ventilation; much of bradycardia evidence remains observational.",
+          "source": "AHA/AAP PALS 2025",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "evidence": "Guideline evidence update"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult ALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "primary"
+        },
+        {
+          "label": "AHA/AAP 2025 PALS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+          "type": "primary"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adult Brady/Tachy",
+          "route": "adult-arrhythmia"
+        },
+        {
+          "label": "Pediatric Brady/Tachy",
+          "route": "peds-arrhythmia"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "เด็ก brady HR 50/min มี shock despite effective ventilation ควรคิดอะไรต่อ?",
+          "options": [
+            "Observe only",
+            "Start CPR per PALS",
+            "Adenosine",
+            "No monitoring"
+          ],
+          "answer": 1,
+          "explain": "PALS recommends CPR for HR <60/min with cardiopulmonary compromise despite effective ventilation with oxygen."
+        },
+        {
+          "q": "Unstable adult tachyarrhythmia treatment priority?",
+          "options": [
+            "Synchronized cardioversion",
+            "Wait for troponin",
+            "Adenosine in every rhythm",
+            "No treatment"
+          ],
+          "answer": 0,
+          "explain": "Unstable tachyarrhythmia should receive synchronized cardioversion according to algorithm."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "acute-heart-failure",
+      "category": "cardiology",
+      "title": "Acute Heart Failure & Cardiogenic Pulmonary Edema",
+      "minutes": 24,
+      "level": "Core",
+      "summary": "แยก congestion, afterload problem, ischemia และ cardiogenic shock เพื่อเลือก intervention ที่ถูก physiology.",
+      "keywords": [
+        "heart failure",
+        "pulmonary edema",
+        "CPAP"
+      ],
+      "sections": [
+        {
+          "title": "1) Phenotypes",
+          "paragraphs": [
+            "Patients may be hypertensive with severe pulmonary edema, normotensive congested, or cold/hypoperfused. The same “heart failure” label can require very different priorities."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Pulmonary edema physiology",
+          "paragraphs": [
+            "High LV filling pressure raises pulmonary capillary hydrostatic pressure → interstitial/alveolar edema, shunt and increased work of breathing. Sympathetic vasoconstriction can sharply increase afterload."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Assessment",
+          "paragraphs": [
+            "Look for severe dyspnea, orthopnea, crackles, B-lines if trained, JVP, edema, cool extremities, BP phenotype, ECG ischemia/arrhythmia. Consider COPD, pneumonia, PE and ARDS."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital treatment principles",
+          "paragraphs": [
+            "Support oxygenation/ventilation; CPAP/NIV can be highly useful in appropriate awake patients. In hypertensive pulmonary edema, vasodilator strategy may be central where protocol allows; avoid indiscriminate fluid boluses."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [
+        "BP phenotype guides therapy",
+        "Consider NIV early in severe work of breathing"
+      ],
+      "red_flags": [
+        "Shock",
+        "New ischemic ECG",
+        "Severe hypoxemia",
+        "Altered mental status"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+          "type": "guideline"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "hypertensive-emergency",
+      "category": "cardiology",
+      "title": "Hypertensive Emergency: Treat Organ Injury, Not the Number",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "ความดันสูงมากจะเป็น emergency เมื่อมี acute target-organ injury.",
+      "keywords": [
+        "hypertension",
+        "emergency",
+        "BP"
+      ],
+      "sections": [
+        {
+          "title": "1) Distinguish urgency from emergency",
+          "paragraphs": [
+            "Severe BP alone without acute organ injury does not equal hypertensive emergency. Look for encephalopathy, stroke syndrome, ACS, pulmonary edema, aortic syndrome, AKI or pregnancy-related emergency."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Why rapid overcorrection can harm",
+          "paragraphs": [
+            "Chronic hypertension shifts autoregulation; abrupt excessive BP reduction can compromise cerebral/coronary/renal perfusion. Targets depend on the syndrome."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Syndrome-specific thinking",
+          "paragraphs": [
+            "Aortic dissection, acute pulmonary edema, ischemic stroke, intracranial hemorrhage and eclampsia have different BP strategies."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital focus",
+          "paragraphs": [
+            "Confirm cuff/measurement, repeat BP, assess organ injury and transport appropriately; do not chase an asymptomatic number with unprotocolized medications."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "aortic-syndrome",
+      "category": "cardiology",
+      "title": "Acute Aortic Syndrome: Dissection, Intramural Hematoma & Rupture",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "เจ็บฉับพลัน + pulse/neuro/perfusion abnormality ต้องคิด aortic catastrophe.",
+      "keywords": [
+        "aortic dissection",
+        "chest pain"
+      ],
+      "sections": [
+        {
+          "title": "1) Pathophysiology",
+          "paragraphs": [
+            "Intimal disruption or bleeding into aortic wall can propagate, obstruct branches, cause aortic regurgitation, tamponade, coronary malperfusion or rupture."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Clinical clues",
+          "paragraphs": [
+            "Abrupt severe chest/back pain, syncope, pulse/BP differential, focal neuro deficit, limb ischemia, new diastolic murmur or shock. Absence of classic tearing pain does not exclude it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Dangerous mimics/overlap",
+          "paragraphs": [
+            "ACS, PE, pericarditis, esophageal rupture and musculoskeletal pain. Dissection can itself produce coronary ischemia."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Prehospital priorities",
+          "paragraphs": [
+            "Gentle handling, monitoring, IV access as appropriate, analgesia per protocol, rapid transport to definitive capability. Avoid anchoring on ACS when dissection features are present."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [
+        "Neuro deficit with chest/back pain",
+        "Pulse deficit",
+        "Shock/tamponade"
+      ],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "tamponade-pericarditis",
+      "category": "cardiology",
+      "title": "Pericarditis & Cardiac Tamponade",
+      "minutes": 18,
+      "level": "Core",
+      "summary": "จาก pleuritic positional pain ไปถึง obstructive shock: เข้าใจ pericardial pressure-volume relationship.",
+      "keywords": [
+        "tamponade",
+        "pericarditis",
+        "obstructive shock"
+      ],
+      "sections": [
+        {
+          "title": "1) Pericarditis",
+          "paragraphs": [
+            "Often pleuritic/positional chest pain; ECG may show diffuse ST elevation/PR depression, but not always. Consider myocarditis and ACS."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Tamponade physiology",
+          "paragraphs": [
+            "Rising pericardial pressure impairs diastolic filling → reduced stroke volume and obstructive shock. Rapid accumulation can cause collapse with relatively small volume."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Findings",
+          "paragraphs": [
+            "Tachycardia, hypotension, elevated JVP, narrow pulse pressure, pulsus paradoxus, electrical alternans or low voltage may occur; classic Beck triad is insensitive."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Management concept",
+          "paragraphs": [
+            "Support perfusion, avoid interventions that reduce preload abruptly when possible, and expedite definitive pericardial drainage in unstable tamponade."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        },
+        {
+          "label": "LITFL ECG / Critical Care Compendium",
+          "url": "https://litfl.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "pacemaker-ecg",
+      "category": "cardiology",
+      "title": "Pacemaker ECG & Malfunction Basics",
+      "minutes": 17,
+      "level": "Core",
+      "summary": "รู้จัก pacing spike, capture, sensing และภาวะ malfunction ที่คุกคาม perfusion.",
+      "keywords": [
+        "pacemaker",
+        "capture",
+        "sensing"
+      ],
+      "sections": [
+        {
+          "title": "1) Capture",
+          "paragraphs": [
+            "Electrical capture = paced depolarization follows pacing stimulus. Mechanical capture = pulse/perfusion follows electrical capture."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Failure patterns",
+          "paragraphs": [
+            "Failure to capture: spike without expected depolarization. Failure to pace/output: absent spike when expected. Undersensing: inappropriate pacing despite intrinsic beats. Oversensing: inhibition due to noncardiac/inappropriate signals."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Patient first",
+          "paragraphs": [
+            "If unstable bradycardia exists, treat according to resuscitation pathway while troubleshooting device. Magnet effects vary by device and should not be improvised."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) ECG interpretation",
+          "paragraphs": [
+            "Paced QRS morphology depends on lead position and pacing mode; compare prior ECG when available."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "LITFL ECG / Critical Care Compendium",
+          "url": "https://litfl.com/",
+          "type": "educational"
+        },
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}

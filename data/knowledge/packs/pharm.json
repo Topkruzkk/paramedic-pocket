@@ -1,0 +1,352 @@
+{
+  "category": "pharm",
+  "lessons": [
+    {
+      "id": "med-safety",
+      "category": "pharm",
+      "title": "Emergency Pharmacology & Medication Safety",
+      "minutes": 28,
+      "level": "Core+",
+      "summary": "ความผิดพลาด EMS มักเกิดจาก concentration, decimal, weight, route หรือ unit ไม่ใช่การจำชื่อยาไม่ได้. บทนี้เน้นระบบป้องกัน error.",
+      "keywords": [],
+      "sections": [
+        {
+          "title": "1) Dose language",
+          "paragraphs": [
+            "แยก mg, mg/kg, mcg/kg/min, mL และ concentration ให้ชัด. คำนวณ dose ก่อน แล้วค่อยแปลงเป็น volume."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Weight-based dosing",
+          "paragraphs": [
+            "ใช้ actual measured weight เมื่อเป็นไปได้. Estimated weight โดยเฉพาะ neonate/เด็กเล็กเป็น safety risk และต้อง double-check."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Concentration traps",
+          "paragraphs": [
+            "Epinephrine เป็น classic high-risk example: concentration ต่างกันตาม indication/route. แอปต้องโชว์ mg และ mL พร้อม concentration ทุกครั้ง."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Independent double-check",
+          "paragraphs": [
+            "High-alert medication ควร verbalize: patient weight, indication, dose, concentration, volume, route, max dose และ time given."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "5) Infusions",
+          "paragraphs": [
+            "ก่อนเริ่ม infusion ให้ยืนยัน drug amount, diluent volume, final concentration, dose unit, pump rate and compatible line."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [
+        "Dose first → volume second",
+        "Always display units",
+        "Use leading zero; avoid trailing zero",
+        "High-alert drugs need independent check"
+      ],
+      "quick_review": [
+        "0.1 mg ≠ 0.1 mL unless concentration says so",
+        "mcg vs mg = 1000-fold difference"
+      ],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA/AAP drug tables and local medication protocols",
+          "type": "primary/local"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Dose → Volume Calculator",
+          "route": "dose-volume"
+        },
+        {
+          "label": "Drug Tools",
+          "route": "drug"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "หลักที่ปลอดภัยที่สุดก่อนแปลงยาเป็น mL?",
+          "options": [
+            "คำนวณ dose ที่ต้องการเป็น mg/mcg ก่อน",
+            "เดา volume",
+            "ใช้ mL อย่างเดียว",
+            "ไม่ต้องดู concentration"
+          ],
+          "answer": 0,
+          "explain": "Dose and concentration must be separated before calculating volume."
+        }
+      ],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "analgesia-sedation",
+      "category": "pharm",
+      "title": "Emergency Analgesia & Sedation Pharmacology",
+      "minutes": 22,
+      "level": "Core",
+      "summary": "เลือกยาโดยจับคู่ indication + hemodynamics + airway risk + duration ไม่ใช่จำ dose อย่างเดียว.",
+      "keywords": [
+        "analgesia",
+        "sedation",
+        "ketamine"
+      ],
+      "sections": [
+        {
+          "title": "1) Analgesics",
+          "paragraphs": [
+            "Opioids provide potent analgesia but can cause respiratory depression/hypotension; ketamine provides analgesia/dissociation with different hemodynamic profile; acetaminophen/NSAIDs have roles and contraindications."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Sedatives",
+          "paragraphs": [
+            "Benzodiazepines, propofol, ketamine and other agents differ in onset, duration, respiratory and cardiovascular effects."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Safety bundle",
+          "paragraphs": [
+            "Indication, weight, concentration, dose, route, allergy, monitoring, rescue equipment and reassessment must be explicit."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Special populations",
+          "paragraphs": [
+            "Elderly, shock, pregnancy, renal/hepatic failure and polypharmacy require more cautious titration."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "vasopressor-pharm",
+      "category": "pharm",
+      "title": "Vasopressor & Inotrope Pharmacology",
+      "minutes": 20,
+      "level": "Core",
+      "summary": "เข้าใจ receptor effect และ disease phenotype ก่อนเลือกยา.",
+      "keywords": [
+        "norepinephrine",
+        "epinephrine",
+        "dobutamine"
+      ],
+      "sections": [
+        {
+          "title": "1) Norepinephrine",
+          "paragraphs": [
+            "Predominantly alpha with some beta effect; widely used for vasodilatory septic shock."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Epinephrine",
+          "paragraphs": [
+            "Strong alpha/beta effects; central in cardiac arrest/anaphylaxis and used in selected shock states, but can increase lactate and tachyarrhythmia."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Dobutamine",
+          "paragraphs": [
+            "Inotropic beta effect can improve cardiac output in selected pump failure but may lower SVR/BP."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Administration safety",
+          "paragraphs": [
+            "Concentration, infusion pump, dedicated line/site monitoring and extravasation plan are essential; peripheral initiation policies vary."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "Surviving Sepsis Campaign 2026 Adult Guidelines",
+          "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+          "type": "guideline"
+        },
+        {
+          "label": "AHA 2025 Adult Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "guideline"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "antiarrhythmics-pharm",
+      "category": "pharm",
+      "title": "Emergency Antiarrhythmics: Mechanism, Rhythm and Toxicity",
+      "minutes": 21,
+      "level": "Core",
+      "summary": "antiarrhythmics can be proarrhythmic—match drug to rhythm and hemodynamic context.",
+      "keywords": [
+        "amiodarone",
+        "lidocaine",
+        "adenosine",
+        "magnesium"
+      ],
+      "sections": [
+        {
+          "title": "1) Amiodarone",
+          "paragraphs": [
+            "Broad-channel effects; used in selected ventricular arrhythmias and arrest algorithms. Hypotension/bradycardia and long-term toxicities matter."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Lidocaine",
+          "paragraphs": [
+            "Sodium-channel blocker useful as an alternative for ventricular arrhythmias in resuscitation pathways; neurologic toxicity can occur with high exposure."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Adenosine",
+          "paragraphs": [
+            "Very short AV nodal blockade; useful for selected regular SVT and diagnostic use in regular monomorphic wide-complex tachycardia under algorithm. It does not terminate AF/flutter and can be dangerous in some pre-excited rhythms."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Magnesium",
+          "paragraphs": [
+            "Important for torsades de pointes and specific deficiency/toxicologic contexts."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "AHA 2025 Adult Advanced Life Support",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+          "type": "guideline"
+        },
+        {
+          "label": "LITFL ECG / Critical Care Compendium",
+          "url": "https://litfl.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    },
+    {
+      "id": "concentration-safety",
+      "category": "pharm",
+      "title": "Medication Concentration, Dilution & Dose Safety",
+      "minutes": 16,
+      "level": "Core",
+      "summary": "most catastrophic medication errors are system errors: wrong concentration, decimal, route or unit.",
+      "keywords": [
+        "medication safety",
+        "concentration",
+        "dose"
+      ],
+      "sections": [
+        {
+          "title": "1) Unit discipline",
+          "paragraphs": [
+            "Write mg, mcg, mL and mg/mL explicitly. Convert only one step at a time and avoid mental shortcuts when stress is high."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "2) Dose-to-volume",
+          "paragraphs": [
+            "Volume (mL) = required dose (mg) ÷ concentration (mg/mL). For weight-based drugs: required dose = dose/kg × weight."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "3) Independent double-check",
+          "paragraphs": [
+            "For high-alert drugs, verbally confirm patient/weight, indication, drug, concentration, calculated dose, volume, route and max dose with a second clinician when possible."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "4) Decimal safety",
+          "paragraphs": [
+            "Use leading zero (0.1), never trailing zero (1.0), and be alert to mg↔mcg thousand-fold errors."
+          ],
+          "bullets": []
+        }
+      ],
+      "key_points": [],
+      "quick_review": [],
+      "prehospital_focus": [],
+      "red_flags": [],
+      "pitfalls": [],
+      "research_updates": [],
+      "sources": [
+        {
+          "label": "ER Goldbook — educational / Thai reference",
+          "url": "https://ergoldbook.blogspot.com/",
+          "type": "educational"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Dose → Volume",
+          "route": "dose-volume"
+        }
+      ],
+      "quiz": [],
+      "visual": "",
+      "updated_on": "2026-11-03"
+    }
+  ]
+}
