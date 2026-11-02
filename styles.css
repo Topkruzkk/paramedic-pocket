@@ -29,3 +29,5 @@ body{padding-bottom:calc(84px + env(safe-area-inset-bottom))}.app-shell{max-widt
 .ref-card{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;padding:12px 13px;border-radius:14px;border:1px solid var(--border);background:var(--surface2);text-decoration:none;color:var(--text)}
 .ref-card strong{display:block;font-size:13px;margin-bottom:4px}.ref-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.45}
 .warn{color:var(--warning)}
+
+.algo-image{max-height:78vh;object-fit:contain}.dose-row small.warn{color:var(--warning)}

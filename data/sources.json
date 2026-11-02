@@ -1,82 +1,142 @@
 [
   {
-    "id": "aha-adult-algo",
+    "id": "aha-adult-brady",
+    "title": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2025,
+    "reviewed_on": "2026-11-03",
+    "scope": "Adult bradycardia algorithm and atropine/dopamine/epinephrine doses",
+    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
+  },
+  {
+    "id": "aha-adult-tachy",
+    "title": "AHA 2025 Adult Tachyarrhythmia With a Pulse Algorithm",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2025,
+    "reviewed_on": "2026-11-03",
+    "scope": "Adult tachyarrhythmia algorithm, adenosine and antiarrhythmic details",
+    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
+  },
+  {
+    "id": "aha-peds-brady",
+    "title": "AHA/AAP 2025 Pediatric Bradycardia With a Pulse Algorithm",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2025,
+    "reviewed_on": "2026-11-03",
+    "scope": "Pediatric bradycardia, epinephrine and atropine doses",
+    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-Bradycardia-250121.pdf"
+  },
+  {
+    "id": "aha-peds-tachy",
+    "title": "AHA/AAP 2025 Pediatric Tachyarrhythmia With a Pulse Algorithm",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2025,
+    "reviewed_on": "2026-11-03",
+    "scope": "Pediatric tachyarrhythmia, adenosine and synchronized cardioversion",
+    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-Tachyarrhythmia-250117.pdf"
+  },
+  {
+    "id": "aha-adult-arrest",
     "title": "AHA 2025 Adult Cardiac Arrest Algorithm",
     "type": "guideline",
     "status": "verified",
     "year": 2025,
     "reviewed_on": "2026-11-03",
-    "scope": "Primary-source adult cardiac arrest algorithm image and drug / airway notes",
+    "scope": "Adult cardiac arrest primary algorithm",
     "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-CA-250527.pdf"
   },
   {
-    "id": "aha-peds-algo",
+    "id": "aha-peds-arrest",
     "title": "AHA/AAP 2025 Pediatric Cardiac Arrest Algorithm",
     "type": "guideline",
     "status": "verified",
     "year": 2025,
     "reviewed_on": "2026-11-03",
-    "scope": "Primary-source pediatric cardiac arrest algorithm image and shock / epinephrine guidance",
+    "scope": "Pediatric cardiac arrest algorithm and dosing",
     "url": "https://cpr.heart.org/en/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-CA-250123.pdf"
   },
   {
-    "id": "aha-neonatal-highlights",
-    "title": "AHA/AAP 2025 Highlights – Neonatal Resuscitation Algorithm",
+    "id": "aha-neonatal",
+    "title": "AHA/AAP 2025 Neonatal Resuscitation Guidelines",
     "type": "guideline",
     "status": "verified",
     "year": 2025,
     "reviewed_on": "2026-11-03",
-    "scope": "Primary-source neonatal resuscitation algorithm figure and oxygen target table",
-    "url": "https://cpr.heart.org/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Resuscitation-Science/252500_Hghlghts_2025ECCGuidelines.pdf"
+    "scope": "Neonatal ventilation, compressions, epinephrine and volume expansion",
+    "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/Part-5-Neonatal-Resuscitation-2025-American-Heart"
   },
   {
-    "id": "litfl-ecg",
+    "id": "qld-neonatal-airway",
+    "title": "Queensland Clinical Guideline – Neonatal Resuscitation",
+    "type": "airway-reference",
+    "status": "verified",
+    "year": 2022,
+    "reviewed_on": "2026-11-03",
+    "scope": "GA/weight-based neonatal ETT size and insertion depth table",
+    "url": "https://www.health.qld.gov.au/__data/assets/pdf_file/0011/140600/g-resus.pdf"
+  },
+  {
+    "id": "ambulance-vic-newborn",
+    "title": "Ambulance Victoria Newborn Resuscitation CPG",
+    "type": "airway-reference",
+    "status": "verified",
+    "year": 2026,
+    "reviewed_on": "2026-11-03",
+    "scope": "Neonatal laryngoscope blade preparation and airway equipment by prematurity/weight",
+    "url": "https://www.ambulance.vic.gov.au/sites/default/files/2026-04/ALS-MICA-CPG-April-2026.pdf"
+  },
+  {
+    "id": "acs-2025",
+    "title": "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline",
+    "type": "guideline",
+    "status": "verified",
+    "year": 2025,
+    "reviewed_on": "2026-11-03",
+    "scope": "Current acute coronary syndrome evaluation and management guideline",
+    "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
+  },
+  {
+    "id": "litfl",
     "title": "LITFL Top 150 ECG",
-    "type": "reference",
+    "type": "education",
     "status": "review",
     "year": 2026,
     "reviewed_on": "2026-11-03",
-    "scope": "External learning resource for ECG case practice and rhythm recognition",
+    "scope": "External ECG learning and case practice",
     "url": "https://litfl.com/top-100/ecg/"
   },
   {
     "id": "ergoldbook",
     "title": "ER goldbook",
-    "type": "reference",
+    "type": "education",
     "status": "review",
     "year": 2026,
     "reviewed_on": "2026-11-03",
-    "scope": "Thai-language emergency medicine knowledge resource",
+    "scope": "Thai emergency medicine learning reference",
     "url": "https://ergoldbook.blogspot.com/"
   },
   {
-    "id": "medscape-em",
+    "id": "medscape",
     "title": "Medscape Emergency Medicine",
-    "type": "reference",
+    "type": "education",
     "status": "review",
     "year": 2026,
     "reviewed_on": "2026-11-03",
-    "scope": "Broad emergency medicine reference; may require login/subscription",
+    "scope": "Broad emergency medicine reference; login may be required",
     "url": "https://www.medscape.com/emergencymedicine"
   },
   {
-    "id": "local-airway",
-    "title": "OneDrive Airway teaching reference",
-    "type": "local-reference",
+    "id": "evelina-weight",
+    "title": "Evelina London STRS Medical Formulas",
+    "type": "calculator-reference",
     "status": "review",
-    "year": 2022,
+    "year": 2026,
     "reviewed_on": "2026-11-03",
-    "scope": "Local airway teaching file used for SOAP-ME structure and cross-reference",
-    "url": ""
-  },
-  {
-    "id": "local-pals-2021",
-    "title": "OneDrive PALS 2021 teaching reference",
-    "type": "local-reference",
-    "status": "review",
-    "year": 2021,
-    "reviewed_on": "2026-11-03",
-    "scope": "Used for comparison only where current 2025 guidance differs",
-    "url": ""
+    "scope": "Age-based estimated pediatric weight formulas when actual weight is unavailable",
+    "url": "https://www.evelinalondon.nhs.uk/our-services/hospital/south-thames-retrieval-service/medical-formulas.aspx"
   }
 ]
