@@ -1,0 +1,1387 @@
+{
+  "version": "1.0.0",
+  "review_date": "2026-11-03",
+  "conditions": [
+    {
+      "id": "adult-arrest",
+      "title": "Cardiac arrest — ผู้ใหญ่",
+      "icon": "❤️‍🔥",
+      "desc": "VF/pVT, PEA/Asystole, CPR, defib, airway, drugs",
+      "steps": [
+        "เริ่ม High-quality CPR + BVM/O₂ และต่อ monitor/defibrillator",
+        "แยก shockable (VF/pVT) กับ non-shockable (PEA/Asystole)",
+        "ให้ defibrillation ตามเครื่อง/algorithm และกลับ CPR ทันที",
+        "IV/IO; Epinephrine 1 mg q3–5 min; refractory VF/pVT ใช้ amiodarone หรือ lidocaine",
+        "ค้นหา reversible causes และใช้ waveform capnography เมื่อมี advanced airway"
+      ],
+      "drugs": [
+        "epi-arrest",
+        "amio-arrest",
+        "lido-arrest"
+      ],
+      "tools": [
+        "cpr-timer",
+        "defib"
+      ],
+      "image": "assets/adult-arrest-algorithm.png",
+      "source": "aha-als-2025"
+    },
+    {
+      "id": "brady-adult",
+      "title": "Bradycardia — ผู้ใหญ่",
+      "icon": "🐢",
+      "desc": "Atropine → pacing / dopamine / epinephrine infusion",
+      "steps": [
+        "ประเมิน cardiopulmonary compromise: hypotension, AMS, shock, ischemic discomfort, acute HF",
+        "แก้ reversible causes, monitor, IV, 12-lead ECG",
+        "ถ้า unstable: Atropine 1 mg IV",
+        "ถ้าไม่ตอบสนอง: TCP และ/หรือ dopamine infusion หรือ epinephrine infusion",
+        "พิจารณา expert/transvenous pacing"
+      ],
+      "drugs": [
+        "atropine-brady",
+        "dopamine-brady",
+        "epi-infusion-brady"
+      ],
+      "tools": [
+        "map",
+        "infusion"
+      ],
+      "source": "aha-als-2025"
+    },
+    {
+      "id": "tachy-adult",
+      "title": "Tachyarrhythmia — ผู้ใหญ่",
+      "icon": "⚡",
+      "desc": "Stable/unstable, narrow/wide, adenosine, cardioversion",
+      "steps": [
+        "ABC, oxygen ถ้า hypoxemic, monitor/BP/SpO₂, IV, 12-lead ECG",
+        "ถ้า hypotension/AMS/shock/ischemic pain/acute HF → synchronized cardioversion",
+        "ถ้า regular narrow → vagal maneuver + adenosine",
+        "ถ้า regular monomorphic wide และ stable → พิจารณา adenosine/antiarrhythmic",
+        "Wide irregular หรือสงสัย pre-excited AF: หลีกเลี่ยง AV nodal blockers และขอ expert help"
+      ],
+      "drugs": [
+        "adenosine",
+        "procainamide",
+        "amio-stable-vt"
+      ],
+      "tools": [
+        "defib",
+        "qtc"
+      ],
+      "source": "aha-als-2025"
+    },
+    {
+      "id": "acs",
+      "title": "ACS / STEMI",
+      "icon": "🫀",
+      "desc": "12-lead, aspirin, nitroglycerin, reperfusion pathway",
+      "steps": [
+        "ABCDE + 12-lead ECG เร็ว; serial ECG ถ้ายังสงสัย",
+        "Aspirin loading หากไม่มี contraindication",
+        "Nitroglycerin สำหรับ ischemic pain เฉพาะเมื่อ hemodynamically stable และไม่มีข้อห้าม",
+        "Oxygen เฉพาะเมื่อ hypoxemia/มี indication ไม่ให้ routine",
+        "แจ้งปลายทาง/activate STEMI pathway ตามระบบ"
+      ],
+      "drugs": [
+        "aspirin-acs",
+        "nitro-acs",
+        "morphine-acs",
+        "fentanyl-acs"
+      ],
+      "tools": [
+        "qtc",
+        "map"
+      ],
+      "source": "acs-2025"
+    },
+    {
+      "id": "anaphylaxis",
+      "title": "Anaphylaxis",
+      "icon": "🚨",
+      "desc": "IM adrenaline first, airway/breathing/circulation, fluids",
+      "steps": [
+        "Recognize ABC problem ± skin/mucosal changes",
+        "หยุด trigger ถ้าทำได้โดยไม่ชะลอการรักษา",
+        "IM adrenaline ที่ anterolateral thigh ทันที",
+        "ให้ออกซิเจน/airway support และ crystalloid bolus ตาม shock/response",
+        "ถ้าไม่ดีขึ้น ให้ adrenaline IM ซ้ำทุก 5 นาที และ escalate refractory pathway"
+      ],
+      "drugs": [
+        "epi-anaphylaxis"
+      ],
+      "tools": [
+        "dose-volume",
+        "map"
+      ],
+      "source": "rcuk-special-2025"
+    },
+    {
+      "id": "asthma",
+      "title": "Acute asthma",
+      "icon": "🫁",
+      "desc": "SABA, ipratropium, oxygen target, severe escalation",
+      "steps": [
+        "ประเมินความรุนแรง: พูด/ดื่มได้ไหม, SpO₂, RR, accessory muscles, air entry, silent chest",
+        "ถ้ามี anaphylaxis ร่วม ให้ IM epinephrine ก่อน",
+        "ให้ salbutamol ซ้ำตาม response; moderate/severe เพิ่ม ipratropium",
+        "ให้ออกซิเจนเพื่อ target SpO₂ 92–95% ใน acute asthma ตาม GINA",
+        "severe ไม่ตอบ initial treatment: พิจารณา IV magnesium; เตรียม airway/ICU escalation"
+      ],
+      "drugs": [
+        "salbutamol-asthma",
+        "ipratropium-asthma",
+        "mag-asthma",
+        "epi-anaphylaxis"
+      ],
+      "tools": [
+        "pbw-vent",
+        "dope"
+      ],
+      "source": "gina-2026"
+    },
+    {
+      "id": "seizure",
+      "title": "Seizure / Status epilepticus",
+      "icon": "🧠",
+      "desc": "ABC, glucose, benzodiazepine-first, airway readiness",
+      "steps": [
+        "ป้องกันการบาดเจ็บ จัด airway/suction/O₂/ventilation ตามจำเป็น",
+        "จับเวลา seizure; ≥5 นาทีถือเป็น convulsive status ที่ต้องรักษา",
+        "ตรวจ glucose เร็วและแก้ hypoglycemia",
+        "ให้ benzodiazepine ตาม local EMS protocol/route ที่มี",
+        "monitor respiration/EtCO₂ และเตรียม BVM/airway หลัง benzodiazepine"
+      ],
+      "drugs": [
+        "midazolam-seizure",
+        "dextrose-peds",
+        "glucagon-peds"
+      ],
+      "tools": [
+        "gcs",
+        "dose-volume"
+      ],
+      "source": "nice-seizure-2025"
+    },
+    {
+      "id": "hypoglycemia",
+      "title": "Hypoglycemia",
+      "icon": "🍬",
+      "desc": "Check glucose, oral if safe, IV glucose / glucagon",
+      "steps": [
+        "ประเมิน ABC และตรวจ BGL",
+        "ถ้ารู้สึกตัวดีและกลืนปลอดภัย → oral glucose ตาม protocol",
+        "ถ้าเด็กและให้ PO ไม่ได้ → D10 2 mL/kg IV/IO",
+        "ถ้า IV glucose ยังไม่พร้อม → glucagon เป็น temporary rescue ตาม weight",
+        "recheck BGL 5–10 นาทีและหาสาเหตุ"
+      ],
+      "drugs": [
+        "dextrose-peds",
+        "glucagon-peds"
+      ],
+      "tools": [
+        "dose-volume"
+      ],
+      "source": "rcuk-peds-2025"
+    },
+    {
+      "id": "opioid",
+      "title": "Opioid-associated emergency",
+      "icon": "💊",
+      "desc": "Ventilation/CPR first, naloxone, reassessment",
+      "steps": [
+        "ประเมิน responsiveness, breathing, pulse",
+        "ถ้ามี pulse แต่หายใจผิดปกติ → ventilation เป็น priority",
+        "ให้ naloxone ตาม formulation/local protocol โดย titrate เป้าหมาย ventilation",
+        "ถ้า pulseless → CPR/AED/ALS; naloxone ไม่ควรทำให้ CPR/ventilation ช้า",
+        "เฝ้าระวัง recurrent respiratory depression"
+      ],
+      "drugs": [
+        "naloxone"
+      ],
+      "tools": [
+        "gcs"
+      ],
+      "source": "aha-als-2025"
+    },
+    {
+      "id": "hyperkalemia",
+      "title": "Hyperkalemia",
+      "icon": "🧪",
+      "desc": "ECG toxicity, calcium, shift K+, monitor glucose",
+      "steps": [
+        "สงสัยจาก history/renal failure/ECG; monitor continuous ECG",
+        "ถ้ามี ECG toxicity → stabilize membrane ด้วย IV calcium ตาม product/local protocol",
+        "Shift K⁺ intracellular: insulin + glucose ตาม protocol",
+        "พิจารณา beta₂ agonist/other measures ตามสถานการณ์และ protocol",
+        "recheck glucose/K⁺ เมื่อทำได้และจัดการ definitive elimination"
+      ],
+      "drugs": [
+        "calcium-hyperk",
+        "hyperk-insulin-glucose",
+        "salbutamol-hyperk",
+        "bicarb-hyperk"
+      ],
+      "tools": [
+        "qtc",
+        "anion-gap"
+      ],
+      "source": "rcuk-special-2025"
+    },
+    {
+      "id": "trauma-bleeding",
+      "title": "Trauma / Major hemorrhage",
+      "icon": "🩸",
+      "desc": "XABCDE, hemorrhage control, shock, TXA local protocol",
+      "steps": [
+        "X: catastrophic hemorrhage control ก่อน airway",
+        "A/B: airway + ventilation; identify tension/open chest threats",
+        "C: perfusion, pelvic bleeding, internal hemorrhage; minimize scene delay",
+        "ป้องกัน hypothermia และ reassess response ต่อ resuscitation",
+        "TXA ใช้เฉพาะเมื่อเข้า indication ของ trauma protocol"
+      ],
+      "drugs": [
+        "txa-trauma",
+        "fentanyl-analgesia",
+        "ketamine-analgesia"
+      ],
+      "tools": [
+        "shock-index",
+        "gcs",
+        "burn",
+        "mist"
+      ],
+      "source": "local-trauma"
+    },
+    {
+      "id": "peds-arrest",
+      "title": "PALS — Cardiac arrest",
+      "icon": "👶",
+      "desc": "Weight-based shock + epinephrine + antiarrhythmic",
+      "steps": [
+        "High-quality CPR; ventilation สำคัญมากใน pediatric arrest",
+        "Shockable: 2 J/kg → 4 J/kg → ≥4 J/kg (max 10 J/kg หรือ adult dose)",
+        "Epinephrine 0.01 mg/kg IV/IO q3–5 min",
+        "Refractory VF/pVT: amiodarone 5 mg/kg หรือ lidocaine 1 mg/kg",
+        "advanced airway: continuous compression + breath every 2–3 sec"
+      ],
+      "drugs": [
+        "epi-arrest",
+        "amio-arrest",
+        "lido-arrest"
+      ],
+      "tools": [
+        "pals",
+        "cpr-timer"
+      ],
+      "image": "assets/peds-arrest-algorithm.png",
+      "source": "aha-pals-2025"
+    },
+    {
+      "id": "peds-brady-tachy",
+      "title": "PALS — Brady / Tachy",
+      "icon": "💓",
+      "desc": "Epinephrine/atropine, adenosine, cardioversion",
+      "steps": [
+        "Brady + compromise: ventilation/O₂; ถ้า HR<60 despite effective ventilation → CPR",
+        "Epinephrine 0.01 mg/kg; atropine 0.02 mg/kg เมื่อ vagal tone/primary AV block",
+        "SVT stable: adenosine 0.1 mg/kg then 0.2 mg/kg",
+        "Tachy unstable: synchronized cardioversion 0.5–1 J/kg → 2 J/kg",
+        "ใช้ 12-lead/monitor และรักษาสาเหตุ"
+      ],
+      "drugs": [
+        "epi-arrest",
+        "atropine-brady",
+        "adenosine"
+      ],
+      "tools": [
+        "pals",
+        "defib"
+      ],
+      "source": "aha-pals-2025"
+    },
+    {
+      "id": "neonate",
+      "title": "Neonatal resuscitation",
+      "icon": "🍼",
+      "desc": "Ventilation-first, ETT/blade/depth, epi, volume expansion",
+      "steps": [
+        "Warm/dry/position/stimulate; evaluate breathing + HR",
+        "HR<100/apnea/gasping → effective PPV เป็น priority",
+        "HR<60 หลัง optimize ventilation → compressions 3:1 + 100% O₂ + UVC/IO",
+        "HR<60 ต่อเนื่อง → epinephrine; พิจารณา hypovolemia/pneumothorax",
+        "ถ้าสงสัย blood loss และไม่ตอบสนอง → volume expansion 10–20 mL/kg"
+      ],
+      "drugs": [
+        "epi-neonate",
+        "neo-volume"
+      ],
+      "tools": [
+        "neonate"
+      ],
+      "image": "assets/neonatal-algorithm.png",
+      "source": "aha-neo-2025"
+    },
+    {
+      "id": "pph",
+      "title": "Postpartum hemorrhage (PPH)",
+      "icon": "🤰",
+      "desc": "Bleeding control, uterotonics local protocol, TXA early",
+      "steps": [
+        "ABC, quantify bleeding, uterine tone, IV access/fluids/blood pathway",
+        "ค้นหา 4Ts: Tone, Trauma, Tissue, Thrombin",
+        "uterine massage/bimanual measures ตาม scope/protocol",
+        "TXA 1 g IV ให้เร็วและภายใน 3 ชม.หลังคลอด",
+        "เร่ง transport/OB activation; uterotonic regimen ให้ตาม local obstetric protocol"
+      ],
+      "drugs": [
+        "txa-pph"
+      ],
+      "tools": [
+        "shock-index",
+        "map"
+      ],
+      "source": "who-pph-2025"
+    },
+    {
+      "id": "eclampsia",
+      "title": "Eclampsia",
+      "icon": "⚠️",
+      "desc": "Seizure in pregnancy/postpartum, magnesium, BP/airway",
+      "steps": [
+        "ABC, left lateral/uterine displacement ตาม gestation, oxygen/ventilation ตามจำเป็น",
+        "ป้องกันการบาดเจ็บและจับเวลา seizure",
+        "Magnesium sulfate เป็น anticonvulsant หลักตาม obstetric protocol",
+        "monitor RR/DTR/urine output และเตรียม toxicity management",
+        "จัดการ severe hypertension/transport ตาม local protocol"
+      ],
+      "drugs": [
+        "mag-eclampsia"
+      ],
+      "tools": [
+        "map",
+        "gcs"
+      ],
+      "source": "local-ob"
+    },
+    {
+      "id": "shock",
+      "title": "Shock / Hypotension",
+      "icon": "📉",
+      "desc": "Identify shock type, perfusion, fluids/vasopressor according to cause",
+      "steps": [
+        "ประเมิน perfusion: mental status, pulse, skin, CRT, BP/MAP, urine/history",
+        "แยก hypovolemic/distributive/cardiogenic/obstructive",
+        "แก้ cause: hemorrhage, anaphylaxis, tension PTX, sepsis ฯลฯ",
+        "fluid bolus ต้อง reassess ทุกครั้ง; cardiogenic shock ระวัง overload",
+        "vasopressor infusion ใช้ตาม local critical care/EMS protocol"
+      ],
+      "drugs": [
+        "norepi-shock",
+        "fluid-peds"
+      ],
+      "tools": [
+        "map",
+        "shock-index",
+        "infusion"
+      ],
+      "source": "local-cardio"
+    },
+    {
+      "id": "analgesia",
+      "title": "Pain / Analgesia",
+      "icon": "😣",
+      "desc": "ประเมิน pain + opioid/ketamine ตาม protocol + monitor respiration",
+      "steps": [
+        "ประเมิน cause/ความรุนแรงและรักษา life threat ก่อน analgesia",
+        "เลือกยา/route ตาม hemodynamics, airway risk และ protocol",
+        "titrate ทีละน้อยและ reassess pain/BP/RR/SpO₂",
+        "opioid ให้เตรียม ventilation support; ketamine analgesia ต้องไม่สับสนกับ sedation dose",
+        "document dose/time/response/adverse effects"
+      ],
+      "drugs": [
+        "fentanyl-analgesia",
+        "ketamine-analgesia",
+        "ondansetron"
+      ],
+      "tools": [
+        "dose-volume"
+      ],
+      "source": "local-analgesia"
+    },
+    {
+      "id": "pulmonary-edema",
+      "title": "Acute pulmonary edema / SCAPE",
+      "icon": "🌊",
+      "desc": "NIV/CPAP, nitrates when appropriate, avoid routine fluid",
+      "steps": [
+        "ABC, upright position if tolerated, monitor ECG/BP/SpO₂",
+        "Oxygen if hypoxemic; CPAP/NIV early when indicated and patient can protect airway",
+        "ถ้า hypertensive/ischemic and no contraindication → nitrate strategy ตาม protocol",
+        "หลีกเลี่ยง routine fluid bolus ถ้า cardiogenic congestion",
+        "เตรียม intubation หาก fatigue/AMS/refractory hypoxemia"
+      ],
+      "drugs": [
+        "nitro-acs"
+      ],
+      "tools": [
+        "map",
+        "pbw-vent",
+        "dope"
+      ],
+      "source": "acs-2025"
+    },
+    {
+      "id": "sepsis",
+      "title": "Sepsis / Septic shock",
+      "icon": "🦠",
+      "desc": "Perfusion, cautious fluid bolus, vasopressor, early source/antibiotic pathway",
+      "steps": [
+        "สงสัย infection + organ dysfunction/shock; ประเมิน perfusion และ lactate/POC ถ้ามี",
+        "ให้ออกซิเจนตาม indication, IV/IO access, glucose, temperature",
+        "fluid bolus เป็น aliquot และ reassess ทุกครั้ง; ระวัง overload",
+        "persistent hypotension หลัง resuscitation → norepinephrine ตาม protocol",
+        "pre-notify/transport เพื่อ early antibiotics/source control"
+      ],
+      "drugs": [
+        "norepi-shock",
+        "fluid-peds"
+      ],
+      "tools": [
+        "map",
+        "shock-index",
+        "infusion"
+      ],
+      "source": "local-cardio"
+    }
+  ],
+  "drugs": [
+    {
+      "id": "epi-arrest",
+      "name_th": "อะดรีนาลีน — Cardiac arrest",
+      "name_en": "Epinephrine",
+      "group": "กู้ชีพ/หัวใจ",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ Cardiac arrest",
+          "dose": "1 mg IV/IO ทุก 3–5 นาที",
+          "route": "IV/IO",
+          "admin": "ใช้ความเข้มข้น 0.1 mg/mL (1:10,000) สำหรับ IV/IO; bolus แล้ว flush ตามระบบหน่วยงาน",
+          "max": "ไม่กำหนด cumulative max ใน algorithm",
+          "monitor": "CPR quality, rhythm, pulse/ROSC, EtCO₂",
+          "caution": "ห้ามสับสนกับ 1 mg/mL (1:1,000) ที่ใช้ IM anaphylaxis"
+        },
+        {
+          "label": "เด็ก Cardiac arrest",
+          "dose": "0.01 mg/kg IV/IO ทุก 3–5 นาที; สูงสุด 1 mg/ครั้ง",
+          "route": "IV/IO",
+          "admin": "= 0.1 mL/kg ของ 0.1 mg/mL (1:10,000)",
+          "max": "1 mg/ครั้ง",
+          "monitor": "CPR, rhythm, pulse/ROSC, EtCO₂",
+          "caution": "คำนวณจากน้ำหนักจริงเมื่อทราบ"
+        }
+      ]
+    },
+    {
+      "id": "amio-arrest",
+      "name_th": "อะมิโอดาโรน — VF/pVT",
+      "name_en": "Amiodarone",
+      "group": "กู้ชีพ/หัวใจ",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ refractory VF/pVT",
+          "dose": "ครั้งแรก 300 mg IV/IO bolus; ครั้งที่ 2 150 mg",
+          "route": "IV/IO",
+          "admin": "ให้ระหว่าง CPR ตาม algorithm; เตรียมตามความเข้มข้นของผลิตภัณฑ์",
+          "max": "ตาม algorithm 300 + 150 mg",
+          "monitor": "Rhythm, BP หลัง ROSC, QT",
+          "caution": "อย่าใช้ dose arrest ไปแทน dose stable VT"
+        },
+        {
+          "label": "เด็ก refractory VF/pVT",
+          "dose": "5 mg/kg IV/IO bolus (สูงสุด 300 mg); อาจซ้ำรวมได้ถึง 3 doses ตาม PALS",
+          "route": "IV/IO",
+          "admin": "คำนวณจากน้ำหนัก",
+          "max": "dose แรกสูงสุด 300 mg; subsequent ตาม PALS",
+          "monitor": "Rhythm, BP, QT",
+          "caution": "ตรวจ local protocol เรื่องจำนวน repeat/maximum cumulative"
+        }
+      ]
+    },
+    {
+      "id": "lido-arrest",
+      "name_th": "ลิโดเคน — VF/pVT",
+      "name_en": "Lidocaine",
+      "group": "กู้ชีพ/หัวใจ",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ refractory VF/pVT",
+          "dose": "1–1.5 mg/kg IV/IO; ครั้งถัดไป 0.5–0.75 mg/kg",
+          "route": "IV/IO",
+          "admin": "bolus ตาม algorithm",
+          "max": "ตรวจ protocol สำหรับ cumulative maximum",
+          "monitor": "Rhythm, neurologic toxicity",
+          "caution": "ลด dose/ระวังใน hepatic dysfunction และ low-flow state"
+        },
+        {
+          "label": "เด็ก refractory VF/pVT",
+          "dose": "1 mg/kg IV/IO",
+          "route": "IV/IO",
+          "admin": "bolus",
+          "max": "ตาม local PALS protocol",
+          "monitor": "Rhythm, BP, CNS",
+          "caution": "ทางเลือกแทน amiodarone"
+        }
+      ]
+    },
+    {
+      "id": "atropine-brady",
+      "name_th": "อะโทรปีน — Bradycardia",
+      "name_en": "Atropine",
+      "group": "หัวใจ",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ symptomatic bradycardia",
+          "dose": "1 mg IV bolus; ซ้ำทุก 3–5 นาที",
+          "route": "IV",
+          "admin": "IV bolus",
+          "max": "รวมสูงสุด 3 mg",
+          "monitor": "HR, BP, rhythm, symptoms",
+          "caution": "อย่าชะลอ pacing ใน high-grade AV block ที่ unstable"
+        },
+        {
+          "label": "เด็ก bradycardia จาก increased vagal tone / primary AV block",
+          "dose": "0.02 mg/kg IV/IO; ซ้ำได้ 1 ครั้ง",
+          "route": "IV/IO",
+          "admin": "bolus",
+          "max": "ขั้นต่ำ 0.1 mg; สูงสุด 0.5 mg/ครั้ง",
+          "monitor": "HR, BP, perfusion",
+          "caution": "ใน hypoxic bradycardia ให้ ventilation/oxygenation และ epinephrineตาม PALS สำคัญกว่า"
+        }
+      ]
+    },
+    {
+      "id": "dopamine-brady",
+      "name_th": "โดปามีน — Bradycardia",
+      "name_en": "Dopamine",
+      "group": "หัวใจ/ช็อก",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ bradycardia หลัง atropine ไม่ได้ผล",
+          "dose": "5–20 mcg/kg/min IV infusion",
+          "route": "IV infusion",
+          "admin": "titrate ตาม clinical response; ใช้ infusion pump",
+          "max": "ตาม response/protocol",
+          "monitor": "Continuous ECG, BP, perfusion",
+          "caution": "tachyarrhythmia/vasoconstriction; แก้ hypovolemia ตามเหมาะสม"
+        }
+      ]
+    },
+    {
+      "id": "epi-infusion-brady",
+      "name_th": "อะดรีนาลีน infusion — Bradycardia",
+      "name_en": "Epinephrine infusion",
+      "group": "หัวใจ/ช็อก",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ bradycardia หลัง atropine ไม่ได้ผล",
+          "dose": "2–10 mcg/min IV infusion",
+          "route": "IV infusion",
+          "admin": "titrate ตาม response; infusion pump",
+          "max": "ตาม response/protocol",
+          "monitor": "Continuous ECG/BP/perfusion",
+          "caution": "ระวัง tachyarrhythmia และ myocardial ischemia"
+        }
+      ]
+    },
+    {
+      "id": "adenosine",
+      "name_th": "อะดีโนซีน — SVT",
+      "name_en": "Adenosine",
+      "group": "หัวใจ",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ regular narrow-complex tachycardia / regular monomorphic WCT ที่เหมาะสม",
+          "dose": "6 mg rapid IV push → ถ้าไม่สำเร็จ 12 mg",
+          "route": "IV",
+          "admin": "rapid push ใกล้หัวใจ + NS flush ทันที",
+          "max": "ตาม algorithm",
+          "monitor": "Continuous ECG; เตรียม defib/cardioversion",
+          "caution": "อย่าใช้ใน irregular wide-complex / pre-excited AF"
+        },
+        {
+          "label": "เด็ก probable SVT",
+          "dose": "0.1 mg/kg rapid IV/IO (max 6 mg) → ซ้ำ 0.2 mg/kg (max 12 mg)",
+          "route": "IV/IO",
+          "admin": "rapid push + flush",
+          "max": "6 mg first, 12 mg second",
+          "monitor": "Continuous ECG",
+          "caution": "ถ้า unstable ให้ synchronized cardioversion ไม่ควรชะลอ"
+        }
+      ]
+    },
+    {
+      "id": "procainamide",
+      "name_th": "โพรเคนอะไมด์ — Stable wide QRS",
+      "name_en": "Procainamide",
+      "group": "หัวใจ",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ stable wide-QRS tachycardia",
+          "dose": "20–50 mg/min จน rhythm suppressed, hypotension, QRS กว้างขึ้น >50% หรือครบ 17 mg/kg",
+          "route": "IV infusion",
+          "admin": "หลัง load: maintenance 1–4 mg/min",
+          "max": "17 mg/kg loading",
+          "monitor": "ECG, QRS, QT, BP",
+          "caution": "หลีกเลี่ยง prolonged QT หรือ CHF"
+        }
+      ]
+    },
+    {
+      "id": "amio-stable-vt",
+      "name_th": "อะมิโอดาโรน — Stable wide QRS",
+      "name_en": "Amiodarone",
+      "group": "หัวใจ",
+      "status": "current",
+      "source": "aha-als-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ stable wide-QRS tachycardia",
+          "dose": "150 mg IV over 10 min; อาจซ้ำถ้า VT recurrence",
+          "route": "IV infusion",
+          "admin": "จากนั้น 1 mg/min 6 ชั่วโมงแรกตาม ALS",
+          "max": "ตาม protocol/clinical context",
+          "monitor": "BP, ECG, QT",
+          "caution": "ไม่ใช่ dose arrest"
+        }
+      ]
+    },
+    {
+      "id": "mag-torsades",
+      "name_th": "แมกนีเซียม — Torsades de pointes",
+      "name_en": "Magnesium sulfate",
+      "group": "หัวใจ",
+      "status": "mixed",
+      "source": "local-cardio",
+      "regimens": [
+        {
+          "label": "TdP / polymorphic VT with long QT",
+          "dose": "ผู้ใหญ่โดยทั่วไป 1–2 g IV/IO",
+          "route": "IV/IO",
+          "admin": "ให้ตาม local resuscitation protocol; cardiac arrest มักให้เร็วกว่า non-arrest",
+          "max": "protocol dependent",
+          "monitor": "ECG, BP, reflex/respiration if repeated",
+          "caution": "ติดป้าย Local Review เพราะ rate/dilution ต่างตาม protocol"
+        }
+      ]
+    },
+    {
+      "id": "aspirin-acs",
+      "name_th": "แอสไพริน — ACS",
+      "name_en": "Aspirin",
+      "group": "ACS",
+      "status": "current",
+      "source": "acs-2025",
+      "regimens": [
+        {
+          "label": "สงสัย ACS ไม่มี absolute contraindication",
+          "dose": "162–325 mg PO loading",
+          "route": "PO",
+          "admin": "ใช้ non-enteric coated และเคี้ยวเมื่อทำได้เพื่อ onset เร็ว",
+          "max": "loading 325 mg",
+          "monitor": "Bleeding/allergy",
+          "caution": "หลีกเลี่ยงเมื่อแพ้รุนแรง/active major bleeding ตาม clinical judgment"
+        }
+      ]
+    },
+    {
+      "id": "nitro-acs",
+      "name_th": "ไนโตรกลีเซอริน — Ischemic chest pain",
+      "name_en": "Nitroglycerin",
+      "group": "ACS",
+      "status": "current",
+      "source": "acs-2025",
+      "regimens": [
+        {
+          "label": "ACS ที่ hemodynamically stable",
+          "dose": "0.3–0.4 mg SL ทุก 5 นาที PRN สูงสุด 3 doses",
+          "route": "SL",
+          "admin": "ตรวจ BP ก่อนทุก dose",
+          "max": "3 doses initial SL course",
+          "monitor": "BP, pain, HR",
+          "caution": "ใช้เมื่อ SBP ≥90; หลีกเลี่ยง suspected RV infarction, SBP <90 หรือ SBP ลด >30 จาก baseline; หลีกเลี่ยงหลัง PDE5 inhibitor ตามช่วงเวลา"
+        }
+      ]
+    },
+    {
+      "id": "morphine-acs",
+      "name_th": "มอร์ฟีน — refractory ACS pain",
+      "name_en": "Morphine",
+      "group": "ACS/ปวด",
+      "status": "current",
+      "source": "acs-2025",
+      "regimens": [
+        {
+          "label": "ACS pain ดื้อ maximal tolerated anti-ischemic meds",
+          "dose": "2–4 mg IV; ซ้ำได้ทุก 5–15 นาทีตามจำเป็น",
+          "route": "IV",
+          "admin": "ให้ช้าและ titrate",
+          "max": "อาจพิจารณารวมถึง 10 mg ตาม guideline context",
+          "monitor": "BP, RR, SpO₂, mental status",
+          "caution": "อาจชะลอ absorption ของ oral P2Y12; ใช้เฉพาะเมื่อจำเป็น"
+        }
+      ]
+    },
+    {
+      "id": "fentanyl-acs",
+      "name_th": "เฟนทานิล — refractory ACS pain",
+      "name_en": "Fentanyl",
+      "group": "ACS/ปวด",
+      "status": "current",
+      "source": "acs-2025",
+      "regimens": [
+        {
+          "label": "ACS pain ดื้อ maximal tolerated anti-ischemic meds",
+          "dose": "25–50 mcg IV; ซ้ำได้ตามจำเป็น",
+          "route": "IV",
+          "admin": "slow IV titration",
+          "max": "อาจพิจารณารวมถึง 100 mcg ใน guideline context",
+          "monitor": "RR, SpO₂, BP, sedation",
+          "caution": "อาจชะลอ absorption ของ oral P2Y12; ระวังกดหายใจ"
+        }
+      ]
+    },
+    {
+      "id": "epi-anaphylaxis",
+      "name_th": "อะดรีนาลีน IM — Anaphylaxis",
+      "name_en": "Epinephrine (adrenaline)",
+      "group": "ภูมิแพ้",
+      "status": "current",
+      "source": "rcuk-special-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่และ >12 ปี",
+          "dose": "500 mcg IM = 0.5 mL ของ 1 mg/mL (1:1,000)",
+          "route": "IM anterolateral thigh",
+          "admin": "ให้ทันทีเมื่อสงสัย anaphylaxis; ซ้ำทุก 5 นาทีหากไม่ดีขึ้น",
+          "max": "ตาม response/advanced protocol",
+          "monitor": "ABC, BP, SpO₂, ECG",
+          "caution": "อย่าใช้ 0.1 mg/mL (1:10,000) แบบ arrest มาคิด volume ผิด"
+        },
+        {
+          "label": "เด็ก 6–12 ปี",
+          "dose": "300 mcg IM = 0.3 mL ของ 1 mg/mL",
+          "route": "IM thigh",
+          "admin": "ซ้ำทุก 5 นาทีหากไม่ดีขึ้น",
+          "max": "age-band guideline",
+          "monitor": "ABC/BP/SpO₂",
+          "caution": "เด็กตัวเล็ก/prepubertal >12 ปีอาจพิจารณา 300 mcg ตาม guideline context"
+        },
+        {
+          "label": "เด็ก 6 เดือน–6 ปี",
+          "dose": "150 mcg IM = 0.15 mL ของ 1 mg/mL",
+          "route": "IM thigh",
+          "admin": "ซ้ำทุก 5 นาทีหากไม่ดีขึ้น",
+          "max": "age-band guideline",
+          "monitor": "ABC/BP/SpO₂",
+          "caution": "เตรียม syringe ให้แม่นยำ"
+        },
+        {
+          "label": "<6 เดือน",
+          "dose": "100–150 mcg IM = 0.10–0.15 mL ของ 1 mg/mL",
+          "route": "IM thigh",
+          "admin": "ซ้ำทุก 5 นาทีหากไม่ดีขึ้น",
+          "max": "age-band guideline",
+          "monitor": "ABC/BP/SpO₂",
+          "caution": "น้ำหนักจริงและ local pediatric protocol มีความสำคัญ"
+        }
+      ]
+    },
+    {
+      "id": "salbutamol-asthma",
+      "name_th": "ซาลบูทามอล — Acute asthma",
+      "name_en": "Salbutamol / Albuterol",
+      "group": "ระบบหายใจ",
+      "status": "current",
+      "source": "gina-2026",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่/วัยรุ่น severe exacerbation",
+          "dose": "6–10 puffs (100 mcg/puff) via pMDI + spacer หรือ 5 mg nebulized",
+          "route": "Inhaled",
+          "admin": "repeat ได้ทุก 20–30 นาทีตาม response ใน initial treatment",
+          "max": "ตาม response/toxicity",
+          "monitor": "HR, SpO₂, work of breathing, K⁺/lactate if high-dose prolonged",
+          "caution": "SABA toxicity อาจทำให้ tachycardia, hypokalemia, lactic acidosis"
+        },
+        {
+          "label": "เด็ก ≤5 ปี moderate/severe",
+          "dose": "4–6 puffs (100 mcg/puff) หรือ nebulized 2.5 mg; up to 3 times, 20–30 min apart",
+          "route": "Inhaled",
+          "admin": "pMDI+spacer preferred when feasible; oxygen-driven neb if hypoxemic",
+          "max": "ตาม response",
+          "monitor": "SpO₂, RR, accessory muscle use, clinical score",
+          "caution": "ถ้ามี anaphylaxis ร่วม ให้ IM epinephrine ก่อน"
+        }
+      ]
+    },
+    {
+      "id": "ipratropium-asthma",
+      "name_th": "ไอปราโทรเปียม — Moderate/Severe asthma",
+      "name_en": "Ipratropium",
+      "group": "ระบบหายใจ",
+      "status": "current",
+      "source": "gina-2026",
+      "regimens": [
+        {
+          "label": "Moderate–severe exacerbation",
+          "dose": "4 puffs (20 mcg/puff) ร่วมกับ salbutamol; ใช้ได้ถึง 3 รอบใน initial treatment",
+          "route": "Inhaled via pMDI+spacer",
+          "admin": "ให้พร้อม SABA ใน initial severe treatment",
+          "max": "initial acute-care strategy",
+          "monitor": "Clinical response, HR, dry mouth",
+          "caution": "ไม่ใช่ยาหลักเดี่ยว; SABA ยังเป็น bronchodilator หลัก"
+        }
+      ]
+    },
+    {
+      "id": "mag-asthma",
+      "name_th": "แมกนีเซียม IV — Severe asthma",
+      "name_en": "Magnesium sulfate",
+      "group": "ระบบหายใจ",
+      "status": "current",
+      "source": "gina-2026",
+      "regimens": [
+        {
+          "label": "Severe exacerbation ไม่ตอบสนอง initial treatment",
+          "dose": "2 g IV infusion over 20 min (single dose)",
+          "route": "IV",
+          "admin": "พิจารณาเมื่อ persistent hypoxemia/poor response; ไม่ใช้ routine ทุกเคส",
+          "max": "2 g single dose ตาม GINA adult evidence context",
+          "monitor": "BP, respiration, reflexes",
+          "caution": "พิจารณา renal impairment และ local protocol"
+        }
+      ]
+    },
+    {
+      "id": "midazolam-seizure",
+      "name_th": "มิดาโซแลม — Convulsive status",
+      "name_en": "Midazolam",
+      "group": "ระบบประสาท",
+      "status": "mixed",
+      "source": "local-neuro",
+      "regimens": [
+        {
+          "label": "Convulsive status — IM (common EMS evidence-based regimen)",
+          "dose": "≥40 kg: 10 mg IM; 13–40 kg: 5 mg IM",
+          "route": "IM",
+          "admin": "ให้เร็วเมื่อ IV ยังไม่มี; หลัง dose เตรียม BVM/suction/airway",
+          "max": "ใช้ตาม local seizure protocol; หลีกเลี่ยง repeat เกินกำหนด",
+          "monitor": "RR, SpO₂, EtCO₂, BP, mental status",
+          "caution": "LOCAL REVIEW — exact dose/route ต้องตรงกับ protocol และ formulation ของหน่วย"
+        },
+        {
+          "label": "IN/Buccal option (common EMS regimen)",
+          "dose": "0.2 mg/kg (max 10 mg)",
+          "route": "IN/Buccal",
+          "admin": "แบ่ง volume ระหว่างรูจมูกถ้า IN; ใช้ concentration ที่เหมาะกับ intranasal delivery",
+          "max": "10 mg/initial dose ตาม common EMS regimen",
+          "monitor": "Respiration/EtCO₂/SpO₂",
+          "caution": "LOCAL REVIEW — ตรวจ protocol ของหน่วยก่อนใช้"
+        }
+      ]
+    },
+    {
+      "id": "dextrose-peds",
+      "name_th": "กลูโคส 10% — Pediatric hypoglycemia",
+      "name_en": "Glucose 10%",
+      "group": "เมตาบอลิก/เด็ก",
+      "status": "current",
+      "source": "rcuk-peds-2025",
+      "regimens": [
+        {
+          "label": "เด็ก known hypoglycemia รับทางปากไม่ได้",
+          "dose": "D10W 2 mL/kg IV/IO = 0.2 g/kg",
+          "route": "IV/IO",
+          "admin": "recheck glucose 5–10 นาที; repeat ตามจำเป็น",
+          "max": "ติดตาม glucose/clinical response",
+          "monitor": "BGL, mental status, IV site",
+          "caution": "ตรวจความเข้มข้นให้ชัดก่อนให้"
+        }
+      ]
+    },
+    {
+      "id": "glucagon-peds",
+      "name_th": "กลูคากอน — Pediatric hypoglycemia",
+      "name_en": "Glucagon",
+      "group": "เมตาบอลิก/เด็ก",
+      "status": "current",
+      "source": "rcuk-peds-2025",
+      "regimens": [
+        {
+          "label": "เมื่อ IV glucose ยังไม่พร้อม",
+          "dose": "0.03 mg/kg IM/SC; หรือ 1 mg ถ้า >25 kg, 0.5 mg ถ้า <25 kg",
+          "route": "IM/SC",
+          "admin": "temporary rescue; ให้ glucose เมื่อทำได้",
+          "max": "1 mg ตาม weight-band",
+          "monitor": "BGL, mental status, nausea/vomiting",
+          "caution": "response อาจน้อยใน depleted glycogen states"
+        }
+      ]
+    },
+    {
+      "id": "naloxone",
+      "name_th": "นาล็อกโซน — Opioid-associated emergency",
+      "name_en": "Naloxone",
+      "group": "พิษวิทยา",
+      "status": "mixed",
+      "source": "local-neuro",
+      "regimens": [
+        {
+          "label": "Respiratory depression มี pulse — IV titration",
+          "dose": "0.04–0.4 mg IV แล้ว titrate ซ้ำทุก 2–3 นาทีเพื่อให้ ventilation เพียงพอ",
+          "route": "IV",
+          "admin": "เป้าหมายคือหายใจดีขึ้น ไม่จำเป็นต้องปลุกเต็มที่",
+          "max": "ถ้าไม่ตอบสนองให้ reassess diagnosis และใช้ local max",
+          "monitor": "RR, EtCO₂, SpO₂, recurrent sedation",
+          "caution": "LOCAL REVIEW — opioid-dependent patient อาจเกิด acute withdrawal"
+        },
+        {
+          "label": "IN product",
+          "dose": "4 mg IN spray (product-specific); ซ้ำทุก 2–3 นาทีหากยัง respiratory depression และมี dose เพิ่ม",
+          "route": "IN",
+          "admin": "ใช้ device ตาม manufacturer; ventilation/CPR ต้องไม่ช้า",
+          "max": "product/local protocol",
+          "monitor": "RR, EtCO₂, SpO₂",
+          "caution": "ความแรงของ intranasal product ต่างกัน อย่าแปลง volume เองจาก vial โดยไม่รู้ concentration"
+        }
+      ]
+    },
+    {
+      "id": "hyperk-insulin-glucose",
+      "name_th": "Insulin + glucose — Hyperkalemia",
+      "name_en": "Regular insulin + glucose",
+      "group": "อิเล็กโทรไลต์",
+      "status": "current",
+      "source": "rcuk-special-2025",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่ severe hyperkalemia / suspected hyperK arrest",
+          "dose": "Regular insulin 10 units IV + glucose 25–50 g IV (AHA arrest table uses 50 g; RCUK hyperK guidance uses 25 g)",
+          "route": "IV",
+          "admin": "ใช้ protocol ของระบบเพื่อกำหนด glucose dose/concentration และ monitoring",
+          "max": "single initial regimen; reassess",
+          "monitor": "BGL serial, K⁺, ECG",
+          "caution": "เสี่ยง hypoglycemia; สอง guideline ใช้ glucose dose ต่างกัน จึงต้องยึด local protocol"
+        },
+        {
+          "label": "เด็ก suspected hyperK arrest",
+          "dose": "Regular insulin 0.1 U/kg IV (max 10 U) + D10 5 mL/kg IV",
+          "route": "IV",
+          "admin": "AHA 2025 special circumstances table",
+          "max": "insulin max 10 U",
+          "monitor": "BGL/K⁺/ECG",
+          "caution": "high-risk medication ต้อง independent double-check"
+        }
+      ]
+    },
+    {
+      "id": "txa-pph",
+      "name_th": "Tranexamic acid — PPH",
+      "name_en": "Tranexamic acid (TXA)",
+      "group": "สูติกรรม",
+      "status": "current",
+      "source": "who-pph-2025",
+      "regimens": [
+        {
+          "label": "Postpartum hemorrhage",
+          "dose": "1 g IV over 10 min ให้เร็วที่สุดและภายใน 3 ชม.หลังคลอด; ซ้ำ 1 g ถ้ายังเลือดออกหลัง 30 นาที หรือกลับมาเลือดออกภายใน 24 ชม.",
+          "route": "IV",
+          "admin": "100 mg/mL ที่ 1 mL/min ตาม WHO regimen",
+          "max": "2 g ตาม regimen",
+          "monitor": "Bleeding, BP, thromboembolic contraindications",
+          "caution": "ไม่ควรเริ่ม TXA >3 ชม.หลังคลอดตาม WHO"
+        }
+      ]
+    },
+    {
+      "id": "mag-eclampsia",
+      "name_th": "แมกนีเซียม — Eclampsia",
+      "name_en": "Magnesium sulfate",
+      "group": "สูติกรรม",
+      "status": "local",
+      "source": "who-pph-2025",
+      "regimens": [
+        {
+          "label": "Eclampsia / severe pre-eclampsia with seizure",
+          "dose": "ตัวอย่างมาตรฐาน loading 4 g IV over ~20 min; maintenance/IM regimen แตกต่างตามระบบ",
+          "route": "IV ± IM",
+          "admin": "ใช้ obstetric/local EMS protocol ของหน่วยงาน",
+          "max": "protocol dependent",
+          "monitor": "RR, DTR, urine output, BP; เตรียม calcium antidote ตาม protocol",
+          "caution": "ติดป้าย Local Review เพราะ regimen และ scope ของ paramedic ต่างกันตามระบบ"
+        }
+      ]
+    },
+    {
+      "id": "txa-trauma",
+      "name_th": "Tranexamic acid — Major trauma hemorrhage",
+      "name_en": "Tranexamic acid (TXA)",
+      "group": "Trauma",
+      "status": "local",
+      "source": "local-cardio",
+      "regimens": [
+        {
+          "label": "Major traumatic bleeding / high suspicion hemorrhage",
+          "dose": "หลายระบบใช้ 1 g IV over 10 min ภายใน 3 ชม.หลังบาดเจ็บ; regimen ต่อเนื่องขึ้นกับ protocol",
+          "route": "IV",
+          "admin": "ต้องยึด trauma/EMS protocol ของพื้นที่",
+          "max": "protocol dependent",
+          "monitor": "Bleeding, BP, time from injury",
+          "caution": "อย่าใช้ routine ใน trauma ทุกเคส; indication แตกต่างตามระบบ"
+        }
+      ]
+    },
+    {
+      "id": "norepi-shock",
+      "name_th": "นอร์เอพิเนฟริน — Shock",
+      "name_en": "Norepinephrine",
+      "group": "ช็อก",
+      "status": "local",
+      "source": "local-cardio",
+      "regimens": [
+        {
+          "label": "Vasodilatory/septic shock หลัง initial resuscitation",
+          "dose": "เริ่ม 0.05–0.1 mcg/kg/min IV infusion; titrate โดยทั่วไป 0.05–0.5 mcg/kg/min ตาม response",
+          "route": "IV infusion",
+          "admin": "infusion pump; titrate MAP/perfusion; ใช้ concentration ที่หน่วยกำหนด",
+          "max": "protocol dependent",
+          "monitor": "Continuous BP/ECG/perfusion/IV site",
+          "caution": "LOCAL REVIEW — concentration และ target MAP ต้องตรงกับ protocol; peripheral infusion ต้องมี extravasation plan"
+        }
+      ]
+    },
+    {
+      "id": "calcium-hyperk",
+      "name_th": "แคลเซียม — Hyperkalemia with ECG toxicity",
+      "name_en": "Calcium chloride / gluconate",
+      "group": "อิเล็กโทรไลต์",
+      "status": "current",
+      "source": "rcuk-special-2025",
+      "regimens": [
+        {
+          "label": "Severe hyperkalemia + ECG changes",
+          "dose": "10 mL Calcium chloride 10% IV over 5 min; ถ้าไม่มี ใช้ Calcium gluconate 10% 30 mL IV over 10 min",
+          "route": "IV",
+          "admin": "ให้ cardiac membrane stabilization; ไม่ได้ลด serum K⁺",
+          "max": "reassess ECG; repeat ตาม protocol/response",
+          "monitor": "Continuous ECG, IV site, calcium",
+          "caution": "CaCl₂ และ Ca gluconate มี elemental calcium ต่างกัน ห้ามสลับ volume 1:1"
+        },
+        {
+          "label": "Hyperkalemic cardiac arrest",
+          "dose": "Calcium chloride 10% 10 mL IV rapid bolus",
+          "route": "IV/IO",
+          "admin": "RCUK 2025: ร่วมกับ hyperK arrest bundle; flush/separate line from bicarbonate",
+          "max": "repeat may be considered in refractory/prolonged arrest per protocol",
+          "monitor": "Rhythm/ROSC",
+          "caution": "ยืนยัน suspected hyperkalemia เมื่อทำได้"
+        }
+      ]
+    },
+    {
+      "id": "epi-neonate",
+      "name_th": "อะดรีนาลีน — Neonatal resuscitation",
+      "name_en": "Epinephrine",
+      "group": "ทารกแรกเกิด",
+      "status": "current",
+      "source": "aha-neo-2025",
+      "regimens": [
+        {
+          "label": "Intravascular (UVC/IO) เมื่อ HR <60 หลัง optimize ventilation + compressions",
+          "dose": "0.01–0.03 mg/kg",
+          "route": "UVC/IV/IO",
+          "admin": "ใช้ 0.1 mg/mL; อาจ repeat ทุก 3–5 นาที",
+          "max": "ตาม response",
+          "monitor": "HR, ventilation quality, ECG",
+          "caution": "ยาไม่แทนการแก้ ventilation ที่ไม่เพียงพอ"
+        },
+        {
+          "label": "Endotracheal ระหว่างรอ vascular access",
+          "dose": "0.05–0.1 mg/kg ET",
+          "route": "ET",
+          "admin": "ใช้เป็น temporary route แล้วให้ intravascular เมื่อ access ได้",
+          "max": "ตาม response",
+          "monitor": "HR",
+          "caution": "ET dose สูงกว่า intravascular"
+        }
+      ]
+    },
+    {
+      "id": "neo-volume",
+      "name_th": "Volume expansion — Neonate",
+      "name_en": "Normal saline / blood",
+      "group": "ทารกแรกเกิด",
+      "status": "current",
+      "source": "aha-neo-2025",
+      "regimens": [
+        {
+          "label": "สงสัย blood loss/hypovolemia และ HR <60 แม้ ventilation+compression+epi",
+          "dose": "10–20 mL/kg",
+          "route": "UVC/IV/IO",
+          "admin": "NS 0.9% หรือ blood; steady infusion ~5–10 min reasonable",
+          "max": "reassess; repeat based on response/clinical context",
+          "monitor": "HR, perfusion, respiratory status",
+          "caution": "ไม่ให้ routine neonatal resuscitation"
+        }
+      ]
+    },
+    {
+      "id": "fluid-peds",
+      "name_th": "Fluid bolus — Pediatric shock",
+      "name_en": "Balanced crystalloid / 0.9% saline",
+      "group": "เด็ก/ช็อก",
+      "status": "current",
+      "source": "rcuk-peds-2025",
+      "regimens": [
+        {
+          "label": "Pediatric emergency fluid bolus",
+          "dose": "10 mL/kg IV/IO",
+          "route": "IV/IO",
+          "admin": "consider warmed fluid; reassess หลัง bolus ทุกครั้ง",
+          "max": "ไม่ให้ซ้ำแบบอัตโนมัติ; ประเมิน shock type/response",
+          "monitor": "HR, BP, CRT, lung, hepatomegaly, perfusion",
+          "caution": "cardiogenic shock/heart failure ต้องระวังมาก"
+        }
+      ]
+    },
+    {
+      "id": "bicarb-hyperk",
+      "name_th": "โซเดียมไบคาร์บอเนต — HyperK arrest",
+      "name_en": "Sodium bicarbonate",
+      "group": "อิเล็กโทรไลต์",
+      "status": "current",
+      "source": "rcuk-special-2025",
+      "regimens": [
+        {
+          "label": "Hyperkalemic cardiac arrest",
+          "dose": "50 mmol IV (เช่น 50 mL ของ 8.4% solution)",
+          "route": "IV/IO",
+          "admin": "ให้ผ่าน separate line หรือ flush ระหว่าง calcium กับ bicarbonate",
+          "max": "ตาม response/protocol",
+          "monitor": "Rhythm/ROSC/acid-base when available",
+          "caution": "ไม่ใช้ routine cardiac arrest หากไม่มี specific indication"
+        }
+      ]
+    },
+    {
+      "id": "salbutamol-hyperk",
+      "name_th": "ซาลบูทามอล — Hyperkalemia",
+      "name_en": "Salbutamol",
+      "group": "อิเล็กโทรไลต์",
+      "status": "current",
+      "source": "rcuk-special-2025",
+      "regimens": [
+        {
+          "label": "Moderate/severe hyperkalemia adjunct",
+          "dose": "10–20 mg nebulized",
+          "route": "Nebulized",
+          "admin": "ใช้เป็น adjunct ต่อ insulin-glucose ไม่ใช่ monotherapy",
+          "max": "ตาม protocol/response",
+          "monitor": "HR, K⁺, ECG, glucose",
+          "caution": "อาจเกิด tachycardia; response ต่อ K shift แปรผัน"
+        }
+      ]
+    },
+    {
+      "id": "ketamine-analgesia",
+      "name_th": "คีตามีน — Analgesia",
+      "name_en": "Ketamine",
+      "group": "ปวด/หัตถการ",
+      "status": "local",
+      "source": "local-analgesia",
+      "regimens": [
+        {
+          "label": "Sub-dissociative analgesia",
+          "dose": "0.1–0.3 mg/kg IV slow; IN 0.5–1 mg/kg เป็น common EMS range",
+          "route": "IV/IN",
+          "admin": "IV ให้ช้าเพื่อลด adverse effects; reassess pain/mental status",
+          "max": "local protocol",
+          "monitor": "BP, HR, RR, SpO₂, mental status",
+          "caution": "LOCAL REVIEW — analgesia dose ต่างจาก dissociative sedation/RSI dose อย่างมาก"
+        }
+      ]
+    },
+    {
+      "id": "fentanyl-analgesia",
+      "name_th": "เฟนทานิล — Analgesia",
+      "name_en": "Fentanyl",
+      "group": "ปวด/หัตถการ",
+      "status": "local",
+      "source": "local-analgesia",
+      "regimens": [
+        {
+          "label": "Acute pain",
+          "dose": "1 mcg/kg IV/IN initial (common EMS range); อาจ titrate repeat 0.5 mcg/kg ตาม protocol",
+          "route": "IV/IN",
+          "admin": "ให้ช้าเมื่อ IV; titrate to effect",
+          "max": "local protocol",
+          "monitor": "RR, SpO₂, EtCO₂, BP, sedation",
+          "caution": "LOCAL REVIEW — ระวังกดหายใจ/rigidity เมื่อให้เร็วหรือ dose สูง"
+        }
+      ]
+    },
+    {
+      "id": "ondansetron",
+      "name_th": "ออนแดนเซตรอน — คลื่นไส้/อาเจียน",
+      "name_en": "Ondansetron",
+      "group": "อาการร่วม",
+      "status": "local",
+      "source": "local-analgesia",
+      "regimens": [
+        {
+          "label": "ผู้ใหญ่",
+          "dose": "4 mg IV/IM/ODT",
+          "route": "IV/IM/PO-ODT",
+          "admin": "IV ให้ช้า",
+          "max": "local protocol",
+          "monitor": "QT / symptoms",
+          "caution": "LOCAL REVIEW — ระวัง prolonged QT และ electrolyte abnormality"
+        },
+        {
+          "label": "เด็ก",
+          "dose": "0.15 mg/kg IV/PO (max 4 mg initial)",
+          "route": "IV/PO",
+          "admin": "ตาม protocol",
+          "max": "4 mg initial common EMS range",
+          "monitor": "QT/symptoms",
+          "caution": "LOCAL REVIEW"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "aha-als-2025",
+      "title": "AHA 2025 Adult Advanced Life Support",
+      "status": "current",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+      "scope": "Adult arrest, bradycardia, tachyarrhythmia, airway"
+    },
+    {
+      "id": "aha-pals-2025",
+      "title": "AHA/AAP 2025 Pediatric Advanced Life Support",
+      "status": "current",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+      "scope": "PALS arrest, bradycardia, tachycardia"
+    },
+    {
+      "id": "aha-neo-2025",
+      "title": "AHA/AAP 2025 Neonatal Resuscitation",
+      "status": "current",
+      "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/Part-5-Neonatal-Resuscitation-2025-American-Heart",
+      "scope": "Neonatal epinephrine and volume expansion"
+    },
+    {
+      "id": "acs-2025",
+      "title": "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline",
+      "status": "current",
+      "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+      "scope": "ACS aspirin, nitroglycerin, opioid analgesia considerations"
+    },
+    {
+      "id": "rcuk-special-2025",
+      "title": "Resuscitation Council UK 2025 Special Circumstances",
+      "status": "current",
+      "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines",
+      "scope": "Anaphylaxis, hyperkalemia and special circumstances"
+    },
+    {
+      "id": "rcuk-peds-2025",
+      "title": "Resuscitation Council UK 2025 Paediatric Emergency Drug Chart",
+      "status": "current",
+      "url": "https://www.resus.org.uk/sites/default/files/2026-02/RCUK%20G2025%20PAED%20PET%20Feb%2026%20V3.pdf",
+      "scope": "Pediatric adrenaline, fluid, glucose, ETT and defib reference"
+    },
+    {
+      "id": "gina-2026",
+      "title": "GINA 2026 Strategy Report",
+      "status": "current",
+      "url": "https://ginasthma.org/2026-gina-strategy-report/",
+      "scope": "Acute asthma assessment and bronchodilator strategy"
+    },
+    {
+      "id": "who-pph-2025",
+      "title": "WHO 2025 Postpartum Haemorrhage Guideline",
+      "status": "current",
+      "url": "https://www.who.int/publications/i/item/9789240115637/",
+      "scope": "PPH management; TXA evidence and current guidance"
+    },
+    {
+      "id": "nice-seizure-2025",
+      "title": "NICE NG217 — status epilepticus (updated 2025)",
+      "status": "current",
+      "url": "https://www.nice.org.uk/guidance/ng217/chapter/7-Treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures",
+      "scope": "Benzodiazepine-first treatment principles"
+    },
+    {
+      "id": "local-cardio",
+      "title": "OneDrive — Medication usage in cardiovascular emergencies",
+      "status": "local",
+      "url": "",
+      "scope": "Local teaching reference; verify against current guidelines/local protocol"
+    },
+    {
+      "id": "medscape-calcs",
+      "title": "Medscape Medical Calculators",
+      "status": "reference",
+      "url": "https://reference.medscape.com/guide/medical-calculators",
+      "scope": "Inspiration for selecting field-relevant calculators; formulas independently implemented"
+    },
+    {
+      "id": "local-neuro",
+      "title": "Local EMS/Neurology teaching + current seizure guidance",
+      "status": "local",
+      "url": "",
+      "scope": "Exact benzodiazepine dose/route must match stocked formulation and EMS protocol"
+    },
+    {
+      "id": "local-trauma",
+      "title": "Local trauma/EMS protocol — required",
+      "status": "local",
+      "url": "",
+      "scope": "TXA and hemorrhage resuscitation eligibility varies by system"
+    },
+    {
+      "id": "local-ob",
+      "title": "Local obstetric/EMS protocol — required",
+      "status": "local",
+      "url": "",
+      "scope": "Magnesium, antihypertensive and uterotonic regimens vary by system"
+    },
+    {
+      "id": "local-analgesia",
+      "title": "Local analgesia/sedation protocol — required",
+      "status": "local",
+      "url": "",
+      "scope": "Opioid/ketamine doses and scope vary by EMS system"
+    }
+  ]
+}

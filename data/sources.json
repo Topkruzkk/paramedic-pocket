@@ -1,282 +1,107 @@
 [
   {
-    "id": "aha-adult-brady",
-    "title": "AHA 2025 Adult Bradycardia With a Pulse Algorithm",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Adult bradycardia algorithm and atropine/dopamine/epinephrine doses",
-    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf"
+    "id": "aha-als-2025",
+    "title": "AHA 2025 Adult Advanced Life Support",
+    "status": "current",
+    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support",
+    "scope": "Adult arrest, bradycardia, tachyarrhythmia, airway"
   },
   {
-    "id": "aha-adult-tachy",
-    "title": "AHA 2025 Adult Tachyarrhythmia With a Pulse Algorithm",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Adult tachyarrhythmia algorithm, adenosine and antiarrhythmic details",
-    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Tachycardia-250514.pdf"
+    "id": "aha-pals-2025",
+    "title": "AHA/AAP 2025 Pediatric Advanced Life Support",
+    "status": "current",
+    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support",
+    "scope": "PALS arrest, bradycardia, tachycardia"
   },
   {
-    "id": "aha-peds-brady",
-    "title": "AHA/AAP 2025 Pediatric Bradycardia With a Pulse Algorithm",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Pediatric bradycardia, epinephrine and atropine doses",
-    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-Bradycardia-250121.pdf"
-  },
-  {
-    "id": "aha-peds-tachy",
-    "title": "AHA/AAP 2025 Pediatric Tachyarrhythmia With a Pulse Algorithm",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Pediatric tachyarrhythmia, adenosine and synchronized cardioversion",
-    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-Tachyarrhythmia-250117.pdf"
-  },
-  {
-    "id": "aha-adult-arrest",
-    "title": "AHA 2025 Adult Cardiac Arrest Algorithm",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Adult cardiac arrest primary algorithm",
-    "url": "https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-CA-250527.pdf"
-  },
-  {
-    "id": "aha-peds-arrest",
-    "title": "AHA/AAP 2025 Pediatric Cardiac Arrest Algorithm",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Pediatric cardiac arrest algorithm and dosing",
-    "url": "https://cpr.heart.org/en/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-PALS-CA-250123.pdf"
-  },
-  {
-    "id": "aha-neonatal",
-    "title": "AHA/AAP 2025 Neonatal Resuscitation Guidelines",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Neonatal ventilation, compressions, epinephrine and volume expansion",
-    "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/Part-5-Neonatal-Resuscitation-2025-American-Heart"
-  },
-  {
-    "id": "qld-neonatal-airway",
-    "title": "Queensland Clinical Guideline – Neonatal Resuscitation",
-    "type": "airway-reference",
-    "status": "verified",
-    "year": 2022,
-    "reviewed_on": "2026-11-03",
-    "scope": "GA/weight-based neonatal ETT size and insertion depth table",
-    "url": "https://www.health.qld.gov.au/__data/assets/pdf_file/0011/140600/g-resus.pdf"
-  },
-  {
-    "id": "ambulance-vic-newborn",
-    "title": "Ambulance Victoria Newborn Resuscitation CPG",
-    "type": "airway-reference",
-    "status": "verified",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Neonatal laryngoscope blade preparation and airway equipment by prematurity/weight",
-    "url": "https://www.ambulance.vic.gov.au/sites/default/files/2026-04/ALS-MICA-CPG-April-2026.pdf"
+    "id": "aha-neo-2025",
+    "title": "AHA/AAP 2025 Neonatal Resuscitation",
+    "status": "current",
+    "url": "https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/Part-5-Neonatal-Resuscitation-2025-American-Heart",
+    "scope": "Neonatal epinephrine and volume expansion"
   },
   {
     "id": "acs-2025",
     "title": "2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Current acute coronary syndrome evaluation and management guideline",
-    "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes"
+    "status": "current",
+    "url": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes",
+    "scope": "ACS aspirin, nitroglycerin, opioid analgesia considerations"
   },
   {
-    "id": "litfl",
-    "title": "LITFL Top 150 ECG",
-    "type": "education",
-    "status": "review",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "External ECG learning and case practice",
-    "url": "https://litfl.com/top-100/ecg/"
+    "id": "rcuk-special-2025",
+    "title": "Resuscitation Council UK 2025 Special Circumstances",
+    "status": "current",
+    "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines",
+    "scope": "Anaphylaxis, hyperkalemia and special circumstances"
   },
   {
-    "id": "ergoldbook",
-    "title": "ER goldbook",
-    "type": "education",
-    "status": "review",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Thai emergency medicine learning reference",
-    "url": "https://ergoldbook.blogspot.com/"
-  },
-  {
-    "id": "medscape",
-    "title": "Medscape Emergency Medicine",
-    "type": "education",
-    "status": "review",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Broad emergency medicine reference; login may be required",
-    "url": "https://www.medscape.com/emergencymedicine"
-  },
-  {
-    "id": "evelina-weight",
-    "title": "Evelina London STRS Medical Formulas",
-    "type": "calculator-reference",
-    "status": "review",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Age-based estimated pediatric weight formulas when actual weight is unavailable",
-    "url": "https://www.evelinalondon.nhs.uk/our-services/hospital/south-thames-retrieval-service/medical-formulas.aspx"
-  },
-  {
-    "id": "local-ecg-osce",
-    "title": "OneDrive: ECG interpretation and treatment-1.pdf",
-    "type": "local-teaching",
-    "status": "review",
-    "year": 2024,
-    "reviewed_on": "2026-11-03",
-    "scope": "Local OSCE teaching structure for systematic ECG interpretation and inferior STEMI scenario",
-    "url": ""
-  },
-  {
-    "id": "local-trauma31",
-    "title": "OneDrive: Trauma 3.1.pdf",
-    "type": "local-teaching",
-    "status": "review",
-    "year": 2024,
-    "reviewed_on": "2026-11-03",
-    "scope": "Trauma primary survey, XABCDE, shock, chest/head/pelvic trauma teaching reference",
-    "url": ""
-  },
-  {
-    "id": "local-airway-learning",
-    "title": "OneDrive: 1. Airway management.pdf",
-    "type": "local-teaching",
-    "status": "review",
-    "year": 2022,
-    "reviewed_on": "2026-11-03",
-    "scope": "Airway assessment, NIPPV, RSI preparation and difficult-airway teaching reference",
-    "url": ""
-  },
-  {
-    "id": "local-pals-learning",
-    "title": "OneDrive: PALS 2021 update-1.pdf",
-    "type": "local-teaching",
-    "status": "review",
-    "year": 2021,
-    "reviewed_on": "2026-11-03",
-    "scope": "Older PALS teaching source retained for comparison with 2025 AHA/AAP guidance",
-    "url": ""
-  },
-  {
-    "id": "stroke-2026",
-    "title": "AHA/ASA 2026 Acute Ischemic Stroke Guideline",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Current acute ischemic stroke guideline including EMS systems, tenecteplase, thrombectomy and pediatric AIS",
-    "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke"
-  },
-  {
-    "id": "ssc-2026",
-    "title": "Surviving Sepsis Campaign 2026 Adult Guidelines",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Adult sepsis and septic shock including immediate prehospital setting",
-    "url": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines"
+    "id": "rcuk-peds-2025",
+    "title": "Resuscitation Council UK 2025 Paediatric Emergency Drug Chart",
+    "status": "current",
+    "url": "https://www.resus.org.uk/sites/default/files/2026-02/RCUK%20G2025%20PAED%20PET%20Feb%2026%20V3.pdf",
+    "scope": "Pediatric adrenaline, fluid, glucose, ETT and defib reference"
   },
   {
     "id": "gina-2026",
     "title": "GINA 2026 Strategy Report",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Current global asthma management and prevention strategy",
-    "url": "https://ginasthma.org/2026-gina-strategy-report/"
-  },
-  {
-    "id": "gold-2026",
-    "title": "GOLD 2026 COPD Report",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Current global COPD diagnosis, management and prevention strategy",
-    "url": "https://goldcopd.org/2026-gold-report-and-pocket-guide/"
+    "status": "current",
+    "url": "https://ginasthma.org/2026-gina-strategy-report/",
+    "scope": "Acute asthma assessment and bronchodilator strategy"
   },
   {
     "id": "who-pph-2025",
-    "title": "WHO 2025 Consolidated Postpartum Haemorrhage Guideline",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Prevention, diagnosis and treatment of postpartum hemorrhage",
-    "url": "https://www.who.int/publications/i/item/9789240115637"
+    "title": "WHO 2025 Postpartum Haemorrhage Guideline",
+    "status": "current",
+    "url": "https://www.who.int/publications/i/item/9789240115637/",
+    "scope": "PPH management; TXA evidence and current guidance"
   },
   {
-    "id": "aha-special-2025",
-    "title": "AHA 2025 Special Circumstances of Resuscitation",
-    "type": "guideline",
-    "status": "verified",
-    "year": 2025,
-    "reviewed_on": "2026-11-03",
-    "scope": "Pregnancy, drowning, temperature emergencies, hyperkalemia and poisoning resuscitation",
-    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/"
+    "id": "nice-seizure-2025",
+    "title": "NICE NG217 — status epilepticus (updated 2025)",
+    "status": "current",
+    "url": "https://www.nice.org.uk/guidance/ng217/chapter/7-Treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures",
+    "scope": "Benzodiazepine-first treatment principles"
   },
   {
-    "id": "device-2023",
-    "title": "DEVICE Trial — Video vs Direct Laryngoscopy",
-    "type": "research",
-    "status": "review",
-    "year": 2023,
-    "reviewed_on": "2026-11-03",
-    "scope": "Randomized trial of first-attempt success in critically ill adult intubation",
-    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301601"
+    "id": "local-cardio",
+    "title": "OneDrive — Medication usage in cardiovascular emergencies",
+    "status": "local",
+    "url": "",
+    "scope": "Local teaching reference; verify against current guidelines/local protocol"
   },
   {
-    "id": "preoxi-2024",
-    "title": "PREOXI Trial — NIV Preoxygenation",
-    "type": "research",
-    "status": "review",
-    "year": 2024,
-    "reviewed_on": "2026-11-03",
-    "scope": "Randomized trial of NIV vs oxygen mask for emergency intubation preoxygenation",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11282951/"
+    "id": "medscape-calcs",
+    "title": "Medscape Medical Calculators",
+    "status": "reference",
+    "url": "https://reference.medscape.com/guide/medical-calculators",
+    "scope": "Inspiration for selecting field-relevant calculators; formulas independently implemented"
   },
   {
-    "id": "towar-2026",
-    "title": "TOWAR Trial — Prehospital Whole Blood",
-    "type": "research",
-    "status": "review",
-    "year": 2026,
-    "reviewed_on": "2026-11-03",
-    "scope": "Randomized comparison of prehospital whole blood and blood components in trauma hemorrhage",
-    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602167"
+    "id": "local-neuro",
+    "title": "Local EMS/Neurology teaching + current seizure guidance",
+    "status": "local",
+    "url": "",
+    "scope": "Exact benzodiazepine dose/route must match stocked formulation and EMS protocol"
   },
   {
-    "id": "local-ventilator-osce",
-    "title": "OneDrive: Ventilator.pdf",
-    "type": "local-teaching",
-    "status": "review",
-    "year": 2024,
-    "reviewed_on": "2026-11-03",
-    "scope": "Local ventilator OSCE teaching including volume control, monitoring, capnography and DOPE troubleshooting",
-    "url": ""
+    "id": "local-trauma",
+    "title": "Local trauma/EMS protocol — required",
+    "status": "local",
+    "url": "",
+    "scope": "TXA and hemorrhage resuscitation eligibility varies by system"
+  },
+  {
+    "id": "local-ob",
+    "title": "Local obstetric/EMS protocol — required",
+    "status": "local",
+    "url": "",
+    "scope": "Magnesium, antihypertensive and uterotonic regimens vary by system"
+  },
+  {
+    "id": "local-analgesia",
+    "title": "Local analgesia/sedation protocol — required",
+    "status": "local",
+    "url": "",
+    "scope": "Opioid/ketamine doses and scope vary by EMS system"
   }
 ]

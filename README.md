@@ -1,16 +1,17 @@
-# Paramedic Pocket v0.7.1 — Knowledge Base (Upload-Friendly)
+# Paramedic Pocket v1.0 — Field Edition
 
-This release keeps the v0.7 Knowledge Base content but changes storage from **one JSON per lesson** to **one JSON per category**.
+แอป PWA ภาษาไทยสำหรับใช้งานหน้างานโดย Paramedic/EMS แยกออกจากแอป Knowledge โดยตั้งใจให้ **เร็ว เบา และเปิด offline ได้**
 
-## Why
-GitHub web upload warns when uploading 100+ files. v0.7 had 105 lesson JSON files. v0.7.1 reduces the project to well under 100 files so the whole folder can be uploaded in one GitHub web upload.
+## จุดหลัก
+- Emergency workflows: Adult/PALS/Neonatal arrest, brady/tachy, ACS, anaphylaxis, asthma, seizure, hypoglycemia, opioid, hyperkalemia, trauma, PPH/eclampsia, shock
+- Drug administration library: dose, route, วิธีให้, maximum/limits, monitoring, cautions, current-vs-local-review badge
+- Field calculators: Dose→Volume, infusion rate, MAP, Shock Index, GCS, QTc, Anion Gap, Corrected Na, Osmolality, PBW/VT, Burn/Parkland, APGAR, PALS, Neonate, Defib/Cardioversion, NEXUS, CPR timer
+- EMS tools: MIST, SBAR, XABCDE, BE-FAST, ETT confirmation, DOPE
+- Thai-first UI
+- Core app cached offline
 
-## Knowledge architecture
-- `data/knowledge/index.json` — lightweight catalog
-- `data/knowledge/research.json` — evidence feed
-- `data/knowledge/packs/*.json` — one pack per category (17 packs)
-- category packs load on demand and are cached after use
-- `Download Offline` fetches the category pack + its visual assets
+## Medication safety
+แอปนี้เป็น clinical decision-support ไม่ใช่ replacement for local protocol/medical direction. รายการที่ติด `LOCAL REVIEW` หรือ `CHECK PROTOCOL` ห้ามนำไปใช้โดยไม่ยืนยัน concentration, formulation, route, indication และ scope ของหน่วยงาน.
 
-## Content
-All 105 lessons from v0.7 are retained. Smart Patient Context remains removed.
+## Deploy to GitHub Pages
+อัปทุกไฟล์ในโฟลเดอร์นี้ไปที่ root ของ repo `paramedic-pocket` แล้วตั้ง Pages: `main` / `(root)`. จำนวนไฟล์ต่ำกว่า 100 จึงอัปผ่าน GitHub web ได้ในครั้งเดียว.

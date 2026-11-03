@@ -12,29 +12,24 @@
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="stylesheet" href="styles.css" />
-  <title>Paramedic Pocket</title>
+  <title>Paramedic Pocket — Field Edition</title>
 </head>
 <body>
   <div class="app-shell">
     <header class="topbar">
       <div class="brand-wrap" onclick="go('home')" role="button" tabindex="0">
-        <div class="brand-mark" aria-hidden="true">✚</div>
-        <div>
-          <h1>Paramedic Pocket</h1>
-          <p>Clinical & EMS Toolkit • v0.7.1</p>
-        </div>
+        <div class="brand-mark">✚</div>
+        <div><h1>Paramedic Pocket</h1><p>Field Edition • v1.0</p></div>
       </div>
       <button class="icon-btn" id="themeBtn" aria-label="เปลี่ยนธีม">☾</button>
     </header>
-
     <main id="app" class="content" aria-live="polite"></main>
-
     <nav class="bottom-nav" aria-label="เมนูหลัก">
       <button data-route="home" class="nav-item active"><span>⌂</span><small>หน้าแรก</small></button>
-      <button data-route="emergency" class="nav-item"><span>⚡</span><small>ฉุกเฉิน</small></button>
-      <button data-route="learning" class="nav-item"><span>📚</span><small>Learning</small></button>
-      <button data-route="tools" class="nav-item"><span>⌘</span><small>Tools</small></button>
-      <button data-route="more" class="nav-item"><span>☰</span><small>เพิ่มเติม</small></button>
+      <button data-route="emergency" class="nav-item"><span>🚑</span><small>ออกเหตุ</small></button>
+      <button data-route="drugs" class="nav-item"><span>💉</span><small>ยา</small></button>
+      <button data-route="calculators" class="nav-item"><span>🧮</span><small>คำนวณ</small></button>
+      <button data-route="ems" class="nav-item"><span>📋</span><small>EMS</small></button>
     </nav>
   </div>
   <script src="app.js"></script>
